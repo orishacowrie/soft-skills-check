@@ -1,0 +1,261 @@
+"use client";
+
+import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
+import { Answer, AnalysisResult } from "@/types/assessment";
+import DimensionChart from "@/components/DimensionChart";
+import {
+  calculateDimensionScores,
+  calculateOverallScore,
+} from "@/lib/scoring";
+
+export default function ResultsPage() {
+  const router = useRouter();
+  const [answers, setAnswers] = useState<Answer[] | null>(null);
+  const [analysis, setAnalysis] = useState<AnalysisResult | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    const stored = sessionStorage.getItem("testAnswers");
+    if (!stored) {
+      router.push("/test");
+      return;
+    }
+
+    const parsedAnswers: Answer[] = JSON.parse(stored);
+    setAnswers(parsedAnswers);
+
+    // Calculate local scores first
+    const dimensionScores = calculateDimensionScores(parsedAnswers);
+    const overallScore = calculateOverallScore(dimensionScores);
+
+    // Call AI analysis
+    fetch("/api/analyze", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ answers: parsedAnswers }),
+    })
+      .then((res) => {
+        if (!res.ok) throw new Error("Ошибка при анализе");
+        return res.json();
+      })
+      .then((data: AnalysisResult) => {
+        setAnalysis(data);
+        sessionStorage.setItem("analysisResult", JSON.stringify(data));
+        setLoading(false);
+      })
+      .catch((err) => {
+        // Fallback: use local scores without AI interpretation
+        const fallback: AnalysisResult = {
+          dimensionScores,
+          overallScore,
+          strengths: [],
+          weaknesses: [],
+          summary: "Не удалось получить AI-анализ. Показываем результаты на основе ваших ответов.",
+          weakDimensions: dimensionScores
+            .sort((a, b) => a.score - b.score)
+            .slice(0, 3)
+            .filter((d) => d.score < 4)
+            .map((d) => d.dimension),
+        };
+        setAnalysis(fallback);
+        sessionStorage.setItem("analysisResult", JSON.stringify(fallback));
+        setError(err.message);
+        setLoading(false);
+      });
+  }, [router]);
+
+  if (loading) {
+    return (
+      <div className="max-w-4xl mx-auto px-4 py-16 text-center">
+        <div className="inline-flex flex-col items-center">
+          <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-violet-500 to-indigo-500 flex items-center justify-center mb-6 animate-pulse-slow">
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={1.5}
+                d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5"
+              />
+            </svg>
+          </div>
+          <h2 className="text-xl font-semibold text-white mb-2">
+            AI анализирует ваши ответы
+          </h2>
+          <p className="text-slate-400 text-sm">
+            Это займёт несколько секунд...
+          </p>
+          <div className="flex gap-1.5 mt-6">
+            <div className="w-2 h-2 rounded-full bg-violet-500 loading-dot" />
+            <div className="w-2 h-2 rounded-full bg-violet-500 loading-dot" />
+            <div className="w-2 h-2 rounded-full bg-violet-500 loading-dot" />
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (!analysis) return null;
+
+  const scoreColor = (score: number) =>
+    score >= 4
+      ? "text-green-400"
+      : score >= 3
+        ? "text-yellow-400"
+        : "text-red-400";
+
+  return (
+    <div className="max-w-4xl mx-auto px-4 py-8 md:py-12">
+      <div className="mb-8 animate-fade-in-up">
+        <h1 className="text-2xl md:text-3xl font-bold text-white mb-2">
+          Результаты
+        </h1>
+        <p className="text-slate-400">
+          Ваш профиль soft skills на основе самооценки
+        </p>
+      </div>
+
+      {error && (
+        <div className="bg-yellow-500/10 border border-yellow-500/20 rounded-xl p-4 mb-6 text-sm text-yellow-300">
+          {error}. Показываем базовые результаты без AI-интерпретации.
+        </div>
+      )}
+
+      {/* Overall score */}
+      <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 mb-6 animate-fade-in-up">
+        <div className="flex flex-col md:flex-row items-center gap-6">
+          <div className="flex-shrink-0">
+            <div className="w-24 h-24 rounded-2xl bg-gradient-to-br from-violet-500 to-indigo-500 flex items-center justify-center">
+              <span className="text-3xl font-bold text-white">
+                {analysis.overallScore}
+              </span>
+            </div>
+          </div>
+          <div className="text-center md:text-left">
+            <h2 className="text-xl font-semibold text-white mb-2">
+              Общий балл: {analysis.overallScore} из 5
+            </h2>
+            <p className="text-slate-400 text-sm leading-relaxed">
+              {analysis.summary}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Radar chart */}
+      <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 mb-6 animate-fade-in-up">
+        <h2 className="text-lg font-semibold text-white mb-6 text-center">
+          Профиль по измерениям
+        </h2>
+        <DimensionChart scores={analysis.dimensionScores} size={350} />
+      </div>
+
+      {/* Dimension scores list */}
+      <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 mb-6 animate-fade-in-up">
+        <h2 className="text-lg font-semibold text-white mb-4">
+          Детализация по измерениям
+        </h2>
+        <div className="space-y-4">
+          {analysis.dimensionScores
+            .sort((a, b) => b.score - a.score)
+            .map((dim) => (
+              <div key={dim.dimension}>
+                <div className="flex justify-between items-center mb-1.5">
+                  <span className="text-sm text-slate-300">{dim.name}</span>
+                  <span className={`text-sm font-semibold ${scoreColor(dim.score)}`}>
+                    {dim.score} / 5
+                  </span>
+                </div>
+                <div className="w-full h-2 bg-slate-800 rounded-full overflow-hidden">
+                  <div
+                    className="h-full bg-gradient-to-r from-violet-500 to-indigo-500 rounded-full transition-all duration-1000 ease-out"
+                    style={{ width: `${dim.percentage}%` }}
+                  />
+                </div>
+              </div>
+            ))}
+        </div>
+      </div>
+
+      {/* Strengths & Weaknesses */}
+      {(analysis.strengths.length > 0 || analysis.weaknesses.length > 0) && (
+        <div className="grid md:grid-cols-2 gap-6 mb-6">
+          {analysis.strengths.length > 0 && (
+            <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 animate-fade-in-up">
+              <h3 className="text-lg font-semibold text-green-400 mb-3">
+                Сильные стороны
+              </h3>
+              <ul className="space-y-2">
+                {analysis.strengths.map((s, i) => (
+                  <li
+                    key={i}
+                    className="flex items-start gap-2 text-sm text-slate-300"
+                  >
+                    <span className="text-green-500 mt-0.5 flex-shrink-0">+</span>
+                    {s}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {analysis.weaknesses.length > 0 && (
+            <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 animate-fade-in-up">
+              <h3 className="text-lg font-semibold text-orange-400 mb-3">
+                Зоны роста
+              </h3>
+              <ul className="space-y-2">
+                {analysis.weaknesses.map((w, i) => (
+                  <li
+                    key={i}
+                    className="flex items-start gap-2 text-sm text-slate-300"
+                  >
+                    <span className="text-orange-500 mt-0.5 flex-shrink-0">!</span>
+                    {w}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Next steps */}
+      <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up">
+        {analysis.weakDimensions.length > 0 && (
+          <button
+            onClick={() => router.push("/deep-dive")}
+            className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-500 hover:to-indigo-500 text-white font-semibold rounded-xl transition-all duration-200 shadow-lg shadow-violet-500/20"
+          >
+            Углублённая диагностика
+            <svg
+              className="w-4 h-4"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M13 7l5 5m0 0l-5 5m5-5H6"
+              />
+            </svg>
+          </button>
+        )}
+        <button
+          onClick={() => router.push("/recommendations")}
+          className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium rounded-xl transition-colors border border-slate-700"
+        >
+          Сразу к рекомендациям
+        </button>
+      </div>
+    </div>
+  );
+}
