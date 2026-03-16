@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { questions } from "@/lib/questions";
 import { dimensionMap } from "@/lib/questions";
@@ -10,8 +10,32 @@ import ProgressBar from "@/components/ProgressBar";
 
 export default function TestPage() {
   const router = useRouter();
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [answers, setAnswers] = useState<Answer[]>([]);
+  const [currentIndex, setCurrentIndex] = useState(() => {
+    if (typeof window !== "undefined") {
+      const saved = sessionStorage.getItem("test_current_index");
+      return saved ? parseInt(saved, 10) : 0;
+    }
+    return 0;
+  });
+  const [answers, setAnswers] = useState<Answer[]>(() => {
+    if (typeof window !== "undefined") {
+      const saved = sessionStorage.getItem("test_answers");
+      return saved ? JSON.parse(saved) : [];
+    }
+    return [];
+  });
+
+  // Sync currentIndex to sessionStorage
+  useEffect(() => {
+    sessionStorage.setItem("test_current_index", String(currentIndex));
+  }, [currentIndex]);
+
+  // Sync answers to sessionStorage
+  useEffect(() => {
+    if (answers.length > 0) {
+      sessionStorage.setItem("test_answers", JSON.stringify(answers));
+    }
+  }, [answers]);
 
   const currentQuestion = questions[currentIndex];
 
@@ -41,6 +65,9 @@ export default function TestPage() {
       } else {
         // All questions answered — save and navigate to results
         sessionStorage.setItem("testAnswers", JSON.stringify(newAnswers));
+        // Clear progress keys since test is complete
+        sessionStorage.removeItem("test_answers");
+        sessionStorage.removeItem("test_current_index");
         router.push("/results");
       }
     },

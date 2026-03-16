@@ -6,6 +6,13 @@ import { AnalysisResult, DeepDiveAnswer, RecommendationResult } from "@/types/as
 
 export async function POST(request: NextRequest) {
   try {
+    if (!process.env.ANTHROPIC_API_KEY) {
+      return NextResponse.json(
+        { error: "API key not configured" },
+        { status: 500 }
+      );
+    }
+
     const { analysis, deepDiveAnswers, resume, jobDescription } = (await request.json()) as {
       analysis: AnalysisResult;
       deepDiveAnswers: DeepDiveAnswer[];
@@ -120,7 +127,16 @@ ${deepDiveContext}${personalizationContext}
 Измерения для рекомендаций (dimension ключи): ${dimensionsToRecommend.join(", ")}
 Используй score из результатов теста для каждого измерения.`;
 
-    const response = await callClaude(systemPrompt, userMessage);
+    let response: string;
+    try {
+      response = await callClaude(systemPrompt, userMessage);
+    } catch (apiError) {
+      console.error("Claude API error:", apiError);
+      return NextResponse.json(
+        { error: "AI-анализ не удался. Попробуйте ещё раз." },
+        { status: 500 }
+      );
+    }
 
     let result: RecommendationResult;
     try {

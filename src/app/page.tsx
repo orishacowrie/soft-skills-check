@@ -5,24 +5,24 @@ export default function Home() {
     <div className="max-w-4xl mx-auto px-4 py-16 md:py-24">
       <div className="text-center mb-16 animate-fade-in-up">
         <div className="inline-block px-4 py-1.5 bg-violet-500/10 border border-violet-500/20 rounded-full text-violet-400 text-sm font-medium mb-6">
-          Бесплатный AI-powered инструмент
+          Бесплатный open-source тренажёр
         </div>
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-          Оценка soft skills
+          Тренажёр
           <br />
           <span className="bg-gradient-to-r from-violet-400 to-indigo-400 bg-clip-text text-transparent">
-            вайб-кодера
+            soft skills
           </span>
         </h1>
         <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-8 leading-relaxed">
-          30 вопросов о том, как ты работаешь с AI-инструментами. Честный
-          AI-анализ твоих сильных и слабых сторон. Персональный план развития.
+          Пойми, как ты работаешь с AI и в команде. Получи честный анализ
+          и персональный план роста — с конкретными шагами.
         </p>
         <Link
           href="/context"
           className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-500 hover:to-indigo-500 text-white font-semibold rounded-xl transition-all duration-200 shadow-lg shadow-violet-500/20 hover:shadow-violet-500/30 hover:scale-105"
         >
-          Начать оценку
+          Начать тренировку
           <svg
             className="w-5 h-5"
             fill="none"
@@ -44,21 +44,21 @@ export default function Home() {
         {[
           {
             step: "01",
-            title: "Самооценка",
+            title: "Разминка",
             description:
-              "30 сценарных вопросов по 6 измерениям: критическое мышление, коммуникация, адаптивность, самоорганизация, продуктовое мышление, коллаборация.",
+              "30 ситуаций из реальной работы. Отвечаешь честно — без правильных и неправильных ответов. Это не экзамен, а зеркало.",
           },
           {
             step: "02",
-            title: "AI-анализ",
+            title: "AI-разбор",
             description:
-              "Claude анализирует твои ответы, строит профиль и определяет зоны роста. Потом генерирует дополнительные вопросы для углублённой диагностики.",
+              "Claude строит твой профиль, находит точки роста и генерирует дополнительные вопросы — чтобы копнуть глубже именно там, где есть потенциал.",
           },
           {
             step: "03",
-            title: "План развития",
+            title: "План роста",
             description:
-              "Персональные рекомендации: конкретные шаги, привычки и ресурсы для прокачки слабых сторон.",
+              "Не абстрактные советы, а конкретные шаги: что делать каждый день, какие привычки формировать, на что обратить внимание.",
           },
         ].map((item) => (
           <div
@@ -81,24 +81,24 @@ export default function Home() {
       {/* Dimensions preview */}
       <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8">
         <h2 className="text-xl font-semibold text-slate-100 mb-6">
-          6 измерений оценки
+          6 направлений роста
         </h2>
         <div className="grid sm:grid-cols-2 gap-4">
           {[
             {
               icon: "🔍",
               name: "Критическое мышление",
-              desc: "Оценка AI-выхода, обнаружение галлюцинаций",
+              desc: "Умение проверять, сомневаться, видеть ошибки",
             },
             {
               icon: "💬",
               name: "Коммуникация",
-              desc: "Промпт-инжиниринг, общение с командой",
+              desc: "Чёткость в постановке задач и общении с людьми",
             },
             {
               icon: "⚡",
               name: "Адаптивность",
-              desc: "Освоение новых инструментов, гибкость",
+              desc: "Скорость обучения, гибкость, работа с неизвестным",
             },
             {
               icon: "📋",
@@ -108,12 +108,12 @@ export default function Home() {
             {
               icon: "🎯",
               name: "Продуктовое мышление",
-              desc: "UX-чутьё, понимание пользователя",
+              desc: "Фокус на пользователе и результате",
             },
             {
               icon: "🤝",
               name: "Коллаборация",
-              desc: "Командная работа, обратная связь",
+              desc: "Командная работа, обратная связь, открытость",
             },
           ].map((dim) => (
             <div
@@ -135,13 +135,13 @@ export default function Home() {
       {/* CTA */}
       <div className="text-center mt-12">
         <p className="text-slate-500 text-sm mb-4">
-          Занимает 10-15 минут. Данные не сохраняются на сервере.
+          10-15 минут. Данные остаются только у тебя.
         </p>
         <Link
           href="/context"
           className="inline-flex items-center gap-2 px-6 py-3 bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium rounded-xl transition-colors border border-slate-700"
         >
-          Пройти тест
+          Начать
         </Link>
       </div>
     </div>

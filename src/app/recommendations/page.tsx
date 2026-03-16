@@ -48,8 +48,11 @@ export default function RecommendationsPage() {
         jobDescription,
       }),
     })
-      .then((res) => {
-        if (!res.ok) throw new Error("Ошибка генерации рекомендаций");
+      .then(async (res) => {
+        if (!res.ok) {
+          const data = await res.json().catch(() => ({}));
+          throw new Error(data.error || "Ошибка генерации рекомендаций");
+        }
         return res.json();
       })
       .then((data: RecommendationResult) => {
@@ -103,12 +106,20 @@ export default function RecommendationsPage() {
         <div className="bg-red-500/10 border border-red-500/20 rounded-xl p-6 max-w-md mx-auto">
           <h2 className="text-lg font-semibold text-red-400 mb-2">Ошибка</h2>
           <p className="text-slate-400 text-sm mb-4">{error}</p>
-          <button
-            onClick={() => router.push("/results")}
-            className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-200 rounded-lg transition-colors text-sm"
-          >
-            Назад к результатам
-          </button>
+          <div className="flex gap-3 justify-center">
+            <button
+              onClick={() => window.location.reload()}
+              className="px-4 py-2 bg-violet-600 hover:bg-violet-500 text-white rounded-lg transition-colors text-sm"
+            >
+              Попробовать снова
+            </button>
+            <button
+              onClick={() => router.push("/results")}
+              className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-200 rounded-lg transition-colors text-sm"
+            >
+              Назад к результатам
+            </button>
+          </div>
         </div>
       </div>
     );

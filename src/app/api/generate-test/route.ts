@@ -6,6 +6,13 @@ import { DimensionKey, DimensionScore, DeepDiveQuestion } from "@/types/assessme
 
 export async function POST(request: NextRequest) {
   try {
+    if (!process.env.ANTHROPIC_API_KEY) {
+      return NextResponse.json(
+        { error: "API key not configured" },
+        { status: 500 }
+      );
+    }
+
     const { weakDimensions, dimensionScores, resume, jobDescription } = (await request.json()) as {
       weakDimensions: DimensionKey[];
       dimensionScores: DimensionScore[];
@@ -76,7 +83,16 @@ ${dimensionContext}${personalizationContext}
 Нумерация id: dd_1, dd_2, dd_3 и т.д.
 dimension должен быть одним из: ${weakDimensions.join(", ")}`;
 
-    const response = await callClaude(systemPrompt, userMessage);
+    let response: string;
+    try {
+      response = await callClaude(systemPrompt, userMessage);
+    } catch (apiError) {
+      console.error("Claude API error:", apiError);
+      return NextResponse.json(
+        { error: "AI-анализ не удался. Попробуйте ещё раз." },
+        { status: 500 }
+      );
+    }
 
     let parsed: { questions: DeepDiveQuestion[] };
     try {

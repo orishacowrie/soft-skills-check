@@ -2,9 +2,20 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Soft Skills Check — Оценка soft skills для вайб-кодера",
+  title: "Soft Skills Check — Тренажёр soft skills",
   description:
-    "Узнай свои сильные и слабые стороны в работе с AI. 30 вопросов, AI-анализ, персональные рекомендации.",
+    "Пойми себя лучше. 30 вопросов, AI-анализ, персональный план роста. Бесплатный open-source тренажёр.",
+  openGraph: {
+    title: "Тренажёр soft skills — пойми себя и расти",
+    description:
+      "Бесплатный AI-тренажёр: 30 вопросов, персональный анализ, план роста. Open source.",
+    type: "website",
+    url: "https://soft-skills.chillai.space",
+    locale: "ru_RU",
+  },
+  twitter: {
+    card: "summary",
+  },
 };
 
 export default function RootLayout({
@@ -27,7 +38,7 @@ export default function RootLayout({
                 </span>
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/job-search-toolkit/soft-skills-check"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm text-slate-500 hover:text-slate-300 transition-colors"

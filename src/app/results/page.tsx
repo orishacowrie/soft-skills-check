@@ -50,8 +50,11 @@ export default function ResultsPage() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ answers: parsedAnswers, resume, jobDescription }),
     })
-      .then((res) => {
-        if (!res.ok) throw new Error("Ошибка при анализе");
+      .then(async (res) => {
+        if (!res.ok) {
+          const data = await res.json().catch(() => ({}));
+          throw new Error(data.error || "Ошибка при анализе");
+        }
         return res.json();
       })
       .then((data: AnalysisResult) => {
