@@ -32,6 +32,20 @@ export default function DeepDivePage() {
       return;
     }
 
+    // Read optional context
+    let resume: string | undefined;
+    let jobDescription: string | undefined;
+    const contextStored = sessionStorage.getItem("assessment_context");
+    if (contextStored) {
+      try {
+        const ctx = JSON.parse(contextStored);
+        resume = ctx.resume;
+        jobDescription = ctx.jobDescription;
+      } catch {
+        // ignore
+      }
+    }
+
     // Generate deep-dive questions
     fetch("/api/generate-test", {
       method: "POST",
@@ -39,6 +53,8 @@ export default function DeepDivePage() {
       body: JSON.stringify({
         weakDimensions: result.weakDimensions,
         dimensionScores: result.dimensionScores,
+        resume,
+        jobDescription,
       }),
     })
       .then((res) => {

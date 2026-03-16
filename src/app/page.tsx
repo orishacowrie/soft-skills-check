@@ -19,7 +19,7 @@ export default function Home() {
           AI-анализ твоих сильных и слабых сторон. Персональный план развития.
         </p>
         <Link
-          href="/test"
+          href="/context"
           className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-500 hover:to-indigo-500 text-white font-semibold rounded-xl transition-all duration-200 shadow-lg shadow-violet-500/20 hover:shadow-violet-500/30 hover:scale-105"
         >
           Начать оценку
@@ -138,7 +138,7 @@ export default function Home() {
           Занимает 10-15 минут. Данные не сохраняются на сервере.
         </p>
         <Link
-          href="/test"
+          href="/context"
           className="inline-flex items-center gap-2 px-6 py-3 bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium rounded-xl transition-colors border border-slate-700"
         >
           Пройти тест

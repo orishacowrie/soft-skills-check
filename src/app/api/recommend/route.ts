@@ -3,11 +3,14 @@ import { callClaude } from "@/lib/anthropic";
 import { dimensionMap } from "@/lib/questions";
 import { AnalysisResult, DeepDiveAnswer, RecommendationResult } from "@/types/assessment";
 
+
 export async function POST(request: NextRequest) {
   try {
-    const { analysis, deepDiveAnswers } = (await request.json()) as {
+    const { analysis, deepDiveAnswers, resume, jobDescription } = (await request.json()) as {
       analysis: AnalysisResult;
       deepDiveAnswers: DeepDiveAnswer[];
+      resume?: string;
+      jobDescription?: string;
     };
 
     if (!analysis) {
@@ -41,6 +44,14 @@ export async function POST(request: NextRequest) {
             .join("\n")}`
         : "\nУглублённый тест не пройден.";
 
+    let personalizationContext = "";
+    if (resume) {
+      personalizationContext += `\n\nРезюме кандидата (учитывай его опыт и навыки при формировании рекомендаций):\n${resume.slice(0, 3000)}`;
+    }
+    if (jobDescription) {
+      personalizationContext += `\n\nОписание целевой вакансии/роли (привяжи рекомендации к требованиям этой роли):\n${jobDescription.slice(0, 2000)}`;
+    }
+
     const dimensionsToRecommend = analysis.dimensionScores
       .sort((a, b) => a.score - b.score)
       .slice(0, 4)
@@ -56,6 +67,8 @@ export async function POST(request: NextRequest) {
 - Учитывай контекст работы с AI-инструментами
 - Для ресурсов: рекомендуй конкретные подходы и практики, а не ссылки
 - Будь честным, но мотивирующим
+${resume ? "- Если предоставлено резюме — учитывай текущий опыт и навыки кандидата, предлагай рекомендации исходя из его уровня" : ""}
+${jobDescription ? "- Если предоставлено описание вакансии — привяжи рекомендации к требованиям этой конкретной роли" : ""}
 
 ВАЖНО: Отвечай ТОЛЬКО валидным JSON без markdown-форматирования. Никаких \`\`\`json блоков.`;
 
@@ -67,7 +80,7 @@ ${scoresContext}
 Общий балл: ${analysis.overallScore}/5
 ${strengthsContext}
 ${weaknessesContext}
-${deepDiveContext}
+${deepDiveContext}${personalizationContext}
 
 Сгенерируй рекомендации для измерений: ${dimensionsToRecommend.map((d) => dimensionMap[d]?.name || d).join(", ")}
 

@@ -4,9 +4,14 @@ import { calculateDimensionScores, calculateOverallScore, getWeakDimensions, get
 import { dimensionMap, questions } from "@/lib/questions";
 import { Answer, AnalysisResult } from "@/types/assessment";
 
+
 export async function POST(request: NextRequest) {
   try {
-    const { answers } = (await request.json()) as { answers: Answer[] };
+    const { answers, resume, jobDescription } = (await request.json()) as {
+      answers: Answer[];
+      resume?: string;
+      jobDescription?: string;
+    };
 
     if (!answers || answers.length === 0) {
       return NextResponse.json(
@@ -38,12 +43,22 @@ export async function POST(request: NextRequest) {
       .filter(Boolean)
       .join("\n");
 
+    let personalizationContext = "";
+    if (resume) {
+      personalizationContext += `\n\nРезюме кандидата (используй для персонализации анализа):\n${resume.slice(0, 3000)}`;
+    }
+    if (jobDescription) {
+      personalizationContext += `\n\nОписание целевой вакансии/роли:\n${jobDescription.slice(0, 2000)}`;
+    }
+
     const systemPrompt = `Ты — эксперт по soft skills для разработчиков, работающих с AI-инструментами (вайб-кодеров).
 Тебе даны результаты теста самооценки по 6 измерениям. Каждое измерение оценивается по шкале 1-5.
 Reverse-вопросы уже пересчитаны — высокий балл везде означает высокий навык.
 
 Твоя задача — дать честный, конструктивный анализ. Не льсти, но и не демотивируй.
 Будь конкретным: упоминай конкретные паттерны поведения из ответов.
+${resume ? "\nЕсли предоставлено резюме — учитывай опыт и навыки кандидата при анализе." : ""}
+${jobDescription ? "\nЕсли предоставлено описание вакансии — соотноси результаты с требованиями роли." : ""}
 
 ВАЖНО: Отвечай ТОЛЬКО валидным JSON без markdown-форматирования. Никаких \`\`\`json блоков.`;
 
@@ -55,7 +70,7 @@ ${scoresContext}
 Общий балл: ${overallScore}/5
 
 Детальные ответы:
-${answersContext}
+${answersContext}${personalizationContext}
 
 Сформируй анализ в формате JSON:
 {

@@ -3,11 +3,14 @@ import { callClaude } from "@/lib/anthropic";
 import { dimensionMap } from "@/lib/questions";
 import { DimensionKey, DimensionScore, DeepDiveQuestion } from "@/types/assessment";
 
+
 export async function POST(request: NextRequest) {
   try {
-    const { weakDimensions, dimensionScores } = (await request.json()) as {
+    const { weakDimensions, dimensionScores, resume, jobDescription } = (await request.json()) as {
       weakDimensions: DimensionKey[];
       dimensionScores: DimensionScore[];
+      resume?: string;
+      jobDescription?: string;
     };
 
     if (!weakDimensions || weakDimensions.length === 0) {
@@ -31,6 +34,14 @@ export async function POST(request: NextRequest) {
     );
     const totalQuestions = questionsPerDimension * weakDimensions.length;
 
+    let personalizationContext = "";
+    if (resume) {
+      personalizationContext += `\n\nРезюме кандидата (учитывай его опыт при формулировке вопросов):\n${resume.slice(0, 3000)}`;
+    }
+    if (jobDescription) {
+      personalizationContext += `\n\nОписание целевой вакансии/роли (адаптируй вопросы под требования роли):\n${jobDescription.slice(0, 2000)}`;
+    }
+
     const systemPrompt = `Ты — эксперт по оценке soft skills для вайб-кодеров (разработчиков, активно использующих AI).
 Тебе нужно создать углублённые вопросы для диагностики слабых зон.
 
@@ -41,11 +52,13 @@ export async function POST(request: NextRequest) {
 - Каждый вопрос — это утверждение, которое оценивается по шкале 1-5 (от "совсем не про меня" до "точно про меня")
 - Высокий балл (5) должен означать ВЫСОКИЙ уровень навыка (НЕ делай reverse-вопросы)
 - Вопросы должны раскрывать разные аспекты каждого измерения
+${resume ? "- Если предоставлено резюме — используй контекст опыта кандидата для создания более релевантных сценариев" : ""}
+${jobDescription ? "- Если предоставлено описание вакансии — адаптируй сценарии под требования роли" : ""}
 
 ВАЖНО: Отвечай ТОЛЬКО валидным JSON без markdown-форматирования. Никаких \`\`\`json блоков.`;
 
     const userMessage = `Слабые измерения пользователя:
-${dimensionContext}
+${dimensionContext}${personalizationContext}
 
 Сгенерируй ${totalQuestions} вопросов (по ${questionsPerDimension} на каждое измерение).
 

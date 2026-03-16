@@ -24,12 +24,28 @@ export default function RecommendationsPage() {
       ? JSON.parse(deepDiveStored)
       : [];
 
+    // Read optional context
+    let resume: string | undefined;
+    let jobDescription: string | undefined;
+    const contextStored = sessionStorage.getItem("assessment_context");
+    if (contextStored) {
+      try {
+        const ctx = JSON.parse(contextStored);
+        resume = ctx.resume;
+        jobDescription = ctx.jobDescription;
+      } catch {
+        // ignore
+      }
+    }
+
     fetch("/api/recommend", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         analysis,
         deepDiveAnswers,
+        resume,
+        jobDescription,
       }),
     })
       .then((res) => {

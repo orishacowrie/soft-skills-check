@@ -30,11 +30,25 @@ export default function ResultsPage() {
     const dimensionScores = calculateDimensionScores(parsedAnswers);
     const overallScore = calculateOverallScore(dimensionScores);
 
+    // Read optional context
+    let resume: string | undefined;
+    let jobDescription: string | undefined;
+    const contextStored = sessionStorage.getItem("assessment_context");
+    if (contextStored) {
+      try {
+        const ctx = JSON.parse(contextStored);
+        resume = ctx.resume;
+        jobDescription = ctx.jobDescription;
+      } catch {
+        // ignore
+      }
+    }
+
     // Call AI analysis
     fetch("/api/analyze", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ answers: parsedAnswers }),
+      body: JSON.stringify({ answers: parsedAnswers, resume, jobDescription }),
     })
       .then((res) => {
         if (!res.ok) throw new Error("Ошибка при анализе");
