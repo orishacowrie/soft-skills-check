@@ -11,7 +11,14 @@ export interface QuizQuestion {
   sourceUrl: string;
 }
 
-export const quizQuestions: QuizQuestion[] = [
+// Import the full 200-question pool (20 per topic, quality-filtered)
+import { quizPool } from "./quiz-pool";
+
+// Use the full curated pool (200 questions, 20 per topic)
+export const quizQuestions: QuizQuestion[] = quizPool;
+
+// Legacy inline questions kept as fallback
+const _legacyQuestions: QuizQuestion[] = [
   // ─── Critical Thinking (3 questions) ───
   {
     id: "quiz_ct_01",
@@ -546,10 +553,11 @@ export const quizQuestions: QuizQuestion[] = [
 /**
  * Get random N questions for given dimensions.
  * Returns `count` questions per dimension, shuffled together.
+ * From a pool of 20 per topic, picks `count` random ones — different every run.
  */
 export function getRandomQuizQuestions(
   dimensions: string[],
-  count: number = 3
+  count: number = 5
 ): QuizQuestion[] {
   const result: QuizQuestion[] = [];
   for (const dim of dimensions) {
