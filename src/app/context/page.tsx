@@ -38,28 +38,21 @@ export default function ContextPage() {
     setParsing(true);
     setParseError(null);
     try {
-      const pdfjsLib = await import("pdfjs-dist");
-      pdfjsLib.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsLib.version}/pdf.worker.min.mjs`;
+      const formData = new FormData();
+      formData.append("file", file);
 
-      const arrayBuffer = await file.arrayBuffer();
-      const pdf = await pdfjsLib.getDocument({ data: arrayBuffer }).promise;
-      const pages: string[] = [];
+      const res = await fetch("/api/parse-pdf", {
+        method: "POST",
+        body: formData,
+      });
 
-      for (let i = 1; i <= pdf.numPages; i++) {
-        const page = await pdf.getPage(i);
-        const textContent = await page.getTextContent();
-        const pageText = textContent.items
-          .map((item: unknown) => (item as { str: string }).str)
-          .join(" ");
-        pages.push(pageText);
-      }
+      const data = await res.json();
 
-      const fullText = pages.join("\n\n").trim();
-      if (!fullText) {
-        setParseError(t.contextPdfEmpty);
+      if (!res.ok || data.error) {
+        setParseError(data.error || t.contextPdfError);
         setActiveTab("paste");
       } else {
-        setResumeText(fullText);
+        setResumeText(data.text);
         setFileName(file.name);
       }
     } catch (err) {
