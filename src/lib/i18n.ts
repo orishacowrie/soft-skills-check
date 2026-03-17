@@ -6,7 +6,7 @@ export const ui = {
     landingTitle2: "для эпохи AI",
     landingSubtitle:
       "AI становится частью каждого бизнеса. Технические навыки уже не отличают — отличают человеческие. Пойми, где ты сейчас, и получи план роста.",
-    landingCta: "Начать бесплатно",
+    landingCta: "Начать",
     landingStep01: "📋",
     landingStep01Title: "Диагностика",
     landingStep01Desc:
@@ -222,7 +222,7 @@ export const ui = {
     landingTitle2: "for the AI era",
     landingSubtitle:
       "AI is becoming part of every business. Technical skills no longer set you apart \u2014 human skills do. See where you stand and get a growth plan.",
-    landingCta: "Start for free",
+    landingCta: "Start",
     landingStep01: "\uD83D\uDCCB",
     landingStep01Title: "Self-Assessment",
     landingStep01Desc:
