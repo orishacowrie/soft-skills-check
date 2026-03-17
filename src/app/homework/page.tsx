@@ -283,8 +283,11 @@ export default function HomeworkPage() {
           {homework.topicSuggestions && homework.topicSuggestions.length > 0 && (
             <div className="mb-6 bg-violet-500/5 border border-violet-500/20 rounded-xl p-4">
               <h3 className="text-sm font-semibold text-violet-300 uppercase tracking-wider mb-2">
-                {lang === "ru" ? "Варианты темы на выбор" : "Topic options to choose from"}
+                {lang === "ru" ? "Варианты темы" : "Topic options"}
               </h3>
+              <p className="text-xs text-slate-500 mb-2">
+                {lang === "ru" ? "Выбери одну или используй как пример — возьми свою подходящую" : "Pick one, or use these as inspiration for your own"}
+              </p>
               <ul className="space-y-1.5">
                 {homework.topicSuggestions.map((topic, i) => (
                   <li key={i} className="flex items-start gap-2 text-sm text-slate-300">
