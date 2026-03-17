@@ -7,7 +7,8 @@ import { ui } from "@/lib/i18n";
 
 type Tab = "upload" | "paste";
 
-const PROFESSIONS = [
+// Popular professions shown by default
+const POPULAR_PROFESSIONS = [
   { id: "software_dev", ru: "Разработка", en: "Software Development" },
   { id: "product", ru: "Продукт", en: "Product Management" },
   { id: "design", ru: "Дизайн", en: "Design" },
@@ -15,15 +16,62 @@ const PROFESSIONS = [
   { id: "hr", ru: "HR", en: "HR" },
   { id: "marketing", ru: "Маркетинг", en: "Marketing" },
   { id: "sales", ru: "Продажи", en: "Sales" },
-  { id: "analytics", ru: "Аналитика", en: "Analytics" },
+  { id: "analytics", ru: "Аналитика / Data", en: "Analytics / Data" },
   { id: "finance", ru: "Финансы", en: "Finance" },
-  { id: "operations", ru: "Операции", en: "Operations" },
   { id: "management", ru: "Менеджмент", en: "Management" },
-  { id: "support", ru: "Поддержка", en: "Support" },
+  { id: "operations", ru: "Операции", en: "Operations" },
+  { id: "support", ru: "Поддержка", en: "Customer Support" },
   { id: "content", ru: "Контент", en: "Content" },
-  { id: "legal", ru: "Юриспруденция", en: "Legal" },
   { id: "education", ru: "Образование", en: "Education" },
   { id: "construction", ru: "Строительство", en: "Construction" },
+  { id: "legal", ru: "Юриспруденция", en: "Legal" },
+];
+
+// Extended professions shown after "+" click
+const MORE_PROFESSIONS = [
+  { id: "consulting", ru: "Консалтинг", en: "Consulting" },
+  { id: "project_mgmt", ru: "Управление проектами", en: "Project Management" },
+  { id: "qa", ru: "Тестирование / QA", en: "QA / Testing" },
+  { id: "devops", ru: "DevOps / Инфраструктура", en: "DevOps / Infrastructure" },
+  { id: "infosec", ru: "Информационная безопасность", en: "Information Security" },
+  { id: "data_science", ru: "Data Science / ML", en: "Data Science / ML" },
+  { id: "research", ru: "Исследования / R&D", en: "Research / R&D" },
+  { id: "admin", ru: "Администрирование", en: "Administration" },
+  { id: "logistics", ru: "Логистика", en: "Logistics" },
+  { id: "procurement", ru: "Закупки", en: "Procurement" },
+  { id: "real_estate", ru: "Недвижимость", en: "Real Estate" },
+  { id: "healthcare", ru: "Медицина", en: "Healthcare" },
+  { id: "pharmacy", ru: "Фармацевтика", en: "Pharmaceuticals" },
+  { id: "science", ru: "Наука", en: "Science" },
+  { id: "engineering", ru: "Инженерия", en: "Engineering" },
+  { id: "architecture", ru: "Архитектура", en: "Architecture" },
+  { id: "manufacturing", ru: "Производство", en: "Manufacturing" },
+  { id: "agriculture", ru: "Сельское хозяйство", en: "Agriculture" },
+  { id: "energy", ru: "Энергетика", en: "Energy" },
+  { id: "telecom", ru: "Телеком", en: "Telecom" },
+  { id: "media", ru: "Медиа / Журналистика", en: "Media / Journalism" },
+  { id: "pr", ru: "PR / Коммуникации", en: "PR / Communications" },
+  { id: "events", ru: "Ивенты", en: "Events" },
+  { id: "hospitality", ru: "Гостеприимство / HoReCa", en: "Hospitality / HoReCa" },
+  { id: "tourism", ru: "Туризм", en: "Tourism" },
+  { id: "retail", ru: "Ритейл", en: "Retail" },
+  { id: "ecommerce", ru: "E-commerce", en: "E-commerce" },
+  { id: "insurance", ru: "Страхование", en: "Insurance" },
+  { id: "banking", ru: "Банки", en: "Banking" },
+  { id: "trading", ru: "Трейдинг / Биржа", en: "Trading / Markets" },
+  { id: "crypto", ru: "Крипто / Web3", en: "Crypto / Web3" },
+  { id: "gaming", ru: "Геймдев", en: "Game Development" },
+  { id: "sports", ru: "Спорт / Фитнес", en: "Sports / Fitness" },
+  { id: "beauty", ru: "Красота / Wellness", en: "Beauty / Wellness" },
+  { id: "fashion", ru: "Мода", en: "Fashion" },
+  { id: "art", ru: "Искусство", en: "Art" },
+  { id: "music", ru: "Музыка", en: "Music" },
+  { id: "ngo", ru: "НКО / Благотворительность", en: "NGO / Non-Profit" },
+  { id: "government", ru: "Госслужба", en: "Government" },
+  { id: "military", ru: "Военная сфера", en: "Military / Defense" },
+  { id: "aviation", ru: "Авиация", en: "Aviation" },
+  { id: "automotive", ru: "Автомобили", en: "Automotive" },
+  { id: "space", ru: "Космос", en: "Space" },
 ];
 
 export default function ContextPage() {
@@ -34,6 +82,7 @@ export default function ContextPage() {
   const [resumeText, setResumeText] = useState("");
   const [jobDescription, setJobDescription] = useState("");
   const [selectedProfessions, setSelectedProfessions] = useState<string[]>([]);
+  const [showMore, setShowMore] = useState(false);
   const [fileName, setFileName] = useState<string | null>(null);
   const [dragActive, setDragActive] = useState(false);
   const [parsing, setParsing] = useState(false);
@@ -174,7 +223,32 @@ export default function ContextPage() {
             : "Pick one or more — this helps tailor questions and recommendations to your context."}
         </p>
         <div className="flex flex-wrap gap-2">
-          {PROFESSIONS.map((p) => {
+          {POPULAR_PROFESSIONS.map((p) => {
+            const isSelected = selectedProfessions.includes(p.id);
+            return (
+              <button
+                key={p.id}
+                onClick={() => toggleProfession(p.id)}
+                className={`px-3.5 py-1.5 rounded-full text-sm font-medium transition-all duration-200 border ${
+                  isSelected
+                    ? "bg-violet-500/20 border-violet-500/50 text-violet-300"
+                    : "bg-slate-800/50 border-slate-700 text-slate-400 hover:border-slate-600 hover:text-slate-300"
+                }`}
+              >
+                {isSelected && <span className="mr-1">✓</span>}
+                {lang === "ru" ? p.ru : p.en}
+              </button>
+            );
+          })}
+          {!showMore && (
+            <button
+              onClick={() => setShowMore(true)}
+              className="px-3.5 py-1.5 rounded-full text-sm font-medium transition-all duration-200 border border-dashed border-slate-600 text-slate-500 hover:border-violet-500/50 hover:text-violet-400"
+            >
+              + {lang === "ru" ? "ещё" : "more"}
+            </button>
+          )}
+          {showMore && MORE_PROFESSIONS.map((p) => {
             const isSelected = selectedProfessions.includes(p.id);
             return (
               <button

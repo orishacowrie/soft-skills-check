@@ -18,45 +18,45 @@ export default function TestPage() {
 
   // Filter questions by selected topics (client-side only)
   const [questions, setQuestions] = useState<Question[]>([]);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [answers, setAnswers] = useState<Answer[]>([]);
 
+  // Load questions, restore progress — once on mount
   useEffect(() => {
-    const stored = sessionStorage.getItem("selected_topics");
-    if (!stored) {
-      setQuestions(allQuestions);
-      return;
+    // 1. Determine questions from selected topics
+    let qs = allQuestions;
+    const topicsStored = sessionStorage.getItem("selected_topics");
+    if (topicsStored) {
+      try {
+        const selectedTopics: string[] = JSON.parse(topicsStored);
+        if (Array.isArray(selectedTopics) && selectedTopics.length > 0) {
+          const filtered = allQuestions.filter((q) => selectedTopics.includes(q.dimension));
+          if (filtered.length > 0) qs = filtered;
+        }
+      } catch { /* ignore */ }
     }
-    try {
-      const selectedTopics: string[] = JSON.parse(stored);
-      if (!Array.isArray(selectedTopics) || selectedTopics.length === 0) {
-        setQuestions(allQuestions);
-        return;
-      }
-      const filtered = allQuestions.filter((q) => selectedTopics.includes(q.dimension));
-      setQuestions(filtered.length > 0 ? filtered : allQuestions);
-    } catch {
-      setQuestions(allQuestions);
+    setQuestions(qs);
+
+    // 2. Restore saved answers
+    const savedAnswers = sessionStorage.getItem("test_answers");
+    if (savedAnswers) {
+      try { setAnswers(JSON.parse(savedAnswers)); } catch { /* ignore */ }
+    }
+
+    // 3. Restore index, clamped to valid range
+    const savedIndex = sessionStorage.getItem("test_current_index");
+    if (savedIndex) {
+      const idx = parseInt(savedIndex, 10);
+      setCurrentIndex(Math.min(idx, qs.length - 1));
     }
   }, []);
 
-  const [currentIndex, setCurrentIndex] = useState(() => {
-    if (typeof window !== "undefined") {
-      const saved = sessionStorage.getItem("test_current_index");
-      return saved ? parseInt(saved, 10) : 0;
-    }
-    return 0;
-  });
-  const [answers, setAnswers] = useState<Answer[]>(() => {
-    if (typeof window !== "undefined") {
-      const saved = sessionStorage.getItem("test_answers");
-      return saved ? JSON.parse(saved) : [];
-    }
-    return [];
-  });
-
   // Sync currentIndex to sessionStorage
   useEffect(() => {
-    sessionStorage.setItem("test_current_index", String(currentIndex));
-  }, [currentIndex]);
+    if (questions.length > 0) {
+      sessionStorage.setItem("test_current_index", String(currentIndex));
+    }
+  }, [currentIndex, questions.length]);
 
   // Sync answers to sessionStorage
   useEffect(() => {
