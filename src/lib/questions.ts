@@ -361,6 +361,27 @@ export const questions: Question[] = [
     textEn: "I actively share new AI tools and workflows with the team, help colleagues adopt them — essentially driving the tech culture forward.",
     reverse: false,
   },
+  {
+    id: "ld_6",
+    dimension: "leadership",
+    text: "Мне сложно делегировать задачи — проще и быстрее сделать самому, чем объяснять другому.",
+    textEn: "I find it hard to delegate — it's easier and faster to do it myself than explain to someone else.",
+    reverse: true,
+  },
+  {
+    id: "ld_7",
+    dimension: "leadership",
+    text: "Когда моё решение оказалось неудачным — я скорее тихо исправлю последствия, чем открыто скажу команде, что ошибся.",
+    textEn: "When my decision turns out to be wrong, I'd rather quietly fix the consequences than openly tell the team I was wrong.",
+    reverse: true,
+  },
+  {
+    id: "ld_8",
+    dimension: "leadership",
+    text: "Если кто-то в команде предлагает подход лучше моего, я легко уступаю — мне важнее результат, чем авторство.",
+    textEn: "If someone on the team suggests a better approach than mine, I easily yield — the result matters more to me than authorship.",
+    reverse: false,
+  },
 
   // Conflict Resolution (cr) — general first, then AI-context
   {

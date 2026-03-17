@@ -13,22 +13,35 @@ export async function callClaude(
 ): Promise<string> {
   const anthropic = getAnthropicClient();
 
-  const message = await anthropic.messages.create({
-    model: "claude-haiku-4-5-20251001",
-    max_tokens: options?.maxTokens ?? 4096,
-    system: systemPrompt,
-    messages: [
-      {
-        role: "user",
-        content: userMessage,
-      },
-    ],
-  });
+  // Try Haiku first, fall back to Sonnet if unavailable
+  const models = ["claude-haiku-4-5-20251001", "claude-sonnet-4-20250514"];
+  let lastError: unknown;
 
-  const textBlock = message.content.find((block) => block.type === "text");
-  if (!textBlock || textBlock.type !== "text") {
-    throw new Error("No text response from Claude");
+  for (const model of models) {
+    try {
+      const message = await anthropic.messages.create({
+        model,
+        max_tokens: options?.maxTokens ?? 2048,
+        system: systemPrompt,
+        messages: [
+          {
+            role: "user",
+            content: userMessage,
+          },
+        ],
+      });
+
+      const textBlock = message.content.find((block) => block.type === "text");
+      if (!textBlock || textBlock.type !== "text") {
+        throw new Error("No text response from Claude");
+      }
+
+      return textBlock.text;
+    } catch (err) {
+      console.error(`[anthropic] ${model} failed:`, err);
+      lastError = err;
+    }
   }
 
-  return textBlock.text;
+  throw lastError;
 }

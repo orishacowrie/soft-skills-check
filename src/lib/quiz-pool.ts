@@ -1,7 +1,6 @@
 import { QuizQuestion } from "./quiz-questions";
 
-// Auto-generated — curated quiz questions with "what unites" format
-// Quality: correct answer ≤1.4x avg length, deterministic, diverse sources
+// Auto-generated quiz pool — curated + creativity questions
 
 export const quizPool: QuizQuestion[] = 
 [
@@ -6802,6 +6801,138 @@ export const quizPool: QuizQuestion[] =
     "explanationEn": "NVC focuses on observations and needs (not accusations). I-statements describe the situation and feelings (not attack). Getting to Yes works with interests (not positions). Common principle: attack the problem, not the person.",
     "source": "Conflict resolution frameworks",
     "sourceUrl": "/guide/conflict-resolution"
+  },
+  {
+    "id": "ad_creativity_q01",
+    "dimension": "adaptability",
+    "text": "Согласно фреймворку Кирби Фергюсона «Everything is a Remix», креативность состоит из трёх элементов. Каких?",
+    "textEn": "According to Kirby Ferguson's 'Everything is a Remix', creativity consists of three elements. Which?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Вдохновение, талант, удача",
+        "textEn": "Inspiration, talent, luck"
+      },
+      {
+        "key": "b",
+        "text": "Copy, Transform, Combine",
+        "textEn": "Copy, Transform, Combine"
+      },
+      {
+        "key": "c",
+        "text": "Наблюдение, гипотеза, эксперимент",
+        "textEn": "Observation, hypothesis, experiment"
+      },
+      {
+        "key": "d",
+        "text": "Дивергенция, конвергенция, итерация",
+        "textEn": "Divergence, convergence, iteration"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Фергюсон показал, что вся креативность — это ремикс: сначала копируешь (учишься на чужом), потом трансформируешь (адаптируешь), потом комбинируешь (создаёшь новое из существующего). Это применимо и к работе с AI: берёшь выход, трансформируешь, комбинируешь со своим опытом.",
+    "explanationEn": "Ferguson showed that all creativity is a remix: first you copy (learn from others), then transform (adapt), then combine (create something new from existing parts). This applies to AI work too: take the output, transform it, combine with your experience.",
+    "source": "Kirby Ferguson — Everything is a Remix",
+    "sourceUrl": "https://www.everythingisaremix.info/"
+  },
+  {
+    "id": "ad_creativity_q02",
+    "dimension": "adaptability",
+    "text": "Фраза «Good artists copy, great artists steal» часто приписывается Пикассо. Что она означает в контексте профессионального роста?",
+    "textEn": "'Good artists copy, great artists steal' is often attributed to Picasso. What does it mean for professional growth?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Нужно буквально воровать чужие работы",
+        "textEn": "You should literally steal others' work"
+      },
+      {
+        "key": "b",
+        "text": "Настоящее мастерство — усвоить чужой приём так глубоко, что он становится твоим",
+        "textEn": "True mastery means absorbing someone's technique so deeply it becomes yours"
+      },
+      {
+        "key": "c",
+        "text": "Копирование всегда лучше оригинальности",
+        "textEn": "Copying is always better than originality"
+      },
+      {
+        "key": "d",
+        "text": "Великие художники не нуждаются в обучении",
+        "textEn": "Great artists don't need training"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "«Steal» здесь означает не плагиат, а глубокое усвоение. Копировщик воспроизводит форму, не понимая суть. «Вор» понимает принцип и делает его частью своего стиля. В AI-эпоху: не копируй промпты — пойми, почему они работают, и создай свои.",
+    "explanationEn": "'Steal' here means not plagiarism but deep absorption. A copier reproduces form without understanding essence. A 'thief' understands the principle and makes it part of their style. In the AI era: don't copy prompts — understand why they work and create your own.",
+    "source": "Austin Kleon — Steal Like an Artist",
+    "sourceUrl": "https://austinkleon.com/steal/"
+  },
+  {
+    "id": "ad_creativity_q03",
+    "dimension": "adaptability",
+    "text": "Что объединяет фразу Эдисона «1% вдохновения, 99% пота» и исследования Эрикссона о deliberate practice?",
+    "textEn": "What do Edison's '1% inspiration, 99% perspiration' and Ericsson's deliberate practice research share?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Оба утверждают, что талант не существует",
+        "textEn": "Both claim talent doesn't exist"
+      },
+      {
+        "key": "b",
+        "text": "Оба показывают, что креативность — результат систематического труда, а не озарения",
+        "textEn": "Both show that creativity is the result of systematic work, not sudden insight"
+      },
+      {
+        "key": "c",
+        "text": "Оба применимы только к спорту и музыке",
+        "textEn": "Both apply only to sports and music"
+      },
+      {
+        "key": "d",
+        "text": "Оба доказывают, что нужно 10,000 часов практики",
+        "textEn": "Both prove you need 10,000 hours of practice"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Эдисон подчёркивал труд, а не гениальность. Эрикссон показал, что мастерство — результат целенаправленной практики, а не врождённого таланта. Общий принцип: креативность — это не дар, а навык, который прокачивается через повторение и итерации. Именно поэтому тренажёр работает.",
+    "explanationEn": "Edison emphasized work, not genius. Ericsson showed that expertise results from deliberate practice, not innate talent. Common principle: creativity is not a gift but a skill developed through repetition and iteration. That's exactly why this trainer works.",
+    "source": "K. Anders Ericsson — Deliberate Practice",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Practice_(learning_method)#Deliberate_practice"
+  },
+  {
+    "id": "pt_creativity_q01",
+    "dimension": "product_thinking",
+    "text": "Почему изучение конкурентов перед созданием нового продукта — это не копирование, а профессиональный подход?",
+    "textEn": "Why is studying competitors before building a new product not copying but a professional approach?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Потому что законы не запрещают смотреть на конкурентов",
+        "textEn": "Because laws don't prohibit looking at competitors"
+      },
+      {
+        "key": "b",
+        "text": "Потому что пользователи уже обучены существующим паттернам, и ломать их — рискованно",
+        "textEn": "Because users are already trained on existing patterns, and breaking them is risky"
+      },
+      {
+        "key": "c",
+        "text": "Потому что всё уже придумано и нет смысла изобретать",
+        "textEn": "Because everything has been invented and there's no point creating"
+      },
+      {
+        "key": "d",
+        "text": "Потому что инвесторы требуют анализ конкурентов",
+        "textEn": "Because investors require competitive analysis"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Пользователи формируют привычки на основе существующих продуктов. Они ожидают корзину в правом верхнем углу, свайп для удаления, pull-to-refresh. Знание этих паттернов и осознанный выбор — следовать им или нарушать — это Copy → Transform, а не слепое копирование.",
+    "explanationEn": "Users form habits based on existing products. They expect a cart in the top-right corner, swipe to delete, pull-to-refresh. Knowing these patterns and consciously choosing to follow or break them is Copy → Transform, not blind copying.",
+    "source": "Kirby Ferguson — Everything is a Remix",
+    "sourceUrl": "https://www.everythingisaremix.info/"
   }
 ]
 ;
