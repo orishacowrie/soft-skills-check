@@ -30,6 +30,11 @@ const timeFormatLabels: Record<string, { ru: string; en: string }> = {
 const contextLabels: Record<string, { ru: string; en: string }> = {
   alone_offline: { ru: "Один, без интернета (в дороге, на природе)", en: "Alone, no internet (traveling, outdoors)" },
   alone_computer: { ru: "Один, с компьютером", en: "Alone, with a computer" },
+  team_inperson: { ru: "С командой/коллегами — вживую", en: "With team/colleagues — in person" },
+  team_online: { ru: "С командой/коллегами — онлайн/видео", en: "With team/colleagues — online/video call" },
+  family_inperson: { ru: "С семьёй/друзьями — вживую", en: "With family/friends — in person" },
+  family_online: { ru: "С семьёй/друзьями — по видео/онлайн", en: "With family/friends — video call/online" },
+  // Legacy keys for backward compatibility
   team: { ru: "С командой/коллегами", en: "With team/colleagues" },
   family: { ru: "С семьёй/друзьями", en: "With family/friends" },
 };
@@ -74,65 +79,88 @@ export async function POST(request: NextRequest) {
     const ctxLabelObj = contextLabels[context] || contextLabels["alone_computer"];
     const ctxLabel = isEn ? ctxLabelObj.en : ctxLabelObj.ru;
 
+    const isWithOthers = context.includes("team") || context.includes("family");
+    const isOnline = context.includes("online");
+
     const systemPrompt = isEn
-      ? `You are a soft skills coach specializing in AI-era professional development.
-Your task is to generate a practical homework assignment for developing specific soft skills.
+      ? `You are a soft skills coach. Generate a practical homework assignment.
 
-The assignment must be:
-- Specific and actionable (not vague advice)
-- Feasible within the given time and context
-- Directly tied to the weak dimensions
-- Creative and engaging
+Structure your assignment in this order:
+1. PREPARATION — what to do before starting (choose a topic/situation, warn participants if with others, set up environment)
+2. CORE CHALLENGE — the main exercise to practice the skill
+3. REFLECTION — how to evaluate what happened
 
-IMPORTANT: Respond ONLY with valid JSON. No markdown formatting.`
-      : `Ты — коуч по soft skills, специализирующийся на профессиональном развитии в эпоху AI.
-Твоя задача — сгенерировать практическое домашнее задание для развития конкретных soft skills.
+Rules:
+- Be extremely specific. Don't say "discuss a topic" — suggest 2-3 concrete topic options to choose from.
+- If exercise involves other people, include a preparation step: "Tell them this is a practice exercise for developing [skill]. Ask if they're willing to participate for ~X minutes."
+${isOnline ? '- The person will be doing this remotely via video call, not in person. Adapt accordingly.' : ''}
+${isWithOthers ? '- Include preparation step for other participants.' : ''}
+- Make it feel like a real challenge, not a lecture.
 
-Задание должно быть:
-- Конкретным и выполнимым (не абстрактные советы)
-- Реализуемым в заданных временных рамках и контексте
-- Напрямую связанным со слабыми измерениями
-- Креативным и вовлекающим
+IMPORTANT: Respond ONLY with valid JSON. No markdown.`
+      : `Ты — коуч по soft skills. Сгенерируй практическое домашнее задание.
 
-ВАЖНО: Отвечай ТОЛЬКО валидным JSON. Никакого markdown-форматирования.`;
+Структура задания:
+1. ПОДГОТОВКА — что сделать до начала (выбрать тему/ситуацию, предупредить участников если с кем-то, подготовить обстановку)
+2. ОСНОВНОЙ ЧЕЛЛЕНДЖ — главное упражнение для практики навыка
+3. РЕФЛЕКСИЯ — как оценить что получилось
+
+Правила:
+- Будь максимально конкретным. Не "обсудите тему" — предложи 2-3 конкретных варианта темы на выбор.
+- Если упражнение с другими людьми, включи шаг подготовки: "Предупредите их, что это тренировочное упражнение для развития [навык]. Спросите, готовы ли они уделить ~X минут."
+${isOnline ? '- Человек будет делать это удалённо по видеосвязи, не вживую. Учти это.' : ''}
+${isWithOthers ? '- Включи шаг подготовки для других участников.' : ''}
+- Задание должно ощущаться как настоящий вызов, а не лекция.
+
+ВАЖНО: Отвечай ТОЛЬКО валидным JSON. Без markdown.`;
 
     const userMessage = isEn
-      ? `Generate a homework assignment with these parameters:
+      ? `Generate a homework assignment:
 
-Dimensions to develop:
+Dimensions:
 ${dimContext}
 
-Time format: ${timeLabel}
+Time: ${timeLabel}
 Context: ${ctxLabel}
 
-Generate JSON:
+JSON format:
 {
-  "title": "Assignment title (short, engaging)",
-  "description": "What this assignment will help develop and why (2-3 sentences)",
-  "steps": ["Step 1: specific action", "Step 2: specific action", "..."],
-  "expectedOutcome": "What the person will learn or achieve",
-  "timeEstimate": "~estimated time"
+  "title": "Short engaging title",
+  "description": "What this develops and why (2-3 sentences)",
+  "preparation": ["Prep step 1", "Prep step 2"],
+  "steps": ["Step 1: specific action", "Step 2: specific action"],
+  "reflection": ["Question to ask yourself after"],
+  "expectedOutcome": "What you'll learn",
+  "timeEstimate": "~time",
+  "topicSuggestions": ["Concrete topic option 1", "Option 2", "Option 3"]
 }
 
-Make it practical, specific, and tied to the given dimensions. The steps should be clear enough that someone could follow them without additional instructions.`
-      : `Сгенерируй домашнее задание с этими параметрами:
+"preparation" = what to do BEFORE the exercise (choose topic, warn participants, set up).
+"topicSuggestions" = 2-3 specific topics/situations to choose from for the exercise.
+"reflection" = 1-2 questions to ask yourself after completing the exercise.`
+      : `Сгенерируй домашнее задание:
 
-Измерения для развития:
+Измерения:
 ${dimContext}
 
-Формат времени: ${timeLabel}
+Время: ${timeLabel}
 Контекст: ${ctxLabel}
 
-Сгенерируй JSON:
+Формат JSON:
 {
-  "title": "Название задания (короткое, вовлекающее)",
-  "description": "Что это задание поможет развить и почему (2-3 предложения)",
-  "steps": ["Шаг 1: конкретное действие", "Шаг 2: конкретное действие", "..."],
-  "expectedOutcome": "Что человек узнает или чему научится",
-  "timeEstimate": "~примерное время"
+  "title": "Короткое вовлекающее название",
+  "description": "Что развивает и почему (2-3 предложения)",
+  "preparation": ["Шаг подготовки 1", "Шаг подготовки 2"],
+  "steps": ["Шаг 1: конкретное действие", "Шаг 2: конкретное действие"],
+  "reflection": ["Вопрос для рефлексии после выполнения"],
+  "expectedOutcome": "Что узнаешь / чему научишься",
+  "timeEstimate": "~время",
+  "topicSuggestions": ["Конкретная тема/ситуация 1", "Вариант 2", "Вариант 3"]
 }
 
-Сделай задание практичным, конкретным и привязанным к заданным измерениям. Шаги должны быть достаточно ясными, чтобы их можно было выполнить без дополнительных инструкций.`;
+"preparation" = что сделать ДО упражнения (выбрать тему, предупредить участников, подготовить обстановку).
+"topicSuggestions" = 2-3 конкретных варианта темы/ситуации для упражнения на выбор.
+"reflection" = 1-2 вопроса для самоанализа после выполнения.`;
 
     let response: string;
     try {

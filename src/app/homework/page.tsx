@@ -11,9 +11,12 @@ import { quizQuestions } from "@/lib/quiz-questions";
 interface HomeworkResult {
   title: string;
   description: string;
+  preparation?: string[];
   steps: string[];
+  reflection?: string[];
   expectedOutcome: string;
   timeEstimate: string;
+  topicSuggestions?: string[];
 }
 
 type Step = "params" | "email" | "verify" | "loading" | "result";
@@ -28,8 +31,10 @@ const timeOptions = [
 const contextOptions = [
   { key: "alone_offline", emoji: "\uD83E\uDDD8", labelRu: "Один, без интернета (в дороге, на природе)", labelEn: "Alone, no internet (traveling, outdoors)" },
   { key: "alone_computer", emoji: "\uD83D\uDCBB", labelRu: "Один, с компьютером", labelEn: "Alone, with a computer" },
-  { key: "team", emoji: "\uD83D\uDC65", labelRu: "С командой/коллегами", labelEn: "With team/colleagues" },
-  { key: "family", emoji: "\uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC67", labelRu: "С семьёй/друзьями", labelEn: "With family/friends" },
+  { key: "team_inperson", emoji: "\uD83D\uDC65", labelRu: "С командой — вживую", labelEn: "With team — in person" },
+  { key: "team_online", emoji: "\uD83D\uDCF9", labelRu: "С командой — онлайн/видео", labelEn: "With team — online/video" },
+  { key: "family_inperson", emoji: "\uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC67", labelRu: "С семьёй/друзьями — вживую", labelEn: "With family/friends — in person" },
+  { key: "family_online", emoji: "\uD83D\uDCF1", labelRu: "С семьёй/друзьями — по видео", labelEn: "With family/friends — video call" },
 ];
 
 function generateCode(): string {
@@ -249,6 +254,42 @@ export default function HomeworkPage() {
         <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 mb-6 animate-fade-in-up">
           <p className="text-slate-300 leading-relaxed mb-6">{homework.description}</p>
 
+          {/* Topic suggestions */}
+          {homework.topicSuggestions && homework.topicSuggestions.length > 0 && (
+            <div className="mb-6 bg-violet-500/5 border border-violet-500/20 rounded-xl p-4">
+              <h3 className="text-sm font-semibold text-violet-300 uppercase tracking-wider mb-2">
+                {lang === "ru" ? "Варианты темы на выбор" : "Topic options to choose from"}
+              </h3>
+              <ul className="space-y-1.5">
+                {homework.topicSuggestions.map((topic, i) => (
+                  <li key={i} className="flex items-start gap-2 text-sm text-slate-300">
+                    <span className="text-violet-400 mt-0.5">•</span>
+                    {topic}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {/* Preparation */}
+          {homework.preparation && homework.preparation.length > 0 && (
+            <div className="mb-6">
+              <h3 className="text-sm font-semibold text-amber-400 uppercase tracking-wider mb-3">
+                {lang === "ru" ? "Подготовка" : "Preparation"}
+              </h3>
+              <div className="space-y-2">
+                {homework.preparation.map((prep, i) => (
+                  <div key={i} className="flex items-start gap-3">
+                    <span className="w-5 h-5 rounded bg-amber-500/20 text-amber-400 text-[10px] font-semibold flex items-center justify-center flex-shrink-0 mt-0.5">
+                      {i + 1}
+                    </span>
+                    <p className="text-sm text-slate-300 leading-relaxed">{prep}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
           {/* Steps */}
           <div className="mb-6">
             <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-3">
@@ -265,6 +306,23 @@ export default function HomeworkPage() {
               ))}
             </div>
           </div>
+
+          {/* Reflection */}
+          {homework.reflection && homework.reflection.length > 0 && (
+            <div className="bg-slate-800/50 rounded-xl p-4 mb-4">
+              <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
+                {lang === "ru" ? "Рефлексия после выполнения" : "Reflection after completion"}
+              </h3>
+              <ul className="space-y-1.5">
+                {homework.reflection.map((q, i) => (
+                  <li key={i} className="flex items-start gap-2 text-sm text-slate-300">
+                    <span className="text-slate-500 mt-0.5">?</span>
+                    {q}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
 
           {/* Expected outcome */}
           <div className="bg-slate-800/50 rounded-xl p-4 mb-4">
