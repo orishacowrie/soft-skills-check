@@ -41,12 +41,16 @@ export default function DimensionChart({
   lang = "ru",
 }: DimensionChartProps) {
   const SHORT_NAMES = lang === "en" ? SHORT_NAMES_EN : SHORT_NAMES_RU;
-  const center = size / 2;
-  const radius = size * 0.35;
-  const labelRadius = size * 0.48;
   const n = scores.length;
 
   if (n === 0) return null;
+
+  // Add extra padding for few dimensions (labels need space)
+  const padding = n <= 3 ? 50 : 30;
+  const totalSize = size + padding * 2;
+  const center = totalSize / 2;
+  const radius = size * 0.35;
+  const labelRadius = size * 0.42;
 
   // Calculate positions for each axis
   const getPoint = (index: number, value: number, r: number = radius) => {
@@ -68,9 +72,9 @@ export default function DimensionChart({
   return (
     <div className="flex justify-center">
       <svg
-        viewBox={`0 0 ${size} ${size}`}
-        width={size}
-        height={size}
+        viewBox={`0 0 ${totalSize} ${totalSize}`}
+        width={totalSize}
+        height={totalSize}
         className="max-w-full h-auto"
       >
         {/* Grid */}

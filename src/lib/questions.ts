@@ -306,8 +306,8 @@ export const questions: Question[] = [
   {
     id: "cl_3",
     dimension: "collaboration",
-    text: "Если коллега делает что-то неоптимально с AI-инструментами, я скорее промолчу — не хочу лезть с непрошенными советами.",
-    textEn: "If a colleague uses AI tools suboptimally, I'd rather stay quiet \u2014 I don't want to give unsolicited advice.",
+    text: "Если коллега делает что-то неоптимально, я скорее промолчу — не хочу лезть с непрошенными советами.",
+    textEn: "If a colleague does something suboptimally, I'd rather stay quiet \u2014 I don't want to give unsolicited advice.",
     reverse: true,
   },
   {
@@ -350,8 +350,8 @@ export const questions: Question[] = [
   {
     id: "ld_4",
     dimension: "leadership",
-    text: "Когда команда застряла и AI не помогает решить проблему — я предлагаю план действий и распределяю задачи, а не жду, пока кто-то другой разберётся.",
-    textEn: "When the team is stuck and AI can't solve the problem — I propose an action plan and distribute tasks instead of waiting for someone else to figure it out.",
+    text: "Когда команда застряла и привычные инструменты не помогают — я предлагаю план действий и распределяю задачи, а не жду, пока кто-то другой разберётся.",
+    textEn: "When the team is stuck and the usual tools aren't helping — I propose an action plan and distribute tasks instead of waiting for someone else to figure it out.",
     reverse: false,
   },
   {
@@ -387,15 +387,15 @@ export const questions: Question[] = [
   {
     id: "cr_4",
     dimension: "conflict_resolution",
-    text: "Когда на ревью спорят о том, доверять ли AI-решению или переписать вручную — я умею аргументировать свою позицию и слышать чужую, не переходя на личности.",
-    textEn: "When there's a debate in code review about trusting AI output vs rewriting manually — I can argue my position and hear others without making it personal.",
+    text: "Когда на ревью спорят — доверять готовому решению или переписать с нуля — я умею аргументировать свою позицию и слышать чужую, не переходя на личности.",
+    textEn: "When there's a debate in review — trust the existing solution or rewrite from scratch — I can argue my position and hear others without making it personal.",
     reverse: false,
   },
   {
     id: "cr_5",
     dimension: "conflict_resolution",
-    text: "Когда коллега настаивает на ручном подходе там, где AI справляется лучше (или наоборот) — я скорее промолчу, чем буду спорить.",
-    textEn: "When a colleague insists on a manual approach where AI works better (or vice versa) — I'd rather stay silent than argue.",
+    text: "Когда коллега упорно настаивает на подходе, который мне кажется неоптимальным — я скорее промолчу, чем вступлю в спор.",
+    textEn: "When a colleague stubbornly insists on an approach I think is suboptimal — I'd rather stay silent than argue.",
     reverse: true,
   },
 

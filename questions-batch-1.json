@@ -1,0 +1,1206 @@
+[
+  {
+    "id": "ct_01",
+    "dimension": "critical_thinking",
+    "text": "Когда AI генерирует мне код, я всегда прогоняю его в голове или на тестах, прежде чем вставлять в проект.",
+    "textEn": "When AI generates code for me, I always mentally trace through it or run tests before putting it into my project.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ct_02",
+    "dimension": "critical_thinking",
+    "text": "Если результат выглядит правдоподобно и логично, я обычно принимаю его без дополнительной проверки — зачем тратить время.",
+    "textEn": "If a result looks plausible and logical, I usually accept it without additional verification — why waste time.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "ct_03",
+    "dimension": "critical_thinking",
+    "text": "Я замечаю, когда ChatGPT или другой AI уверенно выдаёт неправильный ответ — у меня уже выработалось чутьё на 'уверенную чушь'.",
+    "textEn": "I notice when ChatGPT or another AI confidently gives a wrong answer — I've developed an instinct for 'confident nonsense'.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ct_04",
+    "dimension": "critical_thinking",
+    "text": "Когда я читаю статью или отчёт, я автоматически задаюсь вопросом: 'А какой источник? Можно ли ему доверять?'",
+    "textEn": "When I read an article or report, I automatically ask myself: 'What's the source? Can it be trusted?'",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ct_05",
+    "dimension": "critical_thinking",
+    "text": "Если AI предлагает решение, которое я не до конца понимаю, но оно работает — я оставляю его как есть и иду дальше.",
+    "textEn": "If AI suggests a solution I don't fully understand but it works — I leave it as is and move on.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ct_06",
+    "dimension": "critical_thinking",
+    "text": "Я часто ловлю себя на том, что проверяю факты, даже когда коллеги уже приняли информацию как данность.",
+    "textEn": "I often catch myself fact-checking things even when colleagues have already accepted the information as given.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ct_07",
+    "dimension": "critical_thinking",
+    "text": "Когда AI-код компилируется и проходит базовый тест, я считаю задачу решённой — edge cases можно разобрать потом.",
+    "textEn": "When AI-generated code compiles and passes a basic test, I consider the task done — edge cases can be dealt with later.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ct_08",
+    "dimension": "critical_thinking",
+    "text": "Мне сложно спорить с экспертом, даже если я чувствую, что он неправ — авторитет давит.",
+    "textEn": "I find it hard to argue with an expert, even when I feel they're wrong — authority pressure gets to me.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "ct_09",
+    "dimension": "critical_thinking",
+    "text": "Я перепроверяю числа и расчёты, которые выдаёт AI, потому что знаю — LLM плохо считают.",
+    "textEn": "I double-check numbers and calculations that AI produces, because I know LLMs are bad at math.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ct_10",
+    "dimension": "critical_thinking",
+    "text": "Когда кто-то приводит статистику в споре, я первым делом думаю: 'А что осталось за кадром?'",
+    "textEn": "When someone cites statistics in a debate, my first thought is: 'What's been left out of the picture?'",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ct_11",
+    "dimension": "critical_thinking",
+    "text": "Я доверяю AI-ответам больше, если они длинные и детальные — это выглядит как глубокий анализ.",
+    "textEn": "I trust AI answers more when they're long and detailed — it looks like deep analysis.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ct_12",
+    "dimension": "critical_thinking",
+    "text": "Прежде чем принять решение, я стараюсь посмотреть на проблему с позиции оппонента или скептика.",
+    "textEn": "Before making a decision, I try to look at the problem from an opponent's or skeptic's perspective.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ct_13",
+    "dimension": "critical_thinking",
+    "text": "Если AI-сгенерированный код использует библиотеку, которую я не знаю, я сначала проверяю — существует ли она вообще и актуальна ли.",
+    "textEn": "If AI-generated code uses a library I don't know, I first check whether it actually exists and is up to date.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ct_14",
+    "dimension": "critical_thinking",
+    "text": "Я склонен верить первому объяснению, которое звучит логично, и редко ищу альтернативные версии.",
+    "textEn": "I tend to believe the first explanation that sounds logical and rarely look for alternative versions.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "ct_15",
+    "dimension": "critical_thinking",
+    "text": "Когда AI даёт мне ответ, который совпадает с моей гипотезой, я радуюсь и не перепроверяю — наконец-то подтверждение.",
+    "textEn": "When AI gives me an answer that matches my hypothesis, I'm happy and don't double-check — finally, confirmation.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ct_16",
+    "dimension": "critical_thinking",
+    "text": "Я умею отличить корреляцию от причинно-следственной связи в данных и отчётах.",
+    "textEn": "I can distinguish correlation from causation in data and reports.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ct_17",
+    "dimension": "critical_thinking",
+    "text": "Когда Copilot или AI предлагает автодополнение, я часто принимаю его Tab'ом, не читая полностью.",
+    "textEn": "When Copilot or AI suggests an autocomplete, I often accept it with Tab without reading it fully.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ct_18",
+    "dimension": "critical_thinking",
+    "text": "Я регулярно пересматриваю свои прошлые решения и признаю, когда они были ошибочными.",
+    "textEn": "I regularly revisit my past decisions and acknowledge when they were wrong.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ct_19",
+    "dimension": "critical_thinking",
+    "text": "Я понимаю, что AI может 'выдумать' API-эндпоинты, параметры или целые функции, которых не существует, и всегда сверяюсь с документацией.",
+    "textEn": "I understand that AI can 'hallucinate' API endpoints, parameters, or entire functions that don't exist, and I always cross-reference with documentation.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ct_20",
+    "dimension": "critical_thinking",
+    "text": "Мне комфортнее, когда есть один 'правильный' ответ — неоднозначность меня раздражает.",
+    "textEn": "I'm more comfortable when there's one 'right' answer — ambiguity annoys me.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "ct_21",
+    "dimension": "critical_thinking",
+    "text": "Я проверяю, нет ли в AI-сгенерированном коде проблем с безопасностью — SQL-инъекций, захардкоженных секретов, отсутствия валидации.",
+    "textEn": "I check AI-generated code for security issues — SQL injections, hardcoded secrets, missing validation.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ct_22",
+    "dimension": "critical_thinking",
+    "text": "Если большинство людей в команде согласны с решением, я обычно не возражаю, даже если у меня есть сомнения.",
+    "textEn": "If most people on the team agree with a decision, I usually don't object, even if I have doubts.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "ct_23",
+    "dimension": "critical_thinking",
+    "text": "Я замечаю, когда AI 'переусложняет' решение — добавляет ненужные абстракции, паттерны, обёртки там, где хватит простого кода.",
+    "textEn": "I notice when AI 'overcomplicates' a solution — adding unnecessary abstractions, patterns, wrappers where simple code would suffice.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ct_24",
+    "dimension": "critical_thinking",
+    "text": "Я умею задавать правильные вопросы, чтобы добраться до корня проблемы, а не симптомов.",
+    "textEn": "I know how to ask the right questions to get to the root of a problem, not just the symptoms.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ct_25",
+    "dimension": "critical_thinking",
+    "text": "Мне сложно критиковать AI-решение, если я сам не могу предложить лучшее — кажется, не имею права.",
+    "textEn": "I find it hard to criticize an AI solution if I can't offer a better one myself — feels like I don't have the right.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ct_26",
+    "dimension": "critical_thinking",
+    "text": "Когда я нахожу противоречие в информации, мне интересно разобраться, а не раздражает, что 'всё непонятно'.",
+    "textEn": "When I find a contradiction in information, I'm curious to figure it out rather than frustrated that 'nothing is clear'.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ct_27",
+    "dimension": "critical_thinking",
+    "text": "Я задаю AI уточняющие вопросы и прошу обосновать ответ, если что-то кажется подозрительным.",
+    "textEn": "I ask AI follow-up questions and request justification for its answer when something seems suspicious.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ct_28",
+    "dimension": "critical_thinking",
+    "text": "Я часто ловлю себя на confirmation bias — ищу подтверждение своей точке зрения, а не объективную картину.",
+    "textEn": "I often catch myself in confirmation bias — looking for validation of my viewpoint rather than an objective picture.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "ct_29",
+    "dimension": "critical_thinking",
+    "text": "Если AI предлагает подход, с которым я не согласен, я могу аргументированно объяснить, почему мой вариант лучше.",
+    "textEn": "If AI suggests an approach I disagree with, I can articulate clearly why my alternative is better.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ct_30",
+    "dimension": "critical_thinking",
+    "text": "Когда я получаю от AI идеально отформатированный и красивый ответ, мне сложнее усомниться в его правильности.",
+    "textEn": "When I get a perfectly formatted and polished answer from AI, I find it harder to question its correctness.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+
+  {
+    "id": "cm_01",
+    "dimension": "communication",
+    "text": "Когда я формулирую задачу для AI, я даю контекст — зачем это нужно, в какой проект, какие ограничения.",
+    "textEn": "When I formulate a task for AI, I provide context — why it's needed, what project it's for, what constraints exist.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cm_02",
+    "dimension": "communication",
+    "text": "Когда коллега объясняет свою идею, я жду, пока он закончит, и только потом высказываюсь.",
+    "textEn": "When a colleague explains their idea, I wait until they finish before I respond.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cm_03",
+    "dimension": "communication",
+    "text": "Если AI не понял мой запрос с первого раза, я обычно перефразирую и уточняю, а не повторяю то же самое громче.",
+    "textEn": "If AI doesn't understand my request the first time, I usually rephrase and clarify rather than repeating the same thing louder.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cm_04",
+    "dimension": "communication",
+    "text": "Мне сложно объяснить техническую проблему нетехническому человеку — я или упрощаю до потери смысла, или перегружаю деталями.",
+    "textEn": "I struggle to explain a technical problem to a non-technical person — I either oversimplify to the point of losing meaning or overload with details.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "cm_05",
+    "dimension": "communication",
+    "text": "Я разбиваю сложные промпты на шаги: сначала контекст, потом задача, потом формат ответа.",
+    "textEn": "I break complex prompts into steps: first context, then the task, then the expected output format.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cm_06",
+    "dimension": "communication",
+    "text": "В переписке я часто получаю уточняющие вопросы — видимо, мои сообщения не всегда понятны с первого раза.",
+    "textEn": "In written communication, I often get follow-up questions — apparently my messages aren't always clear the first time.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "cm_07",
+    "dimension": "communication",
+    "text": "Когда AI выдаёт не то, что нужно, я анализирую свой промпт — может, я сам нечётко сформулировал.",
+    "textEn": "When AI produces something off-target, I analyze my prompt — maybe I wasn't clear enough myself.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cm_08",
+    "dimension": "communication",
+    "text": "Я адаптирую свой стиль общения под собеседника: с разработчиком говорю иначе, чем с дизайнером или менеджером.",
+    "textEn": "I adapt my communication style to the audience: I speak differently with a developer than with a designer or manager.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cm_09",
+    "dimension": "communication",
+    "text": "Я использую примеры в промптах — показываю AI, какой результат хочу, а не только описываю его словами.",
+    "textEn": "I use examples in prompts — I show AI what result I want, not just describe it in words.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cm_10",
+    "dimension": "communication",
+    "text": "Я плохо документирую свою работу — через месяц сам не помню, почему принял то или иное решение.",
+    "textEn": "I'm bad at documenting my work — a month later I can't remember why I made a particular decision.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "cm_11",
+    "dimension": "communication",
+    "text": "Я указываю AI роль или персону ('ты — senior backend разработчик'), чтобы получить более релевантный ответ.",
+    "textEn": "I assign AI a role or persona ('you are a senior backend developer') to get a more relevant answer.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cm_12",
+    "dimension": "communication",
+    "text": "На созвонах я предпочитаю слушать и редко высказываюсь, даже если мне есть что добавить.",
+    "textEn": "In meetings I prefer to listen and rarely speak up, even when I have something to contribute.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "cm_13",
+    "dimension": "communication",
+    "text": "Я итерирую промпты — если первый результат неидеален, я уточняю, корректирую, добавляю ограничения.",
+    "textEn": "I iterate on prompts — if the first result isn't ideal, I refine, correct, and add constraints.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cm_14",
+    "dimension": "communication",
+    "text": "Когда меня просят дать фидбек, я стараюсь быть конкретным: говорю что именно не так и предлагаю вариант улучшения.",
+    "textEn": "When asked for feedback, I try to be specific: I say what exactly is wrong and suggest an improvement.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cm_15",
+    "dimension": "communication",
+    "text": "Мои промпты обычно короткие и расплывчатые — 'сделай мне лендинг' без деталей, а потом я удивляюсь результату.",
+    "textEn": "My prompts are usually short and vague — 'make me a landing page' with no details, and then I'm surprised by the result.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cm_16",
+    "dimension": "communication",
+    "text": "Я могу кратко и понятно изложить суть проблемы в одном-двух предложениях, без 'воды'.",
+    "textEn": "I can briefly and clearly explain the essence of a problem in one or two sentences, without fluff.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cm_17",
+    "dimension": "communication",
+    "text": "Я сохраняю удачные промпты и шаблоны, чтобы переиспользовать их в похожих задачах.",
+    "textEn": "I save successful prompts and templates to reuse them for similar tasks.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cm_18",
+    "dimension": "communication",
+    "text": "Мне часто говорят, что я перебиваю или не дослушиваю — мне сложно сдержаться, когда идея уже созрела.",
+    "textEn": "People often tell me I interrupt or don't listen fully — I find it hard to hold back when an idea has already formed.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "cm_19",
+    "dimension": "communication",
+    "text": "Когда AI выдаёт огромный ответ, я прошу его сократить или структурировать, а не пытаюсь разобраться в стене текста.",
+    "textEn": "When AI produces a huge response, I ask it to shorten or restructure rather than trying to parse a wall of text.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cm_20",
+    "dimension": "communication",
+    "text": "Я пишу коммит-сообщения и PR-описания так, чтобы другой человек мог понять контекст изменений без моих объяснений.",
+    "textEn": "I write commit messages and PR descriptions so that another person can understand the context of changes without my verbal explanation.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cm_21",
+    "dimension": "communication",
+    "text": "Я задаю AI ограничения по формату: 'ответь в JSON', 'не более 5 пунктов', 'используй таблицу'.",
+    "textEn": "I set format constraints for AI: 'respond in JSON', 'no more than 5 points', 'use a table'.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cm_22",
+    "dimension": "communication",
+    "text": "Я избегаю сложных разговоров — проще написать в чат, чем позвонить и обсудить голосом.",
+    "textEn": "I avoid difficult conversations — it's easier to write in chat than call and discuss by voice.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "cm_23",
+    "dimension": "communication",
+    "text": "Если результат от AI 'почти' тот, что нужен, я предпочитаю доработать руками, чем объяснять, что именно поправить.",
+    "textEn": "If the AI result is 'almost' what I need, I prefer to fix it manually rather than explain what exactly to adjust.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cm_24",
+    "dimension": "communication",
+    "text": "Я умею давать негативную обратную связь так, чтобы человек не обижался, а видел путь к улучшению.",
+    "textEn": "I can give negative feedback in a way that doesn't offend but shows a path to improvement.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cm_25",
+    "dimension": "communication",
+    "text": "Я объясняю AI не только ЧТО сделать, но и ЗАЧЕМ — это помогает получить более осмысленный результат.",
+    "textEn": "I explain to AI not just WHAT to do, but WHY — this helps get a more meaningful result.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cm_26",
+    "dimension": "communication",
+    "text": "Когда в обсуждении возникает недопонимание, я не обвиняю собеседника, а пытаюсь переформулировать свою мысль.",
+    "textEn": "When a misunderstanding arises in discussion, I don't blame the other person but try to rephrase my point.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cm_27",
+    "dimension": "communication",
+    "text": "Я указываю AI, чего НЕ нужно делать — 'не добавляй комментарии', 'не используй jQuery', 'без TypeScript'.",
+    "textEn": "I tell AI what NOT to do — 'don't add comments', 'don't use jQuery', 'no TypeScript'.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cm_28",
+    "dimension": "communication",
+    "text": "В удалённой работе я иногда молчу днями — не пишу статусы, не обновляю коллег, просто делаю своё дело.",
+    "textEn": "In remote work, I sometimes go silent for days — no status updates, no team updates, just doing my thing.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "cm_29",
+    "dimension": "communication",
+    "text": "Я веду диалог с AI как с джуниором — объясняю контекст, проверяю понимание, уточняю детали.",
+    "textEn": "I treat my dialogue with AI like mentoring a junior — I explain context, verify understanding, clarify details.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cm_30",
+    "dimension": "communication",
+    "text": "Я считаю, что если я понял задачу, то и другие поймут — зачем тратить время на дополнительные объяснения.",
+    "textEn": "I figure that if I understood the task, others will too — why spend time on extra explanations.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+
+  {
+    "id": "ad_01",
+    "dimension": "adaptability",
+    "text": "Когда выходит новый AI-инструмент, я пробую его в первые дни — мне интересно, даже если он 'сырой'.",
+    "textEn": "When a new AI tool comes out, I try it within the first few days — I'm curious even if it's rough around the edges.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ad_02",
+    "dimension": "adaptability",
+    "text": "Если мой привычный подход не работает, я быстро переключаюсь на другой, а не продолжаю упираться.",
+    "textEn": "If my usual approach isn't working, I quickly switch to another one rather than keep pushing.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ad_03",
+    "dimension": "adaptability",
+    "text": "Я до сих пор делаю многое вручную, хотя знаю, что AI мог бы ускорить процесс — привычка сильнее.",
+    "textEn": "I still do many things manually even though I know AI could speed up the process — habit is stronger.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ad_04",
+    "dimension": "adaptability",
+    "text": "После неудачи мне нужно много времени, чтобы прийти в себя и начать снова — я долго переживаю.",
+    "textEn": "After a failure, I need a lot of time to recover and start again — I dwell on it for a long time.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "ad_05",
+    "dimension": "adaptability",
+    "text": "Я регулярно обновляю свой рабочий процесс — пробую новые AI-модели, плагины, воркфлоу.",
+    "textEn": "I regularly update my workflow — trying new AI models, plugins, workflows.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ad_06",
+    "dimension": "adaptability",
+    "text": "Когда на проекте резко меняются приоритеты, я адаптируюсь без паники — это нормальная часть работы.",
+    "textEn": "When project priorities shift abruptly, I adapt without panic — it's a normal part of work.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ad_07",
+    "dimension": "adaptability",
+    "text": "Мне некомфортно использовать AI для задач, которые я раньше делал сам — как будто теряю контроль.",
+    "textEn": "I feel uncomfortable using AI for tasks I used to do myself — it feels like losing control.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ad_08",
+    "dimension": "adaptability",
+    "text": "Если я изучил фреймворк полгода назад, а сейчас появился лучший аналог — мне сложно бросить 'инвестицию' и переучиться.",
+    "textEn": "If I learned a framework six months ago and a better alternative appeared — it's hard for me to abandon my 'investment' and relearn.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "ad_09",
+    "dimension": "adaptability",
+    "text": "Я совмещаю AI с ручной работой — знаю, где AI силён, а где лучше сделать самому.",
+    "textEn": "I combine AI with manual work — I know where AI excels and where it's better to do things myself.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ad_10",
+    "dimension": "adaptability",
+    "text": "Я комфортно себя чувствую в ситуации, когда у меня нет чёткого плана — разберусь по ходу.",
+    "textEn": "I feel comfortable in situations where I don't have a clear plan — I'll figure it out as I go.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ad_11",
+    "dimension": "adaptability",
+    "text": "Когда AI выдаёт неожиданный, но интересный результат, я исследую его, а не отбрасываю как ошибку.",
+    "textEn": "When AI produces an unexpected but interesting result, I explore it rather than dismiss it as an error.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ad_12",
+    "dimension": "adaptability",
+    "text": "Я считаю, что лучше досконально знать один инструмент, чем поверхностно — десять.",
+    "textEn": "I believe it's better to know one tool thoroughly than ten tools superficially.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "ad_13",
+    "dimension": "adaptability",
+    "text": "Я заметил, что мои навыки работы с AI заметно выросли за последний год — я учусь использовать его эффективнее.",
+    "textEn": "I've noticed my AI skills have grown significantly over the past year — I'm learning to use it more effectively.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ad_14",
+    "dimension": "adaptability",
+    "text": "Мне тяжело начинать с нуля в новой области — я предпочитаю работать в зоне, где я уже эксперт.",
+    "textEn": "I find it hard to start from scratch in a new domain — I prefer to work where I'm already an expert.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "ad_15",
+    "dimension": "adaptability",
+    "text": "Когда AI-модель обновляется и ведёт себя иначе, чем раньше, я быстро перестраиваю свои промпты и подход.",
+    "textEn": "When an AI model updates and behaves differently than before, I quickly adjust my prompts and approach.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ad_16",
+    "dimension": "adaptability",
+    "text": "Я воспринимаю ошибки как источник информации, а не как повод для стресса.",
+    "textEn": "I treat mistakes as a source of information, not a cause for stress.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ad_17",
+    "dimension": "adaptability",
+    "text": "Я боюсь, что AI заменит мою работу, и это мешает мне продуктивно его использовать.",
+    "textEn": "I'm afraid AI will replace my job, and this fear prevents me from using it productively.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ad_18",
+    "dimension": "adaptability",
+    "text": "Я могу быстро переключиться между разными задачами и контекстами, не теряя продуктивности.",
+    "textEn": "I can quickly switch between different tasks and contexts without losing productivity.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ad_19",
+    "dimension": "adaptability",
+    "text": "Я экспериментирую с разными AI-инструментами для одной задачи, чтобы найти лучший вариант.",
+    "textEn": "I experiment with different AI tools for the same task to find the best option.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ad_20",
+    "dimension": "adaptability",
+    "text": "Когда я долго бьюсь над проблемой безрезультатно, я могу остановиться и попробовать совершенно другой подход.",
+    "textEn": "When I've been struggling with a problem for a long time with no results, I can stop and try a completely different approach.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ad_21",
+    "dimension": "adaptability",
+    "text": "Я предпочитаю один проверенный AI-инструмент и не хочу распыляться на каждый новый продукт.",
+    "textEn": "I prefer one proven AI tool and don't want to spread myself thin across every new product.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ad_22",
+    "dimension": "adaptability",
+    "text": "Я спокойно воспринимаю критику и обратную связь — это возможность стать лучше, а не атака.",
+    "textEn": "I calmly accept criticism and feedback — it's an opportunity to improve, not an attack.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ad_23",
+    "dimension": "adaptability",
+    "text": "Я адаптировал свой процесс разработки с учётом AI — теперь я планирую, кодю и ревьюю иначе, чем год назад.",
+    "textEn": "I've adapted my development process to account for AI — I now plan, code, and review differently than a year ago.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ad_24",
+    "dimension": "adaptability",
+    "text": "Мне сложно бросить задачу на полпути, даже если стало очевидно, что она бесполезна — 'жалко потраченного времени'.",
+    "textEn": "I find it hard to abandon a task halfway through, even when it's clearly pointless — 'I've already invested so much time'.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "ad_25",
+    "dimension": "adaptability",
+    "text": "Я не жду, пока AI-инструменты станут 'стабильными' — начинаю использовать на ранних этапах, принимая шероховатости.",
+    "textEn": "I don't wait for AI tools to become 'stable' — I start using them early, accepting the rough edges.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ad_26",
+    "dimension": "adaptability",
+    "text": "Если меня поставить на проект с незнакомым стеком, я буду продуктивен уже через несколько дней, а не недель.",
+    "textEn": "If I'm put on a project with an unfamiliar stack, I'll be productive within days, not weeks.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ad_27",
+    "dimension": "adaptability",
+    "text": "Меня раздражает, когда AI-инструмент, которым я пользовался, меняет интерфейс или поведение — зачем ломать то, что работает.",
+    "textEn": "It annoys me when an AI tool I've been using changes its interface or behavior — why break something that works.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ad_28",
+    "dimension": "adaptability",
+    "text": "Я пробую новые вещи ради эксперимента, даже если текущее решение работает нормально.",
+    "textEn": "I try new things for the sake of experimentation, even when the current solution works fine.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ad_29",
+    "dimension": "adaptability",
+    "text": "Я учу AI работать в моём стиле — создаю системные промпты, настраиваю 'правила', подстраиваю под свой воркфлоу.",
+    "textEn": "I teach AI to work in my style — I create system prompts, configure 'rules', customize it to my workflow.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ad_30",
+    "dimension": "adaptability",
+    "text": "Когда всё идёт не по плану, я не зацикливаюсь на том, 'как должно было быть', а работаю с тем, что есть.",
+    "textEn": "When things don't go according to plan, I don't fixate on 'how it should have been' — I work with what I've got.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+
+  {
+    "id": "so_01",
+    "dimension": "self_organization",
+    "text": "Прежде чем начать писать код (или просить AI), я формулирую план — что нужно сделать, в каком порядке.",
+    "textEn": "Before I start writing code (or asking AI), I formulate a plan — what needs to be done and in what order.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "so_02",
+    "dimension": "self_organization",
+    "text": "Я часто начинаю новую задачу, не закончив предыдущую — хочется поскорее попробовать что-то свежее.",
+    "textEn": "I often start a new task before finishing the previous one — I'm eager to try something fresh.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "so_03",
+    "dimension": "self_organization",
+    "text": "Когда AI сгенерировал мне код, я прогоняю тесты и проверяю edge cases перед тем, как мержить.",
+    "textEn": "When AI generates code for me, I run tests and check edge cases before merging.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "so_04",
+    "dimension": "self_organization",
+    "text": "Мой git-репозиторий — это хаос: огромные коммиты, неинформативные сообщения, всё в одной ветке.",
+    "textEn": "My git repository is a mess: huge commits, uninformative messages, everything in one branch.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "so_05",
+    "dimension": "self_organization",
+    "text": "Я ставлю себе таймер на задачи с AI — знаю, что можно бесконечно 'улучшать' промпт, и это ловушка.",
+    "textEn": "I set a timer for AI tasks — I know you can endlessly 'improve' a prompt, and that's a trap.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "so_06",
+    "dimension": "self_organization",
+    "text": "Я разбиваю большие задачи на маленькие, чётко определённые шаги, прежде чем приступать.",
+    "textEn": "I break large tasks into small, clearly defined steps before starting.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "so_07",
+    "dimension": "self_organization",
+    "text": "Я легко ухожу в 'rabbit hole' с AI — начал с одной задачи, а через два часа делаю что-то совершенно другое.",
+    "textEn": "I easily go down a rabbit hole with AI — I started with one task, and two hours later I'm doing something completely different.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "so_08",
+    "dimension": "self_organization",
+    "text": "Я приоритизирую задачи: делаю важное и срочное первым, а не то, что проще или интереснее.",
+    "textEn": "I prioritize tasks: I do what's important and urgent first, not what's easier or more interesting.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "so_09",
+    "dimension": "self_organization",
+    "text": "Я храню промпты, шаблоны и рабочие конфигурации AI в организованном виде — легко нахожу их потом.",
+    "textEn": "I keep prompts, templates, and working AI configurations organized — I can easily find them later.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "so_10",
+    "dimension": "self_organization",
+    "text": "Мне сложно оценить, сколько времени займёт задача — я регулярно ошибаюсь в 2-3 раза.",
+    "textEn": "I struggle to estimate how long a task will take — I'm regularly off by 2-3x.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "so_11",
+    "dimension": "self_organization",
+    "text": "Когда AI предлагает добавить 'ещё одну фичу' или 'улучшить' что-то, я умею сказать 'хватит' и остановиться.",
+    "textEn": "When AI suggests adding 'one more feature' or 'improving' something, I know how to say 'enough' and stop.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "so_12",
+    "dimension": "self_organization",
+    "text": "Я делаю код-ревью своих PR перед тем, как просить других — перечитываю diff и проверяю, что всё чисто.",
+    "textEn": "I do a self-review of my PRs before asking others — I re-read the diff and make sure everything is clean.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "so_13",
+    "dimension": "self_organization",
+    "text": "Я могу весь день генерировать код с AI и чувствовать себя продуктивным, хотя реально ничего не довёл до конца.",
+    "textEn": "I can spend all day generating code with AI and feel productive, even though I haven't actually finished anything.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "so_14",
+    "dimension": "self_organization",
+    "text": "Я поддерживаю порядок в проекте: структура файлов логичная, нейминг консистентный, нет мусора.",
+    "textEn": "I maintain order in my project: logical file structure, consistent naming, no junk.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "so_15",
+    "dimension": "self_organization",
+    "text": "Я знаю, когда нужно перестать просить AI и начать кодить самому — не всё эффективнее делегировать.",
+    "textEn": "I know when to stop asking AI and start coding myself — not everything is more efficient to delegate.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "so_16",
+    "dimension": "self_organization",
+    "text": "Я часто отвлекаюсь на уведомления, чаты и соцсети — мне сложно войти в поток и оставаться в нём.",
+    "textEn": "I get distracted by notifications, chats, and social media often — it's hard for me to get into flow and stay there.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "so_17",
+    "dimension": "self_organization",
+    "text": "Я коммичу маленькими порциями, даже когда работаю с AI-сгенерированным кодом — каждый коммит имеет смысл.",
+    "textEn": "I commit in small chunks, even when working with AI-generated code — each commit is meaningful.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "so_18",
+    "dimension": "self_organization",
+    "text": "Я часто 'scope creep' делаю сам себе — начинаю с простой задачи, а заканчиваю рефакторингом всего проекта.",
+    "textEn": "I often scope-creep myself — I start with a simple task and end up refactoring the entire project.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "so_19",
+    "dimension": "self_organization",
+    "text": "Перед тем как дать AI большую задачу, я разбиваю её на подзадачи и делаю их по одной.",
+    "textEn": "Before giving AI a big task, I break it into subtasks and do them one at a time.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "so_20",
+    "dimension": "self_organization",
+    "text": "У меня есть ритуалы продуктивности — утренний план, чек-лист, ретро в конце дня/недели.",
+    "textEn": "I have productivity rituals — morning plan, checklist, retrospective at the end of the day/week.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "so_21",
+    "dimension": "self_organization",
+    "text": "Я часто принимаю весь AI-вывод целиком — вставляю большой блок кода, не ревьюя построчно.",
+    "textEn": "I often accept entire AI output wholesale — I paste a large block of code without reviewing it line by line.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "so_22",
+    "dimension": "self_organization",
+    "text": "Я ставлю дедлайны сам себе, даже когда их никто не требует — это помогает не растягивать задачи.",
+    "textEn": "I set deadlines for myself even when no one requires them — it helps prevent tasks from dragging on.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "so_23",
+    "dimension": "self_organization",
+    "text": "Я отслеживаю, какие AI-задачи были полезны, а какие — пустая трата времени, и корректирую подход.",
+    "textEn": "I track which AI tasks were useful and which were a waste of time, and adjust my approach accordingly.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "so_24",
+    "dimension": "self_organization",
+    "text": "Я прокрастинирую на 'подготовке' — изучаю, планирую, настраиваю, но никак не начинаю делать.",
+    "textEn": "I procrastinate by 'preparing' — researching, planning, configuring, but never actually starting to do the work.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "so_25",
+    "dimension": "self_organization",
+    "text": "Я веду changelog или заметки о том, что AI сделал в проекте, чтобы потом можно было разобраться.",
+    "textEn": "I keep a changelog or notes about what AI did in the project, so I can understand it later.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "so_26",
+    "dimension": "self_organization",
+    "text": "Мне нужен внешний контроль (менеджер, дедлайн, стэндап), чтобы работать продуктивно — без этого я расслабляюсь.",
+    "textEn": "I need external accountability (manager, deadline, standup) to work productively — without it I slack off.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "so_27",
+    "dimension": "self_organization",
+    "text": "Когда AI генерирует мне целый проект, я всё равно прохожу по каждому файлу и понимаю, что там происходит.",
+    "textEn": "When AI generates an entire project for me, I still go through each file and understand what's happening there.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "so_28",
+    "dimension": "self_organization",
+    "text": "У меня чистый рабочий стол (буквально и в компьютере) — я не могу работать в бардаке.",
+    "textEn": "I have a clean desk (literally and on my computer) — I can't work in a mess.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "so_29",
+    "dimension": "self_organization",
+    "text": "Я ставлю лимит на количество AI-итераций: если за 3-4 попытки не получил нужный результат — меняю стратегию.",
+    "textEn": "I set a limit on AI iterations: if I don't get the desired result in 3-4 attempts, I change strategy.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "so_30",
+    "dimension": "self_organization",
+    "text": "Я часто работаю допоздна, потому что днём не могу сосредоточиться — мой тайм-менеджмент хромает.",
+    "textEn": "I often work late because I can't focus during the day — my time management is lacking.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+
+  {
+    "id": "pt_01",
+    "dimension": "product_thinking",
+    "text": "Когда я делаю фичу, я думаю не только о коде, но и о том, как пользователь будет с ней взаимодействовать.",
+    "textEn": "When I build a feature, I think not just about the code but about how the user will interact with it.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "pt_02",
+    "dimension": "product_thinking",
+    "text": "Я прошу AI сгенерировать MVP — минимально рабочую версию, а не идеальное решение с первого раза.",
+    "textEn": "I ask AI to generate an MVP — a minimal working version, not a perfect solution on the first try.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "pt_03",
+    "dimension": "product_thinking",
+    "text": "Я могу потратить неделю на идеальную архитектуру, даже если нужен был рабочий прототип за день.",
+    "textEn": "I can spend a week on perfect architecture even when a working prototype was needed in a day.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "pt_04",
+    "dimension": "product_thinking",
+    "text": "Когда AI генерирует UI, я оцениваю его глазами пользователя — удобно ли? Понятно ли? Что может пойти не так?",
+    "textEn": "When AI generates UI, I evaluate it through the user's eyes — is it convenient? Is it clear? What could go wrong?",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "pt_05",
+    "dimension": "product_thinking",
+    "text": "Я думаю о пустых состояниях, ошибках и загрузке — не только о happy path.",
+    "textEn": "I think about empty states, errors, and loading — not just the happy path.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "pt_06",
+    "dimension": "product_thinking",
+    "text": "Я использую AI для быстрого прототипирования — генерирую варианты, показываю пользователям, собираю фидбек.",
+    "textEn": "I use AI for rapid prototyping — I generate variants, show them to users, and collect feedback.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "pt_07",
+    "dimension": "product_thinking",
+    "text": "Для меня 'готово' = код работает. UX, тексты, edge cases — это всё 'потом'.",
+    "textEn": "For me 'done' = code works. UX, copy, edge cases — that's all 'later'.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "pt_08",
+    "dimension": "product_thinking",
+    "text": "Когда AI предлагает добавить фичу, я спрашиваю себя: 'А кому это реально нужно? Это решает проблему?'",
+    "textEn": "When AI suggests adding a feature, I ask myself: 'Who actually needs this? Does it solve a problem?'",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "pt_09",
+    "dimension": "product_thinking",
+    "text": "Я понимаю бизнес-контекст продукта: кто платит, зачем, какие метрики важны.",
+    "textEn": "I understand the business context of the product: who pays, why, what metrics matter.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "pt_10",
+    "dimension": "product_thinking",
+    "text": "Я часто увлекаюсь AI-генерацией и добавляю в проект вещи, которые никто не просил — 'ну AI же быстро сделал'.",
+    "textEn": "I often get carried away with AI generation and add things to the project that nobody asked for — 'well, AI did it quickly'.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "pt_11",
+    "dimension": "product_thinking",
+    "text": "Я умею сказать 'нет' фиче, которая звучит круто, но не приоритетна — фокус важнее возможностей.",
+    "textEn": "I can say 'no' to a feature that sounds cool but isn't a priority — focus matters more than options.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "pt_12",
+    "dimension": "product_thinking",
+    "text": "Я прошу AI продумать сценарии ошибок: что если API упадёт? Если пользователь введёт ерунду? Если интернет пропадёт?",
+    "textEn": "I ask AI to think through error scenarios: what if the API goes down? What if the user enters garbage? What if the internet drops?",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "pt_13",
+    "dimension": "product_thinking",
+    "text": "Мне сложно определить, когда продукт 'достаточно хорош' для релиза — я всегда вижу, что можно улучшить.",
+    "textEn": "I struggle to determine when a product is 'good enough' for release — I always see room for improvement.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "pt_14",
+    "dimension": "product_thinking",
+    "text": "Перед тем как использовать AI для нового продукта, я описываю пользователя, его проблему и желаемый результат.",
+    "textEn": "Before using AI for a new product, I describe the user, their problem, and the desired outcome.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "pt_15",
+    "dimension": "product_thinking",
+    "text": "Я регулярно пользуюсь своим продуктом как обычный юзер — это лучший способ найти проблемы.",
+    "textEn": "I regularly use my own product as a regular user — it's the best way to find problems.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "pt_16",
+    "dimension": "product_thinking",
+    "text": "Когда AI генерирует фичу, я думаю: 'Как это будет выглядеть на мобильном? С медленным интернетом? Для новичка?'",
+    "textEn": "When AI generates a feature, I think: 'How will this look on mobile? With slow internet? For a beginner?'",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "pt_17",
+    "dimension": "product_thinking",
+    "text": "Я мыслю фичами, а не пользовательскими проблемами — мне нравится делать 'что-то крутое', даже если пользователь этого не ждёт.",
+    "textEn": "I think in features, not user problems — I enjoy building 'something cool' even if the user doesn't need it.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "pt_18",
+    "dimension": "product_thinking",
+    "text": "Я использую AI, чтобы быстро проверить гипотезу: сгенерить прототип и показать реальным пользователям.",
+    "textEn": "I use AI to quickly test a hypothesis: generate a prototype and show it to real users.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "pt_19",
+    "dimension": "product_thinking",
+    "text": "Я принимаю продуктовые решения на основе данных (метрики, фидбек, тесты), а не интуиции.",
+    "textEn": "I make product decisions based on data (metrics, feedback, tests), not intuition.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "pt_20",
+    "dimension": "product_thinking",
+    "text": "Мне сложно не добавить всё, что AI предложил — 'тут же буквально одну строчку добавить'.",
+    "textEn": "I find it hard not to add everything AI suggests — 'it's literally just one line to add'.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "pt_21",
+    "dimension": "product_thinking",
+    "text": "Я думаю о том, как продукт будет развиваться — закладываю гибкость, но не переусложняю.",
+    "textEn": "I think about how the product will evolve — I build in flexibility but don't overcomplicate.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "pt_22",
+    "dimension": "product_thinking",
+    "text": "Я прошу AI помочь с текстами и микрокопирайтингом — кнопки, ошибки, подсказки, онбординг.",
+    "textEn": "I ask AI to help with copy and microcopy — buttons, errors, tooltips, onboarding.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "pt_23",
+    "dimension": "product_thinking",
+    "text": "Я считаю, что красивый дизайн — это 'приятный бонус', а не обязательное условие хорошего продукта.",
+    "textEn": "I consider beautiful design a 'nice bonus' rather than a requirement for a good product.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "pt_24",
+    "dimension": "product_thinking",
+    "text": "Когда AI генерирует полный проект, я первым делом проверяю — а что увидит пользователь при первом запуске?",
+    "textEn": "When AI generates a full project, the first thing I check is — what will the user see on first launch?",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "pt_25",
+    "dimension": "product_thinking",
+    "text": "Я могу объяснить, почему одна фича важнее другой, опираясь на бизнес-метрики и пользовательские данные.",
+    "textEn": "I can explain why one feature is more important than another, backed by business metrics and user data.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "pt_26",
+    "dimension": "product_thinking",
+    "text": "Я использую AI, чтобы быстро сгенерировать несколько вариантов дизайна/подхода и выбрать лучший.",
+    "textEn": "I use AI to quickly generate multiple design/approach options and pick the best one.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "pt_27",
+    "dimension": "product_thinking",
+    "text": "Я предпочитаю выпустить фичу раньше, пусть и с минимумом, и потом доработать по фидбеку — а не полировать в тишине.",
+    "textEn": "I prefer to ship a feature early, even if minimal, and iterate based on feedback — rather than polishing in silence.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "pt_28",
+    "dimension": "product_thinking",
+    "text": "Мне нравится, когда AI создаёт сложные, навороченные решения — чем больше функций, тем лучше.",
+    "textEn": "I like it when AI creates complex, feature-rich solutions — the more features, the better.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "pt_29",
+    "dimension": "product_thinking",
+    "text": "Я учитываю accessibility — продукт должен быть доступен людям с ограниченными возможностями.",
+    "textEn": "I consider accessibility — the product should be usable by people with disabilities.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "pt_30",
+    "dimension": "product_thinking",
+    "text": "Я прошу AI помочь мне посмотреть на продукт глазами разных пользователей — новичка, эксперта, мобильного юзера.",
+    "textEn": "I ask AI to help me look at the product through the eyes of different users — a beginner, an expert, a mobile user.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  }
+]

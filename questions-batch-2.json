@@ -1,0 +1,1206 @@
+[
+  {
+    "id": "cl_01",
+    "dimension": "collaboration",
+    "text": "На код-ревью я стараюсь не просто указать на проблему, а объяснить почему это проблема и предложить альтернативу — чтобы автору было понятно и полезно.",
+    "textEn": "In code review, I try not just to point out problems but explain why it's a problem and suggest an alternative — so the author learns something useful.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cl_02",
+    "dimension": "collaboration",
+    "text": "Когда я нахожу классный AI-промпт или workflow, который экономит мне часы работы — я держу это при себе, потому что это моё конкурентное преимущество.",
+    "textEn": "When I find an amazing AI prompt or workflow that saves me hours — I keep it to myself because it's my competitive advantage.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cl_03",
+    "dimension": "collaboration",
+    "text": "Я спокойно воспринимаю критику своего кода — понимаю, что ревью направлено на код, а не на меня лично.",
+    "textEn": "I take code criticism calmly — I understand that review is aimed at the code, not at me personally.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cl_04",
+    "dimension": "collaboration",
+    "text": "Когда коллега использует AI для генерации кода, я при ревью придираюсь строже, чем к написанному вручную — мне кажется, AI-код требует больше скепсиса.",
+    "textEn": "When a colleague uses AI to generate code, I'm stricter in review than with hand-written code — I feel AI code deserves more skepticism.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cl_05",
+    "dimension": "collaboration",
+    "text": "Я регулярно делюсь промежуточными результатами работы с командой — даже если работа ещё не закончена. Лучше получить ранний фидбек, чем переделывать готовое.",
+    "textEn": "I regularly share work-in-progress with the team — even when it's not finished. Better to get early feedback than rework the finished product.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cl_06",
+    "dimension": "collaboration",
+    "text": "Если я использовал AI для написания значительной части кода, я предпочитаю это не упоминать в PR — не хочу, чтобы коллеги относились к этому коду с предубеждением.",
+    "textEn": "If I used AI for a significant part of the code, I prefer not to mention it in the PR — I don't want colleagues to be biased against it.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cl_07",
+    "dimension": "collaboration",
+    "text": "При парном программировании я умею переключаться между ролью «ведущего» и «наблюдателя» — мне комфортно и писать код, и наблюдать, давая советы.",
+    "textEn": "In pair programming, I can switch between 'driver' and 'navigator' roles — I'm comfortable both writing code and observing with suggestions.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cl_08",
+    "dimension": "collaboration",
+    "text": "Когда я работаю с AI-ассистентом, я фактически перестаю нуждаться в обсуждении решений с командой — AI заменяет мне «второе мнение».",
+    "textEn": "When working with an AI assistant, I essentially stop needing to discuss solutions with the team — AI replaces my 'second opinion'.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cl_09",
+    "dimension": "collaboration",
+    "text": "Я пишу документацию и комментарии не потому что заставляют, а потому что понимаю — через три месяца никто, включая меня, не вспомнит, почему этот код такой.",
+    "textEn": "I write documentation and comments not because I'm forced to, but because I know in three months nobody, including me, will remember why this code is the way it is.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cl_10",
+    "dimension": "collaboration",
+    "text": "В удалённой команде я проактивно пишу апдейты о статусе задач, а не жду, пока спросят на стендапе.",
+    "textEn": "In a remote team, I proactively post task status updates rather than waiting to be asked at standup.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cl_11",
+    "dimension": "collaboration",
+    "text": "Когда я вижу, что джуниор в команде тратит часы на промптинг без результата — я подхожу и показываю свой подход, вместо того чтобы ждать, пока он сам попросит помощи.",
+    "textEn": "When I see a junior spending hours prompting AI with no results — I step in and show my approach instead of waiting for them to ask for help.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cl_12",
+    "dimension": "collaboration",
+    "text": "Мне сложно давать честный фидбек на ревью — я боюсь испортить отношения и обычно пишу только «LGTM», даже если вижу проблемы.",
+    "textEn": "I find it hard to give honest review feedback — I'm afraid of damaging relationships and usually just write 'LGTM' even when I see issues.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "cl_13",
+    "dimension": "collaboration",
+    "text": "Я открыто говорю команде, какие части проекта делал AI, а какие писал сам — мне нечего скрывать, и это помогает при ревью.",
+    "textEn": "I openly tell the team which parts were AI-generated and which I wrote myself — I have nothing to hide, and it helps in review.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cl_14",
+    "dimension": "collaboration",
+    "text": "Когда в команде появляется новый человек, я трачу время на его онбординг — объясняю контекст, показываю кодовую базу, делюсь неписаными правилами.",
+    "textEn": "When a new person joins the team, I invest time in onboarding them — explaining context, walking through the codebase, sharing unwritten rules.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cl_15",
+    "dimension": "collaboration",
+    "text": "Я предпочитаю работать над задачами один — мне проще и быстрее сделать всё самому, чем координироваться с кем-то.",
+    "textEn": "I prefer working on tasks alone — it's easier and faster to do everything myself than coordinate with someone.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "cl_16",
+    "dimension": "collaboration",
+    "text": "Когда коллега скидывает мне AI-сгенерированный код на ревью, а я вижу типичные «AI-паттерны» (лишняя абстракция, избыточные комментарии) — я конструктивно объясняю, на что обратить внимание при AI-генерации.",
+    "textEn": "When a colleague submits AI-generated code for review and I spot typical 'AI patterns' (unnecessary abstraction, verbose comments) — I constructively explain what to watch for with AI generation.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cl_17",
+    "dimension": "collaboration",
+    "text": "Я считаю, что если человек не может объяснить код, который он закоммитил — неважно, кто его написал, AI или человек — это проблема, и я скажу об этом прямо.",
+    "textEn": "I believe if someone can't explain the code they committed — regardless of whether AI or a human wrote it — that's a problem, and I'll say it directly.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cl_18",
+    "dimension": "collaboration",
+    "text": "Мне неловко просить помощи у коллег, когда я застрял — кажется, что должен справляться сам, особенно с AI-инструментами под рукой.",
+    "textEn": "I feel awkward asking colleagues for help when I'm stuck — I feel like I should manage on my own, especially with AI tools at hand.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cl_19",
+    "dimension": "collaboration",
+    "text": "При работе над общим проектом я слежу за тем, чтобы мои изменения не ломали чужой код — запускаю тесты, проверяю зависимости, предупреждаю коллег о крупных рефакторингах.",
+    "textEn": "When working on a shared project, I make sure my changes don't break others' code — I run tests, check dependencies, warn colleagues about major refactors.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cl_20",
+    "dimension": "collaboration",
+    "text": "Я веду записи о решениях команды (ADR, decision log) — чтобы через полгода было понятно, почему мы выбрали именно этот подход.",
+    "textEn": "I maintain records of team decisions (ADRs, decision logs) — so in six months it's clear why we chose a particular approach.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cl_21",
+    "dimension": "collaboration",
+    "text": "Когда я провожу пейр-сессию с AI (я диктую, AI пишет), я стараюсь потом объяснить коллегам, что именно было сделано и почему — не бросаю PR молча.",
+    "textEn": "When I pair-program with AI (I dictate, AI writes), I make sure to explain to colleagues what was done and why — I don't just silently drop a PR.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cl_22",
+    "dimension": "collaboration",
+    "text": "Если коллега в другом часовом поясе задаёт вопрос — я стараюсь ответить максимально развёрнуто и с контекстом, чтобы ему не пришлось ждать ещё сутки для уточнения.",
+    "textEn": "If a colleague in another timezone asks a question, I try to answer thoroughly with context so they don't have to wait another day for clarification.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cl_23",
+    "dimension": "collaboration",
+    "text": "Мне кажется, что обсуждения в команде — это пустая трата времени. Проще спросить AI и сразу начать делать.",
+    "textEn": "I feel that team discussions are a waste of time. It's easier to ask AI and just start building.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cl_24",
+    "dimension": "collaboration",
+    "text": "Я организую или участвую в неформальном обмене знаниями — например, показываю на демо интересные находки или провожу мини-воркшоп по инструментам.",
+    "textEn": "I organize or participate in informal knowledge sharing — like demoing interesting findings or running mini-workshops on tools.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cl_25",
+    "dimension": "collaboration",
+    "text": "Когда мой код работает, а тесты проходят — я не считаю нужным объяснять команде, как я к этому пришёл. Результат важнее процесса.",
+    "textEn": "When my code works and tests pass, I don't see the need to explain to the team how I got there. Results matter more than process.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "cl_26",
+    "dimension": "collaboration",
+    "text": "Я помогаю команде создавать общую базу знаний по работе с AI — собираю лучшие промпты, описываю подходы, документирую подводные камни.",
+    "textEn": "I help the team build a shared AI knowledge base — collecting best prompts, describing approaches, documenting pitfalls.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cl_27",
+    "dimension": "collaboration",
+    "text": "Когда коллега предлагает подход, отличный от моего — я искренне пытаюсь понять его логику, а не сразу защищаю своё решение.",
+    "textEn": "When a colleague proposes an approach different from mine, I genuinely try to understand their reasoning rather than immediately defending my solution.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cl_28",
+    "dimension": "collaboration",
+    "text": "Я замечаю, что стал меньше общаться с командой после того, как начал активно использовать AI — мне реже нужен чужой совет или мнение.",
+    "textEn": "I've noticed I communicate less with the team since I started actively using AI — I less frequently need others' advice or opinion.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cl_29",
+    "dimension": "collaboration",
+    "text": "Если я вижу, что в проекте назревает технический долг — я поднимаю эту тему на общем обсуждении, а не молча чиню по кусочку.",
+    "textEn": "If I see technical debt accumulating in the project, I raise the topic in a team discussion rather than quietly fixing bits and pieces.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cl_30",
+    "dimension": "collaboration",
+    "text": "Мне сложно доверять коду, который коллега сгенерировал через AI, если он не может объяснить каждую строчку — и я говорю ему об этом открыто.",
+    "textEn": "I struggle to trust code a colleague generated via AI if they can't explain every line — and I tell them this openly.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+
+  {
+    "id": "ld_01",
+    "dimension": "leadership",
+    "text": "Когда я вижу системную проблему в процессах команды — я не жду, пока руководство заметит, а сам формулирую предложение и выношу на обсуждение.",
+    "textEn": "When I spot a systemic issue in team processes, I don't wait for management to notice — I formulate a proposal and bring it up for discussion.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ld_02",
+    "dimension": "leadership",
+    "text": "Я считаю, что предлагать изменения без просьбы — это лезть не в своё дело. Лучше делать что говорят и не высовываться.",
+    "textEn": "I think proposing changes nobody asked for is overstepping. It's better to do what you're told and keep your head down.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "ld_03",
+    "dimension": "leadership",
+    "text": "Когда появляется новый AI-инструмент, который может ускорить работу команды — я сам тестирую его, готовлю демо и предлагаю пилот, а не жду, пока кто-то сверху скажет «попробуйте».",
+    "textEn": "When a new AI tool appears that could speed up the team — I test it myself, prepare a demo, and propose a pilot, rather than waiting for someone above to say 'try it'.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ld_04",
+    "dimension": "leadership",
+    "text": "Когда нужно принять решение, а данных мало и время поджимает — я могу взять ответственность на себя и решить, а не бесконечно собирать мнения.",
+    "textEn": "When a decision needs to be made with little data and tight deadlines — I can take responsibility and decide rather than endlessly collecting opinions.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ld_05",
+    "dimension": "leadership",
+    "text": "Мне комфортнее, когда решение принимает кто-то другой — так если что-то пойдёт не так, ответственность не на мне.",
+    "textEn": "I'm more comfortable when someone else makes the decision — that way if something goes wrong, the responsibility isn't on me.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "ld_06",
+    "dimension": "leadership",
+    "text": "Я активно продвигаю в команде культуру AI-грамотности — объясняю возможности и ограничения, помогаю скептикам увидеть пользу, а энтузиастам — риски.",
+    "textEn": "I actively promote AI literacy culture in the team — explaining capabilities and limitations, helping skeptics see benefits and enthusiasts see risks.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ld_07",
+    "dimension": "leadership",
+    "text": "Я умею делегировать задачи — даже если мне кажется, что сам сделаю лучше. Понимаю, что рост команды важнее моего перфекционизма.",
+    "textEn": "I can delegate tasks — even when I think I'd do it better myself. I understand that team growth matters more than my perfectionism.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ld_08",
+    "dimension": "leadership",
+    "text": "Когда что-то идёт не так по моей вине — я не ищу виноватых и не прячусь за «AI так сгенерировал». Я открыто признаю ошибку и предлагаю план исправления.",
+    "textEn": "When something goes wrong because of me — I don't look for someone to blame or hide behind 'AI generated it that way'. I openly admit the mistake and propose a fix.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ld_09",
+    "dimension": "leadership",
+    "text": "Я замечаю, когда команда теряет мотивацию или буксует — и стараюсь что-то с этим сделать: поговорить, предложить помощь, изменить подход.",
+    "textEn": "I notice when the team loses motivation or gets stuck — and I try to do something about it: talk, offer help, change the approach.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ld_10",
+    "dimension": "leadership",
+    "text": "Когда руководство просит внедрить AI в рабочий процесс, а команда сопротивляется — я стою в стороне и жду, пока ситуация разрешится сама.",
+    "textEn": "When management asks to adopt AI in the workflow and the team resists — I stand aside and wait for the situation to resolve itself.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ld_11",
+    "dimension": "leadership",
+    "text": "Я могу задать направление для проекта, когда его нет — разобраться в требованиях, предложить архитектуру и план действий, не дожидаясь детального ТЗ.",
+    "textEn": "I can set direction for a project when there is none — figure out requirements, propose architecture and an action plan without waiting for a detailed spec.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ld_12",
+    "dimension": "leadership",
+    "text": "Я стараюсь подавать пример — если прошу команду писать тесты, то сам пишу первым. Если прошу документировать — документирую свои решения.",
+    "textEn": "I lead by example — if I ask the team to write tests, I write them first. If I ask for documentation, I document my own decisions.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ld_13",
+    "dimension": "leadership",
+    "text": "Когда я вижу, что ручной процесс можно автоматизировать с помощью AI — я не просто предлагаю идею, а делаю прототип и показываю результат.",
+    "textEn": "When I see a manual process that could be automated with AI — I don't just suggest the idea, I build a prototype and show the result.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ld_14",
+    "dimension": "leadership",
+    "text": "Я считаю, что лидерство — это для менеджеров. Я разработчик, моя задача — писать код, а не мотивировать людей.",
+    "textEn": "I think leadership is for managers. I'm a developer, my job is to write code, not motivate people.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "ld_15",
+    "dimension": "leadership",
+    "text": "Когда в команде нет согласия по AI-стратегии (какие инструменты использовать, как валидировать) — я инициирую обсуждение и помогаю выработать общие правила.",
+    "textEn": "When the team has no consensus on AI strategy (which tools to use, how to validate) — I initiate discussion and help establish common ground rules.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ld_16",
+    "dimension": "leadership",
+    "text": "Я не боюсь принимать непопулярные решения, если считаю их правильными — и готов объяснить своё мышление команде.",
+    "textEn": "I'm not afraid to make unpopular decisions if I believe they're right — and I'm ready to explain my reasoning to the team.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ld_17",
+    "dimension": "leadership",
+    "text": "Когда AI-инструмент, который я продвигал, не оправдывает ожиданий — я открыто признаю это и предлагаю скорректировать курс, а не продолжаю защищать неудачный выбор.",
+    "textEn": "When an AI tool I championed doesn't meet expectations — I openly admit it and suggest course correction rather than continuing to defend a bad choice.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ld_18",
+    "dimension": "leadership",
+    "text": "Я склонен брать на себя слишком много задач и не делегировать — потому что AI позволяет мне делать работу быстрее, и мне кажется, что проще сделать самому.",
+    "textEn": "I tend to take on too many tasks and not delegate — because AI lets me work faster and it feels easier to just do it myself.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ld_19",
+    "dimension": "leadership",
+    "text": "Я помогаю команде не только с техническими вопросами, но и с процессами — предлагаю улучшения в workflows, ретроспективах, планировании.",
+    "textEn": "I help the team not only with technical issues but also with processes — suggesting improvements to workflows, retrospectives, planning.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ld_20",
+    "dimension": "leadership",
+    "text": "Когда проект буксует, я могу собрать встречу, определить блокеры и предложить конкретные шаги — даже если формально это не моя роль.",
+    "textEn": "When a project is stuck, I can call a meeting, identify blockers, and propose concrete steps — even if it's not formally my role.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ld_21",
+    "dimension": "leadership",
+    "text": "Мне сложно сказать «нет» руководству, даже когда я понимаю, что задача бессмысленная или сроки нереальные.",
+    "textEn": "I find it hard to say 'no' to management even when I know the task is pointless or the deadlines are unrealistic.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "ld_22",
+    "dimension": "leadership",
+    "text": "Я создаю пространство для экспериментов с AI в команде — выделяю время на исследования, защищаю это время от рутинных задач.",
+    "textEn": "I create space for AI experimentation in the team — allocating time for research and protecting it from routine tasks.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ld_23",
+    "dimension": "leadership",
+    "text": "Когда я вижу, что коллега перегорает — я не просто сочувствую, а предлагаю конкретную помощь: забрать задачу, перераспределить нагрузку, подключить дополнительные ресурсы.",
+    "textEn": "When I see a colleague burning out — I don't just sympathize, I offer concrete help: take over a task, redistribute workload, bring in extra resources.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ld_24",
+    "dimension": "leadership",
+    "text": "Если AI-инструмент вызывает этические вопросы (приватность данных, copyright, bias) — я поднимаю эту тему, даже если остальные не видят проблемы.",
+    "textEn": "If an AI tool raises ethical concerns (data privacy, copyright, bias) — I raise the topic even when others don't see a problem.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ld_25",
+    "dimension": "leadership",
+    "text": "Я стараюсь развивать людей вокруг себя — даю развёрнутый фидбек, рекомендую ресурсы, помогаю с карьерным ростом.",
+    "textEn": "I try to develop people around me — I give detailed feedback, recommend resources, help with career growth.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ld_26",
+    "dimension": "leadership",
+    "text": "Когда команде нужно выбрать между двумя AI-подходами и мнения разделились — я помогаю структурировать дискуссию: критерии оценки, тест на реальных данных, дедлайн для решения.",
+    "textEn": "When the team needs to choose between two AI approaches and opinions are split — I help structure the discussion: evaluation criteria, real data test, decision deadline.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ld_27",
+    "dimension": "leadership",
+    "text": "Я предпочитаю не высказываться первым на собраниях — жду, пока более опытные коллеги определят направление.",
+    "textEn": "I prefer not to speak first in meetings — I wait for more experienced colleagues to set the direction.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "ld_28",
+    "dimension": "leadership",
+    "text": "Когда я внедряю AI-инструмент в команде, я не просто кидаю ссылку в чат — я готовлю onboarding: инструкцию, примеры, отвечаю на вопросы.",
+    "textEn": "When I introduce an AI tool to the team, I don't just drop a link in chat — I prepare onboarding: instructions, examples, answer questions.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ld_29",
+    "dimension": "leadership",
+    "text": "Я способен отстоять техническое решение перед стейкхолдерами — объяснить trade-offs на понятном языке и добиться поддержки.",
+    "textEn": "I can defend a technical decision to stakeholders — explain trade-offs in accessible language and win their support.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ld_30",
+    "dimension": "leadership",
+    "text": "Если мой AI-эксперимент провалился и команда потратила время зря — я склонен замалчивать масштаб проблемы, чтобы не выглядеть некомпетентным.",
+    "textEn": "If my AI experiment failed and the team wasted time — I tend to downplay the scale of the problem so I don't look incompetent.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+
+  {
+    "id": "cr_01",
+    "dimension": "conflict_resolution",
+    "text": "Когда я не согласен с коллегой, я стараюсь сначала пересказать его позицию своими словами — чтобы убедиться, что правильно понял, прежде чем спорить.",
+    "textEn": "When I disagree with a colleague, I first try to restate their position in my own words — to make sure I understand before arguing.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cr_02",
+    "dimension": "conflict_resolution",
+    "text": "В споре о том, использовать AI или делать вручную — я готов привести конкретные аргументы: время, качество, поддерживаемость — а не просто «AI лучше» или «руками надёжнее».",
+    "textEn": "In a debate about using AI vs doing it manually — I'm ready to give specific arguments: time, quality, maintainability — not just 'AI is better' or 'manual is safer'.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cr_03",
+    "dimension": "conflict_resolution",
+    "text": "Мне проще написать в чат, чем обсуждать конфликт голосом — в тексте я лучше контролирую эмоции.",
+    "textEn": "I find it easier to write in chat than discuss conflict by voice — I control my emotions better in text.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "cr_04",
+    "dimension": "conflict_resolution",
+    "text": "Когда я понимаю, что ошибся в техническом споре — я могу прямо сказать: «Ты был прав, я ошибался. Спасибо, что настоял».",
+    "textEn": "When I realize I was wrong in a technical argument, I can directly say: 'You were right, I was wrong. Thanks for pushing back.'",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cr_05",
+    "dimension": "conflict_resolution",
+    "text": "Когда коллега категорически против AI-инструментов и блокирует их внедрение — я скорее отступлю, чем буду настаивать, даже если уверен в пользе.",
+    "textEn": "When a colleague is categorically against AI tools and blocks their adoption — I'd rather back down than insist, even if I'm confident in the benefit.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cr_06",
+    "dimension": "conflict_resolution",
+    "text": "Я умею давать жёсткий фидбек так, чтобы человек не закрылся — фокусируюсь на конкретных действиях и последствиях, а не на личности.",
+    "textEn": "I can give tough feedback without making the person shut down — I focus on specific actions and consequences, not on personality.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cr_07",
+    "dimension": "conflict_resolution",
+    "text": "Когда двое коллег спорят и не могут договориться — я иногда выступаю медиатором: помогаю обоим увидеть суть разногласия и найти компромисс.",
+    "textEn": "When two colleagues argue and can't agree — I sometimes step in as a mediator: help both see the core disagreement and find a compromise.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cr_08",
+    "dimension": "conflict_resolution",
+    "text": "В споре о качестве AI-сгенерированного кода я склонен переходить на личности: «Ты просто не умеешь промптить» или «Ты просто боишься нового».",
+    "textEn": "In debates about AI-generated code quality, I tend to get personal: 'You just can't prompt properly' or 'You're just afraid of new things.'",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cr_09",
+    "dimension": "conflict_resolution",
+    "text": "Когда на меня повышают голос или критикуют резко — я могу сохранить спокойствие и отвечать по существу, не переходя в оборону.",
+    "textEn": "When someone raises their voice or criticizes me harshly — I can stay calm and respond substantively without getting defensive.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cr_10",
+    "dimension": "conflict_resolution",
+    "text": "Я замечаю, когда мелкое недовольство в команде начинает перерастать в серьёзный конфликт — и стараюсь поднять тему раньше, чем бахнет.",
+    "textEn": "I notice when small frustrations in the team start escalating into a serious conflict — and I try to address it before it explodes.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cr_11",
+    "dimension": "conflict_resolution",
+    "text": "Когда коллега-сеньор настаивает, что AI-код нужно полностью переписать вручную, а я уверен, что достаточно точечных правок — я молчу, потому что он опытнее.",
+    "textEn": "When a senior colleague insists AI code needs a full manual rewrite, and I'm sure targeted fixes would suffice — I stay quiet because they're more experienced.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cr_12",
+    "dimension": "conflict_resolution",
+    "text": "Я умею находить компромисс, который устраивает обе стороны — даже если это означает, что мне придётся уступить в чём-то важном для меня.",
+    "textEn": "I can find compromises that work for both sides — even if it means I have to give up something important to me.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cr_13",
+    "dimension": "conflict_resolution",
+    "text": "Когда в команде возникает спор «AI vs ручная работа» — я предлагаю проверить оба подхода на практике, а не спорить теоретически.",
+    "textEn": "When the team debates 'AI vs manual work' — I suggest testing both approaches in practice rather than arguing theoretically.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cr_14",
+    "dimension": "conflict_resolution",
+    "text": "Если я знаю, что мой код правильный, а ревьюер ошибается — я стою на своём и объясняю почему, а не соглашаюсь ради мира.",
+    "textEn": "If I know my code is correct and the reviewer is wrong — I stand my ground and explain why, rather than agreeing for the sake of peace.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cr_15",
+    "dimension": "conflict_resolution",
+    "text": "Когда коллега обвиняет меня в том, что я «обленился» из-за AI и перестал думать сам — я воспринимаю это как личную атаку и злюсь.",
+    "textEn": "When a colleague accuses me of getting 'lazy' because of AI and not thinking for myself — I take it as a personal attack and get angry.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cr_16",
+    "dimension": "conflict_resolution",
+    "text": "Я не боюсь поднимать неудобные темы — если вижу проблему, которую все обходят стороной, я говорю о ней прямо.",
+    "textEn": "I'm not afraid to raise uncomfortable topics — if I see a problem everyone avoids, I address it directly.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cr_17",
+    "dimension": "conflict_resolution",
+    "text": "Когда я чувствую, что спор заходит в тупик — я умею нажать на паузу: «Давайте вернёмся к этому завтра, когда все остынут».",
+    "textEn": "When I feel an argument is going nowhere — I know how to hit pause: 'Let's come back to this tomorrow when everyone's cooled down.'",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cr_18",
+    "dimension": "conflict_resolution",
+    "text": "Когда политические решения в компании мешают техническому прогрессу (например, запрет AI из-за compliance) — я нахожу способ конструктивно влиять на ситуацию через правильных людей.",
+    "textEn": "When political decisions at the company hinder technical progress (e.g., banning AI due to compliance) — I find ways to constructively influence the situation through the right people.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cr_19",
+    "dimension": "conflict_resolution",
+    "text": "После конфликта я обычно долго прокручиваю в голове, что мог сказать по-другому — и это мешает мне двигаться дальше.",
+    "textEn": "After a conflict, I usually replay in my head what I could have said differently — and it prevents me from moving on.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "cr_20",
+    "dimension": "conflict_resolution",
+    "text": "Я умею отделять идею от человека — могу жёстко критиковать решение, но при этом уважать автора.",
+    "textEn": "I can separate the idea from the person — I can harshly critique a solution while still respecting the author.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cr_21",
+    "dimension": "conflict_resolution",
+    "text": "Когда AI выдаёт решение, которое противоречит мнению старшего коллеги — я предпочитаю молча согласиться с коллегой, чтобы не создавать конфликт.",
+    "textEn": "When AI produces a solution that contradicts a senior colleague's opinion — I prefer to silently agree with the colleague to avoid conflict.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cr_22",
+    "dimension": "conflict_resolution",
+    "text": "Я понимаю, что не все конфликты нужно решать — иногда правильнее принять разногласие и работать дальше.",
+    "textEn": "I understand that not all conflicts need resolution — sometimes it's better to accept the disagreement and move on.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cr_23",
+    "dimension": "conflict_resolution",
+    "text": "Если коллега критикует мой подход к работе с AI — например, говорит, что я слишком полагаюсь на него — я могу выслушать и честно оценить, есть ли в этом правда.",
+    "textEn": "If a colleague criticizes my approach to working with AI — say, that I rely on it too much — I can listen and honestly assess whether there's truth in it.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cr_24",
+    "dimension": "conflict_resolution",
+    "text": "Я склонен соглашаться со всеми, чтобы не создавать трения — даже если внутренне не согласен с решением.",
+    "textEn": "I tend to agree with everyone to avoid friction — even when I internally disagree with the decision.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "cr_25",
+    "dimension": "conflict_resolution",
+    "text": "Когда тимлид принимает решение, с которым я не согласен — я могу высказать несогласие один раз конструктивно, но если решение принято — я его выполняю без саботажа.",
+    "textEn": "When a team lead makes a decision I disagree with — I can voice my disagreement once constructively, but once the decision is made, I execute without sabotage.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cr_26",
+    "dimension": "conflict_resolution",
+    "text": "В ситуации, когда половина команды за AI-подход, а половина против — я стараюсь найти решение, которое учтёт опасения обеих сторон, а не просто победу большинства.",
+    "textEn": "When half the team favors an AI approach and half opposes it — I try to find a solution that addresses both sides' concerns, not just majority wins.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cr_27",
+    "dimension": "conflict_resolution",
+    "text": "Я умею извиняться конкретно — не абстрактное «извини если что», а «я был неправ, когда сказал X, потому что Y, и вот что я сделаю иначе».",
+    "textEn": "I can apologize specifically — not a vague 'sorry if anything' but 'I was wrong when I said X because Y, and here's what I'll do differently.'",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "cr_28",
+    "dimension": "conflict_resolution",
+    "text": "Когда кто-то из команды допускает ошибку с AI (например, закоммитил галлюцинацию в прод) — я не устраиваю публичную «казнь», а помогаю разобраться и предотвратить повторение.",
+    "textEn": "When someone on the team makes an AI mistake (e.g., commits a hallucination to prod) — I don't publicly shame them, but help investigate and prevent recurrence.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "cr_29",
+    "dimension": "conflict_resolution",
+    "text": "Когда два коллеги спорят, я часто занимаю сторону того, кто мне ближе лично — даже если объективно его аргументы слабее.",
+    "textEn": "When two colleagues argue, I often side with the one I'm personally closer to — even if objectively their arguments are weaker.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "cr_30",
+    "dimension": "conflict_resolution",
+    "text": "Я могу обсуждать с коллегой спорный AI-подход без того, чтобы это превращалось в «война поколений» — опытные vs молодые, скептики vs энтузиасты.",
+    "textEn": "I can discuss a controversial AI approach with a colleague without it turning into a 'generational war' — experienced vs young, skeptics vs enthusiasts.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+
+  {
+    "id": "ei_01",
+    "dimension": "emotional_intelligence",
+    "text": "Я замечаю по тону сообщений в чате, когда коллега раздражён или расстроен — даже если он прямо об этом не говорит.",
+    "textEn": "I notice from the tone of chat messages when a colleague is irritated or upset — even when they don't say it explicitly.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ei_02",
+    "dimension": "emotional_intelligence",
+    "text": "Когда AI раз за разом выдаёт бред — я ловлю себя на том, что начинаю злиться на инструмент как на живого собеседника.",
+    "textEn": "When AI repeatedly outputs nonsense — I catch myself getting angry at the tool as if it were a real person.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ei_03",
+    "dimension": "emotional_intelligence",
+    "text": "Я умею радоваться чужим успехам — когда коллега сделал крутую фичу или получил повышение, я искренне за него рад, без примеси зависти.",
+    "textEn": "I can genuinely celebrate others' successes — when a colleague ships a cool feature or gets promoted, I'm happy for them without a hint of envy.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ei_04",
+    "dimension": "emotional_intelligence",
+    "text": "Мне сложно попросить о помощи, когда я застрял — я чувствую, что это покажет мою некомпетентность.",
+    "textEn": "I find it hard to ask for help when I'm stuck — I feel it would show my incompetence.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "ei_05",
+    "dimension": "emotional_intelligence",
+    "text": "Я замечаю, когда коллега переживает из-за того, что AI может заменить его работу — и стараюсь поддержать, показать перспективу.",
+    "textEn": "I notice when a colleague is anxious that AI might replace their job — and I try to support them and show perspective.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ei_06",
+    "dimension": "emotional_intelligence",
+    "text": "Когда я устал или раздражён — я продолжаю общаться с командой как обычно, не считая нужным фильтровать тон. Они взрослые люди.",
+    "textEn": "When I'm tired or irritated, I continue communicating with the team as usual without filtering my tone. They're adults.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "ei_07",
+    "dimension": "emotional_intelligence",
+    "text": "Я знаю свои триггеры — ситуации, после которых я становлюсь менее продуктивным или раздражительным, и умею заранее принять меры.",
+    "textEn": "I know my triggers — situations that make me less productive or irritable — and I can take preemptive measures.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ei_08",
+    "dimension": "emotional_intelligence",
+    "text": "Когда AI помогает мне сделать за час то, на что коллега тратит день вручную — я не хвастаюсь этим, а предлагаю показать подход.",
+    "textEn": "When AI helps me do in an hour what a colleague spends a day on manually — I don't brag about it, I offer to show the approach.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ei_09",
+    "dimension": "emotional_intelligence",
+    "text": "Я замечаю у себя признаки выгорания — потерю интереса, цинизм, хроническую усталость — и принимаю меры, а не игнорирую.",
+    "textEn": "I notice signs of burnout in myself — loss of interest, cynicism, chronic fatigue — and take action rather than ignore it.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ei_10",
+    "dimension": "emotional_intelligence",
+    "text": "Когда я чувствую фрустрацию от работы с AI (ничего не получается, модель тупит) — я делаю паузу, а не продолжаю злиться и генерировать запрос за запросом.",
+    "textEn": "When I feel frustrated working with AI (nothing works, the model is being dumb) — I take a break instead of continuing to rage and prompt after prompt.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ei_11",
+    "dimension": "emotional_intelligence",
+    "text": "Мне бывает сложно понять, почему коллега обиделся на мой комментарий в код-ревью — я писал по делу, без эмоций.",
+    "textEn": "I sometimes struggle to understand why a colleague got offended by my code review comment — I was writing about the code, without emotions.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "ei_12",
+    "dimension": "emotional_intelligence",
+    "text": "Я чувствую тревогу, когда вижу, как быстро развивается AI — и эта тревога иногда мешает мне сосредоточиться на текущей работе.",
+    "textEn": "I feel anxious watching how fast AI is developing — and this anxiety sometimes prevents me from focusing on my current work.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ei_13",
+    "dimension": "emotional_intelligence",
+    "text": "Я могу открыто сказать команде: «Мне сейчас тяжело» или «Я перегружен» — не считаю это слабостью.",
+    "textEn": "I can openly tell the team: 'I'm having a hard time' or 'I'm overloaded' — I don't see it as weakness.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ei_14",
+    "dimension": "emotional_intelligence",
+    "text": "Когда коллега делает ошибку — я думаю о том, как он себя сейчас чувствует, а не только о последствиях для проекта.",
+    "textEn": "When a colleague makes a mistake — I think about how they're feeling right now, not just the consequences for the project.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ei_15",
+    "dimension": "emotional_intelligence",
+    "text": "Меня раздражают коллеги, которые не хотят учиться использовать AI — я считаю это ленью и нежеланием развиваться.",
+    "textEn": "I get irritated by colleagues who don't want to learn to use AI — I see it as laziness and unwillingness to grow.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ei_16",
+    "dimension": "emotional_intelligence",
+    "text": "На созвонах я обращаю внимание на невербальные сигналы — кто молчит, кто выглядит отстранённым, кто напряжён.",
+    "textEn": "In video calls, I pay attention to non-verbal signals — who's silent, who looks disengaged, who seems tense.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ei_17",
+    "dimension": "emotional_intelligence",
+    "text": "Когда я генерирую с AI что-то крутое и мне не терпится показать — я сначала думаю о контексте: уместно ли это сейчас, не заденет ли кого-то.",
+    "textEn": "When I generate something cool with AI and can't wait to show it — I first think about context: is this appropriate now, could it bother anyone.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ei_18",
+    "dimension": "emotional_intelligence",
+    "text": "Я замечаю, когда мой стресс начинает влиять на качество моего кода и решений — и это для меня сигнал остановиться.",
+    "textEn": "I notice when my stress starts affecting the quality of my code and decisions — and that's my signal to stop.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ei_19",
+    "dimension": "emotional_intelligence",
+    "text": "Когда кто-то в команде делает меньше, чем мог бы — я сразу думаю «лентяй», а не «может, у человека что-то случилось».",
+    "textEn": "When someone on the team delivers less than they could — I immediately think 'lazy' rather than 'maybe something is going on in their life.'",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "ei_20",
+    "dimension": "emotional_intelligence",
+    "text": "Я осознаю свои слабые стороны и могу о них говорить — не для галочки, а реально понимаю, в чём я пока не силён.",
+    "textEn": "I'm aware of my weaknesses and can talk about them — not performatively, but I genuinely understand where I'm not strong yet.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ei_21",
+    "dimension": "emotional_intelligence",
+    "text": "Когда я вижу, что коллега чрезмерно увлёкся AI и забросил фундаментальные навыки — я нахожу тактичный способ обратить на это внимание, а не осуждаю за спиной.",
+    "textEn": "When I see a colleague over-relying on AI and neglecting fundamental skills — I find a tactful way to bring it up rather than judge behind their back.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ei_22",
+    "dimension": "emotional_intelligence",
+    "text": "Мне сложно отключиться от работы — я продолжаю думать о задачах вечером и на выходных, и AI усугубляет это, потому что «можно же быстро попробовать».",
+    "textEn": "I find it hard to disconnect from work — I keep thinking about tasks in the evening and on weekends, and AI makes it worse because 'I can just quickly try it.'",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ei_23",
+    "dimension": "emotional_intelligence",
+    "text": "Я понимаю, что мои эмоции влияют на команду — если я в плохом настроении, это чувствуется, и я стараюсь это контролировать.",
+    "textEn": "I understand that my emotions affect the team — if I'm in a bad mood, it's noticeable, and I try to manage it.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ei_24",
+    "dimension": "emotional_intelligence",
+    "text": "Когда коллега рассказывает о проблеме — я слушаю до конца, а не начинаю сразу предлагать решения или перебивать своим опытом.",
+    "textEn": "When a colleague shares a problem — I listen until the end rather than immediately jumping in with solutions or my own experience.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ei_25",
+    "dimension": "emotional_intelligence",
+    "text": "Я испытываю «синдром самозванца» из-за AI — мне кажется, что мои достижения обесцениваются, раз «это AI сделал».",
+    "textEn": "I experience impostor syndrome because of AI — I feel my achievements are devalued since 'AI did it.'",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ei_26",
+    "dimension": "emotional_intelligence",
+    "text": "Я умею считывать, когда человеку нужна просто поддержка, а когда — конкретный совет. И реагирую соответственно.",
+    "textEn": "I can read when someone just needs support vs when they need specific advice. And I respond accordingly.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ei_27",
+    "dimension": "emotional_intelligence",
+    "text": "Когда я вижу, что команда устала и на грани выгорания — я поднимаю эту тему, а не молча наблюдаю, как все ломаются.",
+    "textEn": "When I see the team is tired and on the verge of burnout — I raise the topic rather than silently watch everyone break down.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ei_28",
+    "dimension": "emotional_intelligence",
+    "text": "Мне трудно принять, когда коллега получает похвалу за проект, в котором основную работу сделал AI по моим промптам — я чувствую несправедливость.",
+    "textEn": "I struggle when a colleague gets praise for a project where AI did the heavy lifting from my prompts — I feel it's unfair.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "ei_29",
+    "dimension": "emotional_intelligence",
+    "text": "Я могу работать с людьми, которые мне лично несимпатичны — отделяю личное от профессионального.",
+    "textEn": "I can work with people I don't personally like — I separate personal from professional.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "ei_30",
+    "dimension": "emotional_intelligence",
+    "text": "Когда AI заменяет рутину, которую я привык делать — я чувствую потерю идентичности как специалист, будто мои навыки больше не нужны.",
+    "textEn": "When AI replaces routine work I used to do — I feel a loss of identity as a specialist, as if my skills are no longer needed.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+
+  {
+    "id": "tm_01",
+    "dimension": "time_management",
+    "text": "Я умею отличать задачу, которая реально требует 8 часов, от той, которую я сам раздуваю до 8 часов перфекционизмом.",
+    "textEn": "I can tell the difference between a task that genuinely requires 8 hours and one I inflate to 8 hours through perfectionism.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "tm_02",
+    "dimension": "time_management",
+    "text": "Я часто ныряю в AI-генерацию «ещё одного варианта» — и через два часа понимаю, что первый вариант был нормальным.",
+    "textEn": "I often dive into generating 'one more variant' with AI — and two hours later realize the first version was fine.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "tm_03",
+    "dimension": "time_management",
+    "text": "Я чётко понимаю, когда задача быстрее решается руками, а когда стоит потратить время на промптинг — и не попадаю в ловушку автоматизации ради автоматизации.",
+    "textEn": "I clearly understand when a task is faster done by hand vs when it's worth investing time in prompting — and I don't fall into the automation-for-automation's-sake trap.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "tm_04",
+    "dimension": "time_management",
+    "text": "Я умею говорить «нет» — если задача не влезает в спринт или я уже перегружен, я честно говорю об этом, а не молча беру и потом не успеваю.",
+    "textEn": "I can say 'no' — if a task doesn't fit the sprint or I'm already overloaded, I'm honest about it instead of silently taking it and then missing deadlines.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "tm_05",
+    "dimension": "time_management",
+    "text": "Мне сложно остановиться, когда AI предлагает «а можно ещё вот это улучшить» — и в итоге я полирую то, что уже работает, вместо того чтобы двигаться дальше.",
+    "textEn": "I find it hard to stop when AI suggests 'we could also improve this' — and I end up polishing what already works instead of moving forward.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "tm_06",
+    "dimension": "time_management",
+    "text": "Я защищаю своё время для deep work — ставлю блоки в календаре, отключаю нотификации, не позволяю встречам съесть весь день.",
+    "textEn": "I protect my deep work time — I block calendar slots, turn off notifications, and don't let meetings eat up the whole day.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "tm_07",
+    "dimension": "time_management",
+    "text": "Когда я даю оценку срока задачи — я учитываю время на ревью, тестирование, фиксы, а не только на написание кода.",
+    "textEn": "When I estimate a task timeline, I account for review, testing, and fixes — not just writing the code.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "tm_08",
+    "dimension": "time_management",
+    "text": "Я иногда трачу час на то, чтобы заставить AI написать идеальный regex или SQL-запрос, хотя за 10 минут мог бы написать его сам.",
+    "textEn": "I sometimes spend an hour trying to get AI to write the perfect regex or SQL query, when I could have written it myself in 10 minutes.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "tm_09",
+    "dimension": "time_management",
+    "text": "Я умею батчить похожие задачи — собираю все мелкие правки, баг-фиксы или ревью и делаю их блоком, а не переключаюсь туда-сюда.",
+    "textEn": "I batch similar tasks — I collect all small fixes, bug patches, or reviews and do them in a block, rather than switching back and forth.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "tm_10",
+    "dimension": "time_management",
+    "text": "Когда я использую AI для нескольких задач параллельно — я часто теряю фокус и в итоге ни одна задача не доведена до конца.",
+    "textEn": "When I use AI for several tasks in parallel — I often lose focus and end up with none of the tasks completed.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "tm_11",
+    "dimension": "time_management",
+    "text": "Я знаю свои продуктивные часы — когда я работаю лучше всего — и стараюсь ставить сложные задачи на это время.",
+    "textEn": "I know my productive hours — when I work best — and I try to schedule difficult tasks during that time.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "tm_12",
+    "dimension": "time_management",
+    "text": "Я часто начинаю с интересной задачи, а не с важной — особенно если AI делает интересную задачу ещё увлекательнее.",
+    "textEn": "I often start with the interesting task rather than the important one — especially when AI makes the interesting task even more engaging.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "tm_13",
+    "dimension": "time_management",
+    "text": "На встречах я слежу за таймингом и повесткой — если разговор уходит в сторону, я возвращаю фокус.",
+    "textEn": "In meetings I watch the timing and agenda — if the conversation goes off track, I bring it back to focus.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "tm_14",
+    "dimension": "time_management",
+    "text": "Я корректирую свои оценки сроков с учётом AI — понимаю, что одни задачи AI ускоряет в разы, а другие почти не ускоряет.",
+    "textEn": "I adjust my time estimates accounting for AI — I understand that AI speeds up some tasks dramatically and others barely at all.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "tm_15",
+    "dimension": "time_management",
+    "text": "Я иногда работаю допоздна не потому что много работы, а потому что увлёкся экспериментами с AI — и потом на следующий день выжат.",
+    "textEn": "I sometimes work late not because there's a lot of work, but because I got carried away experimenting with AI — and then I'm drained the next day.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "tm_16",
+    "dimension": "time_management",
+    "text": "Я начинаю день с плана — определяю 2-3 главные задачи и стараюсь сделать их, не отвлекаясь на мелочи.",
+    "textEn": "I start the day with a plan — I identify 2-3 main tasks and try to complete them without getting distracted by small things.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "tm_17",
+    "dimension": "time_management",
+    "text": "Мне сложно оценить время на задачу с AI — иногда AI делает за 5 минут, иногда я трачу 3 часа на то, чтобы добиться приемлемого результата.",
+    "textEn": "I find it hard to estimate task time with AI — sometimes AI does it in 5 minutes, sometimes I spend 3 hours getting an acceptable result.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "tm_18",
+    "dimension": "time_management",
+    "text": "Если задача оказывается сложнее, чем я ожидал — я сообщаю об этом команде/менеджеру заранее, а не молчу до последнего момента.",
+    "textEn": "If a task turns out harder than expected — I inform the team/manager early rather than staying silent until the last moment.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "tm_19",
+    "dimension": "time_management",
+    "text": "Я устанавливаю себе таймер, когда начинаю экспериментировать с AI — если за 30 минут нет прогресса, я переключаюсь на другой подход.",
+    "textEn": "I set a timer when I start experimenting with AI — if there's no progress in 30 minutes, I switch to a different approach.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "tm_20",
+    "dimension": "time_management",
+    "text": "Я часто соглашаюсь на дополнительные задачи, хотя знаю, что уже перегружен — не умею отказывать.",
+    "textEn": "I often agree to extra tasks even though I know I'm already overloaded — I can't say no.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "tm_21",
+    "dimension": "time_management",
+    "text": "Я понимаю разницу между «занят» и «продуктивен» — могу честно оценить, сколько из рабочего дня я реально двигаю задачи вперёд.",
+    "textEn": "I understand the difference between 'busy' and 'productive' — I can honestly assess how much of my workday I'm actually moving tasks forward.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "tm_22",
+    "dimension": "time_management",
+    "text": "Когда AI предлагает рефакторинг, который «сделает код красивее», но не влияет на функциональность — я оцениваю, стоит ли тратить на это время сейчас.",
+    "textEn": "When AI suggests a refactoring that would 'make the code prettier' but doesn't affect functionality — I evaluate whether it's worth spending time on right now.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "tm_23",
+    "dimension": "time_management",
+    "text": "Я обычно делаю задачи в последний момент — давление дедлайна мне помогает сосредоточиться.",
+    "textEn": "I usually do tasks at the last moment — deadline pressure helps me focus.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "tm_24",
+    "dimension": "time_management",
+    "text": "Когда я вижу, что промптинг не даёт результата за разумное время — я могу переключиться на ручное решение без чувства поражения.",
+    "textEn": "When I see that prompting isn't yielding results in a reasonable time — I can switch to a manual solution without feeling defeated.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "tm_25",
+    "dimension": "time_management",
+    "text": "Я умею управлять своей энергией в течение дня — чередую сложные задачи с простыми, делаю перерывы, не работаю на износ.",
+    "textEn": "I manage my energy throughout the day — I alternate hard tasks with easy ones, take breaks, and don't work until exhaustion.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "tm_26",
+    "dimension": "time_management",
+    "text": "AI создаёт у меня иллюзию, что я могу успеть больше — и в итоге я набираю слишком много задач и ничего не доделываю до конца.",
+    "textEn": "AI creates an illusion that I can get more done — and I end up taking on too many tasks and finishing none of them properly.",
+    "reverse": true,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "tm_27",
+    "dimension": "time_management",
+    "text": "Я отменяю или сокращаю встречи, которые не приносят пользы — и не боюсь предложить это команде.",
+    "textEn": "I cancel or shorten meetings that don't add value — and I'm not afraid to suggest this to the team.",
+    "reverse": false,
+    "tags": ["general"]
+  },
+  {
+    "id": "tm_28",
+    "dimension": "time_management",
+    "text": "Я использую AI для автоматизации рутины (шаблонный код, конвертация данных, написание тестов), чтобы освободить время для задач, требующих мышления.",
+    "textEn": "I use AI to automate routine (boilerplate code, data conversion, writing tests) to free up time for tasks that require thinking.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  },
+  {
+    "id": "tm_29",
+    "dimension": "time_management",
+    "text": "Я часто переключаюсь между задачами — начинаю одну, потом отвлекаюсь на другую, и к концу дня ни одна не завершена.",
+    "textEn": "I often switch between tasks — start one, get distracted by another, and by end of day none are completed.",
+    "reverse": true,
+    "tags": ["general"]
+  },
+  {
+    "id": "tm_30",
+    "dimension": "time_management",
+    "text": "Перед тем как спросить AI, я трачу 2-3 минуты на то, чтобы оценить: а не быстрее ли мне это сделать самому? И часто ответ — да.",
+    "textEn": "Before asking AI, I spend 2-3 minutes assessing: wouldn't it be faster to do this myself? And often the answer is yes.",
+    "reverse": false,
+    "tags": ["ai_context"]
+  }
+]
