@@ -6928,5 +6928,104 @@
     "explanationEn": "Users form habits based on existing products. They expect a cart in the top-right corner, swipe to delete, pull-to-refresh. Knowing these patterns and consciously choosing to follow or break them is Copy → Transform, not blind copying.",
     "source": "Kirby Ferguson — Everything is a Remix",
     "sourceUrl": "https://www.everythingisaremix.info/"
+  },
+  {
+    "id": "cl_ww_q01",
+    "dimension": "collaboration",
+    "text": "По исследованиям Адама Гранта (Give and Take), кто в долгосрочной перспективе добивается наибольшего успеха?",
+    "textEn": "According to Adam Grant's research (Give and Take), who achieves the most success in the long run?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Takers — те, кто берёт больше, чем отдаёт",
+        "textEn": "Takers — those who take more than they give"
+      },
+      {
+        "key": "b",
+        "text": "Matchers — те, кто строго считает баланс",
+        "textEn": "Matchers — those who keep strict balance"
+      },
+      {
+        "key": "c",
+        "text": "Givers — те, кто помогает без подсчётов",
+        "textEn": "Givers — those who help without keeping score"
+      },
+      {
+        "key": "d",
+        "text": "Разницы нет — зависит от отрасли",
+        "textEn": "No difference — depends on the industry"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Грант показал, что givers занимают и нижние, и верхние строчки. Но «умные givers» (которые помогают стратегически, не в ущерб себе) стабильно обгоняют takers и matchers. Ключ: помогать, но не быть тряпкой.",
+    "explanationEn": "Grant showed that givers occupy both bottom and top positions. But 'smart givers' (who help strategically, not at their own expense) consistently outperform takers and matchers. Key: help, but don't be a doormat.",
+    "source": "Adam Grant — Give and Take",
+    "sourceUrl": "https://adamgrant.net/book/give-and-take/"
+  },
+  {
+    "id": "cl_ww_q02",
+    "dimension": "collaboration",
+    "text": "Стивен Кови описал 6 парадигм взаимодействия. Почему Win-Win эффективнее Win-Lose?",
+    "textEn": "Stephen Covey described 6 interaction paradigms. Why is Win-Win more effective than Win-Lose?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Win-Lose разрушает доверие и мотивацию проигравшей стороны",
+        "textEn": "Win-Lose destroys trust and motivation of the losing side"
+      },
+      {
+        "key": "b",
+        "text": "Win-Lose запрещён трудовым законодательством",
+        "textEn": "Win-Lose is prohibited by labor law"
+      },
+      {
+        "key": "c",
+        "text": "Win-Win быстрее приводит к результату",
+        "textEn": "Win-Win leads to results faster"
+      },
+      {
+        "key": "d",
+        "text": "Win-Lose работает только в спорте",
+        "textEn": "Win-Lose only works in sports"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Win-Lose создаёт победителя и проигравшего. Проигравший теряет мотивацию и доверие. В долгосрочных отношениях (команда, клиент, партнёр) это разрушительно. Win-Win требует больше усилий, но строит отношения, которые масштабируются.",
+    "explanationEn": "Win-Lose creates a winner and a loser. The loser loses motivation and trust. In long-term relationships (team, client, partner) this is destructive. Win-Win takes more effort but builds relationships that scale.",
+    "source": "Stephen Covey — The 7 Habits of Highly Effective People",
+    "sourceUrl": "https://en.wikipedia.org/wiki/The_7_Habits_of_Highly_Effective_People"
+  },
+  {
+    "id": "cl_ww_q03",
+    "dimension": "collaboration",
+    "text": "Что объединяет Win-Win (Кови), Getting to Yes (Фишер) и Give & Take (Грант)?",
+    "textEn": "What do Win-Win (Covey), Getting to Yes (Fisher), and Give & Take (Grant) have in common?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Все три учат избегать конфликтов",
+        "textEn": "All three teach avoiding conflicts"
+      },
+      {
+        "key": "b",
+        "text": "Все три показывают что сотрудничество выгоднее конкуренции в долгую",
+        "textEn": "All three show that cooperation beats competition long-term"
+      },
+      {
+        "key": "c",
+        "text": "Все три написаны в Гарварде",
+        "textEn": "All three were written at Harvard"
+      },
+      {
+        "key": "d",
+        "text": "Все три запрещают говорить «нет»",
+        "textEn": "All three prohibit saying 'no'"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Кови: ищи выигрыш для обеих сторон. Фишер: фокусируйся на интересах, а не позициях. Грант: givers побеждают. Разные авторы, разные десятилетия, один вывод: стратегическое сотрудничество обыгрывает конкуренцию на длинной дистанции.",
+    "explanationEn": "Covey: seek wins for both sides. Fisher: focus on interests, not positions. Grant: givers win. Different authors, different decades, same conclusion: strategic cooperation beats competition over the long run.",
+    "source": "Cross-framework analysis",
+    "sourceUrl": "/guide/collaboration"
   }
 ]

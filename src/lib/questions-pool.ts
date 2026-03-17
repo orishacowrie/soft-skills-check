@@ -705,5 +705,10 @@ export const extendedQuestions: Question[] =
     "textEn": "When I use AI for several tasks in parallel — I often lose focus and end up with none of the tasks completed.",
     "reverse": true
   }
+,
+  {"id": "cl_ww_01", "dimension": "collaboration", "text": "Когда помогаю коллеге, я не считаю это одолжением — помощь создаёт доверие, и это окупается само.", "textEn": "When I help a colleague, I don't see it as a favor — help builds trust, and that pays for itself.", "reverse": false},
+  {"id": "cl_ww_02", "dimension": "collaboration", "text": "Мне сложно тратить время на помощь другим, если не вижу прямой выгоды для себя или проекта.", "textEn": "I find it hard to spend time helping others if I don't see direct benefit for myself or the project.", "reverse": true},
+  {"id": "cl_ww_03", "dimension": "collaboration", "text": "При обсуждении условий я ищу вариант, выгодный обеим сторонам — даже если это сложнее, чем просто продавить своё.", "textEn": "When negotiating I look for a solution that benefits both sides — even if it's harder than just pushing mine.", "reverse": false},
+  {"id": "cl_ww_04", "dimension": "collaboration", "text": "Я активно знакомлю людей из разных кругов, если вижу что они могут быть полезны друг другу — даже если мне от этого ничего.", "textEn": "I actively introduce people from different circles when I see they could be useful to each other — even if I get nothing from it.", "reverse": false}
 ]
 ;
