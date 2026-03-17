@@ -41,11 +41,22 @@ export async function POST(request: Request) {
       return NextResponse.json({ ok: true });
     }
 
-    const body = (await request.json()) as {
-      dimensionScores: { dimension: string; score: number }[];
-      overallScore: number;
-    };
+    const body = await request.json();
 
+    // Handle question/quiz ratings
+    if (body.type === "question_ratings" || body.type === "quiz_ratings") {
+      const ratingsKey = body.type === "question_ratings" ? "q_ratings" : "quiz_ratings";
+      const existing = await kv.get(ratingsKey);
+      const allRatings: Record<string, Record<string, number>> = existing ? JSON.parse(existing) : {};
+      for (const [qId, rating] of Object.entries(body.ratings as Record<string, string>)) {
+        if (!allRatings[qId]) allRatings[qId] = {};
+        allRatings[qId][rating] = (allRatings[qId][rating] || 0) + 1;
+      }
+      await kv.put(ratingsKey, JSON.stringify(allRatings));
+      return NextResponse.json({ ok: true });
+    }
+
+    // Handle score analytics
     if (
       !body.dimensionScores ||
       !Array.isArray(body.dimensionScores) ||

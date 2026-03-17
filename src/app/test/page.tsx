@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { questions as allQuestions, scaleLabels, scaleLabelsEn } from "@/lib/questions";
 import { dimensionMap } from "@/lib/questions";
 import { Question, Answer } from "@/types/assessment";
-import QuestionCard from "@/components/QuestionCard";
+import QuestionCard, { QuestionRating } from "@/components/QuestionCard";
 import ProgressBar from "@/components/ProgressBar";
 import { useLang } from "@/lib/LangContext";
 import { ui } from "@/lib/i18n";
@@ -20,6 +20,7 @@ export default function TestPage() {
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<Answer[]>([]);
+  const [ratings, setRatings] = useState<Record<string, QuestionRating>>({});
 
   // Load questions, restore progress — once on mount
   useEffect(() => {
@@ -94,6 +95,13 @@ export default function TestPage() {
       } else {
         // All questions answered — save and navigate to results
         sessionStorage.setItem("testAnswers", JSON.stringify(newAnswers));
+        sessionStorage.setItem("questionRatings", JSON.stringify(ratings));
+        // Fire-and-forget: send ratings to analytics
+        fetch("/api/analytics", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ type: "question_ratings", ratings }),
+        }).catch(() => {});
         // Clear progress keys since test is complete
         sessionStorage.removeItem("test_answers");
         sessionStorage.removeItem("test_current_index");
@@ -101,6 +109,14 @@ export default function TestPage() {
       }
     },
     [answers, currentIndex, currentQuestion, questions, router]
+  );
+
+  const handleRate = useCallback(
+    (r: QuestionRating) => {
+      if (!currentQuestion) return;
+      setRatings((prev) => ({ ...prev, [currentQuestion.id]: r }));
+    },
+    [currentQuestion]
   );
 
   const handleBack = () => {
@@ -154,7 +170,9 @@ export default function TestPage() {
         questionText={questionText}
         dimensionName={dimensionName}
         onAnswer={handleAnswer}
+        onRate={handleRate}
         initialValue={existingAnswer?.value}
+        initialRating={ratings[currentQuestion.id]}
         scaleLabelsMap={currentScaleLabels}
       />
 

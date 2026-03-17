@@ -2,15 +2,25 @@
 
 import { useState, useEffect } from "react";
 
+export type QuestionRating = "clear" | "okay" | "ambiguous";
+
 interface QuestionCardProps {
   questionNumber: number;
   totalQuestions: number;
   questionText: string;
   dimensionName: string;
   onAnswer: (value: number) => void;
+  onRate?: (rating: QuestionRating) => void;
   initialValue?: number;
+  initialRating?: QuestionRating;
   scaleLabelsMap: Record<number, string>;
 }
+
+const RATING_OPTIONS: { key: QuestionRating; emoji: string; label: string; labelEn: string }[] = [
+  { key: "clear", emoji: "👍", label: "Понятно", labelEn: "Clear" },
+  { key: "okay", emoji: "😐", label: "Так себе", labelEn: "So-so" },
+  { key: "ambiguous", emoji: "❓", label: "Непонятно", labelEn: "Ambiguous" },
+];
 
 export default function QuestionCard({
   questionNumber,
@@ -18,18 +28,27 @@ export default function QuestionCard({
   questionText,
   dimensionName,
   onAnswer,
+  onRate,
   initialValue,
+  initialRating,
   scaleLabelsMap,
 }: QuestionCardProps) {
   const [selected, setSelected] = useState<number | null>(initialValue ?? null);
+  const [rating, setRating] = useState<QuestionRating | null>(initialRating ?? null);
   const [isAnimating, setIsAnimating] = useState(true);
 
   useEffect(() => {
     setSelected(initialValue ?? null);
+    setRating(initialRating ?? null);
     setIsAnimating(true);
     const timer = setTimeout(() => setIsAnimating(false), 50);
     return () => clearTimeout(timer);
-  }, [questionNumber, initialValue]);
+  }, [questionNumber, initialValue, initialRating]);
+
+  const handleRate = (r: QuestionRating) => {
+    setRating(r);
+    onRate?.(r);
+  };
 
   const handleSelect = (value: number) => {
     setSelected(value);
@@ -78,6 +97,31 @@ export default function QuestionCard({
               <span className="text-sm md:text-base">{scaleLabelsMap[value]}</span>
             </button>
           ))}
+        </div>
+
+        {/* Question quality rating */}
+        <div className="mt-5 pt-4 border-t border-slate-800/50">
+          <div className="flex items-center gap-2 flex-wrap">
+            <span className="text-[11px] text-slate-600 mr-1">Вопрос:</span>
+            {RATING_OPTIONS.map((opt) => (
+              <button
+                key={opt.key}
+                onClick={(e) => { e.stopPropagation(); handleRate(opt.key); }}
+                className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[11px] transition-all duration-150 border ${
+                  rating === opt.key
+                    ? opt.key === "clear"
+                      ? "border-green-500/40 bg-green-500/10 text-green-400"
+                      : opt.key === "okay"
+                        ? "border-yellow-500/40 bg-yellow-500/10 text-yellow-400"
+                        : "border-red-500/40 bg-red-500/10 text-red-400"
+                    : "border-slate-800 text-slate-600 hover:border-slate-700 hover:text-slate-500"
+                }`}
+              >
+                <span className="text-xs">{opt.emoji}</span>
+                {opt.label}
+              </button>
+            ))}
+          </div>
         </div>
       </div>
     </div>

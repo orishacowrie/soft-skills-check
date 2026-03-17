@@ -29,6 +29,7 @@ export default function QuizPage() {
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [showExplanation, setShowExplanation] = useState(false);
   const [quizFinished, setQuizFinished] = useState(false);
+  const [quizRatings, setQuizRatings] = useState<Record<string, string>>({});
 
   // Load analysis from sessionStorage
   useEffect(() => {
@@ -110,6 +111,14 @@ export default function QuizPage() {
         selectedTopics,
       };
       sessionStorage.setItem("quizResults", JSON.stringify(quizResults));
+      // Send quiz ratings to analytics
+      if (Object.keys(quizRatings).length > 0) {
+        fetch("/api/analytics", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ type: "quiz_ratings", ratings: quizRatings }),
+        }).catch(() => {});
+      }
       setQuizFinished(true);
     }
   };
@@ -529,6 +538,41 @@ export default function QuizPage() {
                   )}
                 </div>
               )}
+            </div>
+          </div>
+        )}
+
+        {/* Question quality rating */}
+        {showExplanation && (
+          <div className="mb-4 animate-fade-in-up">
+            <div className="flex items-center gap-2 flex-wrap">
+              <span className="text-[11px] text-slate-600 mr-1">{lang === "ru" ? "Вопрос:" : "Question:"}</span>
+              {[
+                { key: "clear", emoji: "👍", label: lang === "ru" ? "Понятно" : "Clear" },
+                { key: "fair", emoji: "✅", label: lang === "ru" ? "Честный" : "Fair" },
+                { key: "okay", emoji: "😐", label: lang === "ru" ? "Так себе" : "So-so" },
+                { key: "ambiguous", emoji: "❓", label: lang === "ru" ? "Неоднозначный" : "Ambiguous" },
+              ].map((opt) => {
+                const isSelected = quizRatings[currentQ.id] === opt.key;
+                return (
+                  <button
+                    key={opt.key}
+                    onClick={() => setQuizRatings((prev) => ({ ...prev, [currentQ.id]: opt.key }))}
+                    className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[11px] transition-all duration-150 border ${
+                      isSelected
+                        ? opt.key === "clear" || opt.key === "fair"
+                          ? "border-green-500/40 bg-green-500/10 text-green-400"
+                          : opt.key === "okay"
+                            ? "border-yellow-500/40 bg-yellow-500/10 text-yellow-400"
+                            : "border-red-500/40 bg-red-500/10 text-red-400"
+                        : "border-slate-800 text-slate-600 hover:border-slate-700 hover:text-slate-500"
+                    }`}
+                  >
+                    <span className="text-xs">{opt.emoji}</span>
+                    {opt.label}
+                  </button>
+                );
+              })}
             </div>
           </div>
         )}
