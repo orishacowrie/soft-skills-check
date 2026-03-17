@@ -7,6 +7,7 @@ import DimensionChart from "@/components/DimensionChart";
 import {
   calculateDimensionScores,
   calculateOverallScore,
+  generateTemplateAnalysis,
 } from "@/lib/scoring";
 import { dimensionMap } from "@/lib/questions";
 import { useLang } from "@/lib/LangContext";
@@ -58,47 +59,42 @@ export default function ResultsPage() {
       }
     }
 
-    // Read current lang from localStorage (useEffect runs once)
     const currentLang = (localStorage.getItem("lang") || "ru") as "ru" | "en";
-    const strings = ui[currentLang];
+    const mode = sessionStorage.getItem("test_mode") || "express";
+    const hasPersonalContext = !!(resume || jobDescription);
 
-    // Call AI analysis
-    fetch("/api/analyze", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ answers: parsedAnswers, resume, jobDescription, lang: currentLang }),
-    })
-      .then(async (res) => {
-        if (!res.ok) {
-          const data = await res.json().catch(() => ({}));
-          throw new Error(data.error || strings.resultsAnalysisError);
-        }
-        return res.json();
+    // Decision: use AI only for deep test WITH resume/job context
+    // Otherwise: instant template-based analysis (free, fast)
+    if (mode === "deep" && hasPersonalContext) {
+      // AI-powered analysis — personalized with resume/job
+      fetch("/api/analyze", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ answers: parsedAnswers, resume, jobDescription, lang: currentLang }),
       })
-      .then((data: AnalysisResult) => {
-        setAnalysis(data);
-        sessionStorage.setItem("analysisResult", JSON.stringify(data));
-        setLoading(false);
-      })
-      .catch((err) => {
-        // Fallback: use local scores without AI interpretation
-        const fallback: AnalysisResult = {
-          dimensionScores,
-          overallScore,
-          strengths: [],
-          weaknesses: [],
-          summary: strings.resultsFallbackSummary,
-          weakDimensions: dimensionScores
-            .sort((a, b) => a.score - b.score)
-            .slice(0, 3)
-            .filter((d) => d.score < 4)
-            .map((d) => d.dimension),
-        };
-        setAnalysis(fallback);
-        sessionStorage.setItem("analysisResult", JSON.stringify(fallback));
-        setError(err.message);
-        setLoading(false);
-      });
+        .then(async (res) => {
+          if (!res.ok) throw new Error("AI failed");
+          return res.json();
+        })
+        .then((data: AnalysisResult) => {
+          setAnalysis(data);
+          sessionStorage.setItem("analysisResult", JSON.stringify(data));
+          setLoading(false);
+        })
+        .catch(() => {
+          // Fallback to template
+          const result = generateTemplateAnalysis(parsedAnswers, currentLang);
+          setAnalysis(result);
+          sessionStorage.setItem("analysisResult", JSON.stringify(result));
+          setLoading(false);
+        });
+    } else {
+      // Template-based analysis — instant, free, no API call
+      const result = generateTemplateAnalysis(parsedAnswers, currentLang);
+      setAnalysis(result);
+      sessionStorage.setItem("analysisResult", JSON.stringify(result));
+      setLoading(false);
+    }
   }, [router]);
 
   // Post analytics and fetch benchmark when analysis is ready
@@ -328,7 +324,22 @@ export default function ResultsPage() {
           <div className="bg-gradient-to-br from-violet-500/5 to-indigo-500/5 border border-violet-500/20 rounded-2xl p-6 flex flex-col">
             <span className="text-2xl mb-2">📄</span>
             <h3 className="text-base font-semibold text-white mb-2">{t.resultsFullReportReady}</h3>
-            <p className="text-xs text-slate-400 leading-relaxed mb-4 flex-1">{t.resultsFullReportText}</p>
+            <p className="text-xs text-slate-400 leading-relaxed mb-3 flex-1">{t.resultsFullReportText}</p>
+            {!(typeof window !== "undefined" && (() => { try { const c = JSON.parse(sessionStorage.getItem("assessment_context") || "{}"); return c.resume || c.jobDescription; } catch { return false; } })()) && (
+              <div className="bg-amber-500/5 border border-amber-500/20 rounded-lg p-3 mb-3">
+                <p className="text-[11px] text-amber-300 leading-relaxed">
+                  {lang === "ru"
+                    ? "Загрузи резюме или вакансию — тогда отчёт будет персональным с AI-анализом, а не шаблонным."
+                    : "Upload a resume or job description — then the report will be personalized with AI analysis, not template-based."}
+                </p>
+                <button
+                  onClick={() => router.push("/context")}
+                  className="mt-2 text-[11px] text-amber-400 hover:text-amber-300 underline underline-offset-2"
+                >
+                  {lang === "ru" ? "Загрузить резюме →" : "Upload resume →"}
+                </button>
+              </div>
+            )}
             <button
               onClick={() => router.push("/report")}
               className="w-full inline-flex items-center justify-center gap-2 px-4 py-3 bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-500 hover:to-indigo-500 text-white font-semibold rounded-xl transition-all duration-200 shadow-lg shadow-violet-500/20"
