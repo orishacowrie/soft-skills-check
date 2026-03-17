@@ -4,13 +4,13 @@ import Providers from "@/components/Providers";
 import Header from "@/components/Header";
 
 export const metadata: Metadata = {
-  title: "Soft Skills Check — Тренажёр soft skills",
+  title: "Soft Skills Check — soft skills для эпохи AI",
   description:
-    "Пойми себя лучше. 30 вопросов, AI-анализ, персональный план роста. Бесплатный open-source тренажёр.",
+    "AI становится частью каждого бизнеса. Пойми, какие человеческие навыки тебе усилить. 10 тем, AI-анализ, персональный план роста.",
   openGraph: {
-    title: "Тренажёр soft skills — пойми себя и расти",
+    title: "Soft skills для эпохи AI — бесплатный тренажёр",
     description:
-      "Бесплатный AI-тренажёр: 30 вопросов, персональный анализ, план роста. Open source.",
+      "Технические навыки уже не отличают — отличают человеческие. 10 тем, AI-анализ, план роста. Open source.",
     type: "website",
     url: "https://soft-skills.chillai.space",
     locale: "ru_RU",
