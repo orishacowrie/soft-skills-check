@@ -163,6 +163,37 @@ export default function ContextPage() {
         </p>
       </div>
 
+      {/* Profession tags */}
+      <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 mb-6 animate-fade-in-up">
+        <h2 className="text-lg font-semibold text-white mb-2">
+          {lang === "ru" ? "Твоя сфера" : "Your field"}
+        </h2>
+        <p className="text-sm text-slate-400 mb-4">
+          {lang === "ru"
+            ? "Выбери одну или несколько — это поможет адаптировать вопросы и рекомендации под твой контекст."
+            : "Pick one or more — this helps tailor questions and recommendations to your context."}
+        </p>
+        <div className="flex flex-wrap gap-2">
+          {PROFESSIONS.map((p) => {
+            const isSelected = selectedProfessions.includes(p.id);
+            return (
+              <button
+                key={p.id}
+                onClick={() => toggleProfession(p.id)}
+                className={`px-3.5 py-1.5 rounded-full text-sm font-medium transition-all duration-200 border ${
+                  isSelected
+                    ? "bg-violet-500/20 border-violet-500/50 text-violet-300"
+                    : "bg-slate-800/50 border-slate-700 text-slate-400 hover:border-slate-600 hover:text-slate-300"
+                }`}
+              >
+                {isSelected && <span className="mr-1">✓</span>}
+                {lang === "ru" ? p.ru : p.en}
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
       {/* Resume section */}
       <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 mb-6 animate-fade-in-up">
         <h2 className="text-lg font-semibold text-white mb-4">
@@ -298,37 +329,6 @@ export default function ContextPage() {
             {jobDescription.trim().length} {t.contextChars}
           </p>
         )}
-      </div>
-
-      {/* Profession tags */}
-      <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 mb-8 animate-fade-in-up">
-        <h2 className="text-lg font-semibold text-white mb-2">
-          {lang === "ru" ? "Твоя сфера" : "Your field"}
-        </h2>
-        <p className="text-sm text-slate-400 mb-4">
-          {lang === "ru"
-            ? "Выбери одну или несколько — это поможет адаптировать вопросы и рекомендации под твой контекст."
-            : "Pick one or more — this helps tailor questions and recommendations to your context."}
-        </p>
-        <div className="flex flex-wrap gap-2">
-          {PROFESSIONS.map((p) => {
-            const isSelected = selectedProfessions.includes(p.id);
-            return (
-              <button
-                key={p.id}
-                onClick={() => toggleProfession(p.id)}
-                className={`px-3.5 py-1.5 rounded-full text-sm font-medium transition-all duration-200 border ${
-                  isSelected
-                    ? "bg-violet-500/20 border-violet-500/50 text-violet-300"
-                    : "bg-slate-800/50 border-slate-700 text-slate-400 hover:border-slate-600 hover:text-slate-300"
-                }`}
-              >
-                {isSelected && <span className="mr-1">✓</span>}
-                {lang === "ru" ? p.ru : p.en}
-              </button>
-            );
-          })}
-        </div>
       </div>
 
       {/* Actions */}
