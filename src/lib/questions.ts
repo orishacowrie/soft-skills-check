@@ -325,7 +325,7 @@ export const questions: Question[] = [
     reverse: false,
   },
 
-  // Leadership (ld)
+  // Leadership (ld) — general first, then AI-context
   {
     id: "ld_1",
     dimension: "leadership",
@@ -336,33 +336,33 @@ export const questions: Question[] = [
   {
     id: "ld_2",
     dimension: "leadership",
-    text: "Мне проще подождать, пока кто-то примет решение, чем взять ответственность на себя — особенно если последствия неясны.",
-    textEn: "I'd rather wait for someone else to decide than take responsibility myself — especially when consequences are unclear.",
-    reverse: true,
-  },
-  {
-    id: "ld_3",
-    dimension: "leadership",
     text: "Я могу мотивировать команду в трудный момент — подбодрить, предложить план, помочь людям не застрять.",
     textEn: "I can motivate the team in tough moments — encourage, suggest a plan, help people not get stuck.",
     reverse: false,
   },
   {
-    id: "ld_4",
+    id: "ld_3",
     dimension: "leadership",
     text: "Мне комфортнее быть исполнителем с чётким ТЗ, чем лидером, который определяет направление.",
     textEn: "I'm more comfortable as an executor with a clear spec than as a leader who sets direction.",
     reverse: true,
   },
   {
+    id: "ld_4",
+    dimension: "leadership",
+    text: "Когда команда застряла и AI не помогает решить проблему — я предлагаю план действий и распределяю задачи, а не жду, пока кто-то другой разберётся.",
+    textEn: "When the team is stuck and AI can't solve the problem — I propose an action plan and distribute tasks instead of waiting for someone else to figure it out.",
+    reverse: false,
+  },
+  {
     id: "ld_5",
     dimension: "leadership",
-    text: "Когда я вижу возможность улучшить процесс в команде, я предлагаю это — даже если никто не просил.",
-    textEn: "When I see a chance to improve a team process, I suggest it — even if nobody asked.",
+    text: "Я активно делюсь с командой новыми AI-инструментами и workflow, помогаю коллегам внедрять их — по сути, двигаю технологическую культуру в команде.",
+    textEn: "I actively share new AI tools and workflows with the team, help colleagues adopt them — essentially driving the tech culture forward.",
     reverse: false,
   },
 
-  // Conflict Resolution (cr)
+  // Conflict Resolution (cr) — general first, then AI-context
   {
     id: "cr_1",
     dimension: "conflict_resolution",
@@ -380,26 +380,26 @@ export const questions: Question[] = [
   {
     id: "cr_3",
     dimension: "conflict_resolution",
-    text: "Я умею давать обратную связь так, чтобы человек не чувствовал себя атакованным — фокусируюсь на поведении, не на личности.",
-    textEn: "I can give feedback so the person doesn't feel attacked — I focus on behavior, not personality.",
+    text: "Я способен признать свою ошибку перед командой — мне не нужно быть правым в каждом споре.",
+    textEn: "I can admit my mistake to the team — I don't need to be right in every argument.",
     reverse: false,
   },
   {
     id: "cr_4",
     dimension: "conflict_resolution",
-    text: "Когда мне дают критический фидбек, моя первая реакция — защищаться, а не слушать.",
-    textEn: "When I receive critical feedback, my first reaction is to defend myself rather than listen.",
-    reverse: true,
+    text: "Когда на ревью спорят о том, доверять ли AI-решению или переписать вручную — я умею аргументировать свою позицию и слышать чужую, не переходя на личности.",
+    textEn: "When there's a debate in code review about trusting AI output vs rewriting manually — I can argue my position and hear others without making it personal.",
+    reverse: false,
   },
   {
     id: "cr_5",
     dimension: "conflict_resolution",
-    text: "Я способен признать свою ошибку перед командой — мне не нужно быть правым в каждом споре.",
-    textEn: "I can admit my mistake to the team — I don't need to be right in every argument.",
-    reverse: false,
+    text: "Когда коллега настаивает на ручном подходе там, где AI справляется лучше (или наоборот) — я скорее промолчу, чем буду спорить.",
+    textEn: "When a colleague insists on a manual approach where AI works better (or vice versa) — I'd rather stay silent than argue.",
+    reverse: true,
   },
 
-  // Emotional Intelligence (ei)
+  // Emotional Intelligence (ei) — general first, then AI-context
   {
     id: "ei_1",
     dimension: "emotional_intelligence",
@@ -410,33 +410,33 @@ export const questions: Question[] = [
   {
     id: "ei_2",
     dimension: "emotional_intelligence",
-    text: "Мне бывает сложно понять, почему коллега расстроен — я фокусируюсь на задаче и иногда не замечаю эмоциональный фон.",
-    textEn: "I sometimes struggle to understand why a colleague is upset — I focus on the task and miss the emotional context.",
-    reverse: true,
-  },
-  {
-    id: "ei_3",
-    dimension: "emotional_intelligence",
     text: "Я умею регулировать своё состояние — если чувствую раздражение или стресс, могу сделать паузу и не выплёскивать это на других.",
     textEn: "I can regulate my emotional state — if I feel irritated or stressed, I can pause and not take it out on others.",
     reverse: false,
   },
   {
+    id: "ei_3",
+    dimension: "emotional_intelligence",
+    text: "Мне бывает сложно понять, почему коллега расстроен — я фокусируюсь на задаче и иногда не замечаю эмоциональный фон.",
+    textEn: "I sometimes struggle to understand why a colleague is upset — I focus on the task and miss the emotional context.",
+    reverse: true,
+  },
+  {
     id: "ei_4",
     dimension: "emotional_intelligence",
-    text: "Когда в команде напряжённая атмосфера, я замечаю это и стараюсь разрядить — шуткой, поддержкой или просто спросив, как дела.",
-    textEn: "When the team atmosphere is tense, I notice and try to defuse it — with humor, support, or just asking how people are doing.",
+    text: "Я замечаю, когда коллега фрустрирован борьбой с AI-инструментами, и предлагаю помощь — показываю свой подход или просто спрашиваю, как дела.",
+    textEn: "I notice when a colleague is frustrated struggling with AI tools and offer help — I show my approach or simply ask how they're doing.",
     reverse: false,
   },
   {
     id: "ei_5",
     dimension: "emotional_intelligence",
-    text: "Честно говоря, мне проще работать с данными и кодом, чем с людьми и их эмоциями.",
-    textEn: "Honestly, I find it easier to work with data and code than with people and their emotions.",
+    text: "Когда AI раз за разом выдаёт не то, что нужно, я начинаю злиться и это влияет на моё общение с командой — становлюсь резче, отвечаю коротко.",
+    textEn: "When AI repeatedly gives wrong results, I get frustrated and it affects how I communicate with the team — I become sharper, give short answers.",
     reverse: true,
   },
 
-  // Time Management (tm)
+  // Time Management (tm) — general first, then AI-context
   {
     id: "tm_1",
     dimension: "time_management",
@@ -447,29 +447,29 @@ export const questions: Question[] = [
   {
     id: "tm_2",
     dimension: "time_management",
-    text: "Я часто недооцениваю время на задачу, а потом работаю в авральном режиме перед дедлайном.",
-    textEn: "I often underestimate task time, then work in crisis mode before the deadline.",
-    reverse: true,
-  },
-  {
-    id: "tm_3",
-    dimension: "time_management",
     text: "Я чётко приоритизирую задачи — сначала важное и срочное, а не то, что интереснее или проще.",
     textEn: "I clearly prioritize tasks — important and urgent first, not what's more interesting or easier.",
     reverse: false,
   },
   {
+    id: "tm_3",
+    dimension: "time_management",
+    text: "Я часто недооцениваю время на задачу, а потом работаю в авральном режиме перед дедлайном.",
+    textEn: "I often underestimate task time, then work in crisis mode before the deadline.",
+    reverse: true,
+  },
+  {
     id: "tm_4",
     dimension: "time_management",
-    text: "Я умею говорить 'нет' или 'не сейчас', когда на меня пытаются повесить задачу, которая не в приоритете.",
-    textEn: "I can say 'no' or 'not now' when someone tries to assign me a task that's not a priority.",
+    text: "Я понимаю, когда быстрее написать код руками, чем тратить время на промптинг — и не застреваю в ловушке «сейчас AI сделает».",
+    textEn: "I know when it's faster to write code by hand than spend time prompting — and don't fall into the 'AI will do it' trap.",
     reverse: false,
   },
   {
     id: "tm_5",
     dimension: "time_management",
-    text: "Я иногда трачу много времени на перфекционизм в деталях, которые не влияют на результат.",
-    textEn: "I sometimes spend too much time perfecting details that don't affect the outcome.",
+    text: "Я иногда трачу полдня на AI-эксперименты и генерацию вариантов, хотя задача была простой и её можно было закрыть за час вручную.",
+    textEn: "I sometimes spend half a day on AI experiments and generating variants, when the task was simple and could have been done manually in an hour.",
     reverse: true,
   },
 ];
