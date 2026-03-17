@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 
-export type QuestionRating = "clear" | "okay" | "ambiguous";
+export type QuestionRating = "clear" | "trivial" | "okay" | "ambiguous";
 
 interface QuestionCardProps {
   questionNumber: number;
@@ -18,6 +18,7 @@ interface QuestionCardProps {
 
 const RATING_OPTIONS: { key: QuestionRating; emoji: string; label: string; labelEn: string }[] = [
   { key: "clear", emoji: "👍", label: "Понятно", labelEn: "Clear" },
+  { key: "trivial", emoji: "🥱", label: "Банально", labelEn: "Trivial" },
   { key: "okay", emoji: "😐", label: "Так себе", labelEn: "So-so" },
   { key: "ambiguous", emoji: "❓", label: "Непонятно", labelEn: "Ambiguous" },
 ];
@@ -111,6 +112,8 @@ export default function QuestionCard({
                   rating === opt.key
                     ? opt.key === "clear"
                       ? "border-green-500/40 bg-green-500/10 text-green-400"
+                      : opt.key === "trivial"
+                        ? "border-orange-500/40 bg-orange-500/10 text-orange-400"
                       : opt.key === "okay"
                         ? "border-yellow-500/40 bg-yellow-500/10 text-yellow-400"
                         : "border-red-500/40 bg-red-500/10 text-red-400"

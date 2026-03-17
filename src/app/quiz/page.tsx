@@ -550,6 +550,7 @@ export default function QuizPage() {
               {[
                 { key: "clear", emoji: "👍", label: lang === "ru" ? "Понятно" : "Clear" },
                 { key: "fair", emoji: "✅", label: lang === "ru" ? "Честный" : "Fair" },
+                { key: "trivial", emoji: "🥱", label: lang === "ru" ? "Банально" : "Trivial" },
                 { key: "okay", emoji: "😐", label: lang === "ru" ? "Так себе" : "So-so" },
                 { key: "ambiguous", emoji: "❓", label: lang === "ru" ? "Неоднозначный" : "Ambiguous" },
               ].map((opt) => {
@@ -562,6 +563,8 @@ export default function QuizPage() {
                       isSelected
                         ? opt.key === "clear" || opt.key === "fair"
                           ? "border-green-500/40 bg-green-500/10 text-green-400"
+                          : opt.key === "trivial"
+                            ? "border-orange-500/40 bg-orange-500/10 text-orange-400"
                           : opt.key === "okay"
                             ? "border-yellow-500/40 bg-yellow-500/10 text-yellow-400"
                             : "border-red-500/40 bg-red-500/10 text-red-400"
