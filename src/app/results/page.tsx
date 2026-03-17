@@ -321,123 +321,152 @@ export default function ResultsPage() {
         </div>
       )}
 
-      {/* Mode-dependent CTA */}
+      {/* Next steps — two cards side by side */}
       {testMode === "deep" ? (
-        /* Deep mode — full report ready */
-        <div className="bg-gradient-to-br from-violet-500/5 to-indigo-500/5 border border-violet-500/20 rounded-2xl p-6 md:p-8 mb-6 animate-fade-in-up">
-          <div className="flex items-center gap-3 mb-3">
-            <span className="text-3xl">&#128202;</span>
-            <h2 className="text-lg font-semibold text-white">
-              {t.resultsFullReportReady}
-            </h2>
-          </div>
-          <p className="text-sm text-slate-400 leading-relaxed mb-6">
-            {t.resultsFullReportText}
-          </p>
-          <div className="flex flex-col sm:flex-row gap-3">
+        /* Deep mode — report + quiz */
+        <div className="grid sm:grid-cols-2 gap-4 mb-6 animate-fade-in-up">
+          <div className="bg-gradient-to-br from-violet-500/5 to-indigo-500/5 border border-violet-500/20 rounded-2xl p-6 flex flex-col">
+            <span className="text-2xl mb-2">📄</span>
+            <h3 className="text-base font-semibold text-white mb-2">{t.resultsFullReportReady}</h3>
+            <p className="text-xs text-slate-400 leading-relaxed mb-4 flex-1">{t.resultsFullReportText}</p>
             <button
               onClick={() => router.push("/report")}
-              className="flex-1 inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-500 hover:to-indigo-500 text-white font-semibold rounded-xl transition-all duration-200 shadow-lg shadow-violet-500/20 hover:shadow-violet-500/30 hover:scale-[1.02]"
+              className="w-full inline-flex items-center justify-center gap-2 px-4 py-3 bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-500 hover:to-indigo-500 text-white font-semibold rounded-xl transition-all duration-200 shadow-lg shadow-violet-500/20"
             >
               {t.resultsOpenFullReport}
-              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-              </svg>
             </button>
+          </div>
+          <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col">
+            <span className="text-2xl mb-2">🧠</span>
+            <h3 className="text-base font-semibold text-white mb-2">
+              {lang === "ru" ? "Квиз-тренажёр" : "Quiz Trainer"}
+            </h3>
+            <p className="text-xs text-slate-400 leading-relaxed mb-4 flex-1">
+              {lang === "ru"
+                ? "Проверь знание теории: фреймворки, модели, реальные кейсы. Каждый вопрос с объяснением и источником."
+                : "Test your theory knowledge: frameworks, models, real cases. Every question with explanation and source."}
+            </p>
             <button
               onClick={() => router.push("/quiz")}
-              className="flex-1 inline-flex items-center justify-center gap-2 px-8 py-4 border border-violet-500/30 text-violet-300 font-semibold rounded-xl transition-all duration-200 hover:bg-violet-500/10"
+              className="w-full inline-flex items-center justify-center gap-2 px-4 py-3 border border-violet-500/30 text-violet-300 font-semibold rounded-xl transition-all duration-200 hover:bg-violet-500/10"
             >
               {t.resultsTakeQuiz}
             </button>
           </div>
         </div>
       ) : (
-        /* Express mode — upsell deep test */
-        <div className="bg-gradient-to-br from-violet-500/5 to-indigo-500/5 border border-violet-500/20 rounded-2xl p-6 md:p-8 mb-6 animate-fade-in-up">
-          <div className="flex items-center gap-3 mb-3">
-            <span className="text-3xl">&#128300;</span>
-            <h2 className="text-lg font-semibold text-white">
-              {t.resultsWantDeeper}
-            </h2>
-          </div>
-          <p className="text-sm text-slate-400 leading-relaxed mb-4">
-            {t.resultsWantDeeperText}
-          </p>
-
-          {/* Weak dimensions */}
-          {weakDims.length > 0 && (
-            <div className="mb-3">
-              <span className="text-xs font-medium text-slate-500 uppercase tracking-wide">{t.resultsWeakDimensions}</span>
-              <div className="flex flex-wrap gap-2 mt-1.5">
+        /* Express mode — quiz (left) + go deeper (right) */
+        <>
+        <div className="grid sm:grid-cols-2 gap-4 mb-6 animate-fade-in-up">
+          {/* Quiz card — left, primary */}
+          <div className="bg-gradient-to-br from-violet-500/5 to-indigo-500/5 border border-violet-500/20 rounded-2xl p-6 flex flex-col">
+            <span className="text-2xl mb-2">🧠</span>
+            <h3 className="text-base font-semibold text-white mb-2">
+              {lang === "ru" ? "Квиз-тренажёр" : "Quiz Trainer"}
+            </h3>
+            <p className="text-xs text-slate-400 leading-relaxed mb-2">
+              {lang === "ru"
+                ? "Мы подготовили вопросы по твоим темам: фреймворки, модели, кейсы. Каждый ответ — с объяснением и источником."
+                : "We prepared questions on your topics: frameworks, models, cases. Every answer — with explanation and source."}
+            </p>
+            {weakDims.length > 0 && (
+              <div className="flex flex-wrap gap-1.5 mb-3">
                 {weakDims.map((dim) => {
                   const info = dimensionMap[dim as DimensionKey];
                   const name = info ? (lang === "en" ? info.nameEn : info.name) : dim;
                   return (
-                    <span key={dim} className="px-3 py-1 rounded-full text-xs bg-orange-500/10 text-orange-300 border border-orange-500/20">
+                    <span key={dim} className="px-2 py-0.5 rounded-full text-[10px] bg-violet-500/10 text-violet-300 border border-violet-500/20">
                       {name}
                     </span>
                   );
                 })}
               </div>
+            )}
+            <div className="mt-auto space-y-2">
+              <button
+                onClick={() => router.push("/quiz")}
+                className="w-full inline-flex items-center justify-center gap-2 px-4 py-3 bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-500 hover:to-indigo-500 text-white font-semibold rounded-xl transition-all duration-200 shadow-lg shadow-violet-500/20"
+              >
+                {lang === "ru" ? "Пройти квиз" : "Take the quiz"}
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
+              </button>
+              <button
+                onClick={() => {
+                  sessionStorage.removeItem("selected_topics");
+                  router.push("/quiz");
+                }}
+                className="w-full text-center text-[11px] text-slate-600 hover:text-slate-400 transition-colors"
+              >
+                {lang === "ru" ? "или выбрать темы самому" : "or choose topics yourself"}
+              </button>
             </div>
-          )}
+          </div>
 
-          {/* Related dimensions */}
-          {relatedDims.length > 0 && (
-            <div className="mb-6">
-              <span className="text-xs font-medium text-slate-500 uppercase tracking-wide">{t.resultsRelatedDimensions}</span>
-              <div className="flex flex-wrap gap-2 mt-1.5">
+          {/* Deep test card — right */}
+          <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col">
+            <span className="text-2xl mb-2">🔬</span>
+            <h3 className="text-base font-semibold text-white mb-2">
+              {lang === "ru" ? "Пройти глубже" : "Go deeper"}
+            </h3>
+            <p className="text-xs text-slate-400 leading-relaxed mb-2">
+              {lang === "ru"
+                ? "10 вопросов на тему с фокусом на слабых местах + смежные навыки. По итогам — подробный отчёт и рекомендации."
+                : "10 questions per topic focused on weak spots + related skills. Get a detailed report and recommendations."}
+            </p>
+            {(weakDims.length > 0 || relatedDims.length > 0) && (
+              <div className="flex flex-wrap gap-1.5 mb-3">
+                {weakDims.map((dim) => {
+                  const info = dimensionMap[dim as DimensionKey];
+                  const name = info ? (lang === "en" ? info.nameEn : info.name) : dim;
+                  return (
+                    <span key={dim} className="px-2 py-0.5 rounded-full text-[10px] bg-orange-500/10 text-orange-300 border border-orange-500/20">
+                      {name}
+                    </span>
+                  );
+                })}
                 {relatedDims.map((dim) => {
                   const info = dimensionMap[dim as DimensionKey];
                   const name = info ? (lang === "en" ? info.nameEn : info.name) : dim;
                   return (
-                    <span key={dim} className="px-3 py-1 rounded-full text-xs bg-violet-500/10 text-violet-300 border border-violet-500/20">
+                    <span key={dim} className="px-2 py-0.5 rounded-full text-[10px] bg-slate-700 text-slate-400 border border-slate-600">
                       {name}
                     </span>
                   );
                 })}
               </div>
+            )}
+            <div className="mt-auto">
+              <button
+                onClick={() => {
+                  const deepTopics = [...new Set([...weakDims, ...relatedDims])];
+                  sessionStorage.setItem("selected_topics", JSON.stringify(deepTopics));
+                  sessionStorage.setItem("test_mode", "deep");
+                  sessionStorage.setItem("test_fresh_start", "1");
+                  router.push("/test");
+                }}
+                className="w-full inline-flex items-center justify-center gap-2 px-4 py-3 border border-slate-700 text-slate-200 font-semibold rounded-xl transition-all duration-200 hover:bg-slate-800 hover:border-slate-600"
+              >
+                {t.resultsTakeDeepTest}
+              </button>
             </div>
-          )}
-
-          <div className="flex flex-col sm:flex-row gap-3 mb-4">
-            <button
-              onClick={() => {
-                // Pre-select weak + related topics for deep test
-                const deepTopics = [...new Set([...weakDims, ...relatedDims])];
-                sessionStorage.setItem("selected_topics", JSON.stringify(deepTopics));
-                sessionStorage.setItem("test_mode", "deep");
-                sessionStorage.setItem("test_fresh_start", "1");
-                router.push("/test");
-              }}
-              className="flex-1 inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-500 hover:to-indigo-500 text-white font-semibold rounded-xl transition-all duration-200 shadow-lg shadow-violet-500/20 hover:shadow-violet-500/30 hover:scale-[1.02]"
-            >
-              {t.resultsTakeDeepTest}
-              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-              </svg>
-            </button>
-            <button
-              onClick={() => router.push("/quiz")}
-              className="flex-1 inline-flex items-center justify-center gap-2 px-8 py-4 border border-violet-500/30 text-violet-300 font-semibold rounded-xl transition-all duration-200 hover:bg-violet-500/10"
-            >
-              {t.resultsTakeQuiz}
-            </button>
-          </div>
-
-          <div className="text-center">
-            <button
-              onClick={() => router.push("/report")}
-              className="text-xs text-slate-500 hover:text-slate-400 underline underline-offset-2 transition-colors"
-            >
-              {t.resultsOpenReport}
-            </button>
           </div>
         </div>
+
+        {/* Subtle report link */}
+        <div className="text-center mb-4 animate-fade-in-up">
+          <button
+            onClick={() => router.push("/report")}
+            className="text-xs text-slate-600 hover:text-slate-400 underline underline-offset-2 transition-colors"
+          >
+            {t.resultsOpenReport}
+          </button>
+        </div>
+        </>
       )}
 
-      {/* Subtle exit — copy/share */}
+      {/* Subtle exit — copy/share — KEEP THIS from the old code */}
       <div className="text-center animate-fade-in-up">
         <div className="flex items-center justify-center gap-4">
           <button
@@ -453,24 +482,25 @@ export default function ResultsPage() {
               ].join('\n');
               navigator.clipboard.writeText(text).then(() => {
                 const el = document.getElementById('copy-link');
-                if (el) { el.textContent = lang === "ru" ? "Скопировано!" : "Copied!"; setTimeout(() => { el.textContent = lang === "ru" ? "Скопировать отчёт" : "Copy report"; }, 2000); }
+                if (el) { el.textContent = lang === "ru" ? "Скопировано!" : "Copied!"; setTimeout(() => { el.textContent = lang === "ru" ? "Скопировать" : "Copy"; }, 2000); }
               });
             }}
             id="copy-link"
-            className="text-xs text-slate-500 hover:text-slate-400 underline underline-offset-2 transition-colors"
+            className="text-xs text-slate-600 hover:text-slate-400 underline underline-offset-2 transition-colors"
           >
-            {lang === "ru" ? "Скопировать отчёт" : "Copy report"}
+            {lang === "ru" ? "Скопировать" : "Copy"}
           </button>
+          <span className="text-slate-700">·</span>
           <button
             onClick={() => {
-              const text = `${lang === "ru" ? "Мой результат" : "My result"}: ${analysis.overallScore}/5 — https://soft-skills.chillai.space`;
+              const text = `${analysis.overallScore}/5 — https://soft-skills.chillai.space`;
               if (navigator.share) {
                 navigator.share({ title: 'Soft Skills Check', text });
               } else {
                 window.open(`https://t.me/share/url?url=${encodeURIComponent('https://soft-skills.chillai.space')}&text=${encodeURIComponent(text)}`, '_blank');
               }
             }}
-            className="text-xs text-slate-500 hover:text-slate-400 underline underline-offset-2 transition-colors"
+            className="text-xs text-slate-600 hover:text-slate-400 underline underline-offset-2 transition-colors"
           >
             {lang === "ru" ? "Поделиться" : "Share"}
           </button>
