@@ -6598,5 +6598,203 @@
     "explanationEn": "Newport references Ericsson's research: beginners can manage about 1 hour of deep work, experienced professionals up to 4 hours per day. This is a biological limit, not a discipline issue. The rest is for Shallow Work. Attempting 8+ hours of deep work leads to quality decline.",
     "source": "Cal Newport — Deep Work",
     "sourceUrl": "/guide/time-management"
+  },
+  {
+    "id": "so_unite_01",
+    "dimension": "self_organization",
+    "text": "Что общего между матрицей Эйзенхауэра, принципом Парето и техникой timeboxing?",
+    "textEn": "What do the Eisenhower Matrix, Pareto Principle, and timeboxing have in common?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Все три были придуманы в XX веке для военных",
+        "textEn": "All three were invented in the 20th century for the military"
+      },
+      {
+        "key": "b",
+        "text": "Все три помогают решить, чему НЕ уделять время",
+        "textEn": "All three help decide what NOT to spend time on"
+      },
+      {
+        "key": "c",
+        "text": "Все три работают только при наличии команды",
+        "textEn": "All three only work with a team"
+      },
+      {
+        "key": "d",
+        "text": "Все три требуют ежедневного ведения журнала",
+        "textEn": "All three require daily journaling"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Эйзенхауэр отсекает неважное, Парето фокусирует на 20% усилий с максимальным результатом, timeboxing ставит жёсткий лимит на время. Все три — инструменты для того, чтобы сказать 'нет' менее важному.",
+    "explanationEn": "Eisenhower cuts the unimportant, Pareto focuses on the 20% of effort with maximum impact, timeboxing puts a hard limit on time. All three are tools for saying 'no' to less important things.",
+    "source": "Productivity systems comparison",
+    "sourceUrl": "/guide/self-organization"
+  },
+  {
+    "id": "ct_unite_01",
+    "dimension": "critical_thinking",
+    "text": "Что объединяет метод Сократа, подход Red Team и принцип фальсифицируемости Поппера?",
+    "textEn": "What do the Socratic Method, Red Team approach, and Popper's falsifiability have in common?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Все три используются только в академической науке",
+        "textEn": "All three are only used in academic science"
+      },
+      {
+        "key": "b",
+        "text": "Все три основаны на систематическом сомнении и проверке",
+        "textEn": "All three are based on systematic doubt and verification"
+      },
+      {
+        "key": "c",
+        "text": "Все три появились в Древней Греции",
+        "textEn": "All three originated in Ancient Greece"
+      },
+      {
+        "key": "d",
+        "text": "Все три запрещают использовать интуицию",
+        "textEn": "All three prohibit using intuition"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Сократ задавал вопросы, чтобы вскрыть противоречия. Red Team намеренно атакует план, чтобы найти слабости. Поппер требует, чтобы теория была опровергаема. Общий принцип: не доверяй — проверяй.",
+    "explanationEn": "Socrates asked questions to expose contradictions. Red Team deliberately attacks a plan to find weaknesses. Popper requires that a theory be falsifiable. Common principle: don't trust — verify.",
+    "source": "Critical thinking frameworks",
+    "sourceUrl": "/guide/critical-thinking"
+  },
+  {
+    "id": "cm_unite_01",
+    "dimension": "communication",
+    "text": "Что объединяет Pyramid Principle, метод STAR и формат User Story?",
+    "textEn": "What do the Pyramid Principle, STAR method, and User Story format have in common?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Все три используются только на собеседованиях",
+        "textEn": "All three are only used in job interviews"
+      },
+      {
+        "key": "b",
+        "text": "Все три требуют начинать с контекста, а не с выводов",
+        "textEn": "All three require starting with context, not conclusions"
+      },
+      {
+        "key": "c",
+        "text": "Все три — структуры для чёткой передачи сути",
+        "textEn": "All three are structures for clearly conveying the point"
+      },
+      {
+        "key": "d",
+        "text": "Все три созданы компанией McKinsey",
+        "textEn": "All three were created by McKinsey"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Pyramid начинает с главного вывода, STAR структурирует историю (Ситуация-Задача-Действие-Результат), User Story формулирует потребность (Как [роль], я хочу [действие], чтобы [ценность]). Все три — шаблоны, которые помогают донести мысль без потери сути.",
+    "explanationEn": "Pyramid starts with the main conclusion, STAR structures a story (Situation-Task-Action-Result), User Story formulates a need (As [role], I want [action], so that [value]). All three are templates that help convey meaning without losing the point.",
+    "source": "Communication frameworks",
+    "sourceUrl": "/guide/communication"
+  },
+  {
+    "id": "ei_unite_01",
+    "dimension": "emotional_intelligence",
+    "text": "Что объединяет самосознание, эмпатию и саморегуляцию в модели Гоулмана?",
+    "textEn": "What do self-awareness, empathy, and self-regulation share in Goleman's model?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Все три можно развить только в детстве",
+        "textEn": "All three can only be developed in childhood"
+      },
+      {
+        "key": "b",
+        "text": "Все три начинаются с умения замечать эмоции",
+        "textEn": "All three start with the ability to notice emotions"
+      },
+      {
+        "key": "c",
+        "text": "Все три относятся к социальным навыкам",
+        "textEn": "All three are social skills"
+      },
+      {
+        "key": "d",
+        "text": "Все три измеряются тестом IQ",
+        "textEn": "All three are measured by IQ tests"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Самосознание — замечаешь свои эмоции. Эмпатия — замечаешь чужие. Саморегуляция — замечаешь и управляешь. Всё начинается с одного навыка: способности заметить, что происходит эмоционально, прежде чем реагировать автоматически.",
+    "explanationEn": "Self-awareness — you notice your emotions. Empathy — you notice others'. Self-regulation — you notice and manage. It all starts with one skill: the ability to notice what's happening emotionally before reacting automatically.",
+    "source": "Daniel Goleman — Emotional Intelligence",
+    "sourceUrl": "https://www.danielgoleman.info/"
+  },
+  {
+    "id": "ld_unite_01",
+    "dimension": "leadership",
+    "text": "Что общего между Servant Leadership, ситуационным лидерством и трансформационным лидерством?",
+    "textEn": "What do Servant Leadership, Situational Leadership, and Transformational Leadership have in common?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Все три отвергают иерархию в организации",
+        "textEn": "All three reject organizational hierarchy"
+      },
+      {
+        "key": "b",
+        "text": "Все три ставят потребности команды выше контроля",
+        "textEn": "All three put team needs above control"
+      },
+      {
+        "key": "c",
+        "text": "Все три подходят только для стартапов",
+        "textEn": "All three only work for startups"
+      },
+      {
+        "key": "d",
+        "text": "Все три были разработаны военными",
+        "textEn": "All three were developed by the military"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Servant Leadership служит команде, ситуационное адаптируется под потребности каждого, трансформационное вдохновляет на развитие. Все три — альтернатива командно-контрольному стилю, где лидер диктует, а команда выполняет.",
+    "explanationEn": "Servant Leadership serves the team, Situational adapts to each person's needs, Transformational inspires growth. All three are alternatives to command-and-control style where the leader dictates and the team executes.",
+    "source": "Leadership models comparison",
+    "sourceUrl": "/guide/leadership"
+  },
+  {
+    "id": "cr_unite_01",
+    "dimension": "conflict_resolution",
+    "text": "Что объединяет NVC (ненасильственное общение), Я-высказывание и метод «Getting to Yes»?",
+    "textEn": "What do NVC, I-statements, and the 'Getting to Yes' method share?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Все три запрещают выражать несогласие",
+        "textEn": "All three prohibit expressing disagreement"
+      },
+      {
+        "key": "b",
+        "text": "Все три разделяют человека и проблему",
+        "textEn": "All three separate the person from the problem"
+      },
+      {
+        "key": "c",
+        "text": "Все три работают только при наличии медиатора",
+        "textEn": "All three only work with a mediator present"
+      },
+      {
+        "key": "d",
+        "text": "Все три запрещают использовать слово 'нет'",
+        "textEn": "All three prohibit using the word 'no'"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "NVC фокусируется на наблюдении и потребностях (не на обвинениях). Я-высказывание описывает ситуацию и чувства (не атакует). Getting to Yes работает с интересами (не с позициями). Общий принцип: атакуй проблему, а не человека.",
+    "explanationEn": "NVC focuses on observations and needs (not accusations). I-statements describe the situation and feelings (not attack). Getting to Yes works with interests (not positions). Common principle: attack the problem, not the person.",
+    "source": "Conflict resolution frameworks",
+    "sourceUrl": "/guide/conflict-resolution"
   }
 ]
