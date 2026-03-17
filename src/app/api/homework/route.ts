@@ -36,7 +36,7 @@ const contextLabels: Record<string, { ru: string; en: string }> = {
 
 export async function POST(request: NextRequest) {
   try {
-    if (!process.env.ANTHROPIC_API_KEY) {
+    if (!process.env.OPENAI_API_KEY && !process.env.ANTHROPIC_API_KEY) {
       return NextResponse.json(
         { error: "API key not configured" },
         { status: 500 }

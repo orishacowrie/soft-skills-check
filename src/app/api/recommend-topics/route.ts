@@ -1,10 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getAnthropicClient } from "@/lib/anthropic";
+import { callAI } from "@/lib/anthropic";
 import { dimensions } from "@/lib/questions";
 
 export async function POST(request: NextRequest) {
   try {
-    if (!process.env.ANTHROPIC_API_KEY) {
+    if (!process.env.OPENAI_API_KEY && !process.env.ANTHROPIC_API_KEY) {
       return NextResponse.json(
         { error: "API key not configured" },
         { status: 500 }
@@ -40,22 +40,16 @@ ${resume ? `\n${isEn ? "Resume" : "Резюме"}:\n${resume.slice(0, 1500)}` : 
 
 ${isEn ? "Return JSON array of 3-4 topic keys" : "Верни JSON-массив из 3-4 ключей тем"}:`;
 
-    const anthropic = getAnthropicClient();
-    const message = await anthropic.messages.create({
-      model: "claude-haiku-4-5-20251001",
-      max_tokens: 256,
-      system: systemPrompt,
-      messages: [{ role: "user", content: userMessage }],
-    });
-
-    const textBlock = message.content.find((block) => block.type === "text");
-    if (!textBlock || textBlock.type !== "text") {
+    let responseText: string;
+    try {
+      responseText = await callAI(systemPrompt, userMessage, { maxTokens: 256 });
+    } catch {
       return NextResponse.json({ recommended: [] });
     }
 
     let recommended: string[];
     try {
-      recommended = JSON.parse(textBlock.text);
+      recommended = JSON.parse(responseText);
       // Validate: only keep keys that exist in dimensions
       const validKeys = new Set(dimensions.map((d) => d.key));
       recommended = recommended.filter((k) => validKeys.has(k));

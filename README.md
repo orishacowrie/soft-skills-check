@@ -31,17 +31,17 @@ An open-source trainer that helps professionals assess and develop soft skills c
 ## Tech Stack
 
 - **Next.js 14** (App Router) + TypeScript + Tailwind CSS
-- **AI:** Claude Haiku 4.5 via `@anthropic-ai/sdk`
+- **AI:** GPT-4o-mini (primary, cheapest) → Claude Haiku 4.5 (fallback)
 - **Deployment:** Cloudflare Workers via `@opennextjs/cloudflare`
 - **Storage:** Cloudflare KV (analytics), `sessionStorage` (all user data -- nothing stored server-side)
-- **PDF parsing:** `unpdf` (client-side text extraction from resumes)
+- **PDF parsing:** `unpdf` (server-side text extraction from resumes)
 
 ## Getting Started
 
 ### Prerequisites
 
 - Node.js 18+
-- An [Anthropic API key](https://console.anthropic.com/)
+- At least one API key: [OpenAI](https://platform.openai.com/api-keys) or [Anthropic](https://console.anthropic.com/)
 
 ### Install and Run
 
@@ -49,12 +49,14 @@ An open-source trainer that helps professionals assess and develop soft skills c
 git clone https://github.com/job-search-toolkit/soft-skills-check.git
 cd soft-skills-check
 npm install
+cp .env.example .env.local
 ```
 
-Create `.env.local` with your API key:
+Edit `.env.local` — add at least one API key:
 
-```
-ANTHROPIC_API_KEY=sk-ant-...
+```bash
+OPENAI_API_KEY=sk-proj-...        # GPT-4o-mini (primary, ~$0.15/1M tokens)
+ANTHROPIC_API_KEY=sk-ant-...      # Claude Haiku (fallback, optional)
 ```
 
 Start the dev server:
@@ -65,17 +67,39 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
-### Deploy to Cloudflare
+### Deploy to Your Own Cloudflare
 
 ```bash
+# 1. Build for Cloudflare
 npx opennextjs-cloudflare build --dangerouslyUseUnsupportedNextVersion
-npx wrangler deploy --domain soft-skills.chillai.space
+
+# 2. Deploy (first time creates the worker)
+npx wrangler deploy
+
+# 3. Set API key(s) as secrets
+echo "your-key" | npx wrangler secret put OPENAI_API_KEY
+echo "your-key" | npx wrangler secret put ANTHROPIC_API_KEY  # optional
+
+# 4. Create KV namespace for analytics
+npx wrangler kv namespace create ANALYTICS
+# → Copy the ID into wrangler.jsonc under kv_namespaces
+
+# 5. (Optional) Add custom domain
+npx wrangler deploy --domain your-domain.example.com
 ```
 
-Set the API key as a Cloudflare Worker secret:
+### Testing Your Branch Before PR
 
 ```bash
-npx wrangler secret put ANTHROPIC_API_KEY
+# Verify build passes
+npm run build
+
+# Preview locally with Cloudflare runtime
+npx opennextjs-cloudflare build --dangerouslyUseUnsupportedNextVersion
+npx wrangler dev
+
+# Or deploy a preview (*.workers.dev URL, doesn't touch production)
+npx wrangler deploy
 ```
 
 ## Project Structure
@@ -111,7 +135,7 @@ src/
 │   ├── questions.ts              # Self-assessment questions (10 dims x 5 each)
 │   ├── quiz-questions.ts         # Knowledge quiz questions
 │   ├── scoring.ts                # Scoring logic (handles reverse questions)
-│   ├── anthropic.ts              # Claude API client (callClaude helper)
+│   ├── anthropic.ts              # AI client (GPT-4o-mini → Claude fallback)
 │   ├── i18n.ts                   # UI strings (Russian + English)
 │   └── LangContext.tsx           # Language context provider
 └── types/
@@ -139,7 +163,7 @@ Contributions are welcome. Some ideas:
 
 ## Privacy
 
-No user data is stored on the server. All assessment data lives in the browser's `sessionStorage` and is lost when the tab is closed. The only external calls are to the Anthropic API for AI analysis and generation. Anonymous usage analytics (page views, completion rates) are stored in Cloudflare KV.
+No user data is stored on the server. All assessment data lives in the browser's `sessionStorage` and is lost when the tab is closed. AI calls go to OpenAI or Anthropic for analysis/generation. Anonymous aggregate analytics (completion rates, question quality ratings) are stored in Cloudflare KV — no personal data.
 
 ## License
 
