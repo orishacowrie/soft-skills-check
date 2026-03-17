@@ -16,7 +16,7 @@ interface HomeworkResult {
   timeEstimate: string;
 }
 
-type Step = "params" | "loading" | "result" | "email";
+type Step = "params" | "email" | "verify" | "loading" | "result";
 
 const timeOptions = [
   { key: "15min", emoji: "\u26A1", labelRu: "15 минут — мини-задание", labelEn: "15 minutes — mini-task" },
@@ -32,6 +32,10 @@ const contextOptions = [
   { key: "family", emoji: "\uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC67", labelRu: "С семьёй/друзьями", labelEn: "With family/friends" },
 ];
 
+function generateCode(): string {
+  return String(Math.floor(100000 + Math.random() * 900000));
+}
+
 export default function HomeworkPage() {
   const router = useRouter();
   const { lang } = useLang();
@@ -44,8 +48,13 @@ export default function HomeworkPage() {
   const [context, setContext] = useState("alone_computer");
   const [homework, setHomework] = useState<HomeworkResult | null>(null);
   const [error, setError] = useState<string | null>(null);
+
+  // Email verification state
   const [email, setEmail] = useState("");
-  const [emailSent, setEmailSent] = useState(false);
+  const [verificationCode, setVerificationCode] = useState("");
+  const [enteredCode, setEnteredCode] = useState("");
+  const [codeError, setCodeError] = useState(false);
+  const [demoCodeVisible, setDemoCodeVisible] = useState(false);
 
   // Load analysis + quiz results
   useEffect(() => {
@@ -115,6 +124,28 @@ export default function HomeworkPage() {
     );
   };
 
+  const handleSendCode = () => {
+    const code = generateCode();
+    setVerificationCode(code);
+    sessionStorage.setItem("hwVerificationCode", code);
+    setDemoCodeVisible(true);
+    setStep("verify");
+    setCodeError(false);
+    setEnteredCode(code); // Auto-fill for demo
+  };
+
+  const handleVerifyCode = () => {
+    const storedCode = sessionStorage.getItem("hwVerificationCode") || verificationCode;
+    if (enteredCode === storedCode) {
+      setCodeError(false);
+      // Store verified email
+      sessionStorage.setItem("hwVerifiedEmail", email);
+      generateHomework();
+    } else {
+      setCodeError(true);
+    }
+  };
+
   const generateHomework = async () => {
     if (selectedTopics.length === 0) return;
     setStep("loading");
@@ -177,11 +208,6 @@ export default function HomeworkPage() {
       setError(err instanceof Error ? err.message : t.hwError);
       setStep("params");
     }
-  };
-
-  const handleEmailSubmit = () => {
-    // For now, just show success. Wire up email later.
-    setEmailSent(true);
   };
 
   // Loading state
@@ -257,36 +283,16 @@ export default function HomeworkPage() {
           </div>
         </div>
 
-        {/* Email capture */}
-        {!emailSent ? (
-          <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 mb-6 animate-fade-in-up">
-            <h3 className="text-lg font-semibold text-white mb-2">{t.hwSaveEmail}</h3>
-            <p className="text-sm text-slate-400 mb-4">{t.hwEmailLabel}</p>
-            <div className="flex gap-3">
-              <input
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder={t.hwEmailPlaceholder}
-                className="flex-1 px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white text-sm placeholder-slate-500 focus:outline-none focus:border-violet-500/50 focus:ring-1 focus:ring-violet-500/20 transition-colors"
-              />
-              <button
-                onClick={handleEmailSubmit}
-                disabled={!email || !email.includes("@")}
-                className="px-6 py-2.5 bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-500 hover:to-indigo-500 text-white font-semibold rounded-xl transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed text-sm"
-              >
-                {t.hwEmailSend}
-              </button>
-            </div>
-            <p className="text-xs text-slate-500 mt-2">{t.hwEmailNote}</p>
-          </div>
-        ) : (
+        {/* Verified email note */}
+        {email && (
           <div className="bg-green-500/10 border border-green-500/20 rounded-2xl p-6 mb-6 animate-fade-in-up">
             <div className="flex items-center gap-3">
               <svg className="w-5 h-5 text-green-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
-              <p className="text-sm text-green-300">{t.hwEmailSuccess}</p>
+              <p className="text-sm text-green-300">
+                {t.hwEmailSuccess} ({email})
+              </p>
             </div>
           </div>
         )}
@@ -297,7 +303,10 @@ export default function HomeworkPage() {
             onClick={() => {
               setHomework(null);
               setStep("params");
-              setEmailSent(false);
+              setEmail("");
+              setEnteredCode("");
+              setVerificationCode("");
+              setDemoCodeVisible(false);
             }}
             className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-500 hover:to-indigo-500 text-white font-semibold rounded-xl transition-all duration-200 shadow-lg shadow-violet-500/20"
           >
@@ -308,6 +317,150 @@ export default function HomeworkPage() {
             className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium rounded-xl transition-colors border border-slate-700"
           >
             {t.hwBackToQuiz}
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  // Email step
+  if (step === "email") {
+    return (
+      <div className="max-w-4xl mx-auto px-4 py-8 md:py-12">
+        <div className="mb-8 animate-fade-in-up">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-violet-500/10 border border-violet-500/20 text-violet-400 text-xs font-medium mb-4">
+            {t.hwBadge}
+          </div>
+          <h1 className="text-2xl md:text-3xl font-bold text-white mb-2">
+            {t.hwEmailStepTitle}
+          </h1>
+          <p className="text-slate-400">{t.hwEmailStepSubtitle}</p>
+        </div>
+
+        <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 mb-6 animate-fade-in-up">
+          <h3 className="text-lg font-semibold text-white mb-2">{t.hwSaveEmail}</h3>
+          <p className="text-sm text-slate-400 mb-4">{t.hwEmailLabel}</p>
+          <div className="flex gap-3">
+            <input
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder={t.hwEmailPlaceholder}
+              className="flex-1 px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white text-sm placeholder-slate-500 focus:outline-none focus:border-violet-500/50 focus:ring-1 focus:ring-violet-500/20 transition-colors"
+              onKeyDown={(e) => {
+                if (e.key === "Enter" && email && email.includes("@")) {
+                  handleSendCode();
+                }
+              }}
+            />
+            <button
+              onClick={handleSendCode}
+              disabled={!email || !email.includes("@")}
+              className="px-6 py-2.5 bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-500 hover:to-indigo-500 text-white font-semibold rounded-xl transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed text-sm"
+            >
+              {t.hwSendCode}
+            </button>
+          </div>
+          <p className="text-xs text-slate-500 mt-2">{t.hwEmailNote}</p>
+        </div>
+
+        <div className="flex justify-center animate-fade-in-up">
+          <button
+            onClick={() => setStep("params")}
+            className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium rounded-xl transition-colors border border-slate-700"
+          >
+            {t.testBack}
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  // Verify code step
+  if (step === "verify") {
+    return (
+      <div className="max-w-4xl mx-auto px-4 py-8 md:py-12">
+        <div className="mb-8 animate-fade-in-up">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-violet-500/10 border border-violet-500/20 text-violet-400 text-xs font-medium mb-4">
+            {t.hwBadge}
+          </div>
+          <h1 className="text-2xl md:text-3xl font-bold text-white mb-2">
+            {t.hwEmailStepTitle}
+          </h1>
+          <p className="text-slate-400">{email}</p>
+        </div>
+
+        <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 mb-6 animate-fade-in-up">
+          {/* Demo code notification */}
+          {demoCodeVisible && (
+            <div className="bg-amber-500/10 border border-amber-500/20 rounded-xl p-4 mb-6">
+              <div className="flex items-center gap-2">
+                <svg className="w-4 h-4 text-amber-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <p className="text-sm text-amber-300">
+                  {t.hwDemoCodeNote} <span className="font-mono font-bold">{verificationCode}</span>
+                </p>
+              </div>
+            </div>
+          )}
+
+          <h3 className="text-lg font-semibold text-white mb-4">{t.hwCodeLabel}</h3>
+
+          {codeError && (
+            <div className="bg-red-500/10 border border-red-500/20 rounded-xl p-3 mb-4 text-sm text-red-300">
+              {t.hwCodeError}
+            </div>
+          )}
+
+          <div className="flex gap-3 mb-4">
+            <input
+              type="text"
+              value={enteredCode}
+              onChange={(e) => {
+                setEnteredCode(e.target.value.replace(/\D/g, "").slice(0, 6));
+                setCodeError(false);
+              }}
+              placeholder={t.hwCodePlaceholder}
+              maxLength={6}
+              className="flex-1 px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white text-sm font-mono text-center text-lg tracking-[0.3em] placeholder-slate-500 focus:outline-none focus:border-violet-500/50 focus:ring-1 focus:ring-violet-500/20 transition-colors"
+              onKeyDown={(e) => {
+                if (e.key === "Enter" && enteredCode.length === 6) {
+                  handleVerifyCode();
+                }
+              }}
+            />
+            <button
+              onClick={handleVerifyCode}
+              disabled={enteredCode.length !== 6}
+              className="px-6 py-2.5 bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-500 hover:to-indigo-500 text-white font-semibold rounded-xl transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed text-sm"
+            >
+              {t.hwVerifyCode}
+            </button>
+          </div>
+
+          <div className="flex gap-4">
+            <button
+              onClick={handleSendCode}
+              className="text-sm text-violet-400 hover:text-violet-300 transition-colors underline underline-offset-2"
+            >
+              {t.hwResendCode}
+            </button>
+            <button
+              onClick={() => setStep("email")}
+              className="text-sm text-slate-400 hover:text-slate-300 transition-colors underline underline-offset-2"
+            >
+              {t.hwChangeEmail}
+            </button>
+          </div>
+        </div>
+
+        <div className="flex justify-center animate-fade-in-up">
+          <button
+            onClick={() => setStep("email")}
+            className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium rounded-xl transition-colors border border-slate-700"
+          >
+            {t.testBack}
           </button>
         </div>
       </div>
@@ -436,14 +589,14 @@ export default function HomeworkPage() {
         </div>
       </div>
 
-      {/* Generate button */}
+      {/* Continue button — goes to email step */}
       <div className="flex justify-center animate-fade-in-up">
         <button
-          onClick={generateHomework}
+          onClick={() => setStep("email")}
           disabled={selectedTopics.length === 0}
           className="inline-flex items-center justify-center gap-2 px-8 py-3 bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-500 hover:to-indigo-500 text-white font-semibold rounded-xl transition-all duration-200 shadow-lg shadow-violet-500/20 disabled:opacity-50 disabled:cursor-not-allowed"
         >
-          {t.hwGenerate}
+          {t.hwContinue}
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
           </svg>

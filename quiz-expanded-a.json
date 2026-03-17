@@ -1,0 +1,3302 @@
+[
+  {
+    "id": "ct_q01",
+    "dimension": "critical_thinking",
+    "text": "В пересмотренной таксономии Блума (2001), какой уровень находится между «Применение» и «Оценка»?",
+    "textEn": "In the revised Bloom's Taxonomy (2001), which level sits between 'Apply' and 'Evaluate'?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Запоминание фактов и терминов",
+        "textEn": "Remembering facts and terminology"
+      },
+      {
+        "key": "b",
+        "text": "Понимание смысла информации",
+        "textEn": "Understanding meaning of information"
+      },
+      {
+        "key": "c",
+        "text": "Создание нового продукта",
+        "textEn": "Creating a new product"
+      },
+      {
+        "key": "d",
+        "text": "Анализ структуры и связей",
+        "textEn": "Analyzing structure and relationships"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Пересмотренная таксономия Блума выстраивает уровни так: Запоминание → Понимание → Применение → Анализ → Оценка → Создание. Анализ — это умение разбивать информацию на компоненты и находить взаимосвязи между ними.",
+    "explanationEn": "The revised Bloom's Taxonomy orders levels as: Remember → Understand → Apply → Analyze → Evaluate → Create. Analysis is the ability to break information into components and find relationships between them.",
+    "source": "Bloom's Revised Taxonomy (Anderson & Krathwohl, 2001)",
+    "sourceUrl": "/guide/critical-thinking"
+  },
+  {
+    "id": "ct_q02",
+    "dimension": "critical_thinking",
+    "text": "Что такое confirmation bias (предвзятость подтверждения)?",
+    "textEn": "What is confirmation bias?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Привычка соглашаться с мнением большинства в группе",
+        "textEn": "Habit of agreeing with the majority opinion in a group"
+      },
+      {
+        "key": "b",
+        "text": "Склонность искать информацию, подтверждающую наши убеждения",
+        "textEn": "Tendency to seek information that confirms our existing beliefs"
+      },
+      {
+        "key": "c",
+        "text": "Стремление завершить задачу, даже если она стала неактуальной",
+        "textEn": "Drive to complete a task even when it becomes irrelevant"
+      },
+      {
+        "key": "d",
+        "text": "Тенденция переоценивать вероятность недавних событий",
+        "textEn": "Tendency to overestimate probability of recent events"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Confirmation bias — одно из самых изученных когнитивных искажений. Мы подсознательно ищем, интерпретируем и запоминаем информацию так, чтобы она подтверждала то, во что мы уже верим. При работе с AI это проявляется, когда мы формулируем промпт так, чтобы получить «нужный» ответ.",
+    "explanationEn": "Confirmation bias is one of the most studied cognitive biases. We unconsciously seek, interpret, and remember information in ways that confirm what we already believe. When working with AI, this manifests when we phrase prompts to get the answer we want.",
+    "source": "Nickerson (1998), Review of General Psychology",
+    "sourceUrl": "/guide/critical-thinking"
+  },
+  {
+    "id": "ct_q03",
+    "dimension": "critical_thinking",
+    "text": "Принцип бритвы Оккама рекомендует выбирать...",
+    "textEn": "Occam's Razor recommends choosing...",
+    "options": [
+      {
+        "key": "a",
+        "text": "самое популярное объяснение среди экспертов",
+        "textEn": "the most popular explanation among experts"
+      },
+      {
+        "key": "b",
+        "text": "самое детальное и всеобъемлющее объяснение",
+        "textEn": "the most detailed and comprehensive explanation"
+      },
+      {
+        "key": "c",
+        "text": "самое простое объяснение при прочих равных",
+        "textEn": "the simplest explanation all else being equal"
+      },
+      {
+        "key": "d",
+        "text": "самое новое объяснение из последних исследований",
+        "textEn": "the newest explanation from latest research"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Бритва Оккама (принцип парсимонии) гласит: не следует привлекать новые сущности без необходимости. Если два объяснения одинаково хорошо описывают факты, предпочтительнее более простое. Это не значит, что простое всегда верно — но это хорошая отправная точка.",
+    "explanationEn": "Occam's Razor (principle of parsimony) states: entities should not be multiplied without necessity. If two explanations equally account for the facts, the simpler one is preferable. This doesn't mean simpler is always correct — but it's a good starting point.",
+    "source": "Occam's Razor (William of Ockham, 14th century)",
+    "sourceUrl": "/guide/critical-thinking"
+  },
+  {
+    "id": "ct_q04",
+    "dimension": "critical_thinking",
+    "text": "По Карлу Попперу, научную теорию отличает от ненаучной прежде всего...",
+    "textEn": "According to Karl Popper, what primarily distinguishes a scientific theory from a non-scientific one?",
+    "options": [
+      {
+        "key": "a",
+        "text": "принципиальная возможность её опровергнуть",
+        "textEn": "the fundamental possibility of refuting it"
+      },
+      {
+        "key": "b",
+        "text": "возможность подтвердить её экспериментами",
+        "textEn": "the ability to confirm it through experiments"
+      },
+      {
+        "key": "c",
+        "text": "поддержка со стороны научного сообщества",
+        "textEn": "support from the scientific community at large"
+      },
+      {
+        "key": "d",
+        "text": "использование математических формул и данных",
+        "textEn": "usage of mathematical formulas and hard data"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Критерий фальсифицируемости Поппера утверждает: научная теория должна делать предсказания, которые можно проверить и потенциально опровергнуть. Если теорию невозможно опровергнуть никаким наблюдением, она не является научной. Это полезный фильтр при оценке AI-сгенерированных утверждений.",
+    "explanationEn": "Popper's falsifiability criterion states: a scientific theory must make predictions that can be tested and potentially refuted. If no observation could disprove a theory, it is not scientific. This is a useful filter when evaluating AI-generated claims.",
+    "source": "Karl Popper, The Logic of Scientific Discovery (1934)",
+    "sourceUrl": "/guide/critical-thinking"
+  },
+  {
+    "id": "ct_q05",
+    "dimension": "critical_thinking",
+    "text": "Red Team мышление в контексте критического анализа означает...",
+    "textEn": "Red Team thinking in the context of critical analysis means...",
+    "options": [
+      {
+        "key": "a",
+        "text": "разделить команду на сторонников и противников идеи",
+        "textEn": "splitting the team into supporters and opponents of an idea"
+      },
+      {
+        "key": "b",
+        "text": "назначить группу для активного поиска уязвимостей в решении",
+        "textEn": "assigning a group to actively search for vulnerabilities in a solution"
+      },
+      {
+        "key": "c",
+        "text": "провести голосование для определения лучшего решения",
+        "textEn": "conducting a vote to determine the best possible solution"
+      },
+      {
+        "key": "d",
+        "text": "привлечь внешних консультантов для независимой оценки",
+        "textEn": "bringing in external consultants for an independent evaluation"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Red Team — это группа, которая целенаправленно пытается найти слабые места, ошибки и уязвимости в плане или решении. Этот подход пришёл из военной стратегии и кибербезопасности. В работе с AI можно быть своим собственным Red Team: активно искать ошибки в сгенерированном контенте.",
+    "explanationEn": "A Red Team is a group that deliberately tries to find weaknesses, errors, and vulnerabilities in a plan or solution. This approach comes from military strategy and cybersecurity. When working with AI, you can be your own Red Team: actively searching for errors in generated content.",
+    "source": "Red Teaming (Military & Cybersecurity practice)",
+    "sourceUrl": "/guide/critical-thinking"
+  },
+  {
+    "id": "ct_q06",
+    "dimension": "critical_thinking",
+    "text": "Мышление от первых принципов (First Principles) предполагает, что ты...",
+    "textEn": "First Principles thinking assumes that you...",
+    "options": [
+      {
+        "key": "a",
+        "text": "опираешься на проверенные отраслевые практики",
+        "textEn": "rely on proven industry best practices"
+      },
+      {
+        "key": "b",
+        "text": "разбираешь проблему до базовых истин и строишь решение заново",
+        "textEn": "break a problem into fundamental truths and rebuild a solution from scratch"
+      },
+      {
+        "key": "c",
+        "text": "следуешь интуиции опытных профессионалов",
+        "textEn": "follow the intuition of experienced professionals"
+      },
+      {
+        "key": "d",
+        "text": "анализируешь решения конкурентов и адаптируешь лучшие",
+        "textEn": "analyze competitor solutions and adapt the best ones"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "First Principles thinking — подход, популяризированный Илоном Маском, но восходящий к Аристотелю. Вместо того чтобы рассуждать по аналогии («так делают все»), ты разбираешь проблему до фундаментальных истин и строишь рассуждение с нуля. Это помогает находить неочевидные решения.",
+    "explanationEn": "First Principles thinking — an approach popularized by Elon Musk but dating back to Aristotle. Instead of reasoning by analogy ('everyone does it this way'), you break a problem down to fundamental truths and build reasoning from scratch. This helps find non-obvious solutions.",
+    "source": "First Principles Thinking (Aristotle / modern application)",
+    "sourceUrl": "/guide/critical-thinking"
+  },
+  {
+    "id": "ct_q07",
+    "dimension": "critical_thinking",
+    "text": "Что такое «галлюцинация» AI-модели?",
+    "textEn": "What is an AI model 'hallucination'?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Повторение одного и того же ответа в разных формах",
+        "textEn": "Repeating the same answer in different varied forms"
+      },
+      {
+        "key": "b",
+        "text": "Отказ модели отвечать на сложные вопросы",
+        "textEn": "Model's refusal to answer difficult questions posed"
+      },
+      {
+        "key": "c",
+        "text": "Замедление работы при обработке больших данных",
+        "textEn": "Slowdown when processing very large data inputs"
+      },
+      {
+        "key": "d",
+        "text": "Генерация уверенного, но фактически неверного ответа",
+        "textEn": "Generating a confident but factually incorrect response"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Галлюцинация — это когда AI генерирует текст, который звучит убедительно и уверенно, но содержит выдуманные факты, несуществующие ссылки или ложную информацию. Модель не «знает», что врёт — она просто генерирует наиболее вероятное продолжение текста.",
+    "explanationEn": "A hallucination is when AI generates text that sounds convincing and confident but contains made-up facts, non-existent references, or false information. The model doesn't 'know' it's wrong — it simply generates the most probable text continuation.",
+    "source": "AI Hallucination research (Ji et al., 2023)",
+    "sourceUrl": "/guide/critical-thinking"
+  },
+  {
+    "id": "ct_q08",
+    "dimension": "critical_thinking",
+    "text": "Роль «адвоката дьявола» в групповом обсуждении заключается в том, чтобы...",
+    "textEn": "The role of 'Devil's Advocate' in a group discussion is to...",
+    "options": [
+      {
+        "key": "a",
+        "text": "поддерживать позитивную атмосферу в команде",
+        "textEn": "maintain a positive atmosphere within the team"
+      },
+      {
+        "key": "b",
+        "text": "фиксировать все решения и вести протокол встречи",
+        "textEn": "record all decisions and maintain meeting minutes"
+      },
+      {
+        "key": "c",
+        "text": "намеренно оспаривать идеи для проверки их стойкости",
+        "textEn": "deliberately challenge ideas to test their robustness"
+      },
+      {
+        "key": "d",
+        "text": "предлагать компромиссное решение между сторонами",
+        "textEn": "propose a compromise solution between opposing sides"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Адвокат дьявола — это человек, который намеренно занимает противоположную позицию, чтобы проверить прочность аргументов. Этот приём помогает бороться с групповым мышлением (groupthink) и выявлять слабости в рассуждениях до принятия решения.",
+    "explanationEn": "A Devil's Advocate deliberately takes the opposing position to test the strength of arguments. This technique helps combat groupthink and reveals weaknesses in reasoning before a decision is made.",
+    "source": "Devil's Advocate technique (Catholic Church origin, modern decision-making)",
+    "sourceUrl": "/guide/critical-thinking"
+  },
+  {
+    "id": "ct_q09",
+    "dimension": "critical_thinking",
+    "text": "Эффект Даннинга-Крюгера описывает ситуацию, когда...",
+    "textEn": "The Dunning-Kruger effect describes a situation where...",
+    "options": [
+      {
+        "key": "a",
+        "text": "эксперты постоянно завышают свою самооценку",
+        "textEn": "experts consistently overestimate their own competence"
+      },
+      {
+        "key": "b",
+        "text": "новички точно оценивают пределы своих знаний",
+        "textEn": "beginners accurately assess the limits of their knowledge"
+      },
+      {
+        "key": "c",
+        "text": "малокомпетентные люди не осознают свою некомпетентность",
+        "textEn": "low-competence people fail to recognize their incompetence"
+      },
+      {
+        "key": "d",
+        "text": "все люди одинаково плохо оценивают свои навыки",
+        "textEn": "all people are equally poor at evaluating their own skills"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Даннинг и Крюгер (1999) показали асимметрию: люди с низкой компетенцией систематически переоценивают себя (им не хватает знаний, чтобы понять, чего они не знают), тогда как эксперты склонны слегка недооценивать себя. Это особенно важно при работе с AI-инструментами.",
+    "explanationEn": "Dunning and Kruger (1999) showed an asymmetry: low-competence people systematically overestimate themselves (they lack the knowledge to know what they don't know), while experts tend to slightly underestimate themselves. This is especially important when working with AI tools.",
+    "source": "Dunning-Kruger Effect (Kruger & Dunning, 1999)",
+    "sourceUrl": "/guide/critical-thinking"
+  },
+  {
+    "id": "ct_q10",
+    "dimension": "critical_thinking",
+    "text": "Какой тип вопросов по Сократу помогает выявить скрытые допущения?",
+    "textEn": "Which type of Socratic question helps uncover hidden assumptions?",
+    "options": [
+      {
+        "key": "a",
+        "text": "«Что ты здесь принимаешь как данность, не проверяя?»",
+        "textEn": "'What are you taking for granted here without verifying?'"
+      },
+      {
+        "key": "b",
+        "text": "«Какие доказательства поддерживают эту точку зрения?»",
+        "textEn": "'What evidence supports this particular point of view?'"
+      },
+      {
+        "key": "c",
+        "text": "«К каким последствиям это приведёт на практике?»",
+        "textEn": "'What consequences will this lead to in actual practice?'"
+      },
+      {
+        "key": "d",
+        "text": "«Как бы ты объяснил это человеку со стороны?»",
+        "textEn": "'How would you explain this to an outside observer?'"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Сократовские вопросы делятся на несколько типов: вопросы о доказательствах, о допущениях, о последствиях, о перспективе. Вопрос «что ты принимаешь как данность?» напрямую нацелен на выявление скрытых допущений — фундаментальных предпосылок, которые мы не осознаём.",
+    "explanationEn": "Socratic questions fall into several types: questions about evidence, assumptions, consequences, and perspective. The question 'what are you taking for granted?' directly targets hidden assumptions — fundamental premises we don't consciously recognize.",
+    "source": "Socratic Questioning (Paul & Elder, 2006)",
+    "sourceUrl": "/guide/critical-thinking"
+  },
+  {
+    "id": "ct_q11",
+    "dimension": "critical_thinking",
+    "text": "При проверке AI-ответа, в каком случае риск галлюцинации НАИБОЛЕЕ высок?",
+    "textEn": "When verifying an AI response, in which case is hallucination risk HIGHEST?",
+    "options": [
+      {
+        "key": "a",
+        "text": "AI объясняет широко известный алгоритм сортировки",
+        "textEn": "AI explains a widely known sorting algorithm in detail"
+      },
+      {
+        "key": "b",
+        "text": "AI называет конкретные даты и числовые статистики",
+        "textEn": "AI cites specific dates and numerical statistics in text"
+      },
+      {
+        "key": "c",
+        "text": "AI описывает общие принципы программирования",
+        "textEn": "AI describes general programming principles and concepts"
+      },
+      {
+        "key": "d",
+        "text": "AI переводит текст с одного языка на другой язык",
+        "textEn": "AI translates text from one language to another language"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Риск галлюцинаций максимален, когда AI генерирует конкретные факты: даты, числа, ссылки, имена. Модель может уверенно «выдумать» точную статистику или дату. Общие концепции и известные алгоритмы она обычно описывает корректнее, потому что обучающих данных по ним больше.",
+    "explanationEn": "Hallucination risk is highest when AI generates specific facts: dates, numbers, references, names. The model can confidently fabricate exact statistics or dates. General concepts and well-known algorithms are usually described more accurately because there is more training data.",
+    "source": "AI Hallucination patterns research",
+    "sourceUrl": "/guide/critical-thinking"
+  },
+  {
+    "id": "ct_q12",
+    "dimension": "critical_thinking",
+    "text": "Что такое «anchoring bias» (эффект якоря)?",
+    "textEn": "What is 'anchoring bias' (the anchoring effect)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Предпочтение решений, которые уже были приняты ранее",
+        "textEn": "Preference for solutions that have already been chosen before"
+      },
+      {
+        "key": "b",
+        "text": "Стремление сохранить текущее положение дел без изменений",
+        "textEn": "Desire to maintain the current state of affairs without changes"
+      },
+      {
+        "key": "c",
+        "text": "Чрезмерная зависимость от первой полученной информации",
+        "textEn": "Excessive reliance on the first piece of information received"
+      },
+      {
+        "key": "d",
+        "text": "Склонность запоминать яркие события лучше обычных",
+        "textEn": "Tendency to remember vivid events better than ordinary ones"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Эффект якоря (Тверски и Канеман, 1974) — когнитивное искажение, при котором первая полученная информация («якорь») непропорционально влияет на дальнейшие суждения. Например, если AI первым предложил решение, ты будешь подсознательно привязан к нему, даже если есть лучшие альтернативы.",
+    "explanationEn": "The anchoring effect (Tversky & Kahneman, 1974) is a cognitive bias where the first piece of information received (the 'anchor') disproportionately influences subsequent judgments. For example, if AI suggests a solution first, you'll subconsciously anchor to it even if better alternatives exist.",
+    "source": "Tversky & Kahneman (1974), Judgment under Uncertainty",
+    "sourceUrl": "/guide/critical-thinking"
+  },
+  {
+    "id": "ct_q13",
+    "dimension": "critical_thinking",
+    "text": "В таксономии Блума, чем «Понимание» отличается от «Запоминания»?",
+    "textEn": "In Bloom's Taxonomy, how does 'Understand' differ from 'Remember'?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Понимание требует больше времени на изучение материала",
+        "textEn": "Understanding requires more time spent studying the material"
+      },
+      {
+        "key": "b",
+        "text": "Понимание позволяет объяснить идею своими словами",
+        "textEn": "Understanding allows explaining an idea in your own words"
+      },
+      {
+        "key": "c",
+        "text": "Запоминание относится только к текстовой информации",
+        "textEn": "Remembering applies only to textual written information"
+      },
+      {
+        "key": "d",
+        "text": "Запоминание невозможно без предварительного понимания",
+        "textEn": "Remembering is impossible without prior understanding first"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "В таксономии Блума «Запоминание» — это способность воспроизвести информацию (назвать, перечислить, узнать). «Понимание» — следующий уровень: способность объяснить, перефразировать, привести примеры. Ты можешь запомнить формулу, не понимая её смысла.",
+    "explanationEn": "In Bloom's Taxonomy, 'Remember' is the ability to reproduce information (name, list, recognize). 'Understand' is the next level: the ability to explain, paraphrase, give examples. You can memorize a formula without understanding its meaning.",
+    "source": "Bloom's Revised Taxonomy (Anderson & Krathwohl, 2001)",
+    "sourceUrl": "/guide/critical-thinking"
+  },
+  {
+    "id": "ct_q14",
+    "dimension": "critical_thinking",
+    "text": "Какую стратегию лучше использовать для проверки сложного AI-ответа?",
+    "textEn": "What strategy is best for verifying a complex AI response?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Задать тот же вопрос повторно и сравнить ответы модели",
+        "textEn": "Ask the same question again and compare model responses given"
+      },
+      {
+        "key": "b",
+        "text": "Проверить только финальный вывод, пропуская промежуточные",
+        "textEn": "Verify only the final conclusion while skipping intermediate steps"
+      },
+      {
+        "key": "c",
+        "text": "Попросить модель оценить уверенность от одного до десяти",
+        "textEn": "Ask the model to rate its confidence from one to ten"
+      },
+      {
+        "key": "d",
+        "text": "Разбить утверждения на части и проверить каждое отдельно",
+        "textEn": "Break claims into parts and verify each one independently"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Декомпозиция — самый надёжный подход. Разбив сложный ответ на отдельные утверждения, ты можешь проверить каждое по отдельности. Повторный вопрос (A) может дать тот же неверный ответ. Самооценка модели (C) ненадёжна. Проверка только вывода (D) пропустит ошибки в рассуждениях.",
+    "explanationEn": "Decomposition is the most reliable approach. By breaking a complex response into individual claims, you can verify each separately. Re-asking (A) may give the same wrong answer. Model self-assessment (C) is unreliable. Checking only the conclusion (D) misses reasoning errors.",
+    "source": "AI verification best practices",
+    "sourceUrl": "/guide/critical-thinking"
+  },
+  {
+    "id": "ct_q15",
+    "dimension": "critical_thinking",
+    "text": "Какое когнитивное искажение заставляет нас переоценивать вероятность ярких, запоминающихся событий?",
+    "textEn": "Which cognitive bias causes us to overestimate the probability of vivid, memorable events?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ошибка выжившего (survivorship bias в оценке)",
+        "textEn": "Survivorship bias (in probability assessment)"
+      },
+      {
+        "key": "b",
+        "text": "Предвзятость подтверждения (confirmation bias)",
+        "textEn": "Confirmation bias (confirmatory tendency)"
+      },
+      {
+        "key": "c",
+        "text": "Эффект доступности (availability heuristic)",
+        "textEn": "Availability heuristic (availability bias)"
+      },
+      {
+        "key": "d",
+        "text": "Эффект ореола (halo effect в восприятии)",
+        "textEn": "Halo effect (in perception and judgment)"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Эвристика доступности (Тверски и Канеман, 1973) — это склонность оценивать вероятность события по тому, насколько легко примеры приходят в голову. Яркие и эмоциональные события запоминаются лучше, поэтому мы считаем их более вероятными, чем они есть на самом деле.",
+    "explanationEn": "The availability heuristic (Tversky & Kahneman, 1973) is the tendency to assess event probability by how easily examples come to mind. Vivid and emotional events are remembered better, so we consider them more probable than they actually are.",
+    "source": "Tversky & Kahneman (1973), Availability Heuristic",
+    "sourceUrl": "/guide/critical-thinking"
+  },
+  {
+    "id": "ct_q16",
+    "dimension": "critical_thinking",
+    "text": "Почему AI-модели иногда уверенно ссылаются на несуществующие научные статьи?",
+    "textEn": "Why do AI models sometimes confidently cite non-existent scientific papers?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Модели генерируют вероятное продолжение, а не ищут факты",
+        "textEn": "Models generate probable continuations rather than look up facts"
+      },
+      {
+        "key": "b",
+        "text": "Модели специально обучены создавать правдоподобные ссылки",
+        "textEn": "Models are specifically trained to create plausible references"
+      },
+      {
+        "key": "c",
+        "text": "Базы данных научных статей слишком быстро устаревают",
+        "textEn": "Scientific paper databases become outdated much too quickly"
+      },
+      {
+        "key": "d",
+        "text": "Разработчики запрещают моделям доступ к реальным источникам",
+        "textEn": "Developers prohibit models from accessing any real data sources"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Языковые модели работают по принципу предсказания наиболее вероятного следующего токена. Они не «ищут» информацию в базе данных, а генерируют статистически правдоподобный текст. Поэтому могут создать убедительную ссылку с реальным именем автора, но выдуманным названием статьи.",
+    "explanationEn": "Language models work by predicting the most probable next token. They don't 'search' a database but generate statistically plausible text. So they can create a convincing reference with a real author name but a fabricated paper title.",
+    "source": "LLM architecture fundamentals",
+    "sourceUrl": "/guide/critical-thinking"
+  },
+  {
+    "id": "ct_q17",
+    "dimension": "critical_thinking",
+    "text": "Что из перечисленного является примером логической ошибки «апелляция к авторитету»?",
+    "textEn": "Which of the following is an example of the 'appeal to authority' logical fallacy?",
+    "options": [
+      {
+        "key": "a",
+        "text": "«Это лучший вариант, потому что он самый простой»",
+        "textEn": "'This is the best option because it is the simplest one'"
+      },
+      {
+        "key": "b",
+        "text": "«Это работает, потому что мы проверили на ста пользователях»",
+        "textEn": "'This works because we tested it on one hundred users'"
+      },
+      {
+        "key": "c",
+        "text": "«Это неверно, потому что приводит к противоречию»",
+        "textEn": "'This is wrong because it leads to a clear contradiction'"
+      },
+      {
+        "key": "d",
+        "text": "«Это правда, потому что так считает известный учёный»",
+        "textEn": "'This is true because a famous scientist thinks so'"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Апелляция к авторитету (argumentum ad verecundiam) — логическая ошибка, когда истинность утверждения обосновывается статусом человека, а не доказательствами. Авторитет может ошибаться, особенно за пределами своей области. То же касается AI: «модель так сказала» — не аргумент.",
+    "explanationEn": "Appeal to authority (argumentum ad verecundiam) is a logical fallacy where truth is justified by a person's status rather than evidence. Authorities can be wrong, especially outside their domain. The same applies to AI: 'the model said so' is not an argument.",
+    "source": "Classical Logic, Informal Fallacies",
+    "sourceUrl": "/guide/critical-thinking"
+  },
+  {
+    "id": "ct_q18",
+    "dimension": "critical_thinking",
+    "text": "Какой подход к промптам снижает вероятность получения предвзятого ответа от AI?",
+    "textEn": "Which prompting approach reduces the likelihood of getting a biased AI response?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Задать открытый вопрос без подсказок нужного ответа",
+        "textEn": "Ask an open question without hinting at the desired answer"
+      },
+      {
+        "key": "b",
+        "text": "Начать промпт со слов «как известно» или «очевидно что»",
+        "textEn": "Start the prompt with 'as we know' or 'it is obvious'"
+      },
+      {
+        "key": "c",
+        "text": "Попросить модель подтвердить твою точку зрения фактами",
+        "textEn": "Ask the model to support your point of view with solid facts"
+      },
+      {
+        "key": "d",
+        "text": "Указать, какой ответ ты ожидаешь, для точности вывода",
+        "textEn": "Specify which answer you expect for output precision clarity"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Открытые вопросы без «наводки» снижают sycophancy bias — склонность модели соглашаться с пользователем. Если ты спрашиваешь «правда ли, что X лучше Y?», модель чаще подтвердит. Нейтральный промпт «сравни X и Y» даёт более объективный результат.",
+    "explanationEn": "Open questions without leading cues reduce sycophancy bias — the model's tendency to agree with the user. If you ask 'is it true that X is better than Y?', the model will more often confirm. A neutral prompt 'compare X and Y' gives a more objective result.",
+    "source": "Prompt engineering best practices",
+    "sourceUrl": "/guide/critical-thinking"
+  },
+  {
+    "id": "ct_q19",
+    "dimension": "critical_thinking",
+    "text": "Ошибка выжившего (survivorship bias) — это когда мы...",
+    "textEn": "Survivorship bias is when we...",
+    "options": [
+      {
+        "key": "a",
+        "text": "учитываем только успешные случаи, игнорируя провалы",
+        "textEn": "consider only successful cases while ignoring all failures"
+      },
+      {
+        "key": "b",
+        "text": "переоцениваем свои шансы на успех из-за самоуверенности",
+        "textEn": "overestimate our chances of success due to overconfidence"
+      },
+      {
+        "key": "c",
+        "text": "цепляемся за первое найденное решение задачи",
+        "textEn": "cling to the very first solution we find for a problem"
+      },
+      {
+        "key": "d",
+        "text": "боимся рисковать из-за страха потерять имеющееся",
+        "textEn": "fear taking risks because of potential loss of what we have"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Ошибка выжившего возникает, когда мы делаем выводы только на основе «выживших» — успешных примеров, не замечая тех, кто провалился. Классический пример: «Билл Гейтс бросил университет и стал миллиардером» — но миллионы людей бросили учёбу и не стали.",
+    "explanationEn": "Survivorship bias occurs when we draw conclusions based only on 'survivors' — successful examples — while not noticing those who failed. Classic example: 'Bill Gates dropped out and became a billionaire' — but millions dropped out and didn't.",
+    "source": "Survivorship Bias (Wald, WWII research)",
+    "sourceUrl": "/guide/critical-thinking"
+  },
+  {
+    "id": "ct_q20",
+    "dimension": "critical_thinking",
+    "text": "Согласно принципу фальсифицируемости, какое утверждение является научным?",
+    "textEn": "According to the falsifiability principle, which statement is scientific?",
+    "options": [
+      {
+        "key": "a",
+        "text": "«Всё в мире происходит по какой-то причине»",
+        "textEn": "'Everything in the world happens for some reason'"
+      },
+      {
+        "key": "b",
+        "text": "«Когда-нибудь всё станет на свои места»",
+        "textEn": "'Someday everything will fall into its right place'"
+      },
+      {
+        "key": "c",
+        "text": "«Судьба каждого человека предопределена заранее»",
+        "textEn": "'The fate of every person is predetermined in advance'"
+      },
+      {
+        "key": "d",
+        "text": "«Вода при нормальном давлении кипит при 100°C»",
+        "textEn": "'Water at normal pressure boils at exactly 100°C'"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "По Попперу, научное утверждение должно быть фальсифицируемым — должен существовать эксперимент, который может его опровергнуть. «Вода кипит при 100°C» можно проверить и опровергнуть (например, на другой высоте). Остальные утверждения слишком расплывчаты, чтобы их можно было опровергнуть.",
+    "explanationEn": "According to Popper, a scientific statement must be falsifiable — there must be an experiment that could disprove it. 'Water boils at 100°C' can be tested and refuted (e.g., at different altitudes). The other statements are too vague to be disproved.",
+    "source": "Karl Popper, Falsifiability criterion",
+    "sourceUrl": "/guide/critical-thinking"
+  },
+  {
+    "id": "cm_q01",
+    "dimension": "communication",
+    "text": "Принцип пирамиды Минто рекомендует начинать коммуникацию с...",
+    "textEn": "The Minto Pyramid Principle recommends starting communication with...",
+    "options": [
+      {
+        "key": "a",
+        "text": "подробного описания контекста и предыстории проблемы",
+        "textEn": "a detailed description of the context and problem background"
+      },
+      {
+        "key": "b",
+        "text": "вопроса к аудитории для вовлечения в дискуссию",
+        "textEn": "a question to the audience to engage them in the discussion"
+      },
+      {
+        "key": "c",
+        "text": "главного вывода или рекомендации, затем аргументы",
+        "textEn": "the main conclusion or recommendation followed by arguments"
+      },
+      {
+        "key": "d",
+        "text": "перечисления всех возможных вариантов решения задачи",
+        "textEn": "listing all possible solution options for the given problem"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Барбара Минто (McKinsey) разработала принцип пирамиды: начинай с главного вывода, потом подкрепляй его ключевыми аргументами, а детали — в конце. Это экономит время читателя и структурирует мышление. Подход top-down, а не bottom-up.",
+    "explanationEn": "Barbara Minto (McKinsey) developed the Pyramid Principle: start with the main conclusion, then support it with key arguments, with details at the end. This saves the reader's time and structures thinking. A top-down rather than bottom-up approach.",
+    "source": "The Minto Pyramid Principle (Barbara Minto, 1987)",
+    "sourceUrl": "/guide/communication"
+  },
+  {
+    "id": "cm_q02",
+    "dimension": "communication",
+    "text": "В модели STAR для структурирования ответов, буква «A» означает...",
+    "textEn": "In the STAR model for structuring responses, the letter 'A' stands for...",
+    "options": [
+      {
+        "key": "a",
+        "text": "Action — конкретные действия, которые ты предпринял",
+        "textEn": "Action — specific actions that you actually took"
+      },
+      {
+        "key": "b",
+        "text": "Analysis — анализ причин ситуации",
+        "textEn": "Analysis — analyzing the causes of a situation"
+      },
+      {
+        "key": "c",
+        "text": "Assessment — оценка результатов работы",
+        "textEn": "Assessment — evaluating the results of the work"
+      },
+      {
+        "key": "d",
+        "text": "Approach — выбранный подход к решению задачи",
+        "textEn": "Approach — the chosen approach to solving a task"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "STAR = Situation (ситуация), Task (задача), Action (действие), Result (результат). Формат помогает чётко и структурированно описать опыт. «Action» — это конкретные шаги, которые ты предпринял, не абстрактные размышления. Это самая важная часть STAR-ответа.",
+    "explanationEn": "STAR = Situation, Task, Action, Result. The format helps describe experience clearly and in a structured way. 'Action' means specific steps you took, not abstract reflections. This is the most important part of a STAR response.",
+    "source": "STAR Method (behavioral interview framework)",
+    "sourceUrl": "/guide/communication"
+  },
+  {
+    "id": "cm_q03",
+    "dimension": "communication",
+    "text": "Правило Меграбяна (7-38-55) утверждает, что при передаче эмоций...",
+    "textEn": "Mehrabian's rule (7-38-55) states that when communicating emotions...",
+    "options": [
+      {
+        "key": "a",
+        "text": "55% информации теряется при любой форме коммуникации",
+        "textEn": "55% of information is lost during any form of communication"
+      },
+      {
+        "key": "b",
+        "text": "55% информации передаётся через тон и интонацию голоса",
+        "textEn": "55% of information is conveyed through tone and voice pitch"
+      },
+      {
+        "key": "c",
+        "text": "55% информации передаётся через содержание произнесённых слов",
+        "textEn": "55% of information is conveyed through actual spoken word content"
+      },
+      {
+        "key": "d",
+        "text": "55% информации передаётся через язык тела и мимику",
+        "textEn": "55% of information is conveyed through body language and face"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "По исследованию Меграбяна (1967): при передаче чувств и отношений 7% информации — слова, 38% — тон голоса, 55% — язык тела. Важно: это правило применимо ТОЛЬКО к коммуникации эмоций при несовпадении вербального и невербального сигнала, а не ко всей коммуникации.",
+    "explanationEn": "According to Mehrabian's research (1967): when communicating feelings and attitudes, 7% is words, 38% is tone of voice, 55% is body language. Important: this rule applies ONLY to emotional communication when verbal and non-verbal signals conflict, not to all communication.",
+    "source": "Albert Mehrabian (1967), 7-38-55 Rule",
+    "sourceUrl": "/guide/communication"
+  },
+  {
+    "id": "cm_q04",
+    "dimension": "communication",
+    "text": "Модель ненасильственного общения (NVC) Розенберга включает четыре компонента. Какой из них НЕ входит?",
+    "textEn": "Rosenberg's Nonviolent Communication (NVC) model includes four components. Which one is NOT included?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Наблюдение без оценки ситуации",
+        "textEn": "Observation without judging the situation"
+      },
+      {
+        "key": "b",
+        "text": "Выражение своих чувств и эмоций",
+        "textEn": "Expressing your feelings and emotions clearly"
+      },
+      {
+        "key": "c",
+        "text": "Формулирование конкретной просьбы",
+        "textEn": "Formulating a concrete specific request"
+      },
+      {
+        "key": "d",
+        "text": "Предложение компромиссного решения",
+        "textEn": "Proposing a compromise solution to others"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Четыре компонента NVC: (1) Наблюдение (что произошло, без оценок), (2) Чувства (что я ощущаю), (3) Потребности (какая потребность стоит за чувством), (4) Просьба (конкретный запрос). Компромисс — это инструмент переговоров, но не компонент NVC.",
+    "explanationEn": "The four NVC components are: (1) Observation (what happened, without judgment), (2) Feelings (what I feel), (3) Needs (what need underlies the feeling), (4) Request (a specific ask). Compromise is a negotiation tool but not an NVC component.",
+    "source": "Marshall Rosenberg, Nonviolent Communication (1999)",
+    "sourceUrl": "/guide/communication"
+  },
+  {
+    "id": "cm_q05",
+    "dimension": "communication",
+    "text": "Окно Джохари (Johari Window) — это модель, которая помогает понять...",
+    "textEn": "The Johari Window is a model that helps understand...",
+    "options": [
+      {
+        "key": "a",
+        "text": "какие каналы коммуникации лучше подходят для каких задач",
+        "textEn": "which communication channels are best suited for which tasks"
+      },
+      {
+        "key": "b",
+        "text": "как эффективнее проводить презентации перед аудиторией",
+        "textEn": "how to conduct presentations more effectively before audiences"
+      },
+      {
+        "key": "c",
+        "text": "как распределяется информация между известным тебе и другим",
+        "textEn": "how information is distributed between what you and others know"
+      },
+      {
+        "key": "d",
+        "text": "как формулировать обратную связь по методу бутерброда",
+        "textEn": "how to formulate feedback using the sandwich method approach"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Окно Джохари делит информацию на 4 зоны: открытая (известна тебе и другим), слепая (известна другим, но не тебе), скрытая (известна тебе, но не другим), неизвестная (никому не известна). Расширение открытой зоны через обратную связь и самораскрытие улучшает коммуникацию.",
+    "explanationEn": "The Johari Window divides information into 4 zones: open (known to you and others), blind (known to others but not you), hidden (known to you but not others), unknown (known to nobody). Expanding the open zone through feedback and self-disclosure improves communication.",
+    "source": "Johari Window (Joseph Luft & Harrington Ingham, 1955)",
+    "sourceUrl": "/guide/communication"
+  },
+  {
+    "id": "cm_q06",
+    "dimension": "communication",
+    "text": "Модель SBI для обратной связи расшифровывается как...",
+    "textEn": "The SBI feedback model stands for...",
+    "options": [
+      {
+        "key": "a",
+        "text": "Situation, Behavior, Impact (ситуация, поведение, воздействие)",
+        "textEn": "Situation, Behavior, Impact (situation, behavior, then impact)"
+      },
+      {
+        "key": "b",
+        "text": "Summary, Behavior, Improvement (резюме, поведение, улучшение)",
+        "textEn": "Summary, Behavior, Improvement (summary, behavior, improvement)"
+      },
+      {
+        "key": "c",
+        "text": "Strengths, Blocks, Ideas (сильные стороны, блокеры, идеи)",
+        "textEn": "Strengths, Blocks, Ideas (strong points, blockers, and ideas)"
+      },
+      {
+        "key": "d",
+        "text": "Scope, Background, Insight (масштаб, предыстория, инсайт)",
+        "textEn": "Scope, Background, Insight (scale, background, then insight)"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "SBI — это фреймворк от Center for Creative Leadership: Situation (когда и где), Behavior (что конкретно человек сделал), Impact (как это повлияло). Он помогает давать объективную обратную связь, основанную на фактах, а не на оценках личности.",
+    "explanationEn": "SBI is a framework from the Center for Creative Leadership: Situation (when and where), Behavior (what specifically the person did), Impact (how it affected things). It helps give objective feedback based on facts, not personality judgments.",
+    "source": "SBI Model (Center for Creative Leadership)",
+    "sourceUrl": "/guide/communication"
+  },
+  {
+    "id": "cm_q07",
+    "dimension": "communication",
+    "text": "Активное слушание включает в себя приём «отзеркаливание». Что это значит?",
+    "textEn": "Active listening includes the technique of 'mirroring.' What does this mean?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Копировать позу и жесты собеседника незаметно",
+        "textEn": "Subtly copying the posture and gestures of the speaker"
+      },
+      {
+        "key": "b",
+        "text": "Перефразировать слова собеседника своими словами",
+        "textEn": "Paraphrasing the speaker's words in your own words back"
+      },
+      {
+        "key": "c",
+        "text": "Задавать уточняющие вопросы после каждой фразы",
+        "textEn": "Asking clarifying questions after every single phrase said"
+      },
+      {
+        "key": "d",
+        "text": "Записывать ключевые тезисы во время разговора",
+        "textEn": "Writing down key points during the entire conversation"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Отзеркаливание (mirroring) в контексте активного слушания — это перефразирование сказанного собеседником. Ты показываешь, что понял его, и даёшь возможность скорректировать, если понял неправильно. Это отличается от физического зеркалирования (копирование поз), которое относится к невербальной коммуникации.",
+    "explanationEn": "Mirroring in active listening means paraphrasing what the speaker said. You show that you understood and give them a chance to correct if you misunderstood. This differs from physical mirroring (copying posture), which relates to non-verbal communication.",
+    "source": "Active Listening (Carl Rogers, 1951)",
+    "sourceUrl": "/guide/communication"
+  },
+  {
+    "id": "cm_q08",
+    "dimension": "communication",
+    "text": "Какой главный недостаток «метода бутерброда» (похвала-критика-похвала) в обратной связи?",
+    "textEn": "What is the main drawback of the 'feedback sandwich' (praise-criticism-praise) method?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Похвала воспринимается как неискренняя и обесценивает критику",
+        "textEn": "Praise is perceived as insincere and devalues the actual criticism given"
+      },
+      {
+        "key": "b",
+        "text": "Он занимает слишком много времени по сравнению с прямой обратной связью",
+        "textEn": "It takes too much time compared to giving direct straightforward feedback"
+      },
+      {
+        "key": "c",
+        "text": "Он подходит только для письменной коммуникации и не работает устно",
+        "textEn": "It works only for written communication and fails in verbal settings"
+      },
+      {
+        "key": "d",
+        "text": "Он заставляет человека фокусироваться только на позитивных частях",
+        "textEn": "It makes the person focus only on the positive parts of the message"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Главная проблема «бутерброда» — люди быстро считывают паттерн. Похвала в начале начинает восприниматься как «подготовка к удару», а похвала в конце — как попытка «подсластить пилюлю». Критика теряет вес, а похвала — искренность. Модель SBI обычно эффективнее.",
+    "explanationEn": "The main problem with the 'sandwich' is that people quickly recognize the pattern. Opening praise starts feeling like 'softening the blow,' and closing praise like 'sugarcoating.' Criticism loses weight and praise loses sincerity. The SBI model is usually more effective.",
+    "source": "Feedback research, von Bergen et al. (2014)",
+    "sourceUrl": "/guide/communication"
+  },
+  {
+    "id": "cm_q09",
+    "dimension": "communication",
+    "text": "При написании промпта для AI, принцип «одна задача — один промпт» помогает потому что...",
+    "textEn": "When writing a prompt for AI, the 'one task per prompt' principle helps because...",
+    "options": [
+      {
+        "key": "a",
+        "text": "AI модели имеют строгий лимит на количество символов в ответе",
+        "textEn": "AI models have a strict limit on the number of characters per response"
+      },
+      {
+        "key": "b",
+        "text": "модель лучше фокусируется и реже теряет контекст при ответе",
+        "textEn": "the model focuses better and loses context less often in responses"
+      },
+      {
+        "key": "c",
+        "text": "это снижает стоимость запроса к API-модели за каждый токен",
+        "textEn": "it reduces the cost of each API request per generated token used"
+      },
+      {
+        "key": "d",
+        "text": "составные промпты запрещены правилами использования моделей",
+        "textEn": "compound prompts are prohibited by the model usage policy rules"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Когда промпт содержит несколько разных задач, модель может потерять фокус, перемешать ответы или уделить непропорционально много внимания одной части. Разделение на отдельные промпты позволяет модели полностью сосредоточиться на каждой задаче и даёт лучшее качество.",
+    "explanationEn": "When a prompt contains multiple different tasks, the model may lose focus, mix up responses, or give disproportionate attention to one part. Splitting into separate prompts allows the model to fully concentrate on each task and delivers better quality.",
+    "source": "Prompt engineering best practices",
+    "sourceUrl": "/guide/communication"
+  },
+  {
+    "id": "cm_q10",
+    "dimension": "communication",
+    "text": "Какой компонент NVC (ненасильственного общения) часто путают с оценкой?",
+    "textEn": "Which NVC (Nonviolent Communication) component is often confused with judgment?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Потребности — выражение глубинных потребностей за эмоцией",
+        "textEn": "Needs — expressing the deep needs that underlie emotions"
+      },
+      {
+        "key": "b",
+        "text": "Чувства — описание своих эмоциональных реакций",
+        "textEn": "Feelings — describing your own emotional reactions felt"
+      },
+      {
+        "key": "c",
+        "text": "Наблюдение — описание фактов без интерпретации",
+        "textEn": "Observation — describing facts without any interpretation"
+      },
+      {
+        "key": "d",
+        "text": "Просьба — конкретный запрос к другому человеку",
+        "textEn": "Request — a concrete specific ask directed to another person"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Розенберг подчёркивает, что наблюдение и оценка — разные вещи. «Ты опоздал на 15 минут» — наблюдение. «Ты всегда опаздываешь» — оценка. Смешивание наблюдения с оценкой провоцирует защитную реакцию и мешает конструктивному диалогу.",
+    "explanationEn": "Rosenberg emphasizes that observation and evaluation are different things. 'You arrived 15 minutes late' is an observation. 'You always arrive late' is an evaluation. Mixing observation with evaluation triggers defensiveness and hinders constructive dialogue.",
+    "source": "Marshall Rosenberg, Nonviolent Communication (1999)",
+    "sourceUrl": "/guide/communication"
+  },
+  {
+    "id": "cm_q11",
+    "dimension": "communication",
+    "text": "В окне Джохари, «слепая зона» — это информация, которую...",
+    "textEn": "In the Johari Window, the 'blind spot' is information that...",
+    "options": [
+      {
+        "key": "a",
+        "text": "не знаешь ни ты, ни окружающие вокруг тебя",
+        "textEn": "neither you nor the people around you are aware of"
+      },
+      {
+        "key": "b",
+        "text": "знаешь только ты, но скрываешь от окружающих",
+        "textEn": "only you know about but you hide it from other people"
+      },
+      {
+        "key": "c",
+        "text": "видят окружающие, но ты сам не осознаёшь её",
+        "textEn": "others can see about you but you don't realize yourself"
+      },
+      {
+        "key": "d",
+        "text": "известна всем участникам коммуникации в группе",
+        "textEn": "is known to all participants in group communication"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Слепая зона — это то, что другие видят в тебе, но ты сам не замечаешь: привычки, манеры, влияние твоего поведения. Обратная связь от коллег помогает уменьшить слепую зону. Это один из самых ценных источников роста в коммуникации.",
+    "explanationEn": "The blind spot is what others see in you but you don't notice yourself: habits, mannerisms, the impact of your behavior. Feedback from colleagues helps reduce the blind spot. This is one of the most valuable sources of communication growth.",
+    "source": "Johari Window (Luft & Ingham, 1955)",
+    "sourceUrl": "/guide/communication"
+  },
+  {
+    "id": "cm_q12",
+    "dimension": "communication",
+    "text": "Какой формат структурирования задач для AI наиболее эффективен?",
+    "textEn": "Which task structuring format is most effective for AI prompts?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Роль + контекст + задача + формат ожидаемого ответа",
+        "textEn": "Role plus context plus task plus expected answer format"
+      },
+      {
+        "key": "b",
+        "text": "Свободный текст с подробным описанием контекста",
+        "textEn": "Free-form text with detailed description of full context"
+      },
+      {
+        "key": "c",
+        "text": "Только ключевые слова через запятую без предложений",
+        "textEn": "Only keywords separated by commas without full sentences"
+      },
+      {
+        "key": "d",
+        "text": "Вопрос в одно предложение без дополнительных деталей",
+        "textEn": "Question in one single sentence without additional details"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Структурированный промпт с чёткой ролью, контекстом, задачей и форматом вывода даёт модели все необходимые ориентиры. Это снижает двусмысленность и повышает качество ответа. Подход аналогичен пирамиде Минто — сначала главное, потом детали.",
+    "explanationEn": "A structured prompt with a clear role, context, task, and output format gives the model all necessary guidance. This reduces ambiguity and improves response quality. The approach is similar to the Minto Pyramid — main point first, then details.",
+    "source": "Prompt engineering frameworks",
+    "sourceUrl": "/guide/communication"
+  },
+  {
+    "id": "cm_q13",
+    "dimension": "communication",
+    "text": "В методе STAR, чем «Situation» отличается от «Task»?",
+    "textEn": "In the STAR method, how does 'Situation' differ from 'Task'?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Situation — внешний контекст, Task — твоя конкретная ответственность",
+        "textEn": "Situation is external context, Task is your specific responsibility"
+      },
+      {
+        "key": "b",
+        "text": "Situation — текущее состояние, Task — прошлые достижения в этом",
+        "textEn": "Situation is current state, Task refers to past achievements in it"
+      },
+      {
+        "key": "c",
+        "text": "Situation описывает команду, Task описывает инструменты работы",
+        "textEn": "Situation describes the team, Task describes the tools being used"
+      },
+      {
+        "key": "d",
+        "text": "Situation — это проблема, Task — это дедлайн по проблеме",
+        "textEn": "Situation is the problem itself, Task is the deadline for it"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "В STAR Situation — это общий контекст: где и когда это происходило, какова была обстановка. Task — твоя конкретная роль и ответственность в этой ситуации. Например: «Мы запускали продукт» (Situation) vs «Я отвечал за API-интеграцию» (Task).",
+    "explanationEn": "In STAR, Situation is the general context: where and when it happened, what the setting was. Task is your specific role and responsibility in that situation. For example: 'We were launching a product' (Situation) vs 'I was responsible for API integration' (Task).",
+    "source": "STAR Method",
+    "sourceUrl": "/guide/communication"
+  },
+  {
+    "id": "cm_q14",
+    "dimension": "communication",
+    "text": "Правило 7-38-55 Меграбяна корректно применять ТОЛЬКО когда...",
+    "textEn": "Mehrabian's 7-38-55 rule is correctly applied ONLY when...",
+    "options": [
+      {
+        "key": "a",
+        "text": "коммуникация происходит в письменном формате (чат, email)",
+        "textEn": "communication happens in written format (chat, email, text)"
+      },
+      {
+        "key": "b",
+        "text": "вербальный и невербальный сигналы противоречат друг другу",
+        "textEn": "verbal and non-verbal signals contradict each other directly"
+      },
+      {
+        "key": "c",
+        "text": "говорящий выступает перед большой аудиторией на сцене",
+        "textEn": "the speaker is presenting before a large audience on stage"
+      },
+      {
+        "key": "d",
+        "text": "разговор ведётся на тему, знакомую обоим собеседникам",
+        "textEn": "the conversation is about a topic familiar to both parties"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Исследование Меграбяна проводилось в узком контексте: передача чувств и отношений, когда слова и тон/жесты не совпадают. Распространять эти пропорции на всю коммуникацию — ошибка. При обсуждении технических деталей слова, конечно, важнее мимики.",
+    "explanationEn": "Mehrabian's research was conducted in a narrow context: communicating feelings and attitudes when words and tone/gestures don't match. Applying these proportions to all communication is a mistake. When discussing technical details, words are obviously more important than facial expressions.",
+    "source": "Albert Mehrabian, limitations of the 7-38-55 rule",
+    "sourceUrl": "/guide/communication"
+  },
+  {
+    "id": "cm_q15",
+    "dimension": "communication",
+    "text": "Какой элемент активного слушания помогает собеседнику чувствовать, что его понимают?",
+    "textEn": "Which active listening element helps the speaker feel truly understood?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Быстро предложить своё решение его проблемы",
+        "textEn": "Quickly offering your own solution to their problem"
+      },
+      {
+        "key": "b",
+        "text": "Молча кивать и не перебивать во время рассказа",
+        "textEn": "Silently nodding and not interrupting during their story"
+      },
+      {
+        "key": "c",
+        "text": "Рассказать похожую историю из своего личного опыта",
+        "textEn": "Sharing a similar story from your own personal experience"
+      },
+      {
+        "key": "d",
+        "text": "Эмпатическое отражение чувств собеседника вслух",
+        "textEn": "Empathically reflecting the speaker's feelings out loud"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Эмпатическое отражение — один из ключевых приёмов активного слушания (Карл Роджерс). Когда ты называешь чувство собеседника («Похоже, тебя это расстроило»), он чувствует, что его действительно слышат. Молчаливое кивание (D) — пассивное, а не активное слушание.",
+    "explanationEn": "Empathic reflection is one of the key techniques of active listening (Carl Rogers). When you name the speaker's feeling ('It sounds like that upset you'), they feel truly heard. Silent nodding (D) is passive, not active listening.",
+    "source": "Carl Rogers, Active Listening (1951)",
+    "sourceUrl": "/guide/communication"
+  },
+  {
+    "id": "cm_q16",
+    "dimension": "communication",
+    "text": "В пирамиде Минто, группировка аргументов по логике MECE означает...",
+    "textEn": "In the Minto Pyramid, grouping arguments using MECE logic means...",
+    "options": [
+      {
+        "key": "a",
+        "text": "аргументы расположены в хронологическом порядке событий",
+        "textEn": "arguments are arranged in chronological order of events"
+      },
+      {
+        "key": "b",
+        "text": "аргументов должно быть не более трёх для ясности мысли",
+        "textEn": "there should be no more than three arguments for thought clarity"
+      },
+      {
+        "key": "c",
+        "text": "аргументы подкреплены количественными данными и графиками",
+        "textEn": "arguments are backed by quantitative data and visual charts"
+      },
+      {
+        "key": "d",
+        "text": "каждый аргумент не пересекается с другими и вместе они полны",
+        "textEn": "each argument doesn't overlap with others and together they're complete"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "MECE = Mutually Exclusive, Collectively Exhaustive. Это принцип McKinsey: категории не должны пересекаться (mutually exclusive) и должны покрывать все варианты (collectively exhaustive). Это гарантирует, что ты не пропустил ничего важного и не посчитал что-то дважды.",
+    "explanationEn": "MECE = Mutually Exclusive, Collectively Exhaustive. This McKinsey principle means categories shouldn't overlap (mutually exclusive) and should cover all possibilities (collectively exhaustive). This ensures you haven't missed anything important or double-counted.",
+    "source": "MECE Principle (McKinsey & Company)",
+    "sourceUrl": "/guide/communication"
+  },
+  {
+    "id": "cm_q17",
+    "dimension": "communication",
+    "text": "При формулировке просьбы в NVC, какой вариант наиболее правильный?",
+    "textEn": "When formulating a request in NVC, which option is most correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "«Было бы неплохо, если бы отчёт был готов поскорее»",
+        "textEn": "'It would be nice if the report were ready fairly soon'"
+      },
+      {
+        "key": "b",
+        "text": "«Можешь ли ты отправить отчёт к пятнице до конца дня?»",
+        "textEn": "'Could you send the report by Friday end of the business day?'"
+      },
+      {
+        "key": "c",
+        "text": "«Тебе обязательно нужно сдать отчёт, это срочно важно»",
+        "textEn": "'You absolutely must submit the report, it is urgently important'"
+      },
+      {
+        "key": "d",
+        "text": "«Все уже сдали свои отчёты, только ты не сдал свой»",
+        "textEn": "'Everyone else has already submitted their reports except you'"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "В NVC просьба должна быть конкретной, позитивной (что сделать, а не чего не делать) и выполнимой. Вариант A — конкретная просьба с дедлайном. B — размытая, C — требование (а не просьба), D — манипуляция через сравнение с другими.",
+    "explanationEn": "In NVC, a request should be specific, positive (what to do, not what not to do), and doable. Option A is a concrete request with a deadline. B is vague, C is a demand (not a request), D is manipulation through comparison with others.",
+    "source": "Marshall Rosenberg, Nonviolent Communication (1999)",
+    "sourceUrl": "/guide/communication"
+  },
+  {
+    "id": "cm_q18",
+    "dimension": "communication",
+    "text": "Какой принцип структуры эффективного технического документа совпадает с пирамидой Минто?",
+    "textEn": "Which effective technical document structure principle aligns with the Minto Pyramid?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Начинать с определения всех использованных терминов",
+        "textEn": "Start with defining all technical terms that are being used"
+      },
+      {
+        "key": "b",
+        "text": "Начинать с истории вопроса и обзора литературных источников",
+        "textEn": "Start with a history of the topic and literature review first"
+      },
+      {
+        "key": "c",
+        "text": "Начинать с описания методологии и подхода к задаче",
+        "textEn": "Start with describing the methodology and approach to task"
+      },
+      {
+        "key": "d",
+        "text": "Начинать с вывода, а затем приводить подтверждения",
+        "textEn": "Start with the conclusion then provide supporting evidence"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Пирамида Минто и хорошая техническая документация следуют принципу «выводы вперёд» (bottom line up front, BLUF). Читатель сразу узнаёт главное, а потом решает, нужно ли углубляться в детали. Это экономит время и улучшает усвоение информации.",
+    "explanationEn": "The Minto Pyramid and good technical documentation follow the 'bottom line up front' (BLUF) principle. The reader immediately learns the main point, then decides whether to dive into details. This saves time and improves information absorption.",
+    "source": "The Minto Pyramid Principle + BLUF",
+    "sourceUrl": "/guide/communication"
+  },
+  {
+    "id": "cm_q19",
+    "dimension": "communication",
+    "text": "Какая ошибка в обратной связи по модели SBI наиболее распространена?",
+    "textEn": "What is the most common mistake when giving feedback using the SBI model?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Описывать ситуацию слишком кратко без деталей",
+        "textEn": "Describing the situation too briefly without any details"
+      },
+      {
+        "key": "b",
+        "text": "Давать обратную связь слишком быстро после события",
+        "textEn": "Giving feedback too quickly right after the event occurred"
+      },
+      {
+        "key": "c",
+        "text": "Смешивать поведение (Behavior) с интерпретацией мотивов",
+        "textEn": "Mixing behavior with interpretation of the person's motives"
+      },
+      {
+        "key": "d",
+        "text": "Использовать модель только для негативной обратной связи",
+        "textEn": "Using the model only for giving negative feedback to people"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Самая частая ошибка — подмена описания поведения интерпретацией. «Ты проигнорировал моё письмо» — это интерпретация мотива. «Ты не ответил на моё письмо за 3 дня» — описание поведения. SBI работает, когда Behavior остаётся фактом, а не домыслом.",
+    "explanationEn": "The most common mistake is substituting behavior description with interpretation. 'You ignored my email' is interpreting motive. 'You didn't respond to my email for 3 days' is describing behavior. SBI works when Behavior stays factual, not speculative.",
+    "source": "SBI Model (Center for Creative Leadership)",
+    "sourceUrl": "/guide/communication"
+  },
+  {
+    "id": "cm_q20",
+    "dimension": "communication",
+    "text": "Почему при описании задачи для AI важно указывать формат вывода?",
+    "textEn": "Why is it important to specify output format when describing a task to AI?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Без формата модель откажется выполнять запрос пользователя",
+        "textEn": "Without a format the model will refuse the user's full request"
+      },
+      {
+        "key": "b",
+        "text": "Формат снижает двусмысленность и упрощает использование ответа",
+        "textEn": "Format reduces ambiguity and simplifies using the model response"
+      },
+      {
+        "key": "c",
+        "text": "Модели обучены только на структурированных форматах данных",
+        "textEn": "Models are trained only on structured data format types today"
+      },
+      {
+        "key": "d",
+        "text": "Указание формата ускоряет генерацию ответа моделью в разы",
+        "textEn": "Specifying format significantly speeds up the model's generation"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Указание формата (JSON, таблица, список, код) — ключевой элемент хорошего промпта. Он устраняет двусмысленность в том, КАК должен выглядеть результат, и позволяет сразу использовать ответ без дополнительного форматирования. Модель не откажется без формата, но ответ может быть неудобным.",
+    "explanationEn": "Specifying format (JSON, table, list, code) is a key element of a good prompt. It eliminates ambiguity about HOW the result should look and allows immediate use without reformatting. The model won't refuse without a format, but the response may be inconvenient.",
+    "source": "Prompt engineering principles",
+    "sourceUrl": "/guide/communication"
+  },
+  {
+    "id": "ad_q01",
+    "dimension": "adaptability",
+    "text": "Кэрол Двек разделяет мышление на два типа. Что характерно для «установки на рост» (growth mindset)?",
+    "textEn": "Carol Dweck divides mindset into two types. What characterizes a 'growth mindset'?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Убеждение, что талант определяет успех больше усилий",
+        "textEn": "Belief that talent determines success more than effort does"
+      },
+      {
+        "key": "b",
+        "text": "Восприятие ошибок как возможностей для обучения и роста",
+        "textEn": "Viewing mistakes as opportunities for learning and growth"
+      },
+      {
+        "key": "c",
+        "text": "Избегание сложных задач, чтобы не показать некомпетентность",
+        "textEn": "Avoiding difficult tasks to not reveal one's incompetence"
+      },
+      {
+        "key": "d",
+        "text": "Стремление получать только позитивную обратную связь",
+        "textEn": "Striving to receive only positive feedback from other people"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Growth mindset по Двек — убеждение, что способности развиваются через усилия и практику. Ключевой признак — отношение к ошибкам: не как к провалу, а как к источнику информации для роста. Fixed mindset, наоборот, воспринимает ошибки как доказательство недостатка таланта.",
+    "explanationEn": "Growth mindset according to Dweck is the belief that abilities develop through effort and practice. The key indicator is attitude toward mistakes: not as failure but as a source of information for growth. Fixed mindset sees mistakes as proof of insufficient talent.",
+    "source": "Carol Dweck, Mindset (2006)",
+    "sourceUrl": "/guide/adaptability"
+  },
+  {
+    "id": "ad_q02",
+    "dimension": "adaptability",
+    "text": "В модели ADKAR управления изменениями, буква «K» означает...",
+    "textEn": "In the ADKAR change management model, the letter 'K' stands for...",
+    "options": [
+      {
+        "key": "a",
+        "text": "Knowledge — знания о том, как измениться практически",
+        "textEn": "Knowledge — knowing how to change in practical terms"
+      },
+      {
+        "key": "b",
+        "text": "Kinetics — скорость внедрения изменений в команде",
+        "textEn": "Kinetics — speed of implementing changes within the team"
+      },
+      {
+        "key": "c",
+        "text": "Key results — ключевые результаты процесса изменений",
+        "textEn": "Key results — key outcomes of the change process itself"
+      },
+      {
+        "key": "d",
+        "text": "Kickoff — начальный этап запуска трансформации в компании",
+        "textEn": "Kickoff — the initial launch phase of company transformation"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "ADKAR = Awareness (осознание необходимости), Desire (желание участвовать), Knowledge (знания, как меняться), Ability (способность применить), Reinforcement (закрепление). Knowledge — это третий этап: человек должен знать, ЧТО конкретно делать для изменения.",
+    "explanationEn": "ADKAR = Awareness (of the need), Desire (to participate), Knowledge (how to change), Ability (to implement), Reinforcement (to sustain). Knowledge is the third stage: a person must know WHAT specifically to do to make the change.",
+    "source": "ADKAR Model (Jeff Hiatt, Prosci, 2003)",
+    "sourceUrl": "/guide/adaptability"
+  },
+  {
+    "id": "ad_q03",
+    "dimension": "adaptability",
+    "text": "На кривой изменений Кюблер-Росс, какая стадия обычно следует за «отрицанием»?",
+    "textEn": "On the Kübler-Ross change curve, which stage typically follows 'denial'?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Принятие новой реальности и адаптация к ней",
+        "textEn": "Acceptance of the new reality and adaptation to it"
+      },
+      {
+        "key": "b",
+        "text": "Депрессия и потеря мотивации к какой-либо работе",
+        "textEn": "Depression and loss of motivation for any work at all"
+      },
+      {
+        "key": "c",
+        "text": "Экспериментирование с новыми подходами к работе",
+        "textEn": "Experimenting with new approaches to work and tasks"
+      },
+      {
+        "key": "d",
+        "text": "Гнев и сопротивление происходящим изменениям",
+        "textEn": "Anger and resistance to the changes taking place"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Кривая Кюблер-Росс описывает стадии реакции на изменения: Отрицание → Гнев → Торг → Депрессия → Принятие. После начального «этого не может быть» человек переходит к раздражению и сопротивлению. Понимание этих стадий помогает управлять своими реакциями на изменения.",
+    "explanationEn": "The Kübler-Ross curve describes stages of reaction to change: Denial → Anger → Bargaining → Depression → Acceptance. After the initial 'this can't be happening,' a person transitions to irritation and resistance. Understanding these stages helps manage your reactions to change.",
+    "source": "Kübler-Ross Change Curve (1969)",
+    "sourceUrl": "/guide/adaptability"
+  },
+  {
+    "id": "ad_q04",
+    "dimension": "adaptability",
+    "text": "Модель «зон комфорта» описывает три зоны. «Зона обучения» — это когда...",
+    "textEn": "The 'comfort zone' model describes three zones. The 'learning zone' is when...",
+    "options": [
+      {
+        "key": "a",
+        "text": "ты чувствуешь себя полностью уверенно и расслабленно",
+        "textEn": "you feel completely confident and relaxed about the task"
+      },
+      {
+        "key": "b",
+        "text": "стресс настолько высок, что блокирует твоё обучение",
+        "textEn": "stress is so high that it completely blocks your learning"
+      },
+      {
+        "key": "c",
+        "text": "задача вызывает продуктивный дискомфорт и ты растёшь",
+        "textEn": "the task causes productive discomfort and you are growing"
+      },
+      {
+        "key": "d",
+        "text": "ты автоматически выполняешь задачи без усилий вообще",
+        "textEn": "you automatically complete tasks without any effort at all"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Три зоны: Комфорта (всё привычно, мало обучения), Обучения (продуктивный дискомфорт, новые навыки), Паники (стресс блокирует обучение). Зона обучения — оптимальное место для развития: задача достаточно сложна, чтобы быть вызовом, но не настолько, чтобы парализовать.",
+    "explanationEn": "Three zones: Comfort (everything familiar, little learning), Learning (productive discomfort, new skills), Panic (stress blocks learning). The learning zone is optimal for development: the task is challenging enough to stretch you but not so much as to paralyze.",
+    "source": "Comfort Zone Model (Senninger, 2000)",
+    "sourceUrl": "/guide/adaptability"
+  },
+  {
+    "id": "ad_q05",
+    "dimension": "adaptability",
+    "text": "Что такое «T-shaped professional» (T-образный специалист)?",
+    "textEn": "What is a 'T-shaped professional'?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Руководитель, управляющий двумя командами одновременно",
+        "textEn": "Manager who leads two separate teams at the same time"
+      },
+      {
+        "key": "b",
+        "text": "Специалист с глубокой экспертизой в одной и широким кругозором",
+        "textEn": "Specialist with deep expertise in one area and broad knowledge"
+      },
+      {
+        "key": "c",
+        "text": "Специалист, который меняет профессию каждые два-три года",
+        "textEn": "Professional who changes careers every two to three years"
+      },
+      {
+        "key": "d",
+        "text": "Человек, работающий только в рамках своей узкой специальности",
+        "textEn": "Person who works only within their narrow area of specialty"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "T-shaped professional — метафора, где вертикальная палочка буквы T — глубокая экспертиза в одной области, а горизонтальная — широкое понимание смежных дисциплин. Такие специалисты могут эффективно работать в кросс-функциональных командах и адаптироваться к новым задачам.",
+    "explanationEn": "T-shaped professional is a metaphor where the vertical bar of the T represents deep expertise in one area, and the horizontal bar represents broad understanding of adjacent disciplines. Such professionals can work effectively in cross-functional teams and adapt to new tasks.",
+    "source": "T-shaped skills concept (Tim Brown, IDEO)",
+    "sourceUrl": "/guide/adaptability"
+  },
+  {
+    "id": "ad_q06",
+    "dimension": "adaptability",
+    "text": "Learning agility (обучаемость) — это способность...",
+    "textEn": "Learning agility is the ability to...",
+    "options": [
+      {
+        "key": "a",
+        "text": "быстро запоминать большие объёмы новой информации",
+        "textEn": "quickly memorize large volumes of new incoming information"
+      },
+      {
+        "key": "b",
+        "text": "эффективно учиться на новом опыте и применять уроки",
+        "textEn": "effectively learn from new experiences and apply those lessons"
+      },
+      {
+        "key": "c",
+        "text": "получать высокие оценки в формальных программах обучения",
+        "textEn": "achieve high scores in formal educational training programs"
+      },
+      {
+        "key": "d",
+        "text": "одновременно осваивать несколько языков программирования",
+        "textEn": "simultaneously learn multiple programming languages at once"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Learning agility — не про скорость запоминания, а про способность извлекать уроки из нового опыта и применять их в незнакомых ситуациях. Исследования Korn Ferry показывают, что learning agility — один из лучших предикторов лидерского потенциала.",
+    "explanationEn": "Learning agility isn't about memorization speed but about the ability to extract lessons from new experiences and apply them in unfamiliar situations. Korn Ferry research shows learning agility is one of the best predictors of leadership potential.",
+    "source": "Learning Agility (Korn Ferry / Lombardo & Eichinger)",
+    "sourceUrl": "/guide/adaptability"
+  },
+  {
+    "id": "ad_q07",
+    "dimension": "adaptability",
+    "text": "В модели ADKAR, какой шаг нужно пройти ПЕРЕД тем, как получить знания (Knowledge)?",
+    "textEn": "In the ADKAR model, which step must come BEFORE gaining Knowledge?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ability — способность применить изменения на практике",
+        "textEn": "Ability — capability to implement changes in actual practice"
+      },
+      {
+        "key": "b",
+        "text": "Reinforcement — закрепление новых привычек на работе",
+        "textEn": "Reinforcement — solidifying new habits in the workplace"
+      },
+      {
+        "key": "c",
+        "text": "Desire — желание участвовать в процессе изменений",
+        "textEn": "Desire — willingness to participate in the change process"
+      },
+      {
+        "key": "d",
+        "text": "Awareness — осознание, но без желания менять что-либо",
+        "textEn": "Awareness — realizing need but without willingness to change"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Порядок ADKAR: Awareness → Desire → Knowledge → Ability → Reinforcement. Перед тем как человек начнёт учиться (Knowledge), ему нужно захотеть (Desire). Без желания обучение будет формальным и неэффективным — это частая ошибка при внедрении изменений.",
+    "explanationEn": "The ADKAR order is: Awareness → Desire → Knowledge → Ability → Reinforcement. Before a person starts learning (Knowledge), they need to want to (Desire). Without desire, training will be superficial and ineffective — a common mistake in change management.",
+    "source": "ADKAR Model (Jeff Hiatt, Prosci, 2003)",
+    "sourceUrl": "/guide/adaptability"
+  },
+  {
+    "id": "ad_q08",
+    "dimension": "adaptability",
+    "text": "Какой признак характерен для «fixed mindset» (фиксированного мышления) по Двек?",
+    "textEn": "Which trait is characteristic of a 'fixed mindset' according to Dweck?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Избегание вызовов из страха показаться недостаточно умным",
+        "textEn": "Avoiding challenges from fear of appearing not smart enough"
+      },
+      {
+        "key": "b",
+        "text": "Готовность браться за задачи выше текущего уровня навыков",
+        "textEn": "Willingness to take on tasks above current skill competence"
+      },
+      {
+        "key": "c",
+        "text": "Восприятие критики как полезной информации для развития",
+        "textEn": "Viewing criticism as useful information for personal development"
+      },
+      {
+        "key": "d",
+        "text": "Настойчивость при столкновении с препятствиями в работе",
+        "textEn": "Persistence when facing obstacles and setbacks during work"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Fixed mindset — убеждение, что способности врождённы и неизменны. Люди с таким мышлением избегают вызовов, потому что провал «доказывает» их недостаточный талант. Growth mindset, напротив, воспринимает вызовы как шанс научиться чему-то новому.",
+    "explanationEn": "Fixed mindset is the belief that abilities are innate and unchangeable. People with this mindset avoid challenges because failure 'proves' their insufficient talent. Growth mindset, conversely, views challenges as chances to learn something new.",
+    "source": "Carol Dweck, Mindset (2006)",
+    "sourceUrl": "/guide/adaptability"
+  },
+  {
+    "id": "ad_q09",
+    "dimension": "adaptability",
+    "text": "Какая стратегия помогает быстрее адаптироваться к новому AI-инструменту?",
+    "textEn": "Which strategy helps adapt to a new AI tool more quickly?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Начать с маленьких задач и постепенно увеличивать сложность",
+        "textEn": "Start with small tasks and gradually increase their complexity"
+      },
+      {
+        "key": "b",
+        "text": "Полностью изучить документацию перед первым использованием",
+        "textEn": "Completely study all documentation before the first usage"
+      },
+      {
+        "key": "c",
+        "text": "Сразу применить инструмент к самой важной рабочей задаче",
+        "textEn": "Immediately apply the tool to the most important work task"
+      },
+      {
+        "key": "d",
+        "text": "Подождать, пока коллеги освоят инструмент, и спросить их",
+        "textEn": "Wait until colleagues master the tool and then ask for tips"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Инкрементальный подход — начать с малого и наращивать — соответствует модели зоны обучения. Маленькие задачи позволяют понять возможности и ограничения инструмента без высокого риска. Полное чтение документации (A) задерживает старт, а важная задача (C) создаёт ненужный стресс.",
+    "explanationEn": "The incremental approach — starting small and scaling up — aligns with the learning zone model. Small tasks let you understand capabilities and limitations without high risk. Full documentation (A) delays the start, while an important task (C) creates unnecessary stress.",
+    "source": "Learning Zone model + practical adaptation",
+    "sourceUrl": "/guide/adaptability"
+  },
+  {
+    "id": "ad_q10",
+    "dimension": "adaptability",
+    "text": "На стадии «торга» кривой Кюблер-Росс человек обычно...",
+    "textEn": "At the 'bargaining' stage of the Kübler-Ross curve, a person typically...",
+    "options": [
+      {
+        "key": "a",
+        "text": "полностью отрицает необходимость каких-либо перемен",
+        "textEn": "completely denies the need for any changes to take place"
+      },
+      {
+        "key": "b",
+        "text": "активно сопротивляется и злится на происходящие изменения",
+        "textEn": "actively resists and feels angry about the changes happening"
+      },
+      {
+        "key": "c",
+        "text": "пытается найти компромисс или частично принять изменения",
+        "textEn": "tries to find a compromise or partially accept the changes"
+      },
+      {
+        "key": "d",
+        "text": "теряет мотивацию и испытывает апатию ко всей работе",
+        "textEn": "loses motivation and experiences apathy toward all their work"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Торг — третья стадия (после Отрицания и Гнева). Человек уже принял, что изменения неизбежны, но пытается минимизировать их влияние: «Может, я буду использовать новый инструмент только для части задач?» Это попытка контролировать ситуацию через компромисс.",
+    "explanationEn": "Bargaining is the third stage (after Denial and Anger). The person has accepted that changes are inevitable but tries to minimize their impact: 'Maybe I'll use the new tool only for some tasks?' It's an attempt to control the situation through compromise.",
+    "source": "Kübler-Ross Change Curve (1969)",
+    "sourceUrl": "/guide/adaptability"
+  },
+  {
+    "id": "ad_q11",
+    "dimension": "adaptability",
+    "text": "Что отличает «learning agility» от простого интеллекта (IQ)?",
+    "textEn": "What distinguishes 'learning agility' from plain intelligence (IQ)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Learning agility можно измерить только стандартизированными тестами",
+        "textEn": "Learning agility can only be measured by standardized testing tools"
+      },
+      {
+        "key": "b",
+        "text": "IQ измеряет практические навыки, а не теоретические способности",
+        "textEn": "IQ measures practical working skills rather than theoretical abilities"
+      },
+      {
+        "key": "c",
+        "text": "Learning agility фокусируется на применении опыта в новых контекстах",
+        "textEn": "Learning agility focuses on applying experience to brand new contexts"
+      },
+      {
+        "key": "d",
+        "text": "IQ предсказывает успех лучше, чем learning agility по исследованиям",
+        "textEn": "IQ predicts success better than learning agility research suggests"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "IQ измеряет когнитивные способности в стандартных условиях. Learning agility — способность быстро учиться в НОВЫХ, незнакомых ситуациях и переносить уроки из одного контекста в другой. В мире быстро меняющихся AI-инструментов learning agility часто важнее высокого IQ.",
+    "explanationEn": "IQ measures cognitive abilities in standard conditions. Learning agility is the ability to learn quickly in NEW, unfamiliar situations and transfer lessons from one context to another. In a world of rapidly changing AI tools, learning agility is often more valuable than high IQ.",
+    "source": "Korn Ferry Learning Agility research",
+    "sourceUrl": "/guide/adaptability"
+  },
+  {
+    "id": "ad_q12",
+    "dimension": "adaptability",
+    "text": "При переходе на новый рабочий процесс с AI, что помогает преодолеть «зону паники»?",
+    "textEn": "When transitioning to a new AI workflow, what helps overcome the 'panic zone'?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Работать сверхурочно, пока новый процесс не станет привычным",
+        "textEn": "Work overtime hours until the new process becomes habitual"
+      },
+      {
+        "key": "b",
+        "text": "Полностью заменить старый процесс новым за один день",
+        "textEn": "Completely replace the old process with the new one overnight"
+      },
+      {
+        "key": "c",
+        "text": "Отказаться от изменения и вернуться к привычному методу",
+        "textEn": "Abandon the change and return to the familiar old method"
+      },
+      {
+        "key": "d",
+        "text": "Разбить большое изменение на маленькие управляемые шаги",
+        "textEn": "Break the big change into small manageable steps to follow"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Зона паники возникает, когда изменение слишком масштабное. Разбивка на малые шаги возвращает задачу в зону обучения. Это согласуется и с ADKAR (постепенное прохождение этапов), и с концепцией атомарных привычек Клира — маленькие изменения накапливаются.",
+    "explanationEn": "The panic zone occurs when change is too large. Breaking it into small steps returns the task to the learning zone. This aligns with both ADKAR (gradual progression) and Clear's atomic habits concept — small changes accumulate over time.",
+    "source": "Comfort Zone Model + Atomic Habits",
+    "sourceUrl": "/guide/adaptability"
+  },
+  {
+    "id": "ad_q13",
+    "dimension": "adaptability",
+    "text": "По Двек, какая фраза лучше всего отражает growth mindset?",
+    "textEn": "According to Dweck, which phrase best reflects a growth mindset?",
+    "options": [
+      {
+        "key": "a",
+        "text": "«Я пока этого не умею, но могу научиться практикой»",
+        "textEn": "'I don't know how to do this yet but I can learn with practice'"
+      },
+      {
+        "key": "b",
+        "text": "«Я или умею это делать, или нет — тут ничего не изменишь»",
+        "textEn": "'I either can do this or cannot — nothing can change that fact'"
+      },
+      {
+        "key": "c",
+        "text": "«Мне не нужна обратная связь, я сам знаю свой уровень»",
+        "textEn": "'I don't need feedback from others, I know my own skill level'"
+      },
+      {
+        "key": "d",
+        "text": "«Если это сложно, значит это просто не моя сфера навыков»",
+        "textEn": "'If it is difficult then it just isn't my area of expertise'"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Слово «пока» (yet) — маркер growth mindset по Двек. Оно превращает статичное «не умею» в динамичное «пока не умею». Это ключевой сдвиг: от оценки текущих способностей к вере в потенциал развития через усилия.",
+    "explanationEn": "The word 'yet' is a growth mindset marker according to Dweck. It transforms static 'I can't' into dynamic 'I can't yet.' This is the key shift: from assessing current abilities to believing in development potential through effort.",
+    "source": "Carol Dweck, The Power of Yet (TED Talk, 2014)",
+    "sourceUrl": "/guide/adaptability"
+  },
+  {
+    "id": "ad_q14",
+    "dimension": "adaptability",
+    "text": "Что такое «Reinforcement» в модели ADKAR?",
+    "textEn": "What is 'Reinforcement' in the ADKAR model?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Первоначальное осознание необходимости перемен в работе",
+        "textEn": "Initial awareness that changes in work processes are needed"
+      },
+      {
+        "key": "b",
+        "text": "Формирование желания участвовать в трансформации процессов",
+        "textEn": "Building desire to participate in the process transformation"
+      },
+      {
+        "key": "c",
+        "text": "Обучение новым навыкам, необходимым для процесса изменений",
+        "textEn": "Training in new skills required for the change process itself"
+      },
+      {
+        "key": "d",
+        "text": "Действия по закреплению изменений, чтобы не откатиться назад",
+        "textEn": "Actions to sustain changes so they don't revert to old ways"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Reinforcement — последний этап ADKAR. Без закрепления люди склонны возвращаться к старым привычкам. Закрепление включает: признание успехов, устранение барьеров, измерение прогресса. Это особенно важно при внедрении AI-инструментов — без практики навык теряется.",
+    "explanationEn": "Reinforcement is the last ADKAR stage. Without reinforcement, people tend to revert to old habits. Reinforcement includes: recognizing successes, removing barriers, measuring progress. This is especially important when adopting AI tools — without practice, skills fade.",
+    "source": "ADKAR Model (Jeff Hiatt, Prosci, 2003)",
+    "sourceUrl": "/guide/adaptability"
+  },
+  {
+    "id": "ad_q15",
+    "dimension": "adaptability",
+    "text": "Какой подход к смене AI-инструментов наиболее адаптивный?",
+    "textEn": "Which approach to switching AI tools is the most adaptive?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Детально запомнить все команды одного конкретного инструмента",
+        "textEn": "Memorize every command of one specific tool in great detail"
+      },
+      {
+        "key": "b",
+        "text": "Изучить принципы промптинга, применимые к любому инструменту",
+        "textEn": "Learn prompting principles that are applicable to any AI tool"
+      },
+      {
+        "key": "c",
+        "text": "Использовать только один инструмент и никогда его не менять",
+        "textEn": "Use only one single tool and never switch to another tool"
+      },
+      {
+        "key": "d",
+        "text": "Ждать, пока индустрия определит единственный стандарт для всех",
+        "textEn": "Wait until the industry settles on a single standard for all"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Фокус на переносимых принципах (декомпозиция задач, итеративный промптинг, верификация) — это T-shaped подход к AI. Конкретные инструменты будут меняться, но базовые навыки взаимодействия с AI останутся актуальными. Это и есть learning agility в действии.",
+    "explanationEn": "Focusing on transferable principles (task decomposition, iterative prompting, verification) is a T-shaped approach to AI. Specific tools will change, but fundamental AI interaction skills remain relevant. This is learning agility in action.",
+    "source": "T-shaped skills + Learning Agility",
+    "sourceUrl": "/guide/adaptability"
+  },
+  {
+    "id": "ad_q16",
+    "dimension": "adaptability",
+    "text": "Согласно исследованиям Двек, как лучше хвалить ребёнка (или коллегу)?",
+    "textEn": "According to Dweck's research, how is it best to praise a child (or colleague)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "«Ты такой умный, у тебя всё получается легко!»",
+        "textEn": "'You are so smart, everything comes easily to you!'"
+      },
+      {
+        "key": "b",
+        "text": "«Ты хорошо поработал, видно, что приложил усилия»",
+        "textEn": "'You worked hard on this, your effort clearly shows here'"
+      },
+      {
+        "key": "c",
+        "text": "«У тебя врождённый талант к этому виду работы»",
+        "textEn": "'You have a natural born talent for this kind of work'"
+      },
+      {
+        "key": "d",
+        "text": "«Ты лучше всех в команде справляешься с задачами»",
+        "textEn": "'You handle tasks better than anyone else on the team'"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Двек показала, что похвала за усилия и стратегию (process praise) укрепляет growth mindset, тогда как похвала за талант (person praise) укрепляет fixed mindset. Когда хвалят за ум, человек начинает избегать сложных задач, чтобы не «потерять» статус умного.",
+    "explanationEn": "Dweck showed that praise for effort and strategy (process praise) reinforces growth mindset, while praise for talent (person praise) reinforces fixed mindset. When praised for being smart, people start avoiding difficult tasks to not 'lose' their smart status.",
+    "source": "Carol Dweck, Mindset (2006)",
+    "sourceUrl": "/guide/adaptability"
+  },
+  {
+    "id": "ad_q17",
+    "dimension": "adaptability",
+    "text": "Какая стадия кривой Кюблер-Росс характеризуется наименьшей продуктивностью?",
+    "textEn": "Which stage of the Kübler-Ross curve is characterized by the lowest productivity?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Депрессия — человек теряет мотивацию и энергию",
+        "textEn": "Depression — the person loses motivation and energy levels"
+      },
+      {
+        "key": "b",
+        "text": "Гнев — человек активно сопротивляется новому порядку",
+        "textEn": "Anger — the person actively resists the new way of working"
+      },
+      {
+        "key": "c",
+        "text": "Отрицание — человек продолжает работать по-старому",
+        "textEn": "Denial — the person continues working in the old familiar way"
+      },
+      {
+        "key": "d",
+        "text": "Принятие — человек начинает осваивать новый подход",
+        "textEn": "Acceptance — the person starts to embrace the new approach"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Депрессия — «дно» кривой, точка наименьшей продуктивности и морального состояния. Человек уже понял, что изменения неизбежны, торг не помог, и наступает апатия. Важно знать, что это нормальная стадия, и за ней следует подъём к принятию.",
+    "explanationEn": "Depression is the 'bottom' of the curve, the point of lowest productivity and morale. The person has realized changes are inevitable, bargaining didn't help, and apathy sets in. It's important to know this is a normal stage, followed by a rise toward acceptance.",
+    "source": "Kübler-Ross Change Curve (1969)",
+    "sourceUrl": "/guide/adaptability"
+  },
+  {
+    "id": "ad_q18",
+    "dimension": "adaptability",
+    "text": "Какой из компонентов learning agility связан с умением менять поведение под обстоятельства?",
+    "textEn": "Which learning agility component relates to adjusting behavior to circumstances?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Mental agility — способность анализировать сложные проблемы",
+        "textEn": "Mental agility — ability to analyze complex problems deeply"
+      },
+      {
+        "key": "b",
+        "text": "People agility — навыки взаимодействия с разными людьми",
+        "textEn": "People agility — skills for interacting with diverse people"
+      },
+      {
+        "key": "c",
+        "text": "Change agility — готовность экспериментировать и рисковать",
+        "textEn": "Change agility — willingness to experiment and to take risks"
+      },
+      {
+        "key": "d",
+        "text": "Results agility — умение достигать результата в новых условиях",
+        "textEn": "Results agility — ability to deliver results in new conditions"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Модель Korn Ferry выделяет 5 компонентов learning agility: Mental, People, Change, Results и Self-awareness. Change agility — это готовность экспериментировать, пробовать новые подходы и не бояться неопределённости. Именно это позволяет менять поведение под обстоятельства.",
+    "explanationEn": "The Korn Ferry model identifies 5 learning agility components: Mental, People, Change, Results, and Self-awareness. Change agility is the willingness to experiment, try new approaches, and not fear uncertainty. This is what enables adjusting behavior to circumstances.",
+    "source": "Korn Ferry Learning Agility model",
+    "sourceUrl": "/guide/adaptability"
+  },
+  {
+    "id": "ad_q19",
+    "dimension": "adaptability",
+    "text": "Почему «зона комфорта» со временем может сужаться?",
+    "textEn": "Why can the 'comfort zone' shrink over time?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Сужение зоны комфорта — это миф, она только растёт всегда",
+        "textEn": "Comfort zone shrinking is a myth as it only ever expands"
+      },
+      {
+        "key": "b",
+        "text": "Комфортная зона имеет фиксированный размер от рождения",
+        "textEn": "The comfort zone has a fixed size that is set since birth"
+      },
+      {
+        "key": "c",
+        "text": "Зона комфорта расширяется только до определённого предела",
+        "textEn": "The comfort zone can only expand up to a certain set limit"
+      },
+      {
+        "key": "d",
+        "text": "Если долго не выходить за её пределы, навыки деградируют",
+        "textEn": "If you stay inside too long without challenge skills degrade"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Зона комфорта — не статичная конструкция. Если ты перестаёшь бросать себе вызовы, навыки и уверенность постепенно угасают, и зона комфорта сужается. Это особенно актуально в эпоху AI: технологии развиваются быстро, и стоять на месте — значит откатываться назад.",
+    "explanationEn": "The comfort zone isn't static. If you stop challenging yourself, skills and confidence gradually fade, and the comfort zone shrinks. This is especially relevant in the AI era: technology evolves fast, and standing still means falling behind.",
+    "source": "Comfort Zone Model dynamics",
+    "sourceUrl": "/guide/adaptability"
+  },
+  {
+    "id": "ad_q20",
+    "dimension": "adaptability",
+    "text": "Какой совет Двек даёт для развития growth mindset при неудаче?",
+    "textEn": "What advice does Dweck give for developing growth mindset after failure?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Быстро забыть о провале и переключиться на другую задачу",
+        "textEn": "Quickly forget the failure and switch to a different task right away"
+      },
+      {
+        "key": "b",
+        "text": "Повторить ту же стратегию, пока она не приведёт к успеху",
+        "textEn": "Repeat the exact same strategy until it finally leads to success"
+      },
+      {
+        "key": "c",
+        "text": "Признать, что эта задача просто не подходит по способностям",
+        "textEn": "Accept that this task simply doesn't match your set of abilities"
+      },
+      {
+        "key": "d",
+        "text": "Проанализировать, что пошло не так и что можно улучшить",
+        "textEn": "Analyze what went wrong and what can be improved going forward"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Growth mindset предполагает рефлексию после неудачи: что конкретно пошло не так? какую стратегию можно попробовать? чему это учит? Это не про бездумное повторение (D) и не про избегание (A, C), а про осмысленный анализ и корректировку подхода.",
+    "explanationEn": "Growth mindset involves reflection after failure: what specifically went wrong? What strategy can be tried? What does this teach? It's not about mindless repetition (D) or avoidance (A, C), but about thoughtful analysis and approach adjustment.",
+    "source": "Carol Dweck, Mindset (2006)",
+    "sourceUrl": "/guide/adaptability"
+  },
+  {
+    "id": "so_q01",
+    "dimension": "self_organization",
+    "text": "В методологии GTD Дэвида Аллена, первый шаг при работе с входящими задачами — это...",
+    "textEn": "In David Allen's GTD methodology, the first step for incoming tasks is...",
+    "options": [
+      {
+        "key": "a",
+        "text": "Определить приоритет задачи по матрице Эйзенхауэра",
+        "textEn": "Determine the task priority using the Eisenhower Matrix"
+      },
+      {
+        "key": "b",
+        "text": "Запланировать время для выполнения задачи в календаре",
+        "textEn": "Schedule time for completing the task in your calendar"
+      },
+      {
+        "key": "c",
+        "text": "Записать всё во «входящие» — полностью разгрузить голову",
+        "textEn": "Capture everything into the inbox — fully unload your mind"
+      },
+      {
+        "key": "d",
+        "text": "Делегировать задачу, если она не входит в твои обязанности",
+        "textEn": "Delegate the task if it doesn't fall within your responsibilities"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "GTD начинается с «Capture» (сбор) — записать ВСЕ незавершённые дела, идеи и обязательства в единую систему. Цель — освободить рабочую память мозга. Только после сбора идёт обработка (Clarify), организация (Organize), обзор (Reflect) и выполнение (Engage).",
+    "explanationEn": "GTD starts with 'Capture' — writing down ALL unfinished tasks, ideas, and commitments into a single system. The goal is to free up your brain's working memory. Only after capture comes Clarify, Organize, Reflect, and Engage.",
+    "source": "David Allen, Getting Things Done (2001)",
+    "sourceUrl": "/guide/self-organization"
+  },
+  {
+    "id": "so_q02",
+    "dimension": "self_organization",
+    "text": "В матрице Эйзенхауэра, задачи из квадранта «важно, но не срочно» рекомендуется...",
+    "textEn": "In the Eisenhower Matrix, tasks in the 'important but not urgent' quadrant should be...",
+    "options": [
+      {
+        "key": "a",
+        "text": "планировать и выделять для них конкретное время в графике",
+        "textEn": "planned and given specific scheduled time in your calendar"
+      },
+      {
+        "key": "b",
+        "text": "выполнять немедленно, они самые приоритетные из всех",
+        "textEn": "done immediately as they are the highest priority of all"
+      },
+      {
+        "key": "c",
+        "text": "делегировать другому человеку или команде для исполнения",
+        "textEn": "delegated to another person or team for their execution"
+      },
+      {
+        "key": "d",
+        "text": "отбрасывать, так как без срочности они не стоят внимания",
+        "textEn": "discarded since without urgency they are not worth attention"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Квадрант 2 (важно, не срочно) — это стратегические задачи: обучение, планирование, здоровье. Эйзенхауэр считал его самым важным. Эти задачи нужно планировать, иначе они никогда не будут сделаны, потому что срочные дела постоянно вытесняют важные.",
+    "explanationEn": "Quadrant 2 (important, not urgent) contains strategic tasks: learning, planning, health. Eisenhower considered it the most important. These tasks need scheduling, otherwise they never get done because urgent tasks constantly crowd out important ones.",
+    "source": "Eisenhower Matrix",
+    "sourceUrl": "/guide/self-organization"
+  },
+  {
+    "id": "so_q03",
+    "dimension": "self_organization",
+    "text": "Техника Помодоро рекомендует работать интервалами по...",
+    "textEn": "The Pomodoro Technique recommends working in intervals of...",
+    "options": [
+      {
+        "key": "a",
+        "text": "15 минут работы, затем 3 минуты перерыва",
+        "textEn": "15 minutes of work followed by a 3 minute break"
+      },
+      {
+        "key": "b",
+        "text": "45 минут работы, затем 15 минут перерыва",
+        "textEn": "45 minutes of work followed by a 15 minute break"
+      },
+      {
+        "key": "c",
+        "text": "25 минут работы, затем 5 минут перерыва",
+        "textEn": "25 minutes of work followed by a 5 minute break"
+      },
+      {
+        "key": "d",
+        "text": "60 минут работы, затем 10 минут перерыва",
+        "textEn": "60 minutes of work followed by a 10 minute break"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Франческо Чирилло создал технику Помодоро в 1980-х: 25 минут фокусированной работы, 5 минут перерыв. После 4 «помодоро» — длинный перерыв 15-30 минут. Название от кухонного таймера в форме помидора (pomodoro по-итальянски).",
+    "explanationEn": "Francesco Cirillo created the Pomodoro Technique in the 1980s: 25 minutes of focused work, 5-minute break. After 4 'pomodoros' — a longer 15-30 minute break. Named after a kitchen timer shaped like a tomato (pomodoro in Italian).",
+    "source": "Pomodoro Technique (Francesco Cirillo, 1980s)",
+    "sourceUrl": "/guide/self-organization"
+  },
+  {
+    "id": "so_q04",
+    "dimension": "self_organization",
+    "text": "В методе SMART-целей, буква «M» означает...",
+    "textEn": "In the SMART goals method, the letter 'M' stands for...",
+    "options": [
+      {
+        "key": "a",
+        "text": "Measurable — прогресс к цели можно измерить числами",
+        "textEn": "Measurable — progress toward the goal can be measured"
+      },
+      {
+        "key": "b",
+        "text": "Meaningful — цель должна быть значимой для человека",
+        "textEn": "Meaningful — the goal should be meaningful to the person"
+      },
+      {
+        "key": "c",
+        "text": "Motivating — цель должна мотивировать к действиям",
+        "textEn": "Motivating — the goal should motivate one to take action"
+      },
+      {
+        "key": "d",
+        "text": "Manageable — цель должна быть управляемой по сложности",
+        "textEn": "Manageable — the goal should be manageable in complexity"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "SMART = Specific (конкретная), Measurable (измеримая), Achievable (достижимая), Relevant (релевантная), Time-bound (ограниченная по времени). Measurable означает, что ты можешь объективно определить, достиг ли цели. «Выучить Python» — не измеримо. «Решить 50 задач на LeetCode» — измеримо.",
+    "explanationEn": "SMART = Specific, Measurable, Achievable, Relevant, Time-bound. Measurable means you can objectively determine whether the goal was achieved. 'Learn Python' is not measurable. 'Solve 50 LeetCode problems' is measurable.",
+    "source": "SMART Goals (George Doran, 1981)",
+    "sourceUrl": "/guide/self-organization"
+  },
+  {
+    "id": "so_q05",
+    "dimension": "self_organization",
+    "text": "Принцип Парето (80/20) в контексте самоорганизации означает, что...",
+    "textEn": "The Pareto Principle (80/20) in self-organization context means that...",
+    "options": [
+      {
+        "key": "a",
+        "text": "80% результата приходят от 20% приложенных усилий",
+        "textEn": "80% of results come from 20% of the efforts applied"
+      },
+      {
+        "key": "b",
+        "text": "нужно работать 80% времени и отдыхать оставшиеся 20%",
+        "textEn": "you should work 80% of the time and rest the remaining 20%"
+      },
+      {
+        "key": "c",
+        "text": "80% задач нужно делегировать, а 20% выполнять самому",
+        "textEn": "80% of tasks should be delegated and 20% done by yourself"
+      },
+      {
+        "key": "d",
+        "text": "на планирование надо тратить 20% рабочего дня каждый день",
+        "textEn": "you should spend 20% of each workday on planning your tasks"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Вильфредо Парето обнаружил, что 80% земли в Италии принадлежит 20% населения. Этот принцип распространяется шире: малая часть усилий создаёт большую часть результата. Для самоорганизации это значит: найди свои «20% задач» и фокусируйся на них.",
+    "explanationEn": "Vilfredo Pareto discovered that 80% of land in Italy belonged to 20% of the population. This principle extends broadly: a small portion of effort creates most of the result. For self-organization this means: find your '20% tasks' and focus on them.",
+    "source": "Pareto Principle (Vilfredo Pareto, 1896)",
+    "sourceUrl": "/guide/self-organization"
+  },
+  {
+    "id": "so_q06",
+    "dimension": "self_organization",
+    "text": "В Kanban, WIP-лимит — это ограничение на...",
+    "textEn": "In Kanban, a WIP limit is a restriction on...",
+    "options": [
+      {
+        "key": "a",
+        "text": "время, отведённое на выполнение каждой отдельной задачи",
+        "textEn": "the time allotted for completing each individual single task"
+      },
+      {
+        "key": "b",
+        "text": "общее число задач, которые можно создать за неделю",
+        "textEn": "the total number of tasks that can be created per week"
+      },
+      {
+        "key": "c",
+        "text": "количество людей, которые могут работать над проектом",
+        "textEn": "the number of people who can work on a given project"
+      },
+      {
+        "key": "d",
+        "text": "максимальное количество задач в работе одновременно",
+        "textEn": "the maximum number of tasks being worked on at one time"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "WIP (Work In Progress) лимит — ключевой принцип Kanban. Ограничивая количество задач в работе, ты снижаешь переключение контекста и ускоряешь завершение каждой задачи. Исследования показывают, что многозадачность снижает продуктивность на 20-40%.",
+    "explanationEn": "WIP (Work In Progress) limit is a key Kanban principle. By limiting tasks in progress, you reduce context switching and speed up completion of each task. Research shows multitasking reduces productivity by 20-40%.",
+    "source": "Kanban Method (David Anderson, 2010)",
+    "sourceUrl": "/guide/self-organization"
+  },
+  {
+    "id": "so_q07",
+    "dimension": "self_organization",
+    "text": "По методу Atomic Habits Джеймса Клира, привычку легче всего сформировать, если...",
+    "textEn": "According to James Clear's Atomic Habits, a habit is easiest to form when...",
+    "options": [
+      {
+        "key": "a",
+        "text": "привязать её к существующей привычке (habit stacking)",
+        "textEn": "you stack it onto an existing habit (habit stacking method)"
+      },
+      {
+        "key": "b",
+        "text": "пообещать себе награду через месяц за выполнение цели",
+        "textEn": "you promise yourself a reward after a full month of effort"
+      },
+      {
+        "key": "c",
+        "text": "сразу установить амбициозную цель на полную трансформацию",
+        "textEn": "you immediately set an ambitious goal for full transformation"
+      },
+      {
+        "key": "d",
+        "text": "рассказать всем знакомым о своём намерении для мотивации",
+        "textEn": "you tell everyone you know about your intention for motivation"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Habit stacking (укладывание привычек) — одна из ключевых техник Клира: «После [существующая привычка], я сделаю [новая привычка]». Привязка к уже автоматическому действию снижает барьер. Например: «После утреннего кофе я 5 минут практикую промпт-инжиниринг».",
+    "explanationEn": "Habit stacking is one of Clear's key techniques: 'After [existing habit], I will do [new habit].' Linking to an already automatic action lowers the barrier. For example: 'After my morning coffee, I'll practice prompt engineering for 5 minutes.'",
+    "source": "James Clear, Atomic Habits (2018)",
+    "sourceUrl": "/guide/self-organization"
+  },
+  {
+    "id": "so_q08",
+    "dimension": "self_organization",
+    "text": "В GTD, правило «двух минут» гласит: если задача занимает менее двух минут...",
+    "textEn": "In GTD, the 'two-minute rule' states: if a task takes less than two minutes...",
+    "options": [
+      {
+        "key": "a",
+        "text": "отложи её на конец дня для пакетного выполнения",
+        "textEn": "postpone it to end of day for batch processing later"
+      },
+      {
+        "key": "b",
+        "text": "добавь её в список «когда-нибудь/может быть» на будущее",
+        "textEn": "add it to the someday-maybe list for future consideration"
+      },
+      {
+        "key": "c",
+        "text": "делегируй её, потому что она слишком мелкая для тебя",
+        "textEn": "delegate it because it's too small a task for you to do"
+      },
+      {
+        "key": "d",
+        "text": "сделай её сразу, не записывая в систему задач",
+        "textEn": "do it right away without entering it into your task system"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Правило двух минут — один из самых практичных элементов GTD. Если задачу можно сделать быстрее, чем записать и организовать — просто сделай. Это предотвращает накопление мелочей и разгружает систему управления задачами от ненужного шума.",
+    "explanationEn": "The two-minute rule is one of GTD's most practical elements. If a task can be done faster than it takes to record and organize — just do it. This prevents accumulation of small tasks and keeps your task management system free of unnecessary noise.",
+    "source": "David Allen, Getting Things Done (2001)",
+    "sourceUrl": "/guide/self-organization"
+  },
+  {
+    "id": "so_q09",
+    "dimension": "self_organization",
+    "text": "Timeboxing — это техника, при которой ты...",
+    "textEn": "Timeboxing is a technique where you...",
+    "options": [
+      {
+        "key": "a",
+        "text": "работаешь над задачей, пока она не будет полностью завершена",
+        "textEn": "work on a task until it is completely and fully finished"
+      },
+      {
+        "key": "b",
+        "text": "выделяешь фиксированный блок времени и останавливаешься по таймеру",
+        "textEn": "allocate a fixed time block and stop when the timer runs out"
+      },
+      {
+        "key": "c",
+        "text": "группируешь похожие задачи и выполняешь их одним пакетом",
+        "textEn": "group similar tasks together and execute them in a single batch"
+      },
+      {
+        "key": "d",
+        "text": "отслеживаешь, сколько времени ушло на каждую задачу за день",
+        "textEn": "track how much time was spent on each single task per day"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Timeboxing — выделение фиксированного времени на задачу. Когда время истекло — ты останавливаешься, оцениваешь прогресс и решаешь, нужно ли продолжать. Это противоположность «бесконечной работы до готовности» и помогает бороться с перфекционизмом и прокрастинацией.",
+    "explanationEn": "Timeboxing means allocating a fixed time for a task. When time is up — you stop, assess progress, and decide if you need to continue. It's the opposite of 'endless work until ready' and helps combat perfectionism and procrastination.",
+    "source": "Timeboxing technique (Agile practices)",
+    "sourceUrl": "/guide/self-organization"
+  },
+  {
+    "id": "so_q10",
+    "dimension": "self_organization",
+    "text": "Какой квадрант матрицы Эйзенхауэра считается «ловушкой срочности»?",
+    "textEn": "Which Eisenhower Matrix quadrant is considered the 'urgency trap'?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Важно и срочно — кризисы и дедлайны горящих задач",
+        "textEn": "Important and urgent — crises and approaching deadlines"
+      },
+      {
+        "key": "b",
+        "text": "Не важно, но срочно — отвлечения, чужие приоритеты",
+        "textEn": "Not important but urgent — distractions, others' priorities"
+      },
+      {
+        "key": "c",
+        "text": "Важно, не срочно — стратегия, обучение и планирование",
+        "textEn": "Important not urgent — strategy, learning and planning tasks"
+      },
+      {
+        "key": "d",
+        "text": "Не важно и не срочно — трата времени и прокрастинация",
+        "textEn": "Not important not urgent — wasted time and procrastination"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Квадрант 3 (не важно, но срочно) — ловушка: звонки, срочные письма, чужие запросы создают иллюзию важности из-за срочности. Люди путают срочность с важностью и тратят время на чужие приоритеты. Эйзенхауэр рекомендовал делегировать эти задачи.",
+    "explanationEn": "Quadrant 3 (not important but urgent) is the trap: calls, urgent emails, others' requests create an illusion of importance through urgency. People confuse urgency with importance and spend time on others' priorities. Eisenhower recommended delegating these tasks.",
+    "source": "Eisenhower Matrix",
+    "sourceUrl": "/guide/self-organization"
+  },
+  {
+    "id": "so_q11",
+    "dimension": "self_organization",
+    "text": "По Джеймсу Клиру, какой самый эффективный способ избавиться от вредной привычки?",
+    "textEn": "According to James Clear, what is the most effective way to break a bad habit?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Сделать триггер привычки невидимым и труднодоступным",
+        "textEn": "Make the habit trigger invisible and difficult to access"
+      },
+      {
+        "key": "b",
+        "text": "Заменить вредную привычку полезной с тем же триггером",
+        "textEn": "Replace the bad habit with a helpful one using same trigger"
+      },
+      {
+        "key": "c",
+        "text": "Просто собрать силу воли и перестать это делать полностью",
+        "textEn": "Simply gather willpower and stop doing it cold turkey fully"
+      },
+      {
+        "key": "d",
+        "text": "Назначить штраф за каждое повторение вредной привычки",
+        "textEn": "Assign a financial penalty for each repetition of bad habit"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Клир предлагает инвертировать четыре закона привычек: сделать триггер невидимым (убрать напоминания), действие — непривлекательным, процесс — трудным, награду — неудовлетворительной. Самый мощный шаг — убрать триггер из окружения, потому что привычка начинается с него.",
+    "explanationEn": "Clear proposes inverting the four laws of habits: make the cue invisible (remove reminders), the craving unattractive, the response difficult, the reward unsatisfying. The most powerful step is removing the cue from your environment, because habits start with it.",
+    "source": "James Clear, Atomic Habits (2018)",
+    "sourceUrl": "/guide/self-organization"
+  },
+  {
+    "id": "so_q12",
+    "dimension": "self_organization",
+    "text": "Почему WIP-лимит в Kanban повышает скорость выполнения задач?",
+    "textEn": "Why does a WIP limit in Kanban increase task completion speed?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Он заставляет работать быстрее под давлением ограничений",
+        "textEn": "It forces people to work faster under the pressure of limits"
+      },
+      {
+        "key": "b",
+        "text": "Он автоматически убирает неважные задачи из очереди",
+        "textEn": "It automatically removes unimportant tasks from the queue"
+      },
+      {
+        "key": "c",
+        "text": "Он уменьшает переключение контекста между задачами",
+        "textEn": "It reduces context switching between multiple parallel tasks"
+      },
+      {
+        "key": "d",
+        "text": "Он позволяет работать только над самыми лёгкими задачами",
+        "textEn": "It allows working only on the easiest tasks in the backlog"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Каждое переключение между задачами стоит когнитивных ресурсов и времени. Исследования показывают, что возврат к глубокому фокусу после прерывания занимает в среднем 23 минуты. WIP-лимит вынуждает завершить текущее, прежде чем браться за новое.",
+    "explanationEn": "Each switch between tasks costs cognitive resources and time. Research shows that returning to deep focus after an interruption takes on average 23 minutes. WIP limits force you to finish current work before taking on something new.",
+    "source": "Kanban + Gloria Mark research on task switching (UC Irvine)",
+    "sourceUrl": "/guide/self-organization"
+  },
+  {
+    "id": "so_q13",
+    "dimension": "self_organization",
+    "text": "В GTD, что делать с задачей, которая требует более одного действия?",
+    "textEn": "In GTD, what should you do with a task that requires more than one action?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Выполнить все действия подряд за один подход без перерыва",
+        "textEn": "Complete all actions in sequence during one session non-stop"
+      },
+      {
+        "key": "b",
+        "text": "Отложить её в список «когда-нибудь/может быть» до лучших времён",
+        "textEn": "Defer it to the someday-maybe list until a better time comes"
+      },
+      {
+        "key": "c",
+        "text": "Превратить её в проект и определить следующее действие",
+        "textEn": "Turn it into a project and define the very next action step"
+      },
+      {
+        "key": "d",
+        "text": "Делегировать полностью, раз она слишком объёмная для тебя",
+        "textEn": "Delegate it entirely since it is too large a task for you"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "В GTD любой результат, требующий более одного действия, — это «проект». Ключевой приём — определить следующее конкретное физическое действие. Это снижает когнитивную нагрузку: вместо «написать отчёт» ты видишь «открыть шаблон и заполнить секцию введения».",
+    "explanationEn": "In GTD, any outcome requiring more than one action is a 'project.' The key technique is defining the next concrete physical action. This reduces cognitive load: instead of 'write a report,' you see 'open the template and fill in the introduction section.'",
+    "source": "David Allen, Getting Things Done (2001)",
+    "sourceUrl": "/guide/self-organization"
+  },
+  {
+    "id": "so_q14",
+    "dimension": "self_organization",
+    "text": "Какой из четырёх законов привычки по Клиру отвечает за мотивацию?",
+    "textEn": "Which of Clear's four laws of habits is responsible for motivation?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Сделай триггер очевидным (cue — make it obvious)",
+        "textEn": "Make the cue obvious (first law of behavior change)"
+      },
+      {
+        "key": "b",
+        "text": "Сделай награду удовлетворяющей (reward — make it satisfying)",
+        "textEn": "Make the reward satisfying (fourth law of behavior change)"
+      },
+      {
+        "key": "c",
+        "text": "Сделай выполнение простым (response — make it easy)",
+        "textEn": "Make the response easy (third law of behavior change)"
+      },
+      {
+        "key": "d",
+        "text": "Сделай действие привлекательным (craving — make it attractive)",
+        "textEn": "Make the craving attractive (second law of behavior change)"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Четыре закона привычки по Клиру: (1) Cue — очевидный, (2) Craving — привлекательный, (3) Response — простой, (4) Reward — удовлетворяющий. Именно craving (влечение, предвкушение) — это движущая сила мотивации. Без желания мы не действуем.",
+    "explanationEn": "Clear's four laws of habits: (1) Cue — obvious, (2) Craving — attractive, (3) Response — easy, (4) Reward — satisfying. The craving (anticipation, desire) is the driving force of motivation. Without desire, we don't act.",
+    "source": "James Clear, Atomic Habits (2018)",
+    "sourceUrl": "/guide/self-organization"
+  },
+  {
+    "id": "so_q15",
+    "dimension": "self_organization",
+    "text": "Как AI может помочь в применении матрицы Эйзенхауэра?",
+    "textEn": "How can AI help in applying the Eisenhower Matrix?",
+    "options": [
+      {
+        "key": "a",
+        "text": "AI автоматически определяет важность задач лучше человека",
+        "textEn": "AI automatically determines task importance better than humans"
+      },
+      {
+        "key": "b",
+        "text": "AI может помочь декомпозировать задачи и оценить приоритеты",
+        "textEn": "AI can help decompose tasks and assist with evaluating priorities"
+      },
+      {
+        "key": "c",
+        "text": "AI заменяет матрицу более продвинутой системой приоритизации",
+        "textEn": "AI replaces the matrix with a more advanced prioritization system"
+      },
+      {
+        "key": "d",
+        "text": "AI выполняет задачи из всех четырёх квадрантов за человека",
+        "textEn": "AI handles tasks from all four quadrants on behalf of the user"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "AI — это инструмент, который помогает человеку, а не заменяет его суждения. AI может помочь разбить крупные задачи на шаги, предложить критерии для оценки важности, задать уточняющие вопросы. Но финальное решение о приоритетах остаётся за человеком — только ты знаешь свой контекст.",
+    "explanationEn": "AI is a tool that assists humans, not replaces their judgment. AI can help break large tasks into steps, suggest criteria for evaluating importance, and ask clarifying questions. But the final priority decision stays with the human — only you know your full context.",
+    "source": "AI-assisted productivity practices",
+    "sourceUrl": "/guide/self-organization"
+  },
+  {
+    "id": "so_q16",
+    "dimension": "self_organization",
+    "text": "В SMART-целях, буква «T» (Time-bound) важна потому что...",
+    "textEn": "In SMART goals, the letter 'T' (Time-bound) is important because...",
+    "options": [
+      {
+        "key": "a",
+        "text": "без указания времени цель автоматически считается провалом",
+        "textEn": "without specifying time the goal is automatically considered failed"
+      },
+      {
+        "key": "b",
+        "text": "все задачи по определению должны быть выполнены срочно",
+        "textEn": "all tasks by definition should be completed as urgently as possible"
+      },
+      {
+        "key": "c",
+        "text": "временные рамки определяют, сколько людей нужно в команду",
+        "textEn": "time constraints determine how many people are needed on team"
+      },
+      {
+        "key": "d",
+        "text": "без дедлайна задача имеет тенденцию откладываться бесконечно",
+        "textEn": "without a deadline the task tends to be postponed indefinitely"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Закон Паркинсона гласит: работа расширяется, чтобы заполнить всё отведённое время. Без дедлайна задача может откладываться до бесконечности. Time-bound создаёт ощущение срочности и позволяет планировать шаги в обратном порядке от дедлайна.",
+    "explanationEn": "Parkinson's Law states: work expands to fill the time available. Without a deadline, a task can be postponed indefinitely. Time-bound creates a sense of urgency and allows planning steps backwards from the deadline.",
+    "source": "SMART Goals + Parkinson's Law",
+    "sourceUrl": "/guide/self-organization"
+  },
+  {
+    "id": "so_q17",
+    "dimension": "self_organization",
+    "text": "Какую проблему решает еженедельный обзор (Weekly Review) в GTD?",
+    "textEn": "What problem does the Weekly Review solve in GTD?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Слишком высокая скорость выполнения задач без рефлексии",
+        "textEn": "Tasks being completed too quickly without proper reflection time"
+      },
+      {
+        "key": "b",
+        "text": "Забытые задачи и потеря контроля над общей картиной дел",
+        "textEn": "Forgotten tasks and loss of control over the overall big picture"
+      },
+      {
+        "key": "c",
+        "text": "Нехватка новых задач и идей для пополнения списка проектов",
+        "textEn": "Lack of new tasks and ideas to add to the project task list"
+      },
+      {
+        "key": "d",
+        "text": "Конфликты между членами команды по приоритетам и срокам",
+        "textEn": "Conflicts between team members over priorities and deadlines"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Weekly Review — критический элемент GTD. Без регулярного обзора система постепенно теряет актуальность: задачи забываются, проекты зависают, списки устаревают. Аллен считает, что именно еженедельный обзор делает GTD работающей системой, а не просто списком дел.",
+    "explanationEn": "Weekly Review is a critical GTD element. Without regular review, the system gradually loses relevance: tasks are forgotten, projects stall, lists become outdated. Allen believes the weekly review is what makes GTD a working system, not just a to-do list.",
+    "source": "David Allen, Getting Things Done (2001)",
+    "sourceUrl": "/guide/self-organization"
+  },
+  {
+    "id": "so_q18",
+    "dimension": "self_organization",
+    "text": "Какой принцип Atomic Habits объясняет, почему маленькие улучшения важнее больших?",
+    "textEn": "Which Atomic Habits principle explains why small improvements matter more than big ones?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Улучшения на 1% заметны сразу и мотивируют продолжать",
+        "textEn": "Improvements of 1% are visible immediately and keep motivating"
+      },
+      {
+        "key": "b",
+        "text": "Большие цели всегда вызывают прокрастинацию у всех людей",
+        "textEn": "Big goals always cause procrastination in every single person"
+      },
+      {
+        "key": "c",
+        "text": "Маленькие привычки не требуют силы воли для их выполнения",
+        "textEn": "Small habits require zero willpower to perform each day done"
+      },
+      {
+        "key": "d",
+        "text": "1% улучшение ежедневно даёт 37-кратный рост за год",
+        "textEn": "A daily 1% improvement yields 37x growth over one full year"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Клир использует математику сложного процента: 1.01^365 = 37.78. Ежедневное улучшение на 1% даёт экспоненциальный рост. Парадокс в том, что результаты незаметны долгое время (Клир называет это «долиной разочарования»), но потом наступает прорыв.",
+    "explanationEn": "Clear uses compound interest math: 1.01^365 = 37.78. Daily 1% improvement yields exponential growth. The paradox is that results are invisible for a long time (Clear calls this the 'valley of disappointment'), but then a breakthrough occurs.",
+    "source": "James Clear, Atomic Habits (2018)",
+    "sourceUrl": "/guide/self-organization"
+  },
+  {
+    "id": "so_q19",
+    "dimension": "self_organization",
+    "text": "Как timeboxing помогает при работе с AI над задачей с неопределённым объёмом?",
+    "textEn": "How does timeboxing help when working with AI on a task with unclear scope?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Он ограничивает количество запросов к AI-модели за сессию",
+        "textEn": "It limits the number of requests to the AI model per session"
+      },
+      {
+        "key": "b",
+        "text": "Он предотвращает бесконечное улучшение промптов и ответов",
+        "textEn": "It prevents endless refinement of prompts and model responses"
+      },
+      {
+        "key": "c",
+        "text": "Он заставляет AI генерировать более короткие и точные ответы",
+        "textEn": "It forces AI to generate shorter and more precise model answers"
+      },
+      {
+        "key": "d",
+        "text": "Он автоматически определяет оптимальное время для задачи",
+        "textEn": "It automatically determines the optimal time needed for a task"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "При работе с AI легко попасть в ловушку бесконечного перфекционизма: ещё один промпт, ещё одна итерация... Timeboxing ставит жёсткую границу: 30 минут на задачу. По истечении ты оцениваешь: результат достаточно хорош или нужен ещё один таймбокс?",
+    "explanationEn": "When working with AI, it's easy to fall into an endless perfectionism trap: one more prompt, one more iteration... Timeboxing sets a hard boundary: 30 minutes per task. When time is up, you evaluate: is the result good enough or does it need another timebox?",
+    "source": "Timeboxing + AI workflow management",
+    "sourceUrl": "/guide/self-organization"
+  },
+  {
+    "id": "so_q20",
+    "dimension": "self_organization",
+    "text": "Что объединяет GTD, Kanban и Помодоро как системы самоорганизации?",
+    "textEn": "What do GTD, Kanban, and Pomodoro have in common as self-organization systems?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Все три были разработаны в Японии для производственных компаний",
+        "textEn": "All three were developed in Japan for manufacturing company use"
+      },
+      {
+        "key": "b",
+        "text": "Все три требуют специального программного обеспечения для работы",
+        "textEn": "All three require specialized software programs to work properly"
+      },
+      {
+        "key": "c",
+        "text": "Все три направлены на снижение когнитивной нагрузки при работе",
+        "textEn": "All three aim to reduce cognitive load during the work process"
+      },
+      {
+        "key": "d",
+        "text": "Все три подходят только для индивидуальной, не командной работы",
+        "textEn": "All three are suitable only for individual work not for teams"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "GTD разгружает голову через экстернализацию задач. Kanban ограничивает многозадачность через WIP-лимиты. Помодоро защищает фокус через фиксированные интервалы. Общий принцип — снять нагрузку с рабочей памяти мозга, чтобы ты мог сосредоточиться на выполнении.",
+    "explanationEn": "GTD unloads the mind through task externalization. Kanban limits multitasking through WIP limits. Pomodoro protects focus through fixed intervals. The common principle is reducing brain working memory load so you can focus on execution.",
+    "source": "Productivity systems comparison",
+    "sourceUrl": "/guide/self-organization"
+  },
+  {
+    "id": "pt_q01",
+    "dimension": "product_thinking",
+    "text": "Фреймворк Jobs-to-be-Done (JTBD) Клейтона Кристенсена утверждает, что люди...",
+    "textEn": "Clayton Christensen's Jobs-to-be-Done (JTBD) framework states that people...",
+    "options": [
+      {
+        "key": "a",
+        "text": "«нанимают» продукт для выполнения конкретной задачи в жизни",
+        "textEn": "'hire' a product to get a specific job done in their lives"
+      },
+      {
+        "key": "b",
+        "text": "покупают продукты, которые соответствуют их демографии",
+        "textEn": "buy products that match their demographic characteristics"
+      },
+      {
+        "key": "c",
+        "text": "выбирают продукт с наибольшим количеством функций и опций",
+        "textEn": "choose the product with the most features and options available"
+      },
+      {
+        "key": "d",
+        "text": "принимают решения о покупке исключительно на основе цены",
+        "textEn": "make purchasing decisions based exclusively on the product price"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "JTBD переворачивает подход к продукту: вместо «кто наш клиент?» спрашиваем «какую работу клиент пытается выполнить?». Знаменитый пример Кристенсена: молочный коктейль «нанимают» на роль завтрака в пробке — конкуренты не другие коктейли, а бананы и бублики.",
+    "explanationEn": "JTBD flips the product approach: instead of 'who is our customer?' we ask 'what job is the customer trying to get done?' Christensen's famous example: milkshakes are 'hired' as breakfast during a commute — competitors aren't other shakes, but bananas and bagels.",
+    "source": "Clayton Christensen, Jobs-to-be-Done (2003)",
+    "sourceUrl": "/guide/product-thinking"
+  },
+  {
+    "id": "pt_q02",
+    "dimension": "product_thinking",
+    "text": "Сколько стадий в процессе Design Thinking по методологии IDEO?",
+    "textEn": "How many stages are in the Design Thinking process according to IDEO methodology?",
+    "options": [
+      {
+        "key": "a",
+        "text": "3 стадии: Исследование, Создание, Тестирование",
+        "textEn": "3 stages: Research, Creation, and Testing of solution"
+      },
+      {
+        "key": "b",
+        "text": "4 стадии: Понять, Определить, Создать, Проверить",
+        "textEn": "4 stages: Understand, Define, Create, and then Verify"
+      },
+      {
+        "key": "c",
+        "text": "6 стадий: Анализ, Синтез, Дизайн, Код, Тест, Релиз",
+        "textEn": "6 stages: Analysis, Synthesis, Design, Code, Test, Release"
+      },
+      {
+        "key": "d",
+        "text": "5 стадий: Эмпатия, Определение, Идеация, Прототип, Тест",
+        "textEn": "5 stages: Empathize, Define, Ideate, Prototype, and Test"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Design Thinking по IDEO/d.school включает 5 стадий: Empathize (понять пользователя), Define (определить проблему), Ideate (генерировать идеи), Prototype (создать прототип), Test (проверить с пользователями). Процесс итеративный — можно возвращаться на любую стадию.",
+    "explanationEn": "Design Thinking by IDEO/d.school includes 5 stages: Empathize (understand the user), Define (define the problem), Ideate (generate ideas), Prototype (build a prototype), Test (test with users). The process is iterative — you can return to any stage.",
+    "source": "Design Thinking (IDEO / Stanford d.school)",
+    "sourceUrl": "/guide/product-thinking"
+  },
+  {
+    "id": "pt_q03",
+    "dimension": "product_thinking",
+    "text": "MVP (Minimum Viable Product) по Эрику Рису — это продукт, который...",
+    "textEn": "MVP (Minimum Viable Product) according to Eric Ries is a product that...",
+    "options": [
+      {
+        "key": "a",
+        "text": "максимально дёшев в производстве и ничего не стоит клиентам",
+        "textEn": "is maximally cheap to produce and costs nothing for customers"
+      },
+      {
+        "key": "b",
+        "text": "содержит минимум функций для проверки ключевой гипотезы",
+        "textEn": "contains minimum features needed to test the key hypothesis"
+      },
+      {
+        "key": "c",
+        "text": "является первой версией финального продукта для рынка",
+        "textEn": "is the first version of the final product ready for market"
+      },
+      {
+        "key": "d",
+        "text": "включает все основные функции, но без визуального дизайна",
+        "textEn": "includes all core features but without any visual design work"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "MVP — не «дешёвая версия продукта» и не «продукт без дизайна». Это минимальный эксперимент для проверки рискованной гипотезы. Цель — максимально быстро получить реальные данные от пользователей и пройти цикл Build-Measure-Learn. Иногда MVP — это даже не продукт, а лендинг.",
+    "explanationEn": "MVP isn't a 'cheap product version' or 'product without design.' It's a minimal experiment to test a risky hypothesis. The goal is to get real user data as quickly as possible and complete the Build-Measure-Learn cycle. Sometimes an MVP isn't even a product — it's a landing page.",
+    "source": "Eric Ries, The Lean Startup (2011)",
+    "sourceUrl": "/guide/product-thinking"
+  },
+  {
+    "id": "pt_q04",
+    "dimension": "product_thinking",
+    "text": "В модели Кано, «восхищающие» (delighter) функции — это те, которые...",
+    "textEn": "In the Kano Model, 'delighter' features are those that...",
+    "options": [
+      {
+        "key": "a",
+        "text": "ожидаются по умолчанию и вызывают негатив при отсутствии",
+        "textEn": "are expected by default and cause dissatisfaction if missing"
+      },
+      {
+        "key": "b",
+        "text": "не ожидаются пользователем, но вызывают восторг при наличии",
+        "textEn": "are not expected by users but cause delight when discovered"
+      },
+      {
+        "key": "c",
+        "text": "повышают удовлетворённость пропорционально их количеству",
+        "textEn": "increase satisfaction proportionally with their quantity added"
+      },
+      {
+        "key": "d",
+        "text": "являются обязательными для выхода продукта на рынок массовый",
+        "textEn": "are mandatory before the product can launch on mass market"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Модель Кано выделяет три типа функций: базовые (must-be — ожидаются, их отсутствие разочаровывает), линейные (one-dimensional — больше = лучше), восхищающие (delighters — неожиданные, вызывают «вау»). Со временем восхищающие функции становятся базовыми (например, сенсорный экран).",
+    "explanationEn": "The Kano Model identifies three feature types: basic (must-be — expected, their absence disappoints), performance (one-dimensional — more = better), delighters (unexpected, cause 'wow'). Over time, delighters become basic expectations (e.g., touchscreens).",
+    "source": "Kano Model (Noriaki Kano, 1984)",
+    "sourceUrl": "/guide/product-thinking"
+  },
+  {
+    "id": "pt_q05",
+    "dimension": "product_thinking",
+    "text": "North Star Metric — это единственная метрика, которая...",
+    "textEn": "The North Star Metric is a single metric that...",
+    "options": [
+      {
+        "key": "a",
+        "text": "измеряет доход компании за определённый период времени",
+        "textEn": "measures the company's revenue over a given time period"
+      },
+      {
+        "key": "b",
+        "text": "показывает количество новых пользователей за месяц работы",
+        "textEn": "shows the number of new users acquired within one month"
+      },
+      {
+        "key": "c",
+        "text": "отражает ключевую ценность, которую продукт даёт пользователям",
+        "textEn": "reflects the core value the product delivers to its active users"
+      },
+      {
+        "key": "d",
+        "text": "определяет, сколько багов осталось неисправленными в продукте",
+        "textEn": "determines how many bugs remain unfixed in the product code"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "North Star Metric — одна метрика, вокруг которой выстраивается вся продуктовая стратегия. Она должна отражать ценность для пользователя, а не для бизнеса. Для Airbnb это «ночи забронированные», для Spotify — «время прослушивания». Доход — следствие, а не North Star.",
+    "explanationEn": "North Star Metric is one metric around which the entire product strategy is built. It should reflect value to the user, not the business. For Airbnb it's 'nights booked,' for Spotify — 'time spent listening.' Revenue is a consequence, not the North Star.",
+    "source": "North Star Metric (Sean Ellis / Growth Hacking)",
+    "sourceUrl": "/guide/product-thinking"
+  },
+  {
+    "id": "pt_q06",
+    "dimension": "product_thinking",
+    "text": "Формат User Story записывается как...",
+    "textEn": "The User Story format is written as...",
+    "options": [
+      {
+        "key": "a",
+        "text": "«Дано [условие], когда [событие], тогда [ожидаемый результат]»",
+        "textEn": "'Given [condition], when [event], then [expected result follows]'"
+      },
+      {
+        "key": "b",
+        "text": "«Проблема: [описание]. Решение: [описание]. Метрика: [описание]»",
+        "textEn": "'Problem: [description]. Solution: [description]. Metric: [description]'"
+      },
+      {
+        "key": "c",
+        "text": "«Как [роль], я хочу [действие], чтобы [результат]»",
+        "textEn": "'As a [role], I want [action], so that [outcome/benefit]'"
+      },
+      {
+        "key": "d",
+        "text": "«Название функции + описание + критерии приёмки + дедлайн»",
+        "textEn": "'Feature name plus description plus acceptance criteria plus deadline'"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "User Story следует формату: «As a [user role], I want [capability], so that [benefit].» Это фокусирует команду на потребности пользователя, а не на технической реализации. Формат «Given-When-Then» (C) — это BDD-сценарии, а не User Story.",
+    "explanationEn": "User Story follows the format: 'As a [user role], I want [capability], so that [benefit].' This focuses the team on user needs, not technical implementation. The 'Given-When-Then' format (C) is for BDD scenarios, not User Stories.",
+    "source": "User Stories (Mike Cohn / Agile methodology)",
+    "sourceUrl": "/guide/product-thinking"
+  },
+  {
+    "id": "pt_q07",
+    "dimension": "product_thinking",
+    "text": "В приоритизации MoSCoW, буква «S» после «Mo» означает...",
+    "textEn": "In MoSCoW prioritization, the 'S' after 'Mo' stands for...",
+    "options": [
+      {
+        "key": "a",
+        "text": "Shall have — обязательные требования от заказчика проекта",
+        "textEn": "Shall have — mandatory requirements from the project sponsor"
+      },
+      {
+        "key": "b",
+        "text": "Should have — важно, но не критично для первого запуска",
+        "textEn": "Should have — important but not critical for initial launch"
+      },
+      {
+        "key": "c",
+        "text": "Soon have — функции для следующего спринта после запуска",
+        "textEn": "Soon have — features planned for the next sprint after launch"
+      },
+      {
+        "key": "d",
+        "text": "Simple have — функции, которые легко реализовать сразу",
+        "textEn": "Simple have — features that are easy to implement right away"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "MoSCoW = Must have (обязательно), Should have (важно, но не блокирует), Could have (желательно), Won't have (не в этот раз). Should have — это функции, которые важны, но продукт может работать без них. Они кандидаты на следующий этап после MVP.",
+    "explanationEn": "MoSCoW = Must have (essential), Should have (important, not blocking), Could have (nice to have), Won't have (not this time). Should have features are important but the product can work without them. They're candidates for the next phase after MVP.",
+    "source": "MoSCoW Method (Dai Clegg, DSDM, 1994)",
+    "sourceUrl": "/guide/product-thinking"
+  },
+  {
+    "id": "pt_q08",
+    "dimension": "product_thinking",
+    "text": "Цикл Build-Measure-Learn в Lean Startup начинается с...",
+    "textEn": "The Build-Measure-Learn cycle in Lean Startup begins with...",
+    "options": [
+      {
+        "key": "a",
+        "text": "формулировки гипотезы, которую нужно проверить быстро",
+        "textEn": "formulating a hypothesis that needs to be tested very quickly"
+      },
+      {
+        "key": "b",
+        "text": "построения продукта на основе детального бизнес-плана",
+        "textEn": "building a product based on a detailed written business plan"
+      },
+      {
+        "key": "c",
+        "text": "измерения текущих метрик рынка и конкурентов вокруг",
+        "textEn": "measuring current market metrics and competitor data around"
+      },
+      {
+        "key": "d",
+        "text": "обучения команды новым технологиям для разработки идеи",
+        "textEn": "training the team on new technologies for developing the idea"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Хотя цикл называется Build-Measure-Learn, планирование идёт в обратном порядке: сначала определи, чему хочешь научиться (Learn), потом реши, что измерить (Measure), потом построй минимум для этого (Build). Всё начинается с чёткой гипотезы, а не с кода.",
+    "explanationEn": "Although the cycle is called Build-Measure-Learn, planning goes in reverse: first determine what you want to learn (Learn), then decide what to measure (Measure), then build the minimum for that (Build). Everything starts with a clear hypothesis, not code.",
+    "source": "Eric Ries, The Lean Startup (2011)",
+    "sourceUrl": "/guide/product-thinking"
+  },
+  {
+    "id": "pt_q09",
+    "dimension": "product_thinking",
+    "text": "В A/B тестировании, что является обязательным условием для достоверных результатов?",
+    "textEn": "In A/B testing, what is a mandatory condition for reliable results?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Тестировать нужно не менее десяти вариантов одновременно",
+        "textEn": "You must test at least ten different variants simultaneously"
+      },
+      {
+        "key": "b",
+        "text": "Оба варианта должны быть показаны одним и тем же пользователям",
+        "textEn": "Both variants must be shown to the exact same group of users"
+      },
+      {
+        "key": "c",
+        "text": "Тест должен длиться ровно одну неделю, не больше и не менее",
+        "textEn": "The test must run for exactly one week no more and no less"
+      },
+      {
+        "key": "d",
+        "text": "Достаточный размер выборки для статистической значимости",
+        "textEn": "Sufficient sample size to achieve statistical significance level"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Статистическая значимость — ключ к достоверному A/B тесту. Без достаточной выборки ты не сможешь отличить реальное улучшение от случайного шума. Типичный порог — p-value < 0.05 (95% уверенность). Преждевременное завершение теста — одна из самых частых ошибок.",
+    "explanationEn": "Statistical significance is key to a reliable A/B test. Without sufficient sample size, you can't distinguish real improvement from random noise. The typical threshold is p-value < 0.05 (95% confidence). Premature test termination is one of the most common mistakes.",
+    "source": "A/B Testing principles (statistical methodology)",
+    "sourceUrl": "/guide/product-thinking"
+  },
+  {
+    "id": "pt_q10",
+    "dimension": "product_thinking",
+    "text": "В Design Thinking, стадия «Empathize» (эмпатия) фокусируется на...",
+    "textEn": "In Design Thinking, the 'Empathize' stage focuses on...",
+    "options": [
+      {
+        "key": "a",
+        "text": "чётком определении проблемы в формате одного предложения",
+        "textEn": "clearly defining the problem in a single sentence statement"
+      },
+      {
+        "key": "b",
+        "text": "генерации максимального количества идей для решения проблемы",
+        "textEn": "generating maximum number of ideas for solving the problem"
+      },
+      {
+        "key": "c",
+        "text": "создании работающего прототипа для тестирования с клиентами",
+        "textEn": "creating a working prototype for testing it with real customers"
+      },
+      {
+        "key": "d",
+        "text": "глубоком понимании потребностей, боли и контекста пользователя",
+        "textEn": "deep understanding of user needs, pain points and their context"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Empathize — первая стадия Design Thinking. Ты наблюдаешь, интервьюируешь, погружаешься в контекст пользователя, чтобы понять его реальные (не предполагаемые) потребности. Без эмпатии ты рискуешь решить проблему, которая на самом деле не существует.",
+    "explanationEn": "Empathize is the first Design Thinking stage. You observe, interview, and immerse yourself in the user's context to understand their real (not assumed) needs. Without empathy, you risk solving a problem that doesn't actually exist.",
+    "source": "Design Thinking (IDEO / Stanford d.school)",
+    "sourceUrl": "/guide/product-thinking"
+  },
+  {
+    "id": "pt_q11",
+    "dimension": "product_thinking",
+    "text": "Какой тип функции по модели Кано вызывает недовольство ТОЛЬКО при её отсутствии?",
+    "textEn": "Which Kano Model feature type causes dissatisfaction ONLY when it is absent?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Базовая (must-be) — обязательная, ожидаемая по умолчанию",
+        "textEn": "Must-be feature — mandatory and expected by default always"
+      },
+      {
+        "key": "b",
+        "text": "Линейная (performance) — чем больше, тем довольнее клиент",
+        "textEn": "Performance feature — the more present the happier customer"
+      },
+      {
+        "key": "c",
+        "text": "Восхищающая (delighter) — неожиданная приятная функция",
+        "textEn": "Delighter feature — an unexpected pleasant surprise feature"
+      },
+      {
+        "key": "d",
+        "text": "Обратная (reverse) — функция, которая раздражает пользователей",
+        "textEn": "Reverse feature — functionality that actually annoys the users"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Базовые (must-be) функции асимметричны: их наличие не вызывает радости (это «само собой»), но отсутствие вызывает сильное недовольство. Пример: Wi-Fi в отеле. Есть — никто не радуется. Нет — все жалуются. Это фундамент, без которого продукт не рассматривается.",
+    "explanationEn": "Must-be features are asymmetric: their presence doesn't bring joy (it's 'expected'), but their absence causes strong dissatisfaction. Example: Wi-Fi in a hotel. Present — nobody celebrates. Absent — everyone complains. It's the foundation without which the product isn't considered.",
+    "source": "Kano Model (Noriaki Kano, 1984)",
+    "sourceUrl": "/guide/product-thinking"
+  },
+  {
+    "id": "pt_q12",
+    "dimension": "product_thinking",
+    "text": "Что такое pivot (пивот) в терминологии Lean Startup?",
+    "textEn": "What is a pivot in Lean Startup terminology?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Масштабирование продукта на новые географические рынки",
+        "textEn": "Scaling the product into new geographical markets worldwide"
+      },
+      {
+        "key": "b",
+        "text": "Полное закрытие проекта из-за отсутствия интереса рынка",
+        "textEn": "Complete project shutdown due to lack of market interest seen"
+      },
+      {
+        "key": "c",
+        "text": "Стратегическое изменение направления на основе обратной связи",
+        "textEn": "Strategic direction change based on validated learning feedback"
+      },
+      {
+        "key": "d",
+        "text": "Увеличение маркетингового бюджета для привлечения клиентов",
+        "textEn": "Increasing the marketing budget to attract more new customers"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Пивот — это не провал, а осознанное стратегическое решение изменить одну из ключевых гипотез продукта (аудитория, канал, ценность, модель монетизации) на основе данных. Рис описывает 10 типов пивотов. Например, Slack пивотнулся из игры в мессенджер для команд.",
+    "explanationEn": "A pivot isn't failure but a deliberate strategic decision to change one of the product's key hypotheses (audience, channel, value, monetization model) based on data. Ries describes 10 pivot types. For example, Slack pivoted from a game into a team messaging tool.",
+    "source": "Eric Ries, The Lean Startup (2011)",
+    "sourceUrl": "/guide/product-thinking"
+  },
+  {
+    "id": "pt_q13",
+    "dimension": "product_thinking",
+    "text": "В MoSCoW приоритизации, «Won't have» означает...",
+    "textEn": "In MoSCoW prioritization, 'Won't have' means...",
+    "options": [
+      {
+        "key": "a",
+        "text": "функция не войдёт в текущий релиз, но может в будущие",
+        "textEn": "the feature won't be in current release but may be in future"
+      },
+      {
+        "key": "b",
+        "text": "функция никогда не будет реализована ни при каких условиях",
+        "textEn": "the feature will never be implemented under any circumstances"
+      },
+      {
+        "key": "c",
+        "text": "функция была реализована, но затем удалена из продукта",
+        "textEn": "the feature was implemented but later removed from product"
+      },
+      {
+        "key": "d",
+        "text": "функция заблокирована техническими ограничениями системы",
+        "textEn": "the feature is blocked by technical limitations of the system"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Won't have (this time) — осознанное решение НЕ делать функцию в текущем релизе. Это не отказ навсегда, а приоритизация: мы знаем об этой потребности, но сейчас сфокусируемся на Must и Should. Явное указание «не делаем» так же важно, как список «делаем».",
+    "explanationEn": "Won't have (this time) is a conscious decision NOT to build a feature in the current release. It's not a forever rejection but prioritization: we know about this need but will focus on Must and Should now. Explicitly stating 'not doing' is as important as the 'doing' list.",
+    "source": "MoSCoW Method (Dai Clegg, DSDM, 1994)",
+    "sourceUrl": "/guide/product-thinking"
+  },
+  {
+    "id": "pt_q14",
+    "dimension": "product_thinking",
+    "text": "Какой ключевой вопрос задаёт JTBD при анализе конкурентов?",
+    "textEn": "What key question does JTBD ask when analyzing competitors?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Какие компании предлагают продукты с похожими функциями?",
+        "textEn": "Which companies offer products with similar sets of features?"
+      },
+      {
+        "key": "b",
+        "text": "Какая компания имеет наибольшую долю рынка в нише сегодня?",
+        "textEn": "Which company holds the largest market share in this niche now?"
+      },
+      {
+        "key": "c",
+        "text": "Какие альтернативы «нанимает» пользователь для той же задачи?",
+        "textEn": "What alternatives does the user 'hire' for the same job to do?"
+      },
+      {
+        "key": "d",
+        "text": "Какой бюджет конкуренты тратят на маркетинг и рекламу?",
+        "textEn": "What budget do competitors spend on their marketing campaigns?"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "JTBD расширяет понимание конкуренции: конкуренты — это не только продукты из твоей категории, а ВСЕ альтернативы, которые пользователь может «нанять» для той же работы. Netflix конкурирует не только с Disney+, но и со сном, играми и соцсетями за «работу» — расслабиться вечером.",
+    "explanationEn": "JTBD expands the understanding of competition: competitors aren't just products from your category, but ALL alternatives a user might 'hire' for the same job. Netflix competes not just with Disney+ but with sleep, games, and social media for the 'job' of relaxing in the evening.",
+    "source": "Clayton Christensen, JTBD framework",
+    "sourceUrl": "/guide/product-thinking"
+  },
+  {
+    "id": "pt_q15",
+    "dimension": "product_thinking",
+    "text": "Стадия «Ideate» в Design Thinking — это фаза, где команда...",
+    "textEn": "The 'Ideate' stage in Design Thinking is the phase where the team...",
+    "options": [
+      {
+        "key": "a",
+        "text": "генерирует максимальное количество идей без оценки и критики",
+        "textEn": "generates the maximum number of ideas without judging or critiquing"
+      },
+      {
+        "key": "b",
+        "text": "выбирает одно лучшее решение и детально его прорабатывает",
+        "textEn": "selects one best solution and develops it in thorough detail work"
+      },
+      {
+        "key": "c",
+        "text": "проводит интервью с пользователями для понимания проблемы",
+        "textEn": "conducts user interviews to understand the underlying problem"
+      },
+      {
+        "key": "d",
+        "text": "создаёт финальный продукт для запуска на рынок и продаж",
+        "textEn": "builds the final product for full launch on the mass market"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Ideate — стадия дивергентного мышления: количество важнее качества. Правило «нет плохих идей» снимает барьеры. После генерации идеи кластеризуются и оцениваются. Типичные техники: мозговой штурм, crazy eights, mind mapping. Критика на этом этапе убивает креативность.",
+    "explanationEn": "Ideate is a divergent thinking stage: quantity over quality. The 'no bad ideas' rule removes barriers. After generation, ideas are clustered and evaluated. Typical techniques: brainstorming, crazy eights, mind mapping. Criticism at this stage kills creativity.",
+    "source": "Design Thinking (IDEO / Stanford d.school)",
+    "sourceUrl": "/guide/product-thinking"
+  },
+  {
+    "id": "pt_q16",
+    "dimension": "product_thinking",
+    "text": "Почему при создании AI-продукта MVP особенно важен?",
+    "textEn": "Why is MVP especially important when building an AI product?",
+    "options": [
+      {
+        "key": "a",
+        "text": "AI-модели дёшевы, поэтому можно сразу создать полный продукт",
+        "textEn": "AI models are cheap so you can immediately build full product"
+      },
+      {
+        "key": "b",
+        "text": "Пользователи не готовы платить за AI, поэтому нужен бесплатный MVP",
+        "textEn": "Users won't pay for AI products so a free MVP is always needed"
+      },
+      {
+        "key": "c",
+        "text": "Поведение AI непредсказуемо и нужно быстро проверить гипотезу",
+        "textEn": "AI behavior is unpredictable and hypotheses need quick testing"
+      },
+      {
+        "key": "d",
+        "text": "AI-продукты не требуют тестирования на реальных пользователях",
+        "textEn": "AI products don't require testing with any real actual users"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "AI-продукты несут дополнительную неопределённость: качество модели, edge cases, галлюцинации. MVP позволяет быстро проверить, решает ли AI реальную проблему пользователя с приемлемым качеством, прежде чем инвестировать в масштабирование и доработку.",
+    "explanationEn": "AI products carry additional uncertainty: model quality, edge cases, hallucinations. MVP allows quickly verifying whether AI solves a real user problem with acceptable quality before investing in scaling and refinement.",
+    "source": "Lean Startup + AI product development",
+    "sourceUrl": "/guide/product-thinking"
+  },
+  {
+    "id": "pt_q17",
+    "dimension": "product_thinking",
+    "text": "Что такое vanity metrics (метрики тщеславия) по Эрику Рису?",
+    "textEn": "What are vanity metrics according to Eric Ries?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Метрики конкурентов, на которые не стоит ориентироваться",
+        "textEn": "Competitor metrics that you should not use as your benchmark"
+      },
+      {
+        "key": "b",
+        "text": "Метрики, которые используются для привлечения инвесторов",
+        "textEn": "Metrics that are used specifically to attract potential investors"
+      },
+      {
+        "key": "c",
+        "text": "Любые количественные метрики в отличие от качественных",
+        "textEn": "Any quantitative metrics as opposed to qualitative assessments"
+      },
+      {
+        "key": "d",
+        "text": "Метрики, которые приятно видеть, но не влияют на решения",
+        "textEn": "Metrics that look good on paper but don't influence decisions"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Vanity metrics (общее число регистраций, загрузок, просмотров) растут со временем и создают иллюзию прогресса, но не помогают принимать решения. Рис рекомендует actionable metrics — метрики, которые показывают причинно-следственные связи и помогают понять, что работает.",
+    "explanationEn": "Vanity metrics (total registrations, downloads, page views) grow over time and create an illusion of progress but don't help make decisions. Ries recommends actionable metrics — metrics that show cause-and-effect relationships and help understand what works.",
+    "source": "Eric Ries, The Lean Startup (2011)",
+    "sourceUrl": "/guide/product-thinking"
+  },
+  {
+    "id": "pt_q18",
+    "dimension": "product_thinking",
+    "text": "В User Story, зачем нужна часть «чтобы [выгода]»?",
+    "textEn": "In a User Story, why is the 'so that [benefit]' part needed?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Она описывает техническую реализацию для разработчиков",
+        "textEn": "It describes the technical implementation for the developers"
+      },
+      {
+        "key": "b",
+        "text": "Она объясняет ЗАЧЕМ нужна функция, а не просто ЧТО делать",
+        "textEn": "It explains WHY a feature is needed not just WHAT needs doing"
+      },
+      {
+        "key": "c",
+        "text": "Она определяет критерии приёмки для тестирования функции",
+        "textEn": "It defines acceptance criteria for testing the feature's quality"
+      },
+      {
+        "key": "d",
+        "text": "Она указывает дедлайн и приоритет данной конкретной задачи",
+        "textEn": "It specifies the deadline and priority for this specific task"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Часть «so that» — самая ценная в User Story. Она раскрывает мотивацию и помогает команде принимать решения при реализации. Если разработчик понимает ЗАЧЕМ нужна функция, он может предложить лучшее решение. Без «so that» User Story превращается в техническое задание.",
+    "explanationEn": "The 'so that' part is the most valuable in a User Story. It reveals motivation and helps the team make implementation decisions. If a developer understands WHY a feature is needed, they can suggest a better solution. Without 'so that,' a User Story becomes a technical specification.",
+    "source": "User Stories (Mike Cohn / Agile methodology)",
+    "sourceUrl": "/guide/product-thinking"
+  },
+  {
+    "id": "pt_q19",
+    "dimension": "product_thinking",
+    "text": "Какой принцип A/B тестирования нарушается, если менять несколько элементов одновременно?",
+    "textEn": "Which A/B testing principle is violated when changing multiple elements at once?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Принцип рандомизации выборки между группами пользователей",
+        "textEn": "Principle of randomizing the sample between two user groups"
+      },
+      {
+        "key": "b",
+        "text": "Принцип изоляции переменных для определения причины эффекта",
+        "textEn": "Principle of isolating variables to determine the cause of effect"
+      },
+      {
+        "key": "c",
+        "text": "Принцип минимального размера выборки для статистики данных",
+        "textEn": "Principle of minimum sample size for valid statistical results"
+      },
+      {
+        "key": "d",
+        "text": "Принцип конфиденциальности данных участников эксперимента",
+        "textEn": "Principle of data confidentiality for experiment participants"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Если ты одновременно меняешь заголовок, кнопку и цвет, ты не сможешь определить, какое именно изменение дало эффект. Принцип изоляции переменных — основа научного эксперимента. Для теста нескольких переменных используют мультивариантное тестирование, а не классический A/B.",
+    "explanationEn": "If you simultaneously change the headline, button, and color, you can't determine which change caused the effect. Variable isolation is the foundation of scientific experimentation. For testing multiple variables, multivariate testing is used instead of classic A/B.",
+    "source": "A/B Testing principles (experimental design)",
+    "sourceUrl": "/guide/product-thinking"
+  },
+  {
+    "id": "pt_q20",
+    "dimension": "product_thinking",
+    "text": "По модели Кано, что происходит с «восхищающими» функциями со временем?",
+    "textEn": "According to the Kano Model, what happens to 'delighter' features over time?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Они навсегда остаются источником восторга пользователей",
+        "textEn": "They forever remain a source of user delight and excitement"
+      },
+      {
+        "key": "b",
+        "text": "Они становятся линейными и требуют постоянных улучшений",
+        "textEn": "They become performance features needing constant improvement"
+      },
+      {
+        "key": "c",
+        "text": "Они исчезают, потому что пользователи теряют к ним интерес",
+        "textEn": "They disappear because users eventually lose interest in them"
+      },
+      {
+        "key": "d",
+        "text": "Они постепенно становятся базовыми ожидаемыми функциями",
+        "textEn": "They gradually become basic expected features over the years"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Кано описал эффект «деградации восхищения»: то, что вчера вызывало «вау», завтра становится нормой, а послезавтра — ожиданием. Сенсорный экран на смартфоне был delighter в 2007, а сегодня его отсутствие — серьёзный недостаток. Поэтому продукт должен постоянно инновировать.",
+    "explanationEn": "Kano described the 'delight degradation' effect: what caused 'wow' yesterday becomes normal tomorrow and expected the day after. A touchscreen on a smartphone was a delighter in 2007, and today its absence is a serious flaw. Products must constantly innovate.",
+    "source": "Kano Model (Noriaki Kano, 1984)",
+    "sourceUrl": "/guide/product-thinking"
+  }
+]

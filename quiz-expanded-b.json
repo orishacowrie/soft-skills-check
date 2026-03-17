@@ -6,11 +6,11 @@
     "textEn": "According to Tuckman's model, at which stage does a team experience the most conflict and role struggles?",
     "options": [
       { "key": "a", "text": "Forming — участники знакомятся и присматриваются", "textEn": "Forming — members get acquainted and observe" },
-      { "key": "b", "text": "Norming — команда вырабатывает общие правила", "textEn": "Norming — the team develops shared norms" },
-      { "key": "c", "text": "Storming — возникают разногласия и борьба за влияние", "textEn": "Storming — disagreements and power struggles emerge" },
+      { "key": "b", "text": "Storming — возникают разногласия и борьба за влияние", "textEn": "Storming — disagreements and power struggles emerge" },
+      { "key": "c", "text": "Norming — команда вырабатывает общие правила", "textEn": "Norming — the team develops shared norms" },
       { "key": "d", "text": "Performing — команда работает максимально эффективно", "textEn": "Performing — the team operates at peak efficiency" }
     ],
-    "correctAnswer": "c",
+    "correctAnswer": "b",
     "explanation": "Стадия Storming — это этап, где участники начинают проявлять свои настоящие мнения, конфликтовать и бороться за роли. Это нормальная и необходимая часть развития команды. Попытки пропустить эту стадию обычно приводят к подавленным конфликтам позже.",
     "explanationEn": "The Storming stage is where members begin expressing their true opinions, clash, and compete for roles. This is a normal and necessary part of team development. Attempts to skip this stage usually lead to suppressed conflicts later.",
     "source": "Bruce Tuckman — Developmental Sequence in Small Groups",
@@ -40,11 +40,11 @@
     "textEn": "According to Google's Project Aristotle research, which factor was the most important for team effectiveness?",
     "options": [
       { "key": "a", "text": "Индивидуальный уровень интеллекта участников", "textEn": "Individual intelligence level of team members" },
-      { "key": "b", "text": "Наличие опытного и авторитетного лидера", "textEn": "Having an experienced and authoritative leader" },
-      { "key": "c", "text": "Психологическая безопасность внутри команды", "textEn": "Psychological safety within the team" },
+      { "key": "b", "text": "Психологическая безопасность внутри команды", "textEn": "Psychological safety within the team" },
+      { "key": "c", "text": "Наличие опытного и авторитетного лидера", "textEn": "Having an experienced and authoritative leader" },
       { "key": "d", "text": "Чёткое распределение ролей и обязанностей", "textEn": "Clear distribution of roles and responsibilities" }
     ],
-    "correctAnswer": "c",
+    "correctAnswer": "b",
     "explanation": "Google Project Aristotle изучил 180+ команд и обнаружил, что психологическая безопасность — безусловно главный фактор. Команды, где люди не боятся рисковать и ошибаться, превосходят все остальные. Остальные факторы (надёжность, структура, смысл, влияние) тоже важны, но вторичны.",
     "explanationEn": "Google's Project Aristotle studied 180+ teams and found psychological safety to be the single most important factor. Teams where people aren't afraid to take risks and make mistakes outperform all others. Other factors (dependability, structure, meaning, impact) matter too but are secondary.",
     "source": "Google — Project Aristotle",
@@ -142,11 +142,11 @@
     "textEn": "In a RACI matrix, if a task has no 'R' (Responsible) assigned, this means...",
     "options": [
       { "key": "a", "text": "Задача будет выполнена автоматически через процесс", "textEn": "The task will be completed automatically through a process" },
-      { "key": "b", "text": "Accountable-лицо само выполнит эту задачу", "textEn": "The Accountable person will do the task themselves" },
-      { "key": "c", "text": "Это ошибка — никто не выполнит работу по факту", "textEn": "This is an error — nobody will actually do the work" },
+      { "key": "b", "text": "Это ошибка — никто не выполнит работу по факту", "textEn": "This is an error — nobody will actually do the work" },
+      { "key": "c", "text": "Accountable-лицо само выполнит эту задачу", "textEn": "The Accountable person will do the task themselves" },
       { "key": "d", "text": "Задача была делегирована внешнему подрядчику", "textEn": "The task was delegated to an external contractor" }
     ],
-    "correctAnswer": "c",
+    "correctAnswer": "b",
     "explanation": "Отсутствие R — классическая ошибка в RACI. Если никто не назначен Responsible, работа просто не будет сделана. Accountable отвечает за результат, но не обязательно выполняет работу сам. Это одна из главных проблем, которую RACI призван предотвращать.",
     "explanationEn": "Missing R is a classic RACI error. If nobody is assigned Responsible, the work simply won't get done. Accountable owns the outcome but doesn't necessarily do the work. This is one of the main problems RACI is designed to prevent.",
     "source": "RACI Matrix Framework",
@@ -193,11 +193,11 @@
     "textEn": "According to the Radical Candor model, 'Obnoxious Aggression' is when...",
     "options": [
       { "key": "a", "text": "Человек заботится лично, но избегает прямого разговора", "textEn": "A person cares personally but avoids direct conversation" },
-      { "key": "b", "text": "Человек не заботится и не даёт честной обратной связи", "textEn": "A person doesn't care and doesn't give honest feedback" },
-      { "key": "c", "text": "Человек говорит прямо, но не проявляет личной заботы", "textEn": "A person speaks directly but shows no personal care" },
+      { "key": "b", "text": "Человек говорит прямо, но не проявляет личной заботы", "textEn": "A person speaks directly but shows no personal care" },
+      { "key": "c", "text": "Человек не заботится и не даёт честной обратной связи", "textEn": "A person doesn't care and doesn't give honest feedback" },
       { "key": "d", "text": "Человек заботится и при этом говорит правду прямо", "textEn": "A person cares and tells the truth directly" }
     ],
-    "correctAnswer": "c",
+    "correctAnswer": "b",
     "explanation": "Obnoxious Aggression — квадрант с высоким Challenge Directly, но низким Care Personally. Это когда руководитель или коллега режет правду-матку, не заботясь о чувствах. Хотя прямота есть, отсутствие заботы делает фидбек деморализующим.",
     "explanationEn": "Obnoxious Aggression is the quadrant with high Challenge Directly but low Care Personally. This is when a manager or colleague bluntly states the truth without caring about feelings. While directness exists, the lack of care makes feedback demoralizing.",
     "source": "Kim Scott — Radical Candor",
@@ -312,11 +312,11 @@
     "textEn": "When reviewing AI-generated code, the most effective strategy is to...",
     "options": [
       { "key": "a", "text": "Проверять только компиляцию и прохождение тестов", "textEn": "Only check compilation and test passing" },
-      { "key": "b", "text": "Полностью переписать код вручную для надёжности", "textEn": "Completely rewrite the code manually for reliability" },
-      { "key": "c", "text": "Сосредоточиться на edge cases и бизнес-логике, а не на стиле", "textEn": "Focus on edge cases and business logic rather than style" },
+      { "key": "b", "text": "Сосредоточиться на edge cases и бизнес-логике, а не на стиле", "textEn": "Focus on edge cases and business logic rather than style" },
+      { "key": "c", "text": "Полностью переписать код вручную для надёжности", "textEn": "Completely rewrite the code manually for reliability" },
       { "key": "d", "text": "Автоматически одобрить, если автор — опытный разработчик", "textEn": "Automatically approve if the author is an experienced developer" }
     ],
-    "correctAnswer": "c",
+    "correctAnswer": "b",
     "explanation": "AI-код обычно стилистически чистый, но может содержать тонкие логические ошибки, неверную обработку граничных случаев или галлюцинации API. При ревью такого кода стоит сосредоточиться именно на логике, edge cases и соответствии бизнес-требованиям.",
     "explanationEn": "AI code is usually stylistically clean but may contain subtle logic errors, incorrect edge case handling, or API hallucinations. When reviewing such code, focus on logic, edge cases, and alignment with business requirements.",
     "source": "Soft Skills Guide: Collaboration",
@@ -414,11 +414,11 @@
     "textEn": "Transformational leadership differs from transactional leadership in that...",
     "options": [
       { "key": "a", "text": "Оно опирается на систему поощрений и наказаний за результат", "textEn": "It relies on a system of rewards and punishments for results" },
-      { "key": "b", "text": "Оно фокусируется на поддержании существующих процессов", "textEn": "It focuses on maintaining existing processes" },
-      { "key": "c", "text": "Оно вдохновляет людей выходить за рамки личных интересов", "textEn": "It inspires people to go beyond their personal interests" },
+      { "key": "b", "text": "Оно вдохновляет людей выходить за рамки личных интересов", "textEn": "It inspires people to go beyond their personal interests" },
+      { "key": "c", "text": "Оно фокусируется на поддержании существующих процессов", "textEn": "It focuses on maintaining existing processes" },
       { "key": "d", "text": "Оно требует строгой иерархии и чёткой субординации", "textEn": "It requires strict hierarchy and clear subordination" }
     ],
-    "correctAnswer": "c",
+    "correctAnswer": "b",
     "explanation": "Трансформационный лидер (Bass, 1985) вдохновляет и изменяет мотивацию последователей, побуждая их выходить за рамки личных интересов ради общей цели. Транзакционный лидер работает через обмен: «ты делаешь X — получаешь Y». Оба стиля могут быть эффективны, но в разных контекстах.",
     "explanationEn": "A transformational leader (Bass, 1985) inspires and changes followers' motivation, encouraging them to transcend personal interests for a shared goal. A transactional leader works through exchange: 'you do X, you get Y.' Both styles can be effective in different contexts.",
     "source": "Bernard Bass — Transformational Leadership",
@@ -753,12 +753,12 @@
     "text": "В TKI, стиль «Collaboration» (Сотрудничество) требует...",
     "textEn": "In TKI, the 'Collaboration' style requires...",
     "options": [
-      { "key": "a", "text": "Высокой настойчивости и высокой кооперативности одновременно", "textEn": "High assertiveness and high cooperativeness simultaneously" },
-      { "key": "b", "text": "Отказа от своих интересов ради интересов другой стороны", "textEn": "Abandoning own interests in favor of the other party's" },
+      { "key": "a", "text": "Отказа от своих интересов ради интересов другой стороны", "textEn": "Abandoning own interests in favor of the other party's" },
+      { "key": "b", "text": "Высокой настойчивости и высокой кооперативности одновременно", "textEn": "High assertiveness and high cooperativeness simultaneously" },
       { "key": "c", "text": "Быстрого принятия решения без длительных обсуждений", "textEn": "Quick decision-making without lengthy discussions" },
       { "key": "d", "text": "Привлечения внешнего медиатора для решения конфликта", "textEn": "Engaging an external mediator to resolve the conflict" }
     ],
-    "correctAnswer": "a",
+    "correctAnswer": "b",
     "explanation": "Collaboration в TKI — правый верхний угол: максимальная настойчивость (я отстаиваю свои интересы) + максимальная кооперативность (я учитываю интересы другого). Это win-win, но требует времени и доверия. Не всегда возможен, но даёт лучший результат.",
     "explanationEn": "Collaboration in TKI is the upper-right corner: maximum assertiveness (I advocate for my interests) + maximum cooperativeness (I consider the other's interests). It's win-win but requires time and trust. Not always possible, but yields the best outcome.",
     "source": "Thomas & Kilmann — TKI Conflict Mode Instrument",
@@ -770,12 +770,12 @@
     "text": "В NVC Розенберга, чем «чувство» отличается от «оценки, замаскированной под чувство»?",
     "textEn": "In Rosenberg's NVC, how does a 'feeling' differ from 'an evaluation disguised as a feeling'?",
     "options": [
-      { "key": "a", "text": "Чувство описывает твоё состояние, а не действия другого человека", "textEn": "A feeling describes your state, not the other person's actions" },
-      { "key": "b", "text": "Чувство всегда позитивное, а оценка — всегда негативная", "textEn": "A feeling is always positive, while an evaluation is always negative" },
+      { "key": "a", "text": "Чувство всегда позитивное, а оценка — всегда негативная", "textEn": "A feeling is always positive, while an evaluation is always negative" },
+      { "key": "b", "text": "Чувство описывает твоё состояние, а не действия другого человека", "textEn": "A feeling describes your state, not the other person's actions" },
       { "key": "c", "text": "Чувство выражается одним словом, а оценка — предложением", "textEn": "A feeling is expressed in one word, an evaluation in a sentence" },
       { "key": "d", "text": "Чувство можно измерить по шкале, а оценку — нельзя", "textEn": "A feeling can be measured on a scale, an evaluation cannot" }
     ],
-    "correctAnswer": "a",
+    "correctAnswer": "b",
     "explanation": "Розенберг различает настоящие чувства («я расстроен», «я тревожусь») и псевдо-чувства, которые на самом деле содержат обвинение («я чувствую себя проигнорированным» = «ты меня игнорируешь»). Настоящее чувство описывает твоё внутреннее состояние без указания на виновника.",
     "explanationEn": "Rosenberg distinguishes genuine feelings ('I'm upset,' 'I'm anxious') from pseudo-feelings that actually contain blame ('I feel ignored' = 'you're ignoring me'). A genuine feeling describes your internal state without pointing to someone at fault.",
     "source": "Marshall Rosenberg — Nonviolent Communication",
@@ -974,12 +974,12 @@
     "text": "Третий шаг NVC — «Потребности» — важен потому, что...",
     "textEn": "The third NVC step — 'Needs' — is important because...",
     "options": [
-      { "key": "a", "text": "Потребности универсальны и создают основу для взаимопонимания", "textEn": "Needs are universal and create a basis for mutual understanding" },
-      { "key": "b", "text": "Потребности определяют, кто прав, а кто виноват в конфликте", "textEn": "Needs determine who is right and who is wrong in a conflict" },
+      { "key": "a", "text": "Потребности определяют, кто прав, а кто виноват в конфликте", "textEn": "Needs determine who is right and who is wrong in a conflict" },
+      { "key": "b", "text": "Потребности универсальны и создают основу для взаимопонимания", "textEn": "Needs are universal and create a basis for mutual understanding" },
       { "key": "c", "text": "Потребности помогают сформулировать ультиматум собеседнику", "textEn": "Needs help formulate an ultimatum for the other person" },
       { "key": "d", "text": "Потребности заменяют необходимость вести переговоры вовсе", "textEn": "Needs replace the need to negotiate at all" }
     ],
-    "correctAnswer": "a",
+    "correctAnswer": "b",
     "explanation": "Розенберг утверждает: у всех людей одни и те же базовые потребности (безопасность, автономия, принадлежность, уважение). Когда ты говоришь о потребностях, а не о стратегиях, собеседнику легче тебя понять. «Мне нужна предсказуемость» понятнее, чем «ты всегда меняешь планы».",
     "explanationEn": "Rosenberg argues: all people share the same basic needs (safety, autonomy, belonging, respect). When you speak about needs rather than strategies, it's easier for others to understand you. 'I need predictability' is clearer than 'you always change plans.'",
     "source": "Marshall Rosenberg — Nonviolent Communication",
@@ -1095,8 +1095,8 @@
     "options": [
       { "key": "a", "text": "Приписывание другим людям негативных намерений без доказательств", "textEn": "Attributing negative intentions to others without evidence" },
       { "key": "b", "text": "Преувеличение возможных негативных последствий ситуации", "textEn": "Exaggerating the possible negative consequences of a situation" },
-      { "key": "c", "text": "Игнорирование позитивных аспектов и фокус на негативных", "textEn": "Ignoring positive aspects and focusing on negative ones" },
-      { "key": "d", "text": "Перенос одного негативного опыта на все похожие ситуации", "textEn": "Transferring one negative experience to all similar situations" }
+      { "key": "c", "text": "Перенос одного негативного опыта на все похожие ситуации", "textEn": "Transferring one negative experience to all similar situations" },
+      { "key": "d", "text": "Игнорирование позитивных аспектов и фокус на негативных", "textEn": "Ignoring positive aspects and focusing on negative ones" }
     ],
     "correctAnswer": "b",
     "explanation": "Катастрофизация — когнитивное искажение, при котором человек автоматически предполагает наихудший сценарий. «Я допустил баг → меня уволят → я не найду работу». Бек разработал когнитивно-поведенческую терапию (CBT) именно для работы с такими автоматическими мыслями.",
@@ -1246,12 +1246,12 @@
     "text": "В концепции Emotional Agility, «brooding» (руминация) вредна потому, что...",
     "textEn": "In the Emotional Agility concept, 'brooding' (rumination) is harmful because...",
     "options": [
-      { "key": "a", "text": "Она полностью блокирует все эмоции и ведёт к апатии", "textEn": "It completely blocks all emotions and leads to apathy" },
-      { "key": "b", "text": "Она усиливает негативные мысли, создавая порочный круг", "textEn": "It amplifies negative thoughts, creating a vicious cycle" },
+      { "key": "a", "text": "Она усиливает негативные мысли, создавая порочный круг", "textEn": "It amplifies negative thoughts, creating a vicious cycle" },
+      { "key": "b", "text": "Она полностью блокирует все эмоции и ведёт к апатии", "textEn": "It completely blocks all emotions and leads to apathy" },
       { "key": "c", "text": "Она заставляет человека действовать слишком быстро и импульсивно", "textEn": "It causes a person to act too quickly and impulsively" },
       { "key": "d", "text": "Она увеличивает уровень эмпатии до болезненной степени", "textEn": "It increases the level of empathy to a painful degree" }
     ],
-    "correctAnswer": "b",
+    "correctAnswer": "a",
     "explanation": "Сьюзен Дэвид различает «полезную рефлексию» и «руминацию» (brooding). Руминация — это когда ты прокручиваешь негативные мысли снова и снова, не приходя к решению. Исследования показывают, что она усиливает депрессию и тревогу. Альтернатива — наблюдение с дистанции.",
     "explanationEn": "Susan David distinguishes 'useful reflection' from 'rumination' (brooding). Rumination is when you replay negative thoughts over and over without reaching a solution. Research shows it amplifies depression and anxiety. The alternative is observation from a distance.",
     "source": "Susan David — Emotional Agility",
@@ -1281,11 +1281,11 @@
     "textEn": "The best way to prevent an 'amygdala hijack' in a stressful work situation is...",
     "options": [
       { "key": "a", "text": "Избегать любых стрессовых ситуаций и конфликтов на работе", "textEn": "Avoid all stressful situations and conflicts at work" },
-      { "key": "b", "text": "Сделать паузу и несколько глубоких вдохов перед реакцией", "textEn": "Pause and take several deep breaths before reacting" },
-      { "key": "c", "text": "Немедленно высказать всё, что чувствуешь, чтобы снять напряжение", "textEn": "Immediately express everything you feel to release tension" },
+      { "key": "b", "text": "Немедленно высказать всё, что чувствуешь, чтобы снять напряжение", "textEn": "Immediately express everything you feel to release tension" },
+      { "key": "c", "text": "Сделать паузу и несколько глубоких вдохов перед реакцией", "textEn": "Pause and take several deep breaths before reacting" },
       { "key": "d", "text": "Подавить эмоцию и вернуться к задаче максимально быстро", "textEn": "Suppress the emotion and return to the task as quickly as possible" }
     ],
-    "correctAnswer": "b",
+    "correctAnswer": "c",
     "explanation": "Пауза активирует префронтальную кору, давая ей время «догнать» миндалевидное тело. 6-секундная пауза (Six Seconds EQ) или несколько глубоких вдохов (активация парасимпатической нервной системы) — научно обоснованные техники. Подавление не работает — эмоция накапливается.",
     "explanationEn": "A pause activates the prefrontal cortex, giving it time to 'catch up' with the amygdala. A 6-second pause (Six Seconds EQ) or several deep breaths (activating the parasympathetic nervous system) are scientifically validated techniques. Suppression doesn't work — emotions accumulate.",
     "source": "Daniel Goleman — Emotional Intelligence",
@@ -1314,12 +1314,12 @@
     "text": "Когнитивное искажение «Персонализация» по Беку — это...",
     "textEn": "The cognitive distortion 'Personalization' according to Beck is...",
     "options": [
-      { "key": "a", "text": "Преувеличение значимости негативных событий в своей жизни", "textEn": "Exaggerating the significance of negative events in one's life" },
-      { "key": "b", "text": "Принятие ответственности за события, не зависящие от тебя", "textEn": "Taking responsibility for events that don't depend on you" },
+      { "key": "a", "text": "Принятие ответственности за события, не зависящие от тебя", "textEn": "Taking responsibility for events that don't depend on you" },
+      { "key": "b", "text": "Преувеличение значимости негативных событий в своей жизни", "textEn": "Exaggerating the significance of negative events in one's life" },
       { "key": "c", "text": "Восприятие мира исключительно через призму своих потребностей", "textEn": "Perceiving the world exclusively through the lens of one's needs" },
       { "key": "d", "text": "Обобщение единичного случая на всю категорию похожих событий", "textEn": "Generalizing a single case to an entire category of similar events" }
     ],
-    "correctAnswer": "b",
+    "correctAnswer": "a",
     "explanation": "Персонализация — когнитивное искажение, при котором ты берёшь на себя ответственность за события вне твоего контроля. «Проект провалился — это моя вина» (хотя причин много). Или «коллега в плохом настроении — это из-за меня». Бек отнёс это к автоматическим мыслям.",
     "explanationEn": "Personalization is a cognitive distortion where you take responsibility for events outside your control. 'The project failed — it's my fault' (despite many causes). Or 'my colleague is in a bad mood — it's because of me.' Beck classified this as an automatic thought.",
     "source": "Aaron Beck — Cognitive Therapy",
@@ -1332,11 +1332,11 @@
     "textEn": "In the context of EQ for remote and AI-heavy teams, the main challenge is...",
     "options": [
       { "key": "a", "text": "Технические сбои и нестабильность интернет-соединения", "textEn": "Technical glitches and unstable internet connections" },
-      { "key": "b", "text": "Потеря невербальных сигналов и эмоциональная изоляция", "textEn": "Loss of nonverbal cues and emotional isolation" },
-      { "key": "c", "text": "Невозможность контролировать рабочее время сотрудников", "textEn": "Inability to monitor employees' working hours" },
+      { "key": "b", "text": "Невозможность контролировать рабочее время сотрудников", "textEn": "Inability to monitor employees' working hours" },
+      { "key": "c", "text": "Потеря невербальных сигналов и эмоциональная изоляция", "textEn": "Loss of nonverbal cues and emotional isolation" },
       { "key": "d", "text": "Отсутствие общего физического пространства для совещаний", "textEn": "Lack of shared physical space for meetings" }
     ],
-    "correctAnswer": "b",
+    "correctAnswer": "c",
     "explanation": "В удалённых командах теряется до 93% невербальной коммуникации (Mehrabian). Без мимики, жестов и энергии помещения сложнее считывать эмоции коллег, что ведёт к недопониманию и изоляции. Компенсация: регулярные 1-1, камеры включены, эмоциональные чекины.",
     "explanationEn": "In remote teams, up to 93% of nonverbal communication is lost (Mehrabian). Without facial expressions, gestures, and room energy, it's harder to read colleagues' emotions, leading to misunderstanding and isolation. Compensation: regular 1-1s, cameras on, emotional check-ins.",
     "source": "Soft Skills Guide: Emotional Intelligence",
@@ -1382,12 +1382,12 @@
     "text": "Закон Паркинсона гласит, что...",
     "textEn": "Parkinson's Law states that...",
     "options": [
-      { "key": "a", "text": "Работа заполняет всё время, отведённое на её выполнение", "textEn": "Work expands to fill the time available for its completion" },
-      { "key": "b", "text": "20% усилий дают 80% результата в любой деятельности", "textEn": "20% of effort produces 80% of results in any activity" },
+      { "key": "a", "text": "20% усилий дают 80% результата в любой деятельности", "textEn": "20% of effort produces 80% of results in any activity" },
+      { "key": "b", "text": "Работа заполняет всё время, отведённое на её выполнение", "textEn": "Work expands to fill the time available for its completion" },
       { "key": "c", "text": "Любая задача занимает больше времени, чем ты ожидаешь", "textEn": "Any task takes longer than you expect" },
       { "key": "d", "text": "Многозадачность снижает продуктивность на сорок процентов", "textEn": "Multitasking reduces productivity by forty percent" }
     ],
-    "correctAnswer": "a",
+    "correctAnswer": "b",
     "explanation": "Закон Паркинсона (1955): «Работа расширяется, чтобы заполнить время, доступное для её завершения». Если дать на задачу неделю, она займёт неделю. Если два часа — два часа. Практический вывод: ставь жёсткие, но реалистичные дедлайны, чтобы предотвратить растягивание.",
     "explanationEn": "Parkinson's Law (1955): 'Work expands to fill the time available for its completion.' If you give a task a week, it'll take a week. Two hours — two hours. Practical takeaway: set tight but realistic deadlines to prevent expansion.",
     "source": "C. Northcote Parkinson — Parkinson's Law",
@@ -1417,11 +1417,11 @@
     "textEn": "The Pareto Principle (80/20 rule) in the context of time management means that...",
     "options": [
       { "key": "a", "text": "Нужно работать 80% времени и отдыхать 20% рабочего дня", "textEn": "You should work 80% of the time and rest 20% of the workday" },
-      { "key": "b", "text": "80% результатов приходят из 20% усилий и задач", "textEn": "80% of results come from 20% of efforts and tasks" },
-      { "key": "c", "text": "20% задач нужно делегировать, а 80% выполнять самому", "textEn": "20% of tasks should be delegated and 80% done yourself" },
-      { "key": "d", "text": "Планирование должно занимать 20% от общего рабочего времени", "textEn": "Planning should take 20% of total working time" }
+      { "key": "b", "text": "20% задач нужно делегировать, а 80% выполнять самому", "textEn": "20% of tasks should be delegated and 80% done yourself" },
+      { "key": "c", "text": "Планирование должно занимать 20% от общего рабочего времени", "textEn": "Planning should take 20% of total working time" },
+      { "key": "d", "text": "80% результатов приходят из 20% усилий и задач", "textEn": "80% of results come from 20% of efforts and tasks" }
     ],
-    "correctAnswer": "b",
+    "correctAnswer": "d",
     "explanation": "Парето обнаружил, что 80% результатов дают 20% причин. В тайм-менеджменте: определи 20% задач, которые дают 80% ценности, и сфокусируйся на них. Остальные 80% задач можно делегировать, упростить или отменить. Это не точная пропорция, а принцип неравномерного распределения.",
     "explanationEn": "Pareto discovered that 80% of outcomes come from 20% of causes. In time management: identify the 20% of tasks that deliver 80% of value and focus on them. The remaining 80% of tasks can be delegated, simplified, or eliminated. It's not an exact ratio but a principle of uneven distribution.",
     "source": "Vilfredo Pareto — Pareto Principle",
@@ -1484,12 +1484,12 @@
     "text": "Planning Fallacy (ошибка планирования) по Канеману и Тверски — это тенденция...",
     "textEn": "The Planning Fallacy according to Kahneman and Tversky is the tendency to...",
     "options": [
-      { "key": "a", "text": "Планировать слишком много задач на один рабочий день", "textEn": "Plan too many tasks for a single workday" },
-      { "key": "b", "text": "Недооценивать время и ресурсы, необходимые для завершения задачи", "textEn": "Underestimate the time and resources needed to complete a task" },
+      { "key": "a", "text": "Недооценивать время и ресурсы, необходимые для завершения задачи", "textEn": "Underestimate the time and resources needed to complete a task" },
+      { "key": "b", "text": "Планировать слишком много задач на один рабочий день", "textEn": "Plan too many tasks for a single workday" },
       { "key": "c", "text": "Переоценивать свою способность работать в режиме многозадачности", "textEn": "Overestimate one's ability to work in multitasking mode" },
       { "key": "d", "text": "Откладывать сложные задачи в пользу лёгких и приятных", "textEn": "Postpone difficult tasks in favor of easy and pleasant ones" }
     ],
-    "correctAnswer": "b",
+    "correctAnswer": "a",
     "explanation": "Planning Fallacy — систематическая ошибка: люди недооценивают время, деньги и риски проектов, фокусируясь на лучшем сценарии. Канеман и Тверски показали, что даже опытные профессионалы подвержены этой ошибке. Антидот: reference class forecasting — смотри на аналогичные прошлые проекты.",
     "explanationEn": "Planning Fallacy is a systematic error: people underestimate time, money, and risks of projects by focusing on the best-case scenario. Kahneman and Tversky showed that even experienced professionals are susceptible. Antidote: reference class forecasting — look at similar past projects.",
     "source": "Kahneman & Tversky — Planning Fallacy",
@@ -1553,11 +1553,11 @@
     "textEn": "Time Blocking is a technique where you...",
     "options": [
       { "key": "a", "text": "Группируешь похожие задачи и выполняешь их подряд одним пакетом", "textEn": "Group similar tasks together and execute them in a batch" },
-      { "key": "b", "text": "Заранее назначаешь конкретное время в календаре для каждой задачи", "textEn": "Pre-assign specific time in the calendar for each task" },
-      { "key": "c", "text": "Блокируешь все уведомления и отвлечения на время работы", "textEn": "Block all notifications and distractions during work" },
+      { "key": "b", "text": "Блокируешь все уведомления и отвлечения на время работы", "textEn": "Block all notifications and distractions during work" },
+      { "key": "c", "text": "Заранее назначаешь конкретное время в календаре для каждой задачи", "textEn": "Pre-assign specific time in the calendar for each task" },
       { "key": "d", "text": "Устанавливаешь таймер и работаешь пока он не зазвонит", "textEn": "Set a timer and work until it rings" }
     ],
-    "correctAnswer": "b",
+    "correctAnswer": "c",
     "explanation": "Time Blocking — планирование дня блоками в календаре: каждая задача получает конкретный слот. Это превращает to-do list в расписание. Кэл Ньюпорт практикует это ежедневно. Ключевое отличие от простого списка задач: ты явно решаешь, КОГДА что делать, а не просто ЧТО.",
     "explanationEn": "Time Blocking means planning the day in calendar blocks: each task gets a specific slot. This transforms a to-do list into a schedule. Cal Newport practices this daily. The key difference from a simple task list: you explicitly decide WHEN to do things, not just WHAT.",
     "source": "Cal Newport — Deep Work / Time Block Planner",
@@ -1570,11 +1570,11 @@
     "textEn": "When AI generates a solution faster than you would write manually, but the result needs significant rework, the most productive strategy is...",
     "options": [
       { "key": "a", "text": "Всегда принимать AI-решение и дорабатывать — это быстрее", "textEn": "Always accept the AI solution and refine — it's faster" },
-      { "key": "b", "text": "Оценить стоимость доработки и сравнить с написанием с нуля", "textEn": "Estimate the cost of refinement and compare with writing from scratch" },
-      { "key": "c", "text": "Всегда писать вручную — AI-код менее надёжен по определению", "textEn": "Always write manually — AI code is less reliable by definition" },
-      { "key": "d", "text": "Попросить AI сгенерировать десять вариантов и выбрать лучший", "textEn": "Ask AI to generate ten variants and pick the best one" }
+      { "key": "b", "text": "Всегда писать вручную — AI-код менее надёжен по определению", "textEn": "Always write manually — AI code is less reliable by definition" },
+      { "key": "c", "text": "Попросить AI сгенерировать десять вариантов и выбрать лучший", "textEn": "Ask AI to generate ten variants and pick the best one" },
+      { "key": "d", "text": "Оценить стоимость доработки и сравнить с написанием с нуля", "textEn": "Estimate the cost of refinement and compare with writing from scratch" }
     ],
-    "correctAnswer": "b",
+    "correctAnswer": "d",
     "explanation": "Ключевая компетенция при работе с AI — оценка ROI каждого промпта. Иногда доработка AI-кода дольше, чем написание с нуля (особенно для сложной логики). Иногда — значительно быстрее (бойлерплейт, CRUD). Решение должно быть прагматичным, а не идеологическим.",
     "explanationEn": "The key competency when working with AI is evaluating the ROI of each prompt. Sometimes refining AI code takes longer than writing from scratch (especially for complex logic). Sometimes it's significantly faster (boilerplate, CRUD). The decision should be pragmatic, not ideological.",
     "source": "Soft Skills Guide: Time Management",
@@ -1586,12 +1586,12 @@
     "text": "По Грэму, одна встреча в середине maker's дня вредна потому, что...",
     "textEn": "According to Graham, one meeting in the middle of a maker's day is harmful because...",
     "options": [
-      { "key": "a", "text": "Встречи всегда длятся дольше запланированного времени", "textEn": "Meetings always last longer than scheduled" },
-      { "key": "b", "text": "Она разбивает день на два слишком коротких блока для потока", "textEn": "It splits the day into two blocks too short for flow" },
+      { "key": "a", "text": "Она разбивает день на два слишком коротких блока для потока", "textEn": "It splits the day into two blocks too short for flow" },
+      { "key": "b", "text": "Встречи всегда длятся дольше запланированного времени", "textEn": "Meetings always last longer than scheduled" },
       { "key": "c", "text": "После встречи невозможно сосредоточиться до конца дня", "textEn": "After a meeting it's impossible to concentrate for the rest of the day" },
       { "key": "d", "text": "Создатели испытывают социальную тревогу перед встречами", "textEn": "Makers experience social anxiety before meetings" }
     ],
-    "correctAnswer": "b",
+    "correctAnswer": "a",
     "explanation": "Грэм объяснял: для maker'а (программиста, дизайнера) минимальная единица времени — полдня. Встреча в 14:00 разбивает день на два куска по 2–3 часа, каждый из которых слишком короткий для глубокого погружения. Maker'ы ещё и «подготовительно тревожатся» перед встречей.",
     "explanationEn": "Graham explained: for a maker (programmer, designer), the minimum unit of time is half a day. A 2 PM meeting splits the day into two 2-3 hour chunks, each too short for deep immersion. Makers also 'pre-worry' about the meeting beforehand.",
     "source": "Paul Graham — Maker's Schedule, Manager's Schedule",
@@ -1604,11 +1604,11 @@
     "textEn": "The best way to counteract the Planning Fallacy according to Kahneman is...",
     "options": [
       { "key": "a", "text": "Просто умножать свою оценку на два каждый раз", "textEn": "Simply multiply your estimate by two every time" },
-      { "key": "b", "text": "Использовать reference class forecasting — данные о похожих проектах", "textEn": "Use reference class forecasting — data from similar projects" },
-      { "key": "c", "text": "Поручать оценку самому оптимистичному члену команды", "textEn": "Assign estimation to the most optimistic team member" },
+      { "key": "b", "text": "Поручать оценку самому оптимистичному члену команды", "textEn": "Assign estimation to the most optimistic team member" },
+      { "key": "c", "text": "Использовать reference class forecasting — данные о похожих проектах", "textEn": "Use reference class forecasting — data from similar projects" },
       { "key": "d", "text": "Не делать оценок и работать без дедлайнов вообще", "textEn": "Don't make estimates and work without deadlines at all" }
     ],
-    "correctAnswer": "b",
+    "correctAnswer": "c",
     "explanation": "Reference class forecasting — метод Канемана: вместо оценки «изнутри» (мой проект уникален) используй статистику «извне» (сколько занимали похожие проекты). Это переключает с оптимистичного нарратива на эмпирические данные. Простое умножение на 2 — тоже не работает из-за рекурсии.",
     "explanationEn": "Reference class forecasting is Kahneman's method: instead of estimating from the 'inside view' (my project is unique), use statistics from the 'outside view' (how long similar projects took). This switches from optimistic narrative to empirical data. Simply multiplying by 2 doesn't work due to recursion.",
     "source": "Daniel Kahneman — Thinking, Fast and Slow",
@@ -1638,11 +1638,11 @@
     "textEn": "One of the main dangers of 'AI rabbit holes' in work is...",
     "options": [
       { "key": "a", "text": "AI может украсть интеллектуальную собственность компании", "textEn": "AI may steal the company's intellectual property" },
-      { "key": "b", "text": "Ты тратишь больше времени на промпты, чем задача бы заняла вручную", "textEn": "You spend more time on prompts than the task would take manually" },
-      { "key": "c", "text": "AI-ответы всегда содержат вредоносный код и уязвимости", "textEn": "AI responses always contain malicious code and vulnerabilities" },
-      { "key": "d", "text": "Коллеги начинают зависеть от тебя как от AI-эксперта", "textEn": "Colleagues begin depending on you as an AI expert" }
+      { "key": "b", "text": "AI-ответы всегда содержат вредоносный код и уязвимости", "textEn": "AI responses always contain malicious code and vulnerabilities" },
+      { "key": "c", "text": "Коллеги начинают зависеть от тебя как от AI-эксперта", "textEn": "Colleagues begin depending on you as an AI expert" },
+      { "key": "d", "text": "Ты тратишь больше времени на промпты, чем задача бы заняла вручную", "textEn": "You spend more time on prompts than the task would take manually" }
     ],
-    "correctAnswer": "b",
+    "correctAnswer": "d",
     "explanation": "AI rabbit hole — когда ты итерируешь промпты снова и снова, пытаясь добиться идеального результата, не замечая, что уже потратил больше времени, чем если бы написал код сам. Это усиливается sunk cost fallacy: «я уже потратил 30 минут, ещё немного...». Установи таймер.",
     "explanationEn": "An AI rabbit hole is when you iterate prompts over and over trying to achieve a perfect result, not noticing you've already spent more time than writing the code yourself. This is amplified by sunk cost fallacy: 'I've already spent 30 minutes, just a bit more...' Set a timer.",
     "source": "Soft Skills Guide: Time Management",
@@ -1654,12 +1654,12 @@
     "text": "По Ньюпорту, «attention residue» — это...",
     "textEn": "According to Newport, 'attention residue' is...",
     "options": [
-      { "key": "a", "text": "Усталость от длительной концентрации на одной задаче", "textEn": "Fatigue from prolonged concentration on a single task" },
-      { "key": "b", "text": "Остатки мыслей о предыдущей задаче при переключении на новую", "textEn": "Lingering thoughts about the previous task when switching to a new one" },
+      { "key": "a", "text": "Остатки мыслей о предыдущей задаче при переключении на новую", "textEn": "Lingering thoughts about the previous task when switching to a new one" },
+      { "key": "b", "text": "Усталость от длительной концентрации на одной задаче", "textEn": "Fatigue from prolonged concentration on a single task" },
       { "key": "c", "text": "Неспособность вспомнить детали задачи после перерыва", "textEn": "Inability to remember task details after a break" },
       { "key": "d", "text": "Зависимость от постоянной проверки уведомлений и мессенджеров", "textEn": "Dependency on constantly checking notifications and messengers" }
     ],
-    "correctAnswer": "b",
+    "correctAnswer": "a",
     "explanation": "Attention Residue (Софи Лерой, 2009) — когда ты переключаешься с задачи A на задачу B, часть твоего внимания остаётся «прилипшей» к A. Ньюпорт использует это как аргумент против многозадачности: каждое переключение снижает качество последующей работы на 20–40%.",
     "explanationEn": "Attention Residue (Sophie Leroy, 2009) — when you switch from task A to task B, part of your attention remains 'stuck' on A. Newport uses this as an argument against multitasking: each switch reduces subsequent work quality by 20–40%.",
     "source": "Cal Newport — Deep Work / Sophie Leroy — Attention Residue",
@@ -1672,11 +1672,11 @@
     "textEn": "An effective application of Parkinson's Law in work is...",
     "options": [
       { "key": "a", "text": "Не ставить дедлайны, чтобы избежать стресса и давления", "textEn": "Not setting deadlines to avoid stress and pressure" },
-      { "key": "b", "text": "Ставить искусственно сжатые дедлайны для предотвращения растягивания", "textEn": "Setting artificially compressed deadlines to prevent expansion" },
-      { "key": "c", "text": "Давать максимальный запас времени для снижения риска ошибок", "textEn": "Giving maximum time buffer to reduce the risk of errors" },
+      { "key": "b", "text": "Давать максимальный запас времени для снижения риска ошибок", "textEn": "Giving maximum time buffer to reduce the risk of errors" },
+      { "key": "c", "text": "Ставить искусственно сжатые дедлайны для предотвращения растягивания", "textEn": "Setting artificially compressed deadlines to prevent expansion" },
       { "key": "d", "text": "Работать без плана и реагировать на задачи по мере поступления", "textEn": "Working without a plan and reacting to tasks as they come" }
     ],
-    "correctAnswer": "b",
+    "correctAnswer": "c",
     "explanation": "Если работа расширяется до доступного времени, решение — ограничить время. Сжатые (но реалистичные) дедлайны создают здоровое давление и предотвращают перфекционизм. Например: «У меня 2 часа на эту фичу» вместо «сделаю к пятнице». Слишком жёсткие дедлайны, однако, ведут к стрессу.",
     "explanationEn": "If work expands to fill available time, the solution is to limit time. Compressed (but realistic) deadlines create healthy pressure and prevent perfectionism. Example: 'I have 2 hours for this feature' instead of 'I'll do it by Friday.' Overly tight deadlines, however, lead to stress.",
     "source": "C. Northcote Parkinson — Parkinson's Law",
@@ -1689,11 +1689,11 @@
     "textEn": "According to Newport, which strategy best protects time for Deep Work during the day?",
     "options": [
       { "key": "a", "text": "Работать по ночам, когда никто не отвлекает сообщениями", "textEn": "Work at night when nobody distracts with messages" },
-      { "key": "b", "text": "Планировать Deep Work блоки заранее и защищать их в календаре", "textEn": "Schedule Deep Work blocks in advance and protect them in the calendar" },
-      { "key": "c", "text": "Отвечать на все сообщения утром, а потом работать весь день", "textEn": "Reply to all messages in the morning and then work all day" },
-      { "key": "d", "text": "Удалить все мессенджеры и соцсети с рабочего компьютера", "textEn": "Delete all messengers and social media from the work computer" }
+      { "key": "b", "text": "Отвечать на все сообщения утром, а потом работать весь день", "textEn": "Reply to all messages in the morning and then work all day" },
+      { "key": "c", "text": "Удалить все мессенджеры и соцсети с рабочего компьютера", "textEn": "Delete all messengers and social media from the work computer" },
+      { "key": "d", "text": "Планировать Deep Work блоки заранее и защищать их в календаре", "textEn": "Schedule Deep Work blocks in advance and protect them in the calendar" }
     ],
-    "correctAnswer": "b",
+    "correctAnswer": "d",
     "explanation": "Ньюпорт рекомендует «ритуализацию» Deep Work: фиксированные блоки в календаре, которые защищены от встреч и прерываний. Это сочетание Time Blocking и Deep Work. Без явного планирования shallow work всегда вытесняет deep work, потому что оно «срочнее».",
     "explanationEn": "Newport recommends 'ritualizing' Deep Work: fixed calendar blocks protected from meetings and interruptions. This combines Time Blocking with Deep Work. Without explicit planning, shallow work always displaces deep work because it feels 'more urgent.'",
     "source": "Cal Newport — Deep Work",
