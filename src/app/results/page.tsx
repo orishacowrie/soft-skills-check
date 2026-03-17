@@ -89,11 +89,14 @@ export default function ResultsPage() {
           setLoading(false);
         });
     } else {
-      // Template-based analysis — instant, free, no API call
+      // Template-based analysis — free, no API call
+      // Show loading for 1.2s so it feels like AI is working
       const result = generateTemplateAnalysis(parsedAnswers, currentLang);
-      setAnalysis(result);
-      sessionStorage.setItem("analysisResult", JSON.stringify(result));
-      setLoading(false);
+      setTimeout(() => {
+        setAnalysis(result);
+        sessionStorage.setItem("analysisResult", JSON.stringify(result));
+        setLoading(false);
+      }, 1200);
     }
   }, [router]);
 
