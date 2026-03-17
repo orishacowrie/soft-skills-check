@@ -1,0 +1,1281 @@
+[
+  {
+    "id": "cl_q01",
+    "dimension": "collaboration",
+    "text": "Согласно Эми Эдмондсон, психологическая безопасность в команде означает, что...",
+    "textEn": "According to Amy Edmondson, psychological safety in a team means that...",
+    "options": [
+      { "key": "a", "text": "Все участники всегда соглашаются друг с другом, чтобы избежать конфликтов", "textEn": "All team members always agree with each other to avoid conflicts" },
+      { "key": "b", "text": "Участники чувствуют себя в безопасности, рискуя и проявляя уязвимость, без страха наказания", "textEn": "Team members feel safe to take risks and be vulnerable without fear of punishment" },
+      { "key": "c", "text": "Руководитель защищает команду от внешнего давления и дедлайнов", "textEn": "The manager protects the team from external pressure and deadlines" },
+      { "key": "d", "text": "Никто в команде не получает негативную обратную связь", "textEn": "Nobody on the team receives negative feedback" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Психологическая безопасность по Эдмондсон — это убеждённость, что ты не будешь наказан или унижен за высказывание идей, вопросов, ошибок или сомнений. Это не про комфорт или отсутствие конфликтов, а про свободу быть собой в рабочем контексте.",
+    "explanationEn": "Edmondson's psychological safety is the belief that you won't be punished or humiliated for speaking up with ideas, questions, mistakes, or concerns. It's not about comfort or absence of conflict, but about freedom to be yourself in a work context.",
+    "source": "Amy Edmondson — The Fearless Organization",
+    "sourceUrl": "https://fearlessorganization.com/"
+  },
+  {
+    "id": "cl_q02",
+    "dimension": "collaboration",
+    "text": "В модели Radical Candor Ким Скотт, идеальная обратная связь сочетает в себе...",
+    "textEn": "In Kim Scott's Radical Candor model, ideal feedback combines...",
+    "options": [
+      { "key": "a", "text": "Личную заботу и прямой вызов", "textEn": "Caring personally and challenging directly" },
+      { "key": "b", "text": "Дипломатичность и избегание конкретики", "textEn": "Diplomacy and avoiding specifics" },
+      { "key": "c", "text": "Жёсткую критику и высокие стандарты", "textEn": "Harsh criticism and high standards" },
+      { "key": "d", "text": "Похвалу на публике и критику наедине", "textEn": "Praise in public and criticism in private" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Radical Candor строится на двух осях: Care Personally (личная забота) и Challenge Directly (прямой вызов). Когда ты искренне заботишься о человеке И при этом говоришь ему правду прямо — это и есть Radical Candor. Без заботы прямота превращается в агрессию (Obnoxious Aggression), а без прямоты забота — в вредную мягкость (Ruinous Empathy).",
+    "explanationEn": "Radical Candor is built on two axes: Care Personally and Challenge Directly. When you genuinely care about someone AND tell them the truth directly — that's Radical Candor. Without caring, directness becomes Obnoxious Aggression; without directness, caring becomes Ruinous Empathy.",
+    "source": "Kim Scott — Radical Candor",
+    "sourceUrl": "https://www.radicalcandor.com/"
+  },
+  {
+    "id": "cl_q03",
+    "dimension": "collaboration",
+    "text": "Какие стадии развития команды описал Брюс Такман в правильном порядке?",
+    "textEn": "What are Tuckman's stages of team development in the correct order?",
+    "options": [
+      { "key": "a", "text": "Norming → Forming → Storming → Performing", "textEn": "Norming → Forming → Storming → Performing" },
+      { "key": "b", "text": "Forming → Storming → Norming → Performing", "textEn": "Forming → Storming → Norming → Performing" },
+      { "key": "c", "text": "Storming → Forming → Performing → Norming", "textEn": "Storming → Forming → Performing → Norming" },
+      { "key": "d", "text": "Forming → Norming → Storming → Performing", "textEn": "Forming → Norming → Storming → Performing" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Модель Такмана: Forming (формирование — знакомство), Storming (шторм — конфликты и борьба за роли), Norming (нормализация — выработка правил), Performing (производительность — эффективная работа). Позже была добавлена пятая стадия — Adjourning (расформирование).",
+    "explanationEn": "Tuckman's model: Forming (getting to know each other), Storming (conflicts and role negotiation), Norming (establishing norms), Performing (effective collaboration). A fifth stage — Adjourning (disbanding) — was added later.",
+    "source": "Bruce Tuckman — Developmental Sequence in Small Groups",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development"
+  },
+  {
+    "id": "cl_q04",
+    "dimension": "collaboration",
+    "text": "Когда ты отправляешь на ревью код, сгенерированный AI, лучшая практика — это...",
+    "textEn": "When submitting AI-generated code for review, the best practice is to...",
+    "options": [
+      { "key": "a", "text": "Не упоминать AI — это не имеет значения, если код работает", "textEn": "Not mention AI — it doesn't matter if the code works" },
+      { "key": "b", "text": "Указать, что AI использовался, и объяснить, как ты проверил результат", "textEn": "Disclose that AI was used and explain how you reviewed the output" },
+      { "key": "c", "text": "Переписать весь AI-код вручную перед ревью", "textEn": "Rewrite all AI code manually before review" },
+      { "key": "d", "text": "Попросить AI написать описание PR за тебя", "textEn": "Ask AI to write the PR description for you" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Прозрачность в использовании AI — это основа доверия в команде. Когда ты указываешь, что код был сгенерирован AI, и описываешь свой процесс проверки, ревьюер знает, на что обратить внимание. Это не про стыд, а про ответственность и эффективное ревью.",
+    "explanationEn": "Transparency about AI usage is fundamental to team trust. When you disclose AI generation and describe your review process, the reviewer knows what to focus on. It's not about shame — it's about responsibility and effective review.",
+    "source": "Soft Skills Guide: Collaboration",
+    "sourceUrl": "/guide/collaboration"
+  },
+  {
+    "id": "cl_q05",
+    "dimension": "collaboration",
+    "text": "В модели Radical Candor, когда ты заботишься о человеке, но избегаешь прямого разговора о проблемах — это называется...",
+    "textEn": "In the Radical Candor model, when you care about someone but avoid direct conversation about problems, this is called...",
+    "options": [
+      { "key": "a", "text": "Obnoxious Aggression (бессмысленная агрессия)", "textEn": "Obnoxious Aggression" },
+      { "key": "b", "text": "Manipulative Insincerity (манипулятивная неискренность)", "textEn": "Manipulative Insincerity" },
+      { "key": "c", "text": "Ruinous Empathy (разрушительная эмпатия)", "textEn": "Ruinous Empathy" },
+      { "key": "d", "text": "Radical Candor (радикальная откровенность)", "textEn": "Radical Candor" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Ruinous Empathy — самая распространённая ловушка. Ты искренне заботишься о человеке, но из-за этого боишься сказать ему правду. В итоге человек не получает обратную связь, не растёт, а проблемы копятся. Ким Скотт считает это самой опасной из четырёх зон.",
+    "explanationEn": "Ruinous Empathy is the most common trap. You genuinely care about the person, but that makes you afraid to tell them the truth. The person doesn't get feedback, doesn't grow, and problems accumulate. Kim Scott considers this the most dangerous of the four quadrants.",
+    "source": "Kim Scott — Radical Candor",
+    "sourceUrl": "https://www.radicalcandor.com/"
+  },
+  {
+    "id": "cl_q06",
+    "dimension": "collaboration",
+    "text": "На какой стадии по Такману команда чаще всего испытывает конфликты из-за разных рабочих стилей и распределения ролей?",
+    "textEn": "At which Tuckman stage does a team most often experience conflicts over different working styles and role distribution?",
+    "options": [
+      { "key": "a", "text": "Forming", "textEn": "Forming" },
+      { "key": "b", "text": "Storming", "textEn": "Storming" },
+      { "key": "c", "text": "Norming", "textEn": "Norming" },
+      { "key": "d", "text": "Performing", "textEn": "Performing" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Storming — это стадия, где начинаются трения: участники начинают спорить о подходах, бороться за роли, проявлять недовольство. Это нормальный и необходимый этап — команда не может перейти к продуктивной работе, не пройдя через конфликты.",
+    "explanationEn": "Storming is when friction begins: members argue about approaches, compete for roles, express dissatisfaction. This is a normal and necessary phase — a team can't reach productive work without going through conflicts.",
+    "source": "Bruce Tuckman — Developmental Sequence in Small Groups",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development"
+  },
+  {
+    "id": "cl_q07",
+    "dimension": "collaboration",
+    "text": "Что из перечисленного НЕ является признаком психологически безопасной команды по Эдмондсон?",
+    "textEn": "Which of the following is NOT a sign of a psychologically safe team according to Edmondson?",
+    "options": [
+      { "key": "a", "text": "Участники открыто обсуждают ошибки и неудачи", "textEn": "Members openly discuss mistakes and failures" },
+      { "key": "b", "text": "Участники задают вопросы, даже если те кажутся глупыми", "textEn": "Members ask questions even if they seem silly" },
+      { "key": "c", "text": "Все решения принимаются консенсусом, чтобы никого не обидеть", "textEn": "All decisions are made by consensus to avoid hurting anyone" },
+      { "key": "d", "text": "Участники просят помощь, не боясь показаться некомпетентными", "textEn": "Members ask for help without fear of looking incompetent" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Психологическая безопасность — это не про консенсус или отсутствие разногласий. Это про то, что можно свободно высказываться, признавать ошибки и просить о помощи. Решения при этом могут приниматься любым способом — важно, чтобы каждый мог честно высказать своё мнение.",
+    "explanationEn": "Psychological safety isn't about consensus or absence of disagreement. It's about freedom to speak up, admit mistakes, and ask for help. Decisions can be made any way — what matters is that everyone can honestly share their opinion.",
+    "source": "Amy Edmondson — The Fearless Organization",
+    "sourceUrl": "https://fearlessorganization.com/"
+  },
+  {
+    "id": "cl_q08",
+    "dimension": "collaboration",
+    "text": "Ты используешь AI для написания большой части кода в командном проекте. Какой подход к прозрачности будет наиболее продуктивным?",
+    "textEn": "You use AI to write a large portion of code in a team project. What transparency approach would be most productive?",
+    "options": [
+      { "key": "a", "text": "Упомянуть об AI только если спросят — зачем создавать лишние предубеждения", "textEn": "Mention AI only if asked — why create unnecessary bias" },
+      { "key": "b", "text": "Проактивно сообщать об использовании AI в PR и документировать процесс верификации", "textEn": "Proactively disclose AI usage in PRs and document the verification process" },
+      { "key": "c", "text": "Скрывать использование AI, так как это может подорвать доверие к твоему профессионализму", "textEn": "Hide AI usage since it might undermine trust in your professionalism" },
+      { "key": "d", "text": "Использовать AI только для личных проектов, а для командных писать всё вручную", "textEn": "Use AI only for personal projects and write everything manually for team projects" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Проактивная прозрачность создаёт доверие и улучшает ревью. Когда коллеги знают, что код создан с помощью AI, они могут обратить внимание на типичные проблемы AI-генерации: галлюцинации, неоптимальные паттерны, пропущенные edge cases. Это делает команду сильнее.",
+    "explanationEn": "Proactive transparency builds trust and improves review. When colleagues know code was AI-generated, they can watch for typical AI issues: hallucinations, suboptimal patterns, missed edge cases. This makes the team stronger.",
+    "source": "Soft Skills Guide: Collaboration",
+    "sourceUrl": "/guide/collaboration"
+  },
+  {
+    "id": "cl_q09",
+    "dimension": "collaboration",
+    "text": "В модели Radical Candor, когда ты не заботишься о человеке и при этом не даёшь прямую обратную связь — это...",
+    "textEn": "In the Radical Candor model, when you don't care about someone and don't give direct feedback — this is...",
+    "options": [
+      { "key": "a", "text": "Ruinous Empathy", "textEn": "Ruinous Empathy" },
+      { "key": "b", "text": "Obnoxious Aggression", "textEn": "Obnoxious Aggression" },
+      { "key": "c", "text": "Manipulative Insincerity", "textEn": "Manipulative Insincerity" },
+      { "key": "d", "text": "Radical Candor", "textEn": "Radical Candor" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Manipulative Insincerity (манипулятивная неискренность) — худший квадрант. Тебе по сути всё равно, и ты не говоришь правду — например, хвалишь в лицо и критикуешь за спиной. Это токсичное поведение, которое разрушает командное доверие.",
+    "explanationEn": "Manipulative Insincerity is the worst quadrant. You essentially don't care and don't tell the truth — for example, praising to someone's face and criticizing behind their back. This toxic behavior destroys team trust.",
+    "source": "Kim Scott — Radical Candor",
+    "sourceUrl": "https://www.radicalcandor.com/"
+  },
+  {
+    "id": "cl_q10",
+    "dimension": "collaboration",
+    "text": "Коллега делится AI-промптом, который генерирует отличные результаты. Как лучше всего использовать это для командной эффективности?",
+    "textEn": "A colleague shares an AI prompt that generates great results. What's the best way to leverage this for team efficiency?",
+    "options": [
+      { "key": "a", "text": "Скопировать промпт и использовать как есть", "textEn": "Copy the prompt and use it as-is" },
+      { "key": "b", "text": "Протестировать, адаптировать под свои задачи и поделиться улучшениями обратно с командой", "textEn": "Test it, adapt for your tasks, and share improvements back with the team" },
+      { "key": "c", "text": "Проигнорировать — у каждого свой стиль работы с AI", "textEn": "Ignore it — everyone has their own AI working style" },
+      { "key": "d", "text": "Попросить коллегу провести презентацию для всей компании", "textEn": "Ask the colleague to give a company-wide presentation" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Настоящая коллаборация — это цикл: получить → протестировать → адаптировать → вернуть улучшенное. Просто копирование не учитывает контекст твоих задач, а игнорирование — это потеря командного знания. Обмен улучшениями создаёт эффект снежного кома знаний в команде.",
+    "explanationEn": "True collaboration is a cycle: receive → test → adapt → return improved. Just copying doesn't account for your task context, and ignoring wastes team knowledge. Sharing improvements creates a snowball effect of team knowledge.",
+    "source": "Soft Skills Guide: Collaboration",
+    "sourceUrl": "/guide/collaboration"
+  },
+  {
+    "id": "cl_q11",
+    "dimension": "collaboration",
+    "text": "Согласно исследованиям Эми Эдмондсон, команды с высокой психологической безопасностью...",
+    "textEn": "According to Amy Edmondson's research, teams with high psychological safety...",
+    "options": [
+      { "key": "a", "text": "Совершают меньше ошибок, потому что никто не рискует", "textEn": "Make fewer mistakes because nobody takes risks" },
+      { "key": "b", "text": "Сообщают о большем количестве ошибок и поэтому быстрее учатся", "textEn": "Report more errors and therefore learn faster" },
+      { "key": "c", "text": "Работают медленнее, потому что тратят время на обсуждения", "textEn": "Work slower because they spend time discussing" },
+      { "key": "d", "text": "Избегают сложных проектов, чтобы не провалиться", "textEn": "Avoid complex projects to prevent failure" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Парадокс Эдмондсон: команды с высокой психологической безопасностью выглядят так, будто делают больше ошибок, но на самом деле они просто больше о них сообщают. Это позволяет быстрее находить и исправлять проблемы, что в итоге повышает общее качество.",
+    "explanationEn": "Edmondson's paradox: teams with high psychological safety appear to make more errors, but they actually just report more. This allows faster problem detection and resolution, ultimately improving overall quality.",
+    "source": "Amy Edmondson — The Fearless Organization",
+    "sourceUrl": "https://fearlessorganization.com/"
+  },
+  {
+    "id": "cl_q12",
+    "dimension": "collaboration",
+    "text": "При ревью AI-сгенерированного кода коллеги, на что стоит обратить особое внимание?",
+    "textEn": "When reviewing a colleague's AI-generated code, what should you pay special attention to?",
+    "options": [
+      { "key": "a", "text": "Стиль кода — AI часто не соблюдает принятые в команде соглашения", "textEn": "Code style — AI often doesn't follow team conventions" },
+      { "key": "b", "text": "Бизнес-логику и edge cases — AI может не знать контекст проекта", "textEn": "Business logic and edge cases — AI may not know the project context" },
+      { "key": "c", "text": "Количество строк — AI склонен писать слишком много кода", "textEn": "Line count — AI tends to write too much code" },
+      { "key": "d", "text": "Нет смысла ревьюить тщательно — AI обычно пишет корректный код", "textEn": "No point in thorough review — AI usually writes correct code" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "AI не знает специфику твоего проекта, бизнес-правила и исторический контекст. Он может сгенерировать технически корректный код, который при этом нарушает бизнес-логику или пропускает важные edge cases. Ревью AI-кода должно фокусироваться на смысле, а не на синтаксисе.",
+    "explanationEn": "AI doesn't know your project specifics, business rules, and historical context. It can generate technically correct code that violates business logic or misses important edge cases. Reviewing AI code should focus on meaning, not syntax.",
+    "source": "Soft Skills Guide: Collaboration",
+    "sourceUrl": "/guide/collaboration"
+  },
+  {
+    "id": "cl_q13",
+    "dimension": "collaboration",
+    "text": "Что происходит на стадии Norming по модели Такмана?",
+    "textEn": "What happens during the Norming stage in Tuckman's model?",
+    "options": [
+      { "key": "a", "text": "Участники знакомятся и формируют первые впечатления", "textEn": "Members get to know each other and form first impressions" },
+      { "key": "b", "text": "Команда активно конфликтует из-за разных подходов", "textEn": "The team actively conflicts over different approaches" },
+      { "key": "c", "text": "Команда вырабатывает общие нормы, договорённости и рабочие процессы", "textEn": "The team develops shared norms, agreements, and work processes" },
+      { "key": "d", "text": "Команда работает на пике эффективности и автономности", "textEn": "The team works at peak efficiency and autonomy" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "На стадии Norming команда преодолевает конфликты и начинает формировать общие правила игры: как принимать решения, как делить ответственность, какие стандарты качества соблюдать. Это основа для перехода к продуктивной стадии Performing.",
+    "explanationEn": "At the Norming stage, the team overcomes conflicts and begins forming shared rules: how to make decisions, divide responsibility, and what quality standards to maintain. This is the foundation for transitioning to the productive Performing stage.",
+    "source": "Bruce Tuckman — Developmental Sequence in Small Groups",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development"
+  },
+  {
+    "id": "cl_q14",
+    "dimension": "collaboration",
+    "text": "Команда из трёх разработчиков использует AI с разной интенсивностью: один — для всего, второй — только для тестов, третий — вообще не использует. Как лучше выстроить коллаборацию?",
+    "textEn": "A team of three developers uses AI with different intensity: one for everything, one only for tests, one not at all. How to best build collaboration?",
+    "options": [
+      { "key": "a", "text": "Обязать всех использовать AI одинаково для стандартизации", "textEn": "Require everyone to use AI equally for standardization" },
+      { "key": "b", "text": "Договориться о единых стандартах качества результата, а не процесса — и делиться находками", "textEn": "Agree on shared quality standards for output, not process — and share findings" },
+      { "key": "c", "text": "Разделить задачи: AI-задачи одному, ручные — другому", "textEn": "Split tasks: AI tasks to one person, manual tasks to another" },
+      { "key": "d", "text": "Запретить AI до тех пор, пока все не пройдут обучение", "textEn": "Ban AI until everyone completes training" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Эффективная коллаборация в AI-эру строится на принципе: стандартизируй результат, а не инструмент. Неважно, как ты написал код — важно, чтобы он соответствовал стандартам качества команды. А обмен находками позволяет каждому расти в своём темпе.",
+    "explanationEn": "Effective AI-era collaboration is built on the principle: standardize the output, not the tool. It doesn't matter how you wrote the code — what matters is that it meets team quality standards. And sharing findings lets everyone grow at their own pace.",
+    "source": "Soft Skills Guide: Collaboration",
+    "sourceUrl": "/guide/collaboration"
+  },
+  {
+    "id": "cl_q15",
+    "dimension": "collaboration",
+    "text": "В концепции Radical Candor, Obnoxious Aggression — это когда...",
+    "textEn": "In the Radical Candor framework, Obnoxious Aggression is when...",
+    "options": [
+      { "key": "a", "text": "Ты заботишься о человеке и говоришь ему правду прямо", "textEn": "You care about the person and tell them the truth directly" },
+      { "key": "b", "text": "Ты не заботишься о человеке и не даёшь никакой обратной связи", "textEn": "You don't care about the person and give no feedback" },
+      { "key": "c", "text": "Ты говоришь прямо и жёстко, но при этом не заботишься о человеке", "textEn": "You speak directly and harshly, but don't care about the person" },
+      { "key": "d", "text": "Ты заботишься о человеке, но боишься сказать правду", "textEn": "You care about the person but are afraid to tell the truth" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Obnoxious Aggression — это прямота без заботы. Когда ты высказываешь критику жёстко, без уважения к чувствам человека. Может казаться «честностью», но на деле это просто грубость. Люди перестают слушать и начинают защищаться.",
+    "explanationEn": "Obnoxious Aggression is directness without caring. When you deliver criticism harshly, without respect for the person's feelings. It may seem like 'honesty,' but it's really just rudeness. People stop listening and start defending.",
+    "source": "Kim Scott — Radical Candor",
+    "sourceUrl": "https://www.radicalcandor.com/"
+  },
+
+  {
+    "id": "ld_q01",
+    "dimension": "leadership",
+    "text": "В модели ситуационного лидерства Херси и Бланшара, для сотрудника, который компетентен, но демотивирован, лучше всего подходит стиль...",
+    "textEn": "In the Hersey-Blanchard Situational Leadership model, for an employee who is competent but unmotivated, the best style is...",
+    "options": [
+      { "key": "a", "text": "Directing (директивный) — чёткие инструкции и контроль", "textEn": "Directing — clear instructions and close supervision" },
+      { "key": "b", "text": "Coaching (наставничество) — объяснения и поддержка", "textEn": "Coaching — explanation and support" },
+      { "key": "c", "text": "Supporting (поддерживающий) — участие в принятии решений, меньше контроля", "textEn": "Supporting — shared decision-making, less supervision" },
+      { "key": "d", "text": "Delegating (делегирующий) — полная автономия", "textEn": "Delegating — full autonomy" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Supporting подходит для людей с высокой компетенцией, но низкой мотивацией (S3 по модели). Им не нужны инструкции — они знают как делать. Им нужна поддержка: вовлечение в решения, признание, понимание причин демотивации. Контроль их только ещё больше демотивирует.",
+    "explanationEn": "Supporting fits people with high competence but low motivation (S3). They don't need instructions — they know how. They need support: involvement in decisions, recognition, understanding why they're demotivated. Micromanagement would only demotivate them further.",
+    "source": "Hersey & Blanchard — Situational Leadership",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Situational_leadership_theory"
+  },
+  {
+    "id": "ld_q02",
+    "dimension": "leadership",
+    "text": "Согласно концепции Servant Leadership Роберта Гринлифа, главная роль лидера — это...",
+    "textEn": "According to Robert Greenleaf's Servant Leadership, the primary role of a leader is to...",
+    "options": [
+      { "key": "a", "text": "Задавать стратегическое направление и принимать ключевые решения", "textEn": "Set strategic direction and make key decisions" },
+      { "key": "b", "text": "Служить потребностям команды и помогать каждому раскрыть потенциал", "textEn": "Serve the team's needs and help everyone reach their potential" },
+      { "key": "c", "text": "Контролировать выполнение задач и соблюдение дедлайнов", "textEn": "Monitor task completion and deadline adherence" },
+      { "key": "d", "text": "Вдохновлять команду яркой визией будущего", "textEn": "Inspire the team with a bold vision of the future" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Servant Leadership переворачивает пирамиду: лидер не наверху, а внизу. Его задача — устранять препятствия, обеспечивать ресурсы и создавать условия, в которых каждый участник может расти и эффективно работать. Лидер обслуживает команду, а не наоборот.",
+    "explanationEn": "Servant Leadership flips the pyramid: the leader is at the bottom, not the top. Their job is to remove obstacles, provide resources, and create conditions where everyone can grow and work effectively. The leader serves the team, not the other way around.",
+    "source": "Robert Greenleaf — Servant Leadership",
+    "sourceUrl": "https://www.greenleaf.org/what-is-servant-leadership/"
+  },
+  {
+    "id": "ld_q03",
+    "dimension": "leadership",
+    "text": "В матрице RACI для каждой задачи должен быть ровно один человек с ролью...",
+    "textEn": "In a RACI matrix, for each task there must be exactly one person with the role of...",
+    "options": [
+      { "key": "a", "text": "Responsible (ответственный за выполнение)", "textEn": "Responsible (does the work)" },
+      { "key": "b", "text": "Accountable (подотчётный, принимает итоговое решение)", "textEn": "Accountable (ultimately answerable)" },
+      { "key": "c", "text": "Consulted (с кем советуются)", "textEn": "Consulted (provides input)" },
+      { "key": "d", "text": "Informed (кого информируют)", "textEn": "Informed (kept in the loop)" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Accountable — тот, кто несёт конечную ответственность за результат и принимает итоговое решение. Если Accountable больше одного — никто не отвечает. Responsible (исполнителей) может быть несколько, Consulted и Informed тоже, но Accountable — всегда один.",
+    "explanationEn": "Accountable is the person ultimately answerable for the outcome who makes the final decision. If there's more than one Accountable, nobody is truly responsible. There can be multiple Responsible, Consulted, and Informed people, but Accountable must always be exactly one.",
+    "source": "RACI Matrix",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Responsibility_assignment_matrix"
+  },
+  {
+    "id": "ld_q04",
+    "dimension": "leadership",
+    "text": "По Саймону Синеку (Start With Why), вдохновляющие лидеры начинают коммуникацию с...",
+    "textEn": "According to Simon Sinek (Start With Why), inspiring leaders start their communication with...",
+    "options": [
+      { "key": "a", "text": "What — что именно они делают", "textEn": "What — what exactly they do" },
+      { "key": "b", "text": "How — как они это делают, чем их подход уникален", "textEn": "How — how they do it, what makes their approach unique" },
+      { "key": "c", "text": "Why — зачем они это делают, во что верят", "textEn": "Why — why they do it, what they believe" },
+      { "key": "d", "text": "When — когда они планируют достичь результата", "textEn": "When — when they plan to achieve the result" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Золотой круг Синека: Why → How → What. Большинство людей и компаний коммуницируют снаружи внутрь (What → Why), но вдохновляющие лидеры начинают с Why — с цели, убеждения, причины существования. Люди покупают не то, что ты делаешь, а то, почему ты это делаешь.",
+    "explanationEn": "Sinek's Golden Circle: Why → How → What. Most people and companies communicate from outside in (What → Why), but inspiring leaders start with Why — purpose, belief, reason for existing. People don't buy what you do, they buy why you do it.",
+    "source": "Simon Sinek — Start With Why",
+    "sourceUrl": "https://simonsinek.com/books/start-with-why/"
+  },
+  {
+    "id": "ld_q05",
+    "dimension": "leadership",
+    "text": "В ситуационном лидерстве, для новичка с высокой мотивацией, но низкой компетенцией лучше всего подходит стиль...",
+    "textEn": "In Situational Leadership, for a newcomer with high motivation but low competence, the best style is...",
+    "options": [
+      { "key": "a", "text": "Delegating — дать полную свободу действий", "textEn": "Delegating — give full freedom" },
+      { "key": "b", "text": "Supporting — мотивировать и вовлекать в решения", "textEn": "Supporting — motivate and involve in decisions" },
+      { "key": "c", "text": "Directing — чёткие инструкции, пошаговое руководство", "textEn": "Directing — clear instructions, step-by-step guidance" },
+      { "key": "d", "text": "Coaching — объяснять и обучать, параллельно поддерживая мотивацию", "textEn": "Coaching — explain and teach while maintaining motivation" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Новичок с энтузиазмом (S1) нуждается в Directing: чётких инструкциях, структуре, пошаговом руководстве. Мотивация у него и так высокая, а вот навыков не хватает. Ему нужно показать, ЧТО и КАК делать. Делегирование на этом этапе приведёт к ошибкам и фрустрации.",
+    "explanationEn": "An enthusiastic beginner (S1) needs Directing: clear instructions, structure, step-by-step guidance. Motivation is already high, but skills are lacking. They need to be shown WHAT and HOW to do. Delegation at this stage leads to mistakes and frustration.",
+    "source": "Hersey & Blanchard — Situational Leadership",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Situational_leadership_theory"
+  },
+  {
+    "id": "ld_q06",
+    "dimension": "leadership",
+    "text": "Ты лидер команды, где один разработчик активно использует AI и выполняет задачи в 3 раза быстрее остальных. Какой подход лучше?",
+    "textEn": "You lead a team where one developer actively uses AI and completes tasks 3x faster. What's the best approach?",
+    "options": [
+      { "key": "a", "text": "Давать ему больше задач, раз он быстрее справляется", "textEn": "Give them more tasks since they finish faster" },
+      { "key": "b", "text": "Попросить его стать ментором по AI для остальной команды и создать общие стандарты", "textEn": "Ask them to mentor the team on AI and help create shared standards" },
+      { "key": "c", "text": "Ограничить использование AI, чтобы уравнять производительность", "textEn": "Limit AI usage to equalize productivity" },
+      { "key": "d", "text": "Оценивать всех только по конечному результату, а не по скорости", "textEn": "Evaluate everyone only by final output, not speed" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Servant Leadership в действии: превращай индивидуальное преимущество в командное. Менторство по AI поднимает уровень всей команды, создаёт общие стандарты качества AI-генерации и строит культуру обмена знаниями. Это масштабирует эффект, а не концентрирует его в одном человеке.",
+    "explanationEn": "Servant Leadership in action: turn individual advantage into team advantage. AI mentoring raises the entire team's level, creates shared AI quality standards, and builds a knowledge-sharing culture. This scales the effect rather than concentrating it in one person.",
+    "source": "Soft Skills Guide: Leadership",
+    "sourceUrl": "/guide/leadership"
+  },
+  {
+    "id": "ld_q07",
+    "dimension": "leadership",
+    "text": "Какой из принципов Servant Leadership наиболее критичен при управлении AI-аугментированной командой?",
+    "textEn": "Which Servant Leadership principle is most critical when managing an AI-augmented team?",
+    "options": [
+      { "key": "a", "text": "Empathy — понимание, что у каждого свой уровень комфорта с AI", "textEn": "Empathy — understanding everyone has their own AI comfort level" },
+      { "key": "b", "text": "Persuasion — убеждение команды использовать AI максимально", "textEn": "Persuasion — convincing the team to use AI as much as possible" },
+      { "key": "c", "text": "Stewardship — ответственность за финансовые показатели", "textEn": "Stewardship — responsibility for financial metrics" },
+      { "key": "d", "text": "Foresight — предсказание, какие AI-инструменты будут популярны", "textEn": "Foresight — predicting which AI tools will be popular" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Empathy — ключ к управлению переходом на AI. Одни разработчики в восторге от AI, другие чувствуют угрозу своей профессиональной идентичности. Лидер-слуга понимает эти различия и создаёт безопасное пространство для обучения, а не давит на принудительное внедрение.",
+    "explanationEn": "Empathy is key to managing the AI transition. Some developers are excited about AI, others feel their professional identity is threatened. A servant leader understands these differences and creates a safe space for learning rather than forcing adoption.",
+    "source": "Robert Greenleaf — Servant Leadership",
+    "sourceUrl": "https://www.greenleaf.org/what-is-servant-leadership/"
+  },
+  {
+    "id": "ld_q08",
+    "dimension": "leadership",
+    "text": "В RACI-матрице, человек с ролью Consulted...",
+    "textEn": "In a RACI matrix, a person with the Consulted role...",
+    "options": [
+      { "key": "a", "text": "Только получает уведомления о ходе работы", "textEn": "Only receives updates about work progress" },
+      { "key": "b", "text": "Непосредственно выполняет задачу", "textEn": "Directly performs the task" },
+      { "key": "c", "text": "Предоставляет экспертизу и мнение ДО принятия решения (двусторонняя коммуникация)", "textEn": "Provides expertise and input BEFORE the decision is made (two-way communication)" },
+      { "key": "d", "text": "Несёт конечную ответственность за результат", "textEn": "Bears ultimate responsibility for the outcome" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Consulted — это двусторонняя коммуникация: у этого человека есть экспертиза, и его мнение запрашивается ДО принятия решения. В отличие от Informed (односторонняя коммуникация — просто уведомление ПОСЛЕ решения). Путаница между C и I — частая причина проблем в проектах.",
+    "explanationEn": "Consulted involves two-way communication: this person has expertise and their input is sought BEFORE the decision. Unlike Informed (one-way communication — simply notified AFTER the decision). Confusing C and I is a common cause of project problems.",
+    "source": "RACI Matrix",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Responsibility_assignment_matrix"
+  },
+  {
+    "id": "ld_q09",
+    "dimension": "leadership",
+    "text": "Согласно Синеку, почему «Why» важнее «What» для лидерства?",
+    "textEn": "According to Sinek, why is 'Why' more important than 'What' for leadership?",
+    "options": [
+      { "key": "a", "text": "Потому что люди быстро забывают детали, но помнят эмоции", "textEn": "Because people quickly forget details but remember emotions" },
+      { "key": "b", "text": "Потому что Why обращается к лимбической системе мозга, которая управляет решениями и лояльностью", "textEn": "Because Why speaks to the limbic brain, which drives decisions and loyalty" },
+      { "key": "c", "text": "Потому что What слишком легко скопировать конкурентам", "textEn": "Because What is too easy for competitors to copy" },
+      { "key": "d", "text": "Потому что инвесторам интереснее миссия, чем продукт", "textEn": "Because investors care more about mission than product" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Синек опирается на нейробиологию: лимбическая система (отвечающая за чувства, доверие, решения) не обрабатывает язык — она реагирует на Why. Неокортекс обрабатывает факты (What), но не управляет поведением. Поэтому лидер, начинающий с Why, влияет на решения на более глубоком уровне.",
+    "explanationEn": "Sinek draws on neuroscience: the limbic system (responsible for feelings, trust, decisions) doesn't process language — it responds to Why. The neocortex processes facts (What) but doesn't drive behavior. That's why a leader who starts with Why influences decisions at a deeper level.",
+    "source": "Simon Sinek — Start With Why",
+    "sourceUrl": "https://simonsinek.com/books/start-with-why/"
+  },
+  {
+    "id": "ld_q10",
+    "dimension": "leadership",
+    "text": "В ситуационном лидерстве стиль Coaching (S2) подходит для сотрудника, который...",
+    "textEn": "In Situational Leadership, the Coaching style (S2) is appropriate for an employee who...",
+    "options": [
+      { "key": "a", "text": "Высоко компетентен и высоко мотивирован", "textEn": "Highly competent and highly motivated" },
+      { "key": "b", "text": "Имеет некоторые навыки, но разочаровывается из-за сложности задач", "textEn": "Has some skills but gets discouraged by task difficulty" },
+      { "key": "c", "text": "Компетентен, но потерял мотивацию", "textEn": "Competent but lost motivation" },
+      { "key": "d", "text": "Не имеет навыков, но полон энтузиазма", "textEn": "Has no skills but is full of enthusiasm" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Coaching (S2) — для «разочарованного ученика»: он уже что-то умеет, но столкнулся с реальной сложностью и начинает сомневаться. Ему нужна и инструкция (как в Directing), и эмоциональная поддержка. Лидер объясняет «почему» и «как», одновременно поддерживая мотивацию.",
+    "explanationEn": "Coaching (S2) is for the 'disillusioned learner': they have some skills but face real complexity and start doubting. They need both instruction (like Directing) and emotional support. The leader explains 'why' and 'how' while maintaining motivation.",
+    "source": "Hersey & Blanchard — Situational Leadership",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Situational_leadership_theory"
+  },
+  {
+    "id": "ld_q11",
+    "dimension": "leadership",
+    "text": "Ты внедряешь AI-инструменты в команде. Один из разработчиков сопротивляется, говоря «я профессионал, мне AI не нужен». Какой подход по Situational Leadership?",
+    "textEn": "You're introducing AI tools to the team. One developer resists, saying 'I'm a professional, I don't need AI.' What's the Situational Leadership approach?",
+    "options": [
+      { "key": "a", "text": "Directing — просто сказать, что использование AI обязательно", "textEn": "Directing — just tell them AI usage is mandatory" },
+      { "key": "b", "text": "Delegating — дать время, пусть сам разберётся", "textEn": "Delegating — give them time, let them figure it out" },
+      { "key": "c", "text": "Coaching — показать конкретные примеры, где AI ускоряет его текущую работу, и поддержать", "textEn": "Coaching — show specific examples where AI speeds up their current work, and be supportive" },
+      { "key": "d", "text": "Supporting — спросить, в чём его опасения, и вместе придумать план", "textEn": "Supporting — ask about their concerns and create a plan together" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Этот разработчик — компетентный профессионал, но с низкой мотивацией к новому инструменту. Однако его компетенция с AI — нулевая. Coaching (S2) сочетает обучение и поддержку: покажи конкретные wins для его задач, объясни «зачем», и дай попробовать в безопасной среде.",
+    "explanationEn": "This developer is competent professionally but has low motivation for the new tool, and zero AI competence. Coaching (S2) combines teaching and support: show specific wins for their tasks, explain 'why,' and let them try in a safe environment.",
+    "source": "Hersey & Blanchard — Situational Leadership",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Situational_leadership_theory"
+  },
+  {
+    "id": "ld_q12",
+    "dimension": "leadership",
+    "text": "Какой из следующих примеров лучше всего иллюстрирует принцип Servant Leadership?",
+    "textEn": "Which of the following best illustrates the Servant Leadership principle?",
+    "options": [
+      { "key": "a", "text": "Тимлид лично пишет код, чтобы показать пример команде", "textEn": "Tech lead personally writes code to set an example for the team" },
+      { "key": "b", "text": "Тимлид тратит время на разблокирование команды: настраивает CI/CD, решает организационные вопросы, обеспечивает доступы", "textEn": "Tech lead spends time unblocking the team: setting up CI/CD, resolving organizational issues, ensuring access" },
+      { "key": "c", "text": "Тимлид принимает все архитектурные решения единолично, чтобы ускорить процесс", "textEn": "Tech lead makes all architectural decisions alone to speed up the process" },
+      { "key": "d", "text": "Тимлид делегирует всю работу и фокусируется на отчётности перед руководством", "textEn": "Tech lead delegates all work and focuses on reporting to management" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Servant Leader фокусируется на устранении препятствий для команды. Вместо того чтобы диктовать решения или фокусироваться на отчётности, он обеспечивает условия, в которых команда может эффективно работать. Это «служение» в практическом смысле — от настройки инфраструктуры до решения бюрократических вопросов.",
+    "explanationEn": "A Servant Leader focuses on removing obstacles for the team. Instead of dictating decisions or focusing on reporting, they ensure conditions where the team can work effectively. This is practical 'serving' — from infrastructure setup to bureaucratic problem-solving.",
+    "source": "Robert Greenleaf — Servant Leadership",
+    "sourceUrl": "https://www.greenleaf.org/what-is-servant-leadership/"
+  },
+  {
+    "id": "ld_q13",
+    "dimension": "leadership",
+    "text": "По Синеку, Apple вдохновляет людей не потому, что делает компьютеры (What), а потому что...",
+    "textEn": "According to Sinek, Apple inspires people not because they make computers (What), but because...",
+    "options": [
+      { "key": "a", "text": "Их дизайн красивее, чем у конкурентов (How)", "textEn": "Their design is prettier than competitors' (How)" },
+      { "key": "b", "text": "Они верят в то, что нужно бросать вызов статус-кво и думать иначе (Why)", "textEn": "They believe in challenging the status quo and thinking differently (Why)" },
+      { "key": "c", "text": "Стив Джобс был харизматичным презентатором (Who)", "textEn": "Steve Jobs was a charismatic presenter (Who)" },
+      { "key": "d", "text": "Их продукты дороже, что создаёт восприятие премиальности (How Much)", "textEn": "Their products are more expensive, creating a premium perception (How Much)" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Apple's Why: «Мы верим в то, что нужно бросать вызов статус-кво. Мы верим в то, что нужно думать иначе.» How: они делают продукты, которые прекрасно спроектированы и просты в использовании. What: они делают компьютеры. Но именно Why объясняет, почему у Apple есть фанаты, а не просто клиенты.",
+    "explanationEn": "Apple's Why: 'We believe in challenging the status quo. We believe in thinking differently.' How: they make beautifully designed, easy-to-use products. What: they make computers. But it's the Why that explains why Apple has fans, not just customers.",
+    "source": "Simon Sinek — Start With Why",
+    "sourceUrl": "https://simonsinek.com/books/start-with-why/"
+  },
+  {
+    "id": "ld_q14",
+    "dimension": "leadership",
+    "text": "Стиль Delegating (S4) в ситуационном лидерстве подходит для сотрудника, который...",
+    "textEn": "The Delegating style (S4) in Situational Leadership is appropriate for an employee who...",
+    "options": [
+      { "key": "a", "text": "Новичок с энтузиазмом, но без навыков", "textEn": "Enthusiastic newcomer without skills" },
+      { "key": "b", "text": "Опытный и мотивированный — может и хочет работать самостоятельно", "textEn": "Experienced and motivated — can and wants to work independently" },
+      { "key": "c", "text": "Опытный, но выгоревший и циничный", "textEn": "Experienced but burned out and cynical" },
+      { "key": "d", "text": "Средний по компетенции, нуждается в постоянном контроле", "textEn": "Average competence, needs constant supervision" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Delegating (S4) — для «самодостаточных исполнителей»: высокая компетенция + высокая мотивация. Им не нужны ни инструкции, ни эмоциональная поддержка — они знают, что делать, и хотят это делать. Лидеру достаточно поставить задачу и довериться.",
+    "explanationEn": "Delegating (S4) is for 'self-reliant achievers': high competence + high motivation. They need neither instructions nor emotional support — they know what to do and want to do it. The leader just needs to assign the task and trust.",
+    "source": "Hersey & Blanchard — Situational Leadership",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Situational_leadership_theory"
+  },
+  {
+    "id": "ld_q15",
+    "dimension": "leadership",
+    "text": "Ты формулируешь vision для нового продукта. Согласно Синеку, в каком порядке лучше строить презентацию?",
+    "textEn": "You're formulating a vision for a new product. According to Sinek, in what order should you structure the presentation?",
+    "options": [
+      { "key": "a", "text": "Что мы делаем → Как мы это делаем → Зачем мы это делаем", "textEn": "What we do → How we do it → Why we do it" },
+      { "key": "b", "text": "Зачем мы это делаем → Как мы это делаем → Что мы делаем", "textEn": "Why we do it → How we do it → What we do" },
+      { "key": "c", "text": "Как мы это делаем → Зачем → Что", "textEn": "How we do it → Why → What" },
+      { "key": "d", "text": "Кто наш клиент → Что ему нужно → Как мы это дадим", "textEn": "Who is our client → What they need → How we'll deliver" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Золотой круг: Why → How → What. Начни с цели и убеждения (Why), затем объясни уникальный подход (How), и только потом — конкретный продукт (What). Это порядок, который вдохновляет и создаёт лояльность. Обратный порядок (What → Why) — информирует, но не мотивирует.",
+    "explanationEn": "The Golden Circle: Why → How → What. Start with purpose and belief (Why), then explain the unique approach (How), and only then — the specific product (What). This order inspires and creates loyalty. The reverse (What → Why) informs but doesn't motivate.",
+    "source": "Simon Sinek — Start With Why",
+    "sourceUrl": "https://simonsinek.com/books/start-with-why/"
+  },
+
+  {
+    "id": "cr_q01",
+    "dimension": "conflict_resolution",
+    "text": "В модели Томаса-Килманна (TKI) выделяется 5 стилей поведения в конфликте. Какой стиль сочетает высокую ассертивность И высокую кооперативность?",
+    "textEn": "The Thomas-Kilmann Conflict Mode Instrument (TKI) identifies 5 conflict styles. Which style combines high assertiveness AND high cooperativeness?",
+    "options": [
+      { "key": "a", "text": "Компромисс (Compromising)", "textEn": "Compromising" },
+      { "key": "b", "text": "Сотрудничество (Collaborating)", "textEn": "Collaborating" },
+      { "key": "c", "text": "Приспособление (Accommodating)", "textEn": "Accommodating" },
+      { "key": "d", "text": "Соперничество (Competing)", "textEn": "Competing" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Collaborating (сотрудничество) — единственный стиль, который одновременно высоко ассертивен (ты отстаиваешь свои интересы) и высоко кооперативен (ты учитываешь интересы другой стороны). Цель — найти решение, которое полностью удовлетворяет обе стороны. Компромисс — посередине обеих осей.",
+    "explanationEn": "Collaborating is the only style that is both highly assertive (you advocate for your interests) and highly cooperative (you consider the other side's interests). The goal is a solution that fully satisfies both parties. Compromising sits in the middle of both axes.",
+    "source": "Thomas-Kilmann Conflict Mode Instrument",
+    "sourceUrl": "https://kilmanndiagnostics.com/overview-thomas-kilmann-conflict-mode-instrument-tki/"
+  },
+  {
+    "id": "cr_q02",
+    "dimension": "conflict_resolution",
+    "text": "Четыре шага ненасильственного общения (NVC) по Маршаллу Розенбергу — это...",
+    "textEn": "The four steps of Nonviolent Communication (NVC) by Marshall Rosenberg are...",
+    "options": [
+      { "key": "a", "text": "Наблюдение → Чувство → Потребность → Просьба", "textEn": "Observation → Feeling → Need → Request" },
+      { "key": "b", "text": "Слушание → Понимание → Сочувствие → Действие", "textEn": "Listening → Understanding → Sympathy → Action" },
+      { "key": "c", "text": "Проблема → Причина → Решение → Согласие", "textEn": "Problem → Cause → Solution → Agreement" },
+      { "key": "d", "text": "Факт → Интерпретация → Эмоция → Требование", "textEn": "Fact → Interpretation → Emotion → Demand" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "NVC: Observation (наблюдение без оценки) → Feeling (какие чувства это вызывает) → Need (какая потребность за этим стоит) → Request (конкретная просьба, не требование). Ключевое отличие от варианта D: NVC разделяет наблюдение и интерпретацию, а просьба — это НЕ требование.",
+    "explanationEn": "NVC: Observation (without evaluation) → Feeling (what emotions arise) → Need (what need is behind it) → Request (specific request, not a demand). Key difference from option D: NVC separates observation from interpretation, and a request is NOT a demand.",
+    "source": "Marshall Rosenberg — Nonviolent Communication",
+    "sourceUrl": "https://www.nonviolentcommunication.com/"
+  },
+  {
+    "id": "cr_q03",
+    "dimension": "conflict_resolution",
+    "text": "Согласно «Гарвардскому переговорному проекту» (Getting to Yes), при переговорах нужно фокусироваться на...",
+    "textEn": "According to the Harvard Negotiation Project (Getting to Yes), in negotiations you should focus on...",
+    "options": [
+      { "key": "a", "text": "Позициях сторон — чтобы найти компромисс между ними", "textEn": "Positions of the parties — to find a compromise between them" },
+      { "key": "b", "text": "Интересах, а не позициях — чтобы найти решение, удовлетворяющее глубинные потребности", "textEn": "Interests, not positions — to find a solution satisfying underlying needs" },
+      { "key": "c", "text": "Силе — кто может больше надавить, тот и побеждает", "textEn": "Power — whoever can pressure more wins" },
+      { "key": "d", "text": "Прецедентах — как аналогичные конфликты решались раньше", "textEn": "Precedents — how similar conflicts were resolved before" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Позиция — это то, чего человек хочет. Интерес — это ПОЧЕМУ он этого хочет. Классический пример: два человека спорят из-за апельсина (позиция). Один хочет сок (интерес), другой — цедру для пирога (интерес). Фокус на интересах позволяет найти win-win решение.",
+    "explanationEn": "A position is what someone wants. An interest is WHY they want it. Classic example: two people argue over an orange (position). One wants juice (interest), the other wants zest for a cake (interest). Focusing on interests enables win-win solutions.",
+    "source": "Roger Fisher, William Ury — Getting to Yes",
+    "sourceUrl": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-702/"
+  },
+  {
+    "id": "cr_q04",
+    "dimension": "conflict_resolution",
+    "text": "Два разработчика не могут договориться о техническом подходе. Один хочет микросервисы, другой — монолит. Какой первый шаг для конструктивного разрешения?",
+    "textEn": "Two developers can't agree on a technical approach. One wants microservices, the other a monolith. What's the best first step for constructive resolution?",
+    "options": [
+      { "key": "a", "text": "Пусть решит тимлид — он обладает финальным словом", "textEn": "Let the tech lead decide — they have the final say" },
+      { "key": "b", "text": "Понять, какие потребности стоят за каждой позицией (масштабируемость? скорость разработки? простота деплоя?)", "textEn": "Understand the needs behind each position (scalability? development speed? deployment simplicity?)" },
+      { "key": "c", "text": "Провести голосование в команде", "textEn": "Hold a team vote" },
+      { "key": "d", "text": "Сделать прототип на обоих подходах и сравнить", "textEn": "Build prototypes with both approaches and compare" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Это принцип Getting to Yes в действии: фокус на интересах, а не позициях. «Микросервисы» и «монолит» — это позиции. За ними могут стоять разные интересы: один беспокоится о масштабируемости, другой — о скорости вывода на рынок. Поняв интересы, можно найти решение, удовлетворяющее обоих.",
+    "explanationEn": "This is Getting to Yes in practice: focus on interests, not positions. 'Microservices' and 'monolith' are positions. Behind them may be different interests: one worries about scalability, the other about time-to-market. Understanding interests enables a solution that satisfies both.",
+    "source": "Roger Fisher, William Ury — Getting to Yes",
+    "sourceUrl": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-702/"
+  },
+  {
+    "id": "cr_q05",
+    "dimension": "conflict_resolution",
+    "text": "В TKI, стиль Avoiding (избегание) характеризуется...",
+    "textEn": "In TKI, the Avoiding style is characterized by...",
+    "options": [
+      { "key": "a", "text": "Высокой ассертивностью и низкой кооперативностью", "textEn": "High assertiveness and low cooperativeness" },
+      { "key": "b", "text": "Низкой ассертивностью и высокой кооперативностью", "textEn": "Low assertiveness and high cooperativeness" },
+      { "key": "c", "text": "Низкой ассертивностью и низкой кооперативностью", "textEn": "Low assertiveness and low cooperativeness" },
+      { "key": "d", "text": "Средней ассертивностью и средней кооперативностью", "textEn": "Medium assertiveness and medium cooperativeness" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Avoiding — оба параметра на минимуме: ты не отстаиваешь свои интересы и не помогаешь другой стороне. По сути, ты выходишь из конфликта. Иногда это уместно (когда вопрос несущественный или нужно время остыть), но как основная стратегия — приводит к накоплению проблем.",
+    "explanationEn": "Avoiding puts both parameters at minimum: you don't advocate for your interests and don't help the other side. You essentially withdraw from the conflict. Sometimes appropriate (trivial issues, need time to cool down), but as a primary strategy, it leads to accumulated problems.",
+    "source": "Thomas-Kilmann Conflict Mode Instrument",
+    "sourceUrl": "https://kilmanndiagnostics.com/overview-thomas-kilmann-conflict-mode-instrument-tki/"
+  },
+  {
+    "id": "cr_q06",
+    "dimension": "conflict_resolution",
+    "text": "В NVC, наблюдение отличается от оценки тем, что...",
+    "textEn": "In NVC, an observation differs from an evaluation in that...",
+    "options": [
+      { "key": "a", "text": "Наблюдение включает слова «всегда», «никогда», «должен»", "textEn": "An observation includes words like 'always,' 'never,' 'should'" },
+      { "key": "b", "text": "Наблюдение описывает конкретный факт без интерпретации и обобщения", "textEn": "An observation describes a specific fact without interpretation or generalization" },
+      { "key": "c", "text": "Наблюдение — это мнение, подкреплённое доказательствами", "textEn": "An observation is an opinion backed by evidence" },
+      { "key": "d", "text": "Разницы нет — это синонимы в NVC", "textEn": "There's no difference — they're synonyms in NVC" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Розенберг подчёркивает: наблюдение = конкретный факт. «Ты опоздал на 15 минут на стендап» — наблюдение. «Ты всегда опаздываешь» — оценка (обобщение). «Тебе всё равно на команду» — оценка (интерпретация). Смешивание наблюдения с оценкой вызывает у собеседника защитную реакцию.",
+    "explanationEn": "Rosenberg emphasizes: observation = specific fact. 'You were 15 minutes late to standup' — observation. 'You're always late' — evaluation (generalization). 'You don't care about the team' — evaluation (interpretation). Mixing observation with evaluation triggers defensiveness.",
+    "source": "Marshall Rosenberg — Nonviolent Communication",
+    "sourceUrl": "https://www.nonviolentcommunication.com/"
+  },
+  {
+    "id": "cr_q07",
+    "dimension": "conflict_resolution",
+    "text": "Согласно Getting to Yes, что такое BATNA?",
+    "textEn": "According to Getting to Yes, what is BATNA?",
+    "options": [
+      { "key": "a", "text": "Лучшая альтернатива обговариваемому соглашению — твой план Б, если переговоры провалятся", "textEn": "Best Alternative To a Negotiated Agreement — your plan B if negotiations fail" },
+      { "key": "b", "text": "Базовые условия, ниже которых ты не готов опуститься", "textEn": "Baseline terms below which you won't go" },
+      { "key": "c", "text": "Лучший аргумент для убеждения другой стороны", "textEn": "Best argument for convincing the other side" },
+      { "key": "d", "text": "Список уступок, которые ты готов сделать", "textEn": "List of concessions you're willing to make" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "BATNA (Best Alternative To a Negotiated Agreement) — это твой лучший вариант, если переговоры не приведут к соглашению. Сильная BATNA даёт тебе переговорную силу: ты можешь уйти, если предложение хуже твоей альтернативы. Знание своей BATNA — ключ к уверенным переговорам.",
+    "explanationEn": "BATNA (Best Alternative To a Negotiated Agreement) is your best option if negotiations don't reach an agreement. A strong BATNA gives you negotiating power: you can walk away if the offer is worse than your alternative. Knowing your BATNA is key to confident negotiation.",
+    "source": "Roger Fisher, William Ury — Getting to Yes",
+    "sourceUrl": "https://www.pon.harvard.edu/daily/batna/translate-your-batna-to-the-current-deal/"
+  },
+  {
+    "id": "cr_q08",
+    "dimension": "conflict_resolution",
+    "text": "В TKI, стиль Accommodating (приспособление) уместен, когда...",
+    "textEn": "In TKI, the Accommodating style is appropriate when...",
+    "options": [
+      { "key": "a", "text": "Вопрос для тебя принципиально важен и ты не можешь уступить", "textEn": "The issue is critically important to you and you can't give in" },
+      { "key": "b", "text": "Вопрос важнее для другой стороны, и ты хочешь сохранить отношения", "textEn": "The issue matters more to the other side, and you want to preserve the relationship" },
+      { "key": "c", "text": "Обе стороны должны пойти на равные уступки", "textEn": "Both sides need to make equal concessions" },
+      { "key": "d", "text": "Тебе нужно время подумать и ты не готов к решению", "textEn": "You need time to think and aren't ready to decide" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Accommodating — низкая ассертивность + высокая кооперативность. Ты уступаешь. Это уместно, когда вопрос для тебя не принципиален, но важен для другой стороны, или когда сохранение отношений важнее выигрыша в конкретном вопросе. Злоупотребление этим стилем ведёт к потере уважения.",
+    "explanationEn": "Accommodating is low assertiveness + high cooperativeness. You yield. It's appropriate when the issue isn't critical to you but matters to the other side, or when preserving the relationship outweighs winning the specific issue. Overusing this style leads to loss of respect.",
+    "source": "Thomas-Kilmann Conflict Mode Instrument",
+    "sourceUrl": "https://kilmanndiagnostics.com/overview-thomas-kilmann-conflict-mode-instrument-tki/"
+  },
+  {
+    "id": "cr_q09",
+    "dimension": "conflict_resolution",
+    "text": "На ревью кода ты видишь, что коллега написал неэффективное решение. Как сформулировать обратную связь по принципам NVC?",
+    "textEn": "In a code review, you see a colleague wrote an inefficient solution. How to frame feedback using NVC principles?",
+    "options": [
+      { "key": "a", "text": "«Этот код ужасен, нужно переписать» — прямо и честно", "textEn": "'This code is terrible, needs rewriting' — direct and honest" },
+      { "key": "b", "text": "«Я заметил, что этот запрос выполняется за 3 секунды. Мне важна производительность. Можем обсудить оптимизацию?»", "textEn": "'I noticed this query takes 3 seconds. Performance matters to me. Can we discuss optimization?'" },
+      { "key": "c", "text": "Ничего не говорить — коллега сам заметит проблему в продакшене", "textEn": "Say nothing — the colleague will notice the issue in production" },
+      { "key": "d", "text": "«Ты всегда пишешь медленный код, надо быть внимательнее»", "textEn": "'You always write slow code, you need to be more careful'" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Это NVC в действии: Наблюдение (запрос за 3 секунды — конкретный факт), подразумеваемое чувство (беспокойство), Потребность (производительность), Просьба (обсудить оптимизацию). Вариант A — оценка без конкретики, D — обобщение и оценка личности, C — избегание.",
+    "explanationEn": "This is NVC in action: Observation (3-second query — specific fact), implied Feeling (concern), Need (performance), Request (discuss optimization). Option A is evaluation without specifics, D is generalization and personal judgment, C is avoidance.",
+    "source": "Marshall Rosenberg — Nonviolent Communication",
+    "sourceUrl": "https://www.nonviolentcommunication.com/"
+  },
+  {
+    "id": "cr_q10",
+    "dimension": "conflict_resolution",
+    "text": "По TKI, стиль Competing (соперничество) уместен, когда...",
+    "textEn": "According to TKI, the Competing style is appropriate when...",
+    "options": [
+      { "key": "a", "text": "Нужно выстроить долгосрочные отношения с коллегой", "textEn": "You need to build a long-term relationship with a colleague" },
+      { "key": "b", "text": "Вопрос незначительный и не стоит тратить время на обсуждение", "textEn": "The issue is minor and not worth discussing" },
+      { "key": "c", "text": "Необходимо быстрое решение в кризисной ситуации или защита принципиальной позиции", "textEn": "A quick decision is needed in a crisis or you must defend a principled position" },
+      { "key": "d", "text": "Обе стороны имеют одинаково сильные аргументы", "textEn": "Both sides have equally strong arguments" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Competing (высокая ассертивность, низкая кооперативность) уместен в кризисах, когда нет времени на обсуждения, или когда на кону принципиальные вопросы (безопасность, этика). Это не «плохой» стиль — каждый из пяти стилей уместен в своём контексте. Но как единственная стратегия — он разрушает отношения.",
+    "explanationEn": "Competing (high assertiveness, low cooperativeness) is appropriate in crises when there's no time for discussion, or when principled issues are at stake (security, ethics). It's not a 'bad' style — each of the five styles fits its context. But as the only strategy, it destroys relationships.",
+    "source": "Thomas-Kilmann Conflict Mode Instrument",
+    "sourceUrl": "https://kilmanndiagnostics.com/overview-thomas-kilmann-conflict-mode-instrument-tki/"
+  },
+  {
+    "id": "cr_q11",
+    "dimension": "conflict_resolution",
+    "text": "Принцип Getting to Yes «Отделяй людей от проблемы» означает...",
+    "textEn": "The Getting to Yes principle 'Separate the people from the problem' means...",
+    "options": [
+      { "key": "a", "text": "Не приглашать конфликтных людей на переговоры", "textEn": "Don't invite confrontational people to negotiations" },
+      { "key": "b", "text": "Решать конфликт с вещами, а не с людьми — атаковать проблему, а не личность", "textEn": "Address the issue, not the person — attack the problem, not the personality" },
+      { "key": "c", "text": "Общаться только через посредника", "textEn": "Communicate only through a mediator" },
+      { "key": "d", "text": "Игнорировать эмоции и фокусироваться только на фактах", "textEn": "Ignore emotions and focus only on facts" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Этот принцип учит быть мягким с людьми и жёстким с проблемой. Вместо «ты неправ» — «у нас есть проблема, давай вместе решим». Важно: это НЕ означает игнорировать эмоции (вариант D) — наоборот, эмоции нужно признавать и обсуждать отдельно от содержания проблемы.",
+    "explanationEn": "This principle teaches being soft on people and hard on the problem. Instead of 'you're wrong' — 'we have a problem, let's solve it together.' Important: this does NOT mean ignoring emotions (option D) — emotions should be acknowledged and discussed separately from the problem's content.",
+    "source": "Roger Fisher, William Ury — Getting to Yes",
+    "sourceUrl": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-702/"
+  },
+  {
+    "id": "cr_q12",
+    "dimension": "conflict_resolution",
+    "text": "Компромисс (Compromising) в модели TKI — это...",
+    "textEn": "Compromising in the TKI model is...",
+    "options": [
+      { "key": "a", "text": "Лучший стиль для любого конфликта — все довольны", "textEn": "The best style for any conflict — everyone is happy" },
+      { "key": "b", "text": "Средний уровень ассертивности и кооперативности — обе стороны частично уступают", "textEn": "Medium assertiveness and cooperativeness — both sides partially give in" },
+      { "key": "c", "text": "Когда одна сторона уступает полностью ради сохранения отношений", "textEn": "When one side yields completely to preserve the relationship" },
+      { "key": "d", "text": "Синоним стиля Collaborating", "textEn": "Synonym for Collaborating" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Компромисс находится в центре матрицы TKI: обе оси на среднем уровне. Каждый получает что-то, но каждый и теряет. Это быстрее, чем Collaborating, и уместно при ограниченном времени, но не создаёт лучшего решения — просто «делит пирог пополам» вместо того, чтобы увеличить пирог.",
+    "explanationEn": "Compromise sits at the center of the TKI matrix: both axes at medium. Everyone gets something, but everyone loses something too. It's faster than Collaborating and suitable when time is limited, but doesn't create the best solution — it just 'splits the pie' instead of making it bigger.",
+    "source": "Thomas-Kilmann Conflict Mode Instrument",
+    "sourceUrl": "https://kilmanndiagnostics.com/overview-thomas-kilmann-conflict-mode-instrument-tki/"
+  },
+  {
+    "id": "cr_q13",
+    "dimension": "conflict_resolution",
+    "text": "В NVC, в чём разница между просьбой и требованием?",
+    "textEn": "In NVC, what's the difference between a request and a demand?",
+    "options": [
+      { "key": "a", "text": "Просьба вежливая, а требование — грубое", "textEn": "A request is polite, a demand is rude" },
+      { "key": "b", "text": "Просьба допускает отказ без негативных последствий, а требование — нет", "textEn": "A request allows refusal without negative consequences, a demand does not" },
+      { "key": "c", "text": "Просьба — для коллег, а требование — для подчинённых", "textEn": "A request is for colleagues, a demand is for subordinates" },
+      { "key": "d", "text": "Просьба формулируется в вопросительной форме, а требование — в утвердительной", "textEn": "A request is phrased as a question, a demand as a statement" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "По Розенбергу, ключевое отличие: если собеседник отказывает и ты реагируешь наказанием, осуждением или манипуляцией — это было требование, даже если звучало вежливо. Настоящая просьба предполагает искреннюю готовность услышать «нет» и обсудить альтернативы.",
+    "explanationEn": "According to Rosenberg, the key distinction: if the person refuses and you respond with punishment, judgment, or manipulation — it was a demand, even if it sounded polite. A true request implies genuine willingness to hear 'no' and discuss alternatives.",
+    "source": "Marshall Rosenberg — Nonviolent Communication",
+    "sourceUrl": "https://www.nonviolentcommunication.com/"
+  },
+  {
+    "id": "cr_q14",
+    "dimension": "conflict_resolution",
+    "text": "Один из четырёх принципов «Getting to Yes» — «Настаивай на использовании объективных критериев». Это означает...",
+    "textEn": "One of the four principles in 'Getting to Yes' is 'Insist on using objective criteria.' This means...",
+    "options": [
+      { "key": "a", "text": "Каждый аргумент должен быть подкреплён научными данными", "textEn": "Every argument must be backed by scientific data" },
+      { "key": "b", "text": "Решения должны основываться на независимых стандартах, а не на давлении сторон", "textEn": "Decisions should be based on independent standards, not pressure from parties" },
+      { "key": "c", "text": "Нужно пригласить внешнего эксперта для принятия решения", "textEn": "You should invite an external expert to make the decision" },
+      { "key": "d", "text": "Тот, у кого больше данных, имеет больше прав в переговорах", "textEn": "Whoever has more data has more negotiating rights" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Объективные критерии — это независимые стандарты, на которые могут опереться обе стороны: рыночные цены, экспертные оценки, бенчмарки, legal precedents. Это убирает «кто кого пережмёт» из переговоров и переводит дискуссию в русло «что справедливо по объективным меркам».",
+    "explanationEn": "Objective criteria are independent standards both sides can rely on: market prices, expert assessments, benchmarks, legal precedents. This removes 'who can pressure whom' from negotiations and shifts the discussion to 'what's fair by objective standards.'",
+    "source": "Roger Fisher, William Ury — Getting to Yes",
+    "sourceUrl": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-702/"
+  },
+  {
+    "id": "cr_q15",
+    "dimension": "conflict_resolution",
+    "text": "В конфликте между двумя подходами к тестированию (100% покрытие vs. только критические пути), какой TKI-стиль скорее всего приведёт к лучшему результату?",
+    "textEn": "In a conflict between two testing approaches (100% coverage vs. critical paths only), which TKI style will most likely lead to the best outcome?",
+    "options": [
+      { "key": "a", "text": "Competing — продавить свою позицию, потому что ты уверен в ней", "textEn": "Competing — push your position because you're confident" },
+      { "key": "b", "text": "Avoiding — дать кому-то другому решить этот вопрос", "textEn": "Avoiding — let someone else decide" },
+      { "key": "c", "text": "Compromising — покрыть тестами 50% кода", "textEn": "Compromising — cover 50% of the code with tests" },
+      { "key": "d", "text": "Collaborating — понять, почему каждый настаивает на своём подходе, и найти решение, учитывающее все опасения", "textEn": "Collaborating — understand why each insists on their approach and find a solution addressing all concerns" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Collaborating (сотрудничество) позволяет найти решение лучше обоих исходных позиций. Возможно, один беспокоится о стабильности (интерес), а другой — о скорости поставки. Решение: 100% покрытие для критических модулей + smoke-тесты для остального. Компромисс (50%) не удовлетворяет ни одну сторону.",
+    "explanationEn": "Collaborating enables finding a solution better than both initial positions. Perhaps one worries about stability (interest) and the other about delivery speed. Solution: 100% coverage for critical modules + smoke tests for the rest. Compromise (50%) satisfies neither side.",
+    "source": "Thomas-Kilmann Conflict Mode Instrument",
+    "sourceUrl": "https://kilmanndiagnostics.com/overview-thomas-kilmann-conflict-mode-instrument-tki/"
+  },
+
+  {
+    "id": "ei_q01",
+    "dimension": "emotional_intelligence",
+    "text": "Модель эмоционального интеллекта Дэниела Гоулмана включает 5 компонентов. Какой из них НЕ входит в модель?",
+    "textEn": "Daniel Goleman's emotional intelligence model includes 5 components. Which one is NOT part of the model?",
+    "options": [
+      { "key": "a", "text": "Самосознание (Self-awareness)", "textEn": "Self-awareness" },
+      { "key": "b", "text": "Саморегуляция (Self-regulation)", "textEn": "Self-regulation" },
+      { "key": "c", "text": "Стрессоустойчивость (Stress resistance)", "textEn": "Stress resistance" },
+      { "key": "d", "text": "Эмпатия (Empathy)", "textEn": "Empathy" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "5 компонентов Гоулмана: Self-awareness (самосознание), Self-regulation (саморегуляция), Motivation (мотивация), Empathy (эмпатия), Social skills (социальные навыки). Стрессоустойчивость — важный навык, но это не отдельный компонент модели Гоулмана.",
+    "explanationEn": "Goleman's 5 components: Self-awareness, Self-regulation, Motivation, Empathy, Social skills. Stress resistance is an important skill, but it's not a separate component in Goleman's model.",
+    "source": "Daniel Goleman — Emotional Intelligence",
+    "sourceUrl": "https://www.danielgoleman.info/daniel-goleman-how-emotionally-intelligent-are-you/"
+  },
+  {
+    "id": "ei_q02",
+    "dimension": "emotional_intelligence",
+    "text": "Согласно концепции Emotional Agility Сьюзан Дэвид, первый шаг в работе со сложными эмоциями — это...",
+    "textEn": "According to Susan David's Emotional Agility, the first step in handling difficult emotions is...",
+    "options": [
+      { "key": "a", "text": "Подавить негативные эмоции и сфокусироваться на позитиве", "textEn": "Suppress negative emotions and focus on the positive" },
+      { "key": "b", "text": "Признать эмоцию без осуждения — просто заметить, что она есть (showing up)", "textEn": "Acknowledge the emotion without judgment — simply notice it exists (showing up)" },
+      { "key": "c", "text": "Проанализировать причину эмоции и найти решение", "textEn": "Analyze the cause of the emotion and find a solution" },
+      { "key": "d", "text": "Поделиться своими чувствами с коллегами", "textEn": "Share your feelings with colleagues" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Showing Up — первый шаг Emotional Agility. Это значит повернуться лицом к своим эмоциям: заметить их, назвать, принять как данность. Не подавлять (это «боттлинг»), не зацикливаться (это «брудинг»), а просто признать: «Я чувствую раздражение, и это нормально».",
+    "explanationEn": "Showing Up is the first step of Emotional Agility. It means facing your emotions: noticing them, naming them, accepting them as they are. Not suppressing (that's 'bottling'), not ruminating (that's 'brooding'), but simply acknowledging: 'I feel frustrated, and that's okay.'",
+    "source": "Susan David — Emotional Agility",
+    "sourceUrl": "https://www.susandavid.com/book"
+  },
+  {
+    "id": "ei_q03",
+    "dimension": "emotional_intelligence",
+    "text": "В модели Гоулмана, самосознание (Self-awareness) — это...",
+    "textEn": "In Goleman's model, Self-awareness is...",
+    "options": [
+      { "key": "a", "text": "Способность контролировать свои импульсы и не действовать сгоряча", "textEn": "The ability to control impulses and not act rashly" },
+      { "key": "b", "text": "Понимание своих эмоций, сильных и слабых сторон, ценностей и их влияния на окружающих", "textEn": "Understanding your emotions, strengths, weaknesses, values, and their impact on others" },
+      { "key": "c", "text": "Способность мотивировать себя без внешних стимулов", "textEn": "The ability to motivate yourself without external stimuli" },
+      { "key": "d", "text": "Умение читать эмоции других людей", "textEn": "The ability to read other people's emotions" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Self-awareness — фундамент EQ. Это не просто «я понимаю, что злюсь», а глубокое знание себя: своих триггеров, паттернов, ценностей и того, как твоё состояние влияет на других. Контроль импульсов — это Self-regulation, чтение эмоций других — Empathy.",
+    "explanationEn": "Self-awareness is the foundation of EQ. It's not just 'I know I'm angry,' but deep self-knowledge: your triggers, patterns, values, and how your state affects others. Impulse control is Self-regulation; reading others' emotions is Empathy.",
+    "source": "Daniel Goleman — Emotional Intelligence",
+    "sourceUrl": "https://www.danielgoleman.info/daniel-goleman-how-emotionally-intelligent-are-you/"
+  },
+  {
+    "id": "ei_q04",
+    "dimension": "emotional_intelligence",
+    "text": "Пол Экман выделил 6 базовых эмоций, которые универсальны для всех культур. Какая из них НЕ входит в этот список?",
+    "textEn": "Paul Ekman identified 6 basic emotions universal across all cultures. Which one is NOT on this list?",
+    "options": [
+      { "key": "a", "text": "Отвращение (Disgust)", "textEn": "Disgust" },
+      { "key": "b", "text": "Удивление (Surprise)", "textEn": "Surprise" },
+      { "key": "c", "text": "Гордость (Pride)", "textEn": "Pride" },
+      { "key": "d", "text": "Страх (Fear)", "textEn": "Fear" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "6 базовых эмоций Экмана: Happiness (радость), Sadness (грусть), Fear (страх), Anger (гнев), Surprise (удивление), Disgust (отвращение). Гордость — сложная социальная эмоция, которая не распознаётся универсально по выражению лица во всех культурах.",
+    "explanationEn": "Ekman's 6 basic emotions: Happiness, Sadness, Fear, Anger, Surprise, Disgust. Pride is a complex social emotion that is not universally recognized by facial expression across all cultures.",
+    "source": "Paul Ekman — Basic Emotions",
+    "sourceUrl": "https://www.paulekman.com/universal-emotions/"
+  },
+  {
+    "id": "ei_q05",
+    "dimension": "emotional_intelligence",
+    "text": "Самый распространённый признак выгорания (burnout) — это...",
+    "textEn": "The most common sign of burnout is...",
+    "options": [
+      { "key": "a", "text": "Физическая усталость и проблемы со сном", "textEn": "Physical fatigue and sleep problems" },
+      { "key": "b", "text": "Эмоциональное истощение и цинизм по отношению к работе", "textEn": "Emotional exhaustion and cynicism toward work" },
+      { "key": "c", "text": "Снижение производительности и частые ошибки", "textEn": "Decreased productivity and frequent errors" },
+      { "key": "d", "text": "Конфликты с коллегами и руководством", "textEn": "Conflicts with colleagues and management" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "По модели Маслах (Maslach Burnout Inventory), три ключевых компонента выгорания: эмоциональное истощение, деперсонализация/цинизм и снижение чувства достижения. Эмоциональное истощение — обычно первый и самый заметный симптом. Физическая усталость — следствие, а не причина.",
+    "explanationEn": "According to the Maslach Burnout Inventory, three key burnout components are: emotional exhaustion, depersonalization/cynicism, and reduced sense of accomplishment. Emotional exhaustion is usually the first and most noticeable symptom. Physical fatigue is a consequence, not a cause.",
+    "source": "Christina Maslach — Maslach Burnout Inventory",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Maslach_Burnout_Inventory"
+  },
+  {
+    "id": "ei_q06",
+    "dimension": "emotional_intelligence",
+    "text": "В концепции Emotional Agility, «bottling» (закупоривание) — это когда ты...",
+    "textEn": "In the Emotional Agility concept, 'bottling' is when you...",
+    "options": [
+      { "key": "a", "text": "Позволяешь эмоциям управлять твоими действиями без фильтра", "textEn": "Let emotions drive your actions without filter" },
+      { "key": "b", "text": "Подавляешь эмоции, отодвигаешь их в сторону и делаешь вид, что всё в порядке", "textEn": "Suppress emotions, push them aside, and pretend everything is fine" },
+      { "key": "c", "text": "Зацикливаешься на негативных мыслях и прокручиваешь их снова и снова", "textEn": "Fixate on negative thoughts and replay them over and over" },
+      { "key": "d", "text": "Делишься своими эмоциями с окружающими слишком активно", "textEn": "Share your emotions with others too actively" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Bottling — одна из двух нездоровых стратегий по Дэвид (вторая — brooding/зацикливание). Ты «закупориваешь» эмоции: игнорируешь их, отталкиваешь, убеждаешь себя «это не важно». Краткосрочно помогает, долгосрочно ведёт к стрессу, выгоранию и эмоциональным взрывам.",
+    "explanationEn": "Bottling is one of two unhealthy strategies according to David (the other is brooding). You 'bottle up' emotions: ignore them, push them away, tell yourself 'it doesn't matter.' It helps short-term but leads to stress, burnout, and emotional outbursts long-term.",
+    "source": "Susan David — Emotional Agility",
+    "sourceUrl": "https://www.susandavid.com/book"
+  },
+  {
+    "id": "ei_q07",
+    "dimension": "emotional_intelligence",
+    "text": "В модели Гоулмана компонент Social Skills включает...",
+    "textEn": "In Goleman's model, the Social Skills component includes...",
+    "options": [
+      { "key": "a", "text": "Только умение выступать публично и вести переговоры", "textEn": "Only public speaking and negotiation skills" },
+      { "key": "b", "text": "Управление отношениями: влияние, коммуникация, лидерство, работа в команде", "textEn": "Managing relationships: influence, communication, leadership, teamwork" },
+      { "key": "c", "text": "Количество профессиональных контактов и сети", "textEn": "Number of professional contacts and networks" },
+      { "key": "d", "text": "Умение избегать конфликтов и поддерживать гармонию", "textEn": "Ability to avoid conflicts and maintain harmony" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Social Skills по Гоулману — это широкий набор навыков управления отношениями: влияние, коммуникация, управление конфликтами, лидерство, катализ изменений, создание связей, командная работа. Это не про количество контактов и не про избегание конфликтов, а про качество взаимодействия.",
+    "explanationEn": "Social Skills in Goleman's model is a broad set of relationship management skills: influence, communication, conflict management, leadership, change catalyst, building bonds, teamwork. It's not about the number of contacts or avoiding conflicts, but about interaction quality.",
+    "source": "Daniel Goleman — Emotional Intelligence",
+    "sourceUrl": "https://www.danielgoleman.info/daniel-goleman-how-emotionally-intelligent-are-you/"
+  },
+  {
+    "id": "ei_q08",
+    "dimension": "emotional_intelligence",
+    "text": "Ты замечаешь, что после часов безуспешного промптинга AI начинаешь раздражаться и это влияет на общение с командой. По Гоулману, какой компонент EQ тебе поможет?",
+    "textEn": "You notice that after hours of unsuccessful AI prompting you get irritated and it affects team communication. Which Goleman EQ component would help?",
+    "options": [
+      { "key": "a", "text": "Эмпатия — попробуй понять, как AI «думает»", "textEn": "Empathy — try to understand how AI 'thinks'" },
+      { "key": "b", "text": "Мотивация — просто надо больше стараться", "textEn": "Motivation — just try harder" },
+      { "key": "c", "text": "Саморегуляция — распознать триггер и сделать паузу, прежде чем это повлияет на общение", "textEn": "Self-regulation — recognize the trigger and pause before it affects communication" },
+      { "key": "d", "text": "Социальные навыки — извиниться перед командой", "textEn": "Social skills — apologize to the team" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Self-regulation — способность управлять своими эмоциями и импульсами. Ты уже осознал проблему (Self-awareness), теперь нужно управлять реакцией: сделать паузу, переключиться, подышать — прежде чем фрустрация от AI повлияет на живых людей. Извинения (D) — это постфактум, а саморегуляция — предотвращение.",
+    "explanationEn": "Self-regulation is the ability to manage your emotions and impulses. You've already recognized the problem (Self-awareness), now you need to manage the reaction: pause, switch tasks, breathe — before AI frustration affects real people. Apologies (D) come after the fact; self-regulation prevents it.",
+    "source": "Soft Skills Guide: Emotional Intelligence",
+    "sourceUrl": "/guide/emotional-intelligence"
+  },
+  {
+    "id": "ei_q09",
+    "dimension": "emotional_intelligence",
+    "text": "Согласно Emotional Agility, «stepping out» (выход в сторону) помогает...",
+    "textEn": "According to Emotional Agility, 'stepping out' helps to...",
+    "options": [
+      { "key": "a", "text": "Физически уйти из стрессовой ситуации", "textEn": "Physically leave a stressful situation" },
+      { "key": "b", "text": "Создать дистанцию между собой и эмоцией, посмотреть на ситуацию со стороны", "textEn": "Create distance between yourself and the emotion, observe the situation from outside" },
+      { "key": "c", "text": "Переключить внимание на что-то приятное", "textEn": "Switch attention to something pleasant" },
+      { "key": "d", "text": "Подавить эмоцию через рациональный анализ", "textEn": "Suppress the emotion through rational analysis" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Stepping Out — второй шаг Emotional Agility после Showing Up. Это не уход от ситуации, а создание внутренней дистанции. Вместо «я злой» — «я замечаю, что у меня есть злость». Эта маленькая разница позволяет не отождествлять себя с эмоцией и принимать более осознанные решения.",
+    "explanationEn": "Stepping Out is the second step of Emotional Agility after Showing Up. It's not leaving the situation but creating inner distance. Instead of 'I'm angry' — 'I notice I have anger.' This small shift prevents identifying with the emotion and enables more conscious decisions.",
+    "source": "Susan David — Emotional Agility",
+    "sourceUrl": "https://www.susandavid.com/book"
+  },
+  {
+    "id": "ei_q10",
+    "dimension": "emotional_intelligence",
+    "text": "Коллега открыто расстроен после неудачного демо. Какое поведение демонстрирует высокую эмпатию по Гоулману?",
+    "textEn": "A colleague is visibly upset after a failed demo. Which behavior demonstrates high empathy according to Goleman?",
+    "options": [
+      { "key": "a", "text": "«Не переживай, это всего лишь демо, ерунда»", "textEn": "'Don't worry, it's just a demo, no big deal'" },
+      { "key": "b", "text": "«Я вижу, что ты расстроен. Это нормально — ты вложил много сил. Хочешь обсудить?»", "textEn": "'I can see you're upset. That's understandable — you put in a lot of effort. Want to talk about it?'" },
+      { "key": "c", "text": "Ничего не говорить — он сам справится, не нужно лезть в его чувства", "textEn": "Say nothing — they'll handle it, no need to pry into their feelings" },
+      { "key": "d", "text": "«У меня тоже были провальные демо, вот что я тогда сделал...»", "textEn": "'I've had failed demos too, here's what I did then...'" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Эмпатия — это не обесценивание (A), не советы (D) и не игнор (C). Это признание чувств другого: ты видишь, что он расстроен, называешь это, валидируешь и предлагаешь поддержку. «Я вижу» + «это нормально» + «хочешь обсудить?» — три компонента эмпатичной реакции.",
+    "explanationEn": "Empathy is not dismissal (A), not advice (D), and not ignoring (C). It's acknowledging the other's feelings: you see they're upset, name it, validate it, and offer support. 'I see' + 'that's understandable' + 'want to talk?' — three components of an empathetic response.",
+    "source": "Daniel Goleman — Emotional Intelligence",
+    "sourceUrl": "https://www.danielgoleman.info/daniel-goleman-how-emotionally-intelligent-are-you/"
+  },
+  {
+    "id": "ei_q11",
+    "dimension": "emotional_intelligence",
+    "text": "По модели Гоулмана, Motivation в контексте EQ — это...",
+    "textEn": "In Goleman's model, Motivation in the context of EQ is...",
+    "options": [
+      { "key": "a", "text": "Внешняя мотивация: зарплата, бонусы, карьерный рост", "textEn": "Extrinsic motivation: salary, bonuses, career growth" },
+      { "key": "b", "text": "Внутренняя страсть к работе и стремление к достижениям ради самого процесса", "textEn": "Inner passion for work and drive for achievement for its own sake" },
+      { "key": "c", "text": "Способность мотивировать других людей", "textEn": "The ability to motivate other people" },
+      { "key": "d", "text": "Умение ставить SMART-цели", "textEn": "The ability to set SMART goals" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Motivation по Гоулману — это внутренний двигатель: страсть к самой работе, а не к внешним наградам. Люди с высокой EQ-мотивацией ставят себе высокую планку, оптимистичны перед лицом неудач и ориентированы на достижения, а не на статус. Мотивация других — это Social Skills.",
+    "explanationEn": "Goleman's Motivation is the inner drive: passion for the work itself, not external rewards. People with high EQ motivation set high standards, are optimistic in the face of failure, and are achievement-oriented rather than status-oriented. Motivating others falls under Social Skills.",
+    "source": "Daniel Goleman — Emotional Intelligence",
+    "sourceUrl": "https://www.danielgoleman.info/daniel-goleman-how-emotionally-intelligent-are-you/"
+  },
+  {
+    "id": "ei_q12",
+    "dimension": "emotional_intelligence",
+    "text": "Ты работаешь в AI-heavy среде, и один из разработчиков чувствует угрозу своей профессиональной идентичности из-за AI. По модели Гоулмана, какой навык поможет тебе поддержать его?",
+    "textEn": "You work in an AI-heavy environment, and one developer feels their professional identity threatened by AI. Which Goleman skill helps you support them?",
+    "options": [
+      { "key": "a", "text": "Self-awareness — осознай свои собственные чувства по поводу AI", "textEn": "Self-awareness — recognize your own feelings about AI" },
+      { "key": "b", "text": "Empathy — пойми его страхи, валидируй чувства и помоги увидеть перспективу", "textEn": "Empathy — understand their fears, validate feelings, and help them see perspective" },
+      { "key": "c", "text": "Self-regulation — не вступай в спор об AI, просто промолчи", "textEn": "Self-regulation — don't argue about AI, just stay silent" },
+      { "key": "d", "text": "Motivation — покажи, что AI увеличит его зарплату", "textEn": "Motivation — show them AI will increase their salary" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Empathy позволяет понять глубинные страхи коллеги: «Если AI пишет код, зачем я нужен?» Вместо обесценивания («да ладно, AI не заменит людей») или давления («все используют, и ты должен»), эмпатия помогает валидировать чувства и вместе найти, как AI усиливает, а не заменяет его экспертизу.",
+    "explanationEn": "Empathy lets you understand the colleague's deep fears: 'If AI writes code, why am I needed?' Instead of dismissal ('relax, AI won't replace people') or pressure ('everyone uses it, you should too'), empathy validates feelings and helps find how AI enhances rather than replaces their expertise.",
+    "source": "Soft Skills Guide: Emotional Intelligence",
+    "sourceUrl": "/guide/emotional-intelligence"
+  },
+  {
+    "id": "ei_q13",
+    "dimension": "emotional_intelligence",
+    "text": "Согласно Paul Ekman, микровыражения — это...",
+    "textEn": "According to Paul Ekman, micro-expressions are...",
+    "options": [
+      { "key": "a", "text": "Выражения лица, которые длятся менее половины секунды и выдают истинные эмоции", "textEn": "Facial expressions lasting less than half a second that reveal true emotions" },
+      { "key": "b", "text": "Мимика, которую человек может контролировать при тренировке", "textEn": "Facial expressions that can be controlled with training" },
+      { "key": "c", "text": "Выражения лица, специфичные для каждой культуры", "textEn": "Facial expressions specific to each culture" },
+      { "key": "d", "text": "Осознанные сигналы, которые люди подают в разговоре", "textEn": "Conscious signals people give during conversation" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Микровыражения длятся 1/25 — 1/2 секунды и являются непроизвольными — их почти невозможно подавить. Они выдают истинные эмоции, даже когда человек пытается их скрыть. Экман обнаружил, что эти выражения универсальны для всех культур и связаны с базовыми эмоциями.",
+    "explanationEn": "Micro-expressions last 1/25 to 1/2 second and are involuntary — nearly impossible to suppress. They reveal true emotions even when someone tries to hide them. Ekman found these expressions are universal across cultures and linked to basic emotions.",
+    "source": "Paul Ekman — Emotions Revealed",
+    "sourceUrl": "https://www.paulekman.com/universal-emotions/"
+  },
+  {
+    "id": "ei_q14",
+    "dimension": "emotional_intelligence",
+    "text": "В Emotional Agility, после «showing up» и «stepping out» следует «walking your why». Это означает...",
+    "textEn": "In Emotional Agility, after 'showing up' and 'stepping out' comes 'walking your why.' This means...",
+    "options": [
+      { "key": "a", "text": "Анализировать, почему ты чувствуешь эту эмоцию", "textEn": "Analyzing why you feel this emotion" },
+      { "key": "b", "text": "Действовать в соответствии со своими ценностями, а не эмоциями", "textEn": "Acting according to your values, not your emotions" },
+      { "key": "c", "text": "Объяснить другим, почему ты поступаешь определённым образом", "textEn": "Explaining to others why you act a certain way" },
+      { "key": "d", "text": "Уйти из ситуации, которая вызывает негативные эмоции", "textEn": "Walking away from a situation that causes negative emotions" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Walking Your Why — третий шаг: принимать решения на основе своих ценностей, а не текущих эмоций. Ты злишься на коллегу? Твоя ценность — уважение. Значит, ты выберешь уважительный разговор, а не выплеск злости. Эмоции информируют, но не управляют — управляют ценности.",
+    "explanationEn": "Walking Your Why is the third step: making decisions based on your values, not current emotions. Angry at a colleague? Your value is respect. So you choose a respectful conversation, not an angry outburst. Emotions inform but don't control — values do.",
+    "source": "Susan David — Emotional Agility",
+    "sourceUrl": "https://www.susandavid.com/book"
+  },
+  {
+    "id": "ei_q15",
+    "dimension": "emotional_intelligence",
+    "text": "Какой из 5 компонентов EQ по Гоулману считается фундаментом для всех остальных?",
+    "textEn": "Which of Goleman's 5 EQ components is considered the foundation for all others?",
+    "options": [
+      { "key": "a", "text": "Social Skills — без общения EQ бесполезен", "textEn": "Social Skills — without communication EQ is useless" },
+      { "key": "b", "text": "Empathy — всё начинается с понимания других", "textEn": "Empathy — it all starts with understanding others" },
+      { "key": "c", "text": "Self-awareness — нельзя управлять тем, что не осознаёшь", "textEn": "Self-awareness — you can't manage what you don't recognize" },
+      { "key": "d", "text": "Motivation — без мотивации не будешь развивать EQ", "textEn": "Motivation — without it you won't develop EQ" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Self-awareness — основа всей модели. Ты не можешь регулировать эмоции, которые не осознаёшь (Self-regulation). Ты не можешь понять других, если не понимаешь себя (Empathy). Все остальные компоненты строятся на фундаменте самопонимания. Без него — ты управляешь вслепую.",
+    "explanationEn": "Self-awareness is the foundation of the entire model. You can't regulate emotions you don't recognize (Self-regulation). You can't understand others if you don't understand yourself (Empathy). All other components are built on self-understanding. Without it, you're managing blind.",
+    "source": "Daniel Goleman — Emotional Intelligence",
+    "sourceUrl": "https://www.danielgoleman.info/daniel-goleman-how-emotionally-intelligent-are-you/"
+  },
+
+  {
+    "id": "tm_q01",
+    "dimension": "time_management",
+    "text": "Закон Паркинсона гласит, что...",
+    "textEn": "Parkinson's Law states that...",
+    "options": [
+      { "key": "a", "text": "Чем больше людей в команде, тем больше времени уходит на согласование", "textEn": "The more people on a team, the more time is spent on alignment" },
+      { "key": "b", "text": "Работа заполняет всё время, отведённое на неё", "textEn": "Work expands to fill the time available for its completion" },
+      { "key": "c", "text": "20% задач занимают 80% времени", "textEn": "20% of tasks take 80% of the time" },
+      { "key": "d", "text": "Параллельная работа над задачами снижает общую производительность", "textEn": "Parallel work on tasks reduces overall productivity" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Закон Паркинсона (1955): «Работа заполняет всё время, отведённое на её выполнение.» Если дать на задачу неделю — она займёт неделю, даже если реально нужно два дня. Практический вывод: ставь более жёсткие (но реалистичные) дедлайны, чтобы не растекаться.",
+    "explanationEn": "Parkinson's Law (1955): 'Work expands to fill the time available for its completion.' If you give a task a week, it takes a week, even if it really needs two days. Practical takeaway: set tighter (but realistic) deadlines to avoid bloat.",
+    "source": "Cyril Northcote Parkinson — Parkinson's Law",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Parkinson%27s_law"
+  },
+  {
+    "id": "tm_q02",
+    "dimension": "time_management",
+    "text": "Согласно принципу Парето (80/20), примерно какой процент результатов приходится на 20% усилий?",
+    "textEn": "According to the Pareto Principle (80/20), roughly what percentage of results comes from 20% of effort?",
+    "options": [
+      { "key": "a", "text": "50%", "textEn": "50%" },
+      { "key": "b", "text": "60%", "textEn": "60%" },
+      { "key": "c", "text": "80%", "textEn": "80%" },
+      { "key": "d", "text": "95%", "textEn": "95%" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Принцип Парето: ~80% результатов приходится на ~20% усилий. В управлении временем это означает: определи 20% задач, которые дают 80% ценности, и фокусируйся на них. Остальные 80% задач можно делегировать, автоматизировать или упростить.",
+    "explanationEn": "The Pareto Principle: ~80% of results come from ~20% of effort. For time management, this means: identify the 20% of tasks that deliver 80% of value and focus on them. The remaining 80% of tasks can be delegated, automated, or simplified.",
+    "source": "Vilfredo Pareto — 80/20 Principle",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Pareto_principle"
+  },
+  {
+    "id": "tm_q03",
+    "dimension": "time_management",
+    "text": "Кэл Ньюпорт определяет «Deep Work» как...",
+    "textEn": "Cal Newport defines 'Deep Work' as...",
+    "options": [
+      { "key": "a", "text": "Работу над самой сложной задачей в списке", "textEn": "Working on the hardest task on your list" },
+      { "key": "b", "text": "Профессиональную деятельность в состоянии полной концентрации, без отвлечений", "textEn": "Professional activity performed in a state of distraction-free concentration" },
+      { "key": "c", "text": "Работу в ночное время, когда никто не отвлекает", "textEn": "Working at night when nobody distracts you" },
+      { "key": "d", "text": "Любую работу, которая длится более 4 часов подряд", "textEn": "Any work that lasts more than 4 hours straight" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Deep Work — это профессиональная деятельность, выполняемая в состоянии полной концентрации, без отвлечений, которая доводит твои когнитивные способности до предела. Это не про время суток или длительность, а про качество внимания. Противоположность — Shallow Work (почта, чаты, рутина).",
+    "explanationEn": "Deep Work is professional activity performed in a state of distraction-free concentration that pushes your cognitive capabilities to their limit. It's not about time of day or duration, but about attention quality. The opposite is Shallow Work (email, chats, routine).",
+    "source": "Cal Newport — Deep Work",
+    "sourceUrl": "https://www.calnewport.com/books/deep-work/"
+  },
+  {
+    "id": "tm_q04",
+    "dimension": "time_management",
+    "text": "В матрице Эйзенхауэра задачи делятся на 4 квадранта. Какие задачи нужно делать ПЕРВЫМИ?",
+    "textEn": "In the Eisenhower Matrix, tasks are divided into 4 quadrants. Which tasks should be done FIRST?",
+    "options": [
+      { "key": "a", "text": "Важные и несрочные — инвестиции в будущее", "textEn": "Important and not urgent — investments in the future" },
+      { "key": "b", "text": "Важные и срочные — горящие задачи, которые нельзя отложить", "textEn": "Important and urgent — burning tasks that can't wait" },
+      { "key": "c", "text": "Срочные и неважные — быстрые дела, которые легко закрыть", "textEn": "Urgent and not important — quick tasks easy to close" },
+      { "key": "d", "text": "Ни важные, ни срочные — чтобы «расчистить» список", "textEn": "Neither important nor urgent — to 'clear' the list" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Квадрант 1 (важное + срочное) — это «пожары», которые нужно тушить прямо сейчас. Но мудрое управление временем — это максимизация времени в Квадранте 2 (важное + несрочное): стратегическое планирование, обучение, профилактика. Это снижает количество «пожаров» в будущем.",
+    "explanationEn": "Quadrant 1 (important + urgent) are 'fires' that need immediate attention. But wise time management means maximizing time in Quadrant 2 (important + not urgent): strategic planning, learning, prevention. This reduces future 'fires.'",
+    "source": "Eisenhower Matrix",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Time_management#The_Eisenhower_Method"
+  },
+  {
+    "id": "tm_q05",
+    "dimension": "time_management",
+    "text": "При решении, использовать AI или писать код вручную, ключевой фактор — это...",
+    "textEn": "When deciding whether to use AI or code manually, the key factor should be...",
+    "options": [
+      { "key": "a", "text": "Всегда использовать AI — это быстрее по определению", "textEn": "Always use AI — it's faster by definition" },
+      { "key": "b", "text": "Какой подход быстрее доставит работающее решение, включая время на верификацию", "textEn": "Which approach delivers a working solution faster, including verification time" },
+      { "key": "c", "text": "Сложность задачи — AI для сложных, ручной код для простых", "textEn": "Task complexity — AI for complex tasks, manual for simple ones" },
+      { "key": "d", "text": "Что ты лучше знаешь — AI-промптинг или сам язык программирования", "textEn": "What you know better — AI prompting or the programming language itself" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Общее время = генерация + верификация + исправления. Иногда простую функцию быстрее написать за 5 минут вручную, чем 10 минут промптить + 10 минут проверять AI-код + 10 минут исправлять баги. Оценивай полный цикл, а не только время генерации.",
+    "explanationEn": "Total time = generation + verification + fixes. Sometimes it's faster to write a simple function in 5 minutes manually than spend 10 minutes prompting + 10 minutes verifying AI code + 10 minutes fixing bugs. Evaluate the full cycle, not just generation time.",
+    "source": "Soft Skills Guide: Time Management",
+    "sourceUrl": "/guide/time-management"
+  },
+  {
+    "id": "tm_q06",
+    "dimension": "time_management",
+    "text": "В матрице Эйзенхауэра, задачи из Квадранта 3 (срочные, но неважные) лучше всего...",
+    "textEn": "In the Eisenhower Matrix, Quadrant 3 tasks (urgent but not important) are best handled by...",
+    "options": [
+      { "key": "a", "text": "Делать сразу, пока они срочные", "textEn": "Doing immediately while they're urgent" },
+      { "key": "b", "text": "Делегировать или минимизировать", "textEn": "Delegating or minimizing" },
+      { "key": "c", "text": "Планировать на завтра", "textEn": "Scheduling for tomorrow" },
+      { "key": "d", "text": "Удалять из списка", "textEn": "Deleting from the list" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Квадрант 3 — ловушка: эти задачи кажутся важными из-за срочности, но на самом деле не двигают тебя к цели. Чужие запросы, неважные встречи, рутинная переписка. Их нужно делегировать, автоматизировать или сократить до минимума, чтобы освободить время для Квадранта 2.",
+    "explanationEn": "Quadrant 3 is a trap: these tasks seem important due to urgency but don't actually move you toward your goals. Others' requests, unimportant meetings, routine correspondence. Delegate, automate, or minimize them to free time for Quadrant 2.",
+    "source": "Eisenhower Matrix",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Time_management#The_Eisenhower_Method"
+  },
+  {
+    "id": "tm_q07",
+    "dimension": "time_management",
+    "text": "По Кэлу Ньюпорту, «Shallow Work» — это...",
+    "textEn": "According to Cal Newport, 'Shallow Work' is...",
+    "options": [
+      { "key": "a", "text": "Работа, которая не требует специальных навыков и легко может быть выполнена другим", "textEn": "Work that doesn't require special skills and can be easily done by someone else" },
+      { "key": "b", "text": "Логистические задачи, не требующие глубокой концентрации: почта, чаты, админка", "textEn": "Logistical tasks not requiring deep concentration: email, chats, admin work" },
+      { "key": "c", "text": "Некачественная работа, выполненная на скорую руку", "textEn": "Low-quality work done hastily" },
+      { "key": "d", "text": "Работа, результаты которой не видны руководству", "textEn": "Work whose results aren't visible to management" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Shallow Work — логистические, когнитивно не требовательные задачи, которые часто выполняются в состоянии рассеянного внимания. Это не «плохая» работа — она необходима (почта, чаты, планирование). Но Ньюпорт предупреждает: если не контролировать, Shallow Work вытеснит Deep Work полностью.",
+    "explanationEn": "Shallow Work is logistical, cognitively undemanding tasks often performed in a state of distracted attention. It's not 'bad' work — it's necessary (email, chats, scheduling). But Newport warns: if not controlled, Shallow Work will completely crowd out Deep Work.",
+    "source": "Cal Newport — Deep Work",
+    "sourceUrl": "https://www.calnewport.com/books/deep-work/"
+  },
+  {
+    "id": "tm_q08",
+    "dimension": "time_management",
+    "text": "Как закон Паркинсона связан с AI-промптингом?",
+    "textEn": "How does Parkinson's Law relate to AI prompting?",
+    "options": [
+      { "key": "a", "text": "AI не подвержен закону Паркинсона, потому что работает мгновенно", "textEn": "AI isn't subject to Parkinson's Law because it works instantly" },
+      { "key": "b", "text": "Без временных рамок можно бесконечно улучшать промпт и перегенерировать варианты — работа расширяется", "textEn": "Without time limits you can endlessly refine prompts and regenerate variants — work expands" },
+      { "key": "c", "text": "AI помогает побороть закон Паркинсона, автоматизируя работу", "textEn": "AI helps defeat Parkinson's Law by automating work" },
+      { "key": "d", "text": "Никак — закон Паркинсона относится только к бюрократии", "textEn": "It doesn't — Parkinson's Law only applies to bureaucracy" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Закон Паркинсона в AI-эру: если не ограничить себя, можно часами «улучшать» промпт и перегенерировать варианты. AI даёт иллюзию прогресса, но без чётких timeboxes работа расширяется бесконечно. Лайфхак: поставь таймер на 15 минут — если за это время AI не дал нужный результат, пиши руками.",
+    "explanationEn": "Parkinson's Law in the AI era: without self-imposed limits, you can spend hours 'improving' prompts and regenerating variants. AI creates an illusion of progress, but without clear timeboxes, work expands infinitely. Lifehack: set a 15-minute timer — if AI doesn't deliver by then, write it manually.",
+    "source": "Soft Skills Guide: Time Management",
+    "sourceUrl": "/guide/time-management"
+  },
+  {
+    "id": "tm_q09",
+    "dimension": "time_management",
+    "text": "Принцип Парето применительно к разработке с AI означает, что...",
+    "textEn": "The Pareto Principle applied to AI-assisted development means...",
+    "options": [
+      { "key": "a", "text": "80% кода должен писать AI, а 20% — ты", "textEn": "80% of code should be written by AI, 20% by you" },
+      { "key": "b", "text": "20% правильно настроенных промптов дадут 80% нужного результата", "textEn": "20% of well-crafted prompts will deliver 80% of the needed output" },
+      { "key": "c", "text": "80% AI-генерации содержит ошибки", "textEn": "80% of AI-generated code contains errors" },
+      { "key": "d", "text": "AI ускоряет работу только на 20%", "textEn": "AI speeds up work by only 20%" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Парето в AI-контексте: не нужно идеально промптить каждую строчку. Найди 20% шаблонов/подходов, которые работают для большинства твоих задач, и используй их. Перфекционизм в промптинге — ловушка. Лучше быстро получить 80% результата и доработать вручную.",
+    "explanationEn": "Pareto in AI context: you don't need to perfectly prompt every line. Find the 20% of templates/approaches that work for most of your tasks and use them. Perfectionism in prompting is a trap. Better to quickly get 80% of the result and refine manually.",
+    "source": "Soft Skills Guide: Time Management",
+    "sourceUrl": "/guide/time-management"
+  },
+  {
+    "id": "tm_q10",
+    "dimension": "time_management",
+    "text": "Ньюпорт рекомендует стратегию «fixed-schedule productivity». Это означает...",
+    "textEn": "Newport recommends a 'fixed-schedule productivity' strategy. This means...",
+    "options": [
+      { "key": "a", "text": "Работать строго по расписанию: 9:00 — 17:00, не больше", "textEn": "Work strictly on schedule: 9 AM — 5 PM, no more" },
+      { "key": "b", "text": "Задать себе жёсткие границы рабочего времени и подгонять задачи под них, а не наоборот", "textEn": "Set firm boundaries on work hours and fit tasks within them, not the other way around" },
+      { "key": "c", "text": "Планировать каждый час дня заранее", "textEn": "Plan every hour of the day in advance" },
+      { "key": "d", "text": "Работать в фиксированном месте для максимальной концентрации", "textEn": "Work in a fixed location for maximum concentration" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Fixed-schedule productivity: ты СНАЧАЛА решаешь, когда заканчиваешь работу (например, 17:30), а ПОТОМ подгоняешь задачи под это время. Это заставляет безжалостно приоритизировать и отказываться от неважного. Закон Паркинсона работает в обе стороны: ограничив время, ты заставляешь себя быть эффективнее.",
+    "explanationEn": "Fixed-schedule productivity: you FIRST decide when you stop working (e.g., 5:30 PM), THEN fit tasks within that time. This forces ruthless prioritization and saying no to unimportant things. Parkinson's Law works both ways: by limiting time, you force yourself to be more efficient.",
+    "source": "Cal Newport — Deep Work",
+    "sourceUrl": "https://www.calnewport.com/books/deep-work/"
+  },
+  {
+    "id": "tm_q11",
+    "dimension": "time_management",
+    "text": "В матрице Эйзенхауэра, Квадрант 2 (важное + несрочное) включает задачи типа...",
+    "textEn": "In the Eisenhower Matrix, Quadrant 2 (important + not urgent) includes tasks like...",
+    "options": [
+      { "key": "a", "text": "Критический баг в продакшене, который нужно пофиксить прямо сейчас", "textEn": "A critical production bug that needs fixing right now" },
+      { "key": "b", "text": "Изучение нового фреймворка, написание документации, рефакторинг технического долга", "textEn": "Learning a new framework, writing documentation, refactoring technical debt" },
+      { "key": "c", "text": "Ответы на письма и сообщения в чатах", "textEn": "Answering emails and chat messages" },
+      { "key": "d", "text": "Просмотр социальных сетей и новостей", "textEn": "Browsing social media and news" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Квадрант 2 — самый ценный: это задачи, которые не горят прямо сейчас, но создают долгосрочную ценность. Обучение, профилактика, стратегическое планирование, рефакторинг. Проблема: их всегда вытесняют срочные дела. Успешные люди намеренно защищают время для Квадранта 2.",
+    "explanationEn": "Quadrant 2 is the most valuable: tasks that aren't burning now but create long-term value. Learning, prevention, strategic planning, refactoring. The problem: they're always crowded out by urgent tasks. Successful people intentionally protect time for Quadrant 2.",
+    "source": "Eisenhower Matrix",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Time_management#The_Eisenhower_Method"
+  },
+  {
+    "id": "tm_q12",
+    "dimension": "time_management",
+    "text": "Ты потратил 2 часа на промптинг AI для решения задачи, и результат всё ещё не работает. Какой подход к управлению временем оптимален?",
+    "textEn": "You've spent 2 hours prompting AI for a task solution, and the result still doesn't work. What's the optimal time management approach?",
+    "options": [
+      { "key": "a", "text": "Продолжать — ты уже вложил 2 часа, глупо бросать сейчас", "textEn": "Keep going — you've already invested 2 hours, it would be stupid to stop now" },
+      { "key": "b", "text": "Переоценить: возможно, быстрее дописать/исправить вручную оставшуюся часть", "textEn": "Reassess: it might be faster to finish/fix the remaining part manually" },
+      { "key": "c", "text": "Попробовать другую AI-модель — может, она справится лучше", "textEn": "Try another AI model — maybe it'll do better" },
+      { "key": "d", "text": "Отложить задачу на завтра — утром свежая голова найдёт решение", "textEn": "Postpone to tomorrow — a fresh mind will find the solution" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Это ловушка невозвратных затрат (sunk cost fallacy). 2 часа уже потрачены — их не вернуть. Вопрос: какой путь СЕЙЧАС быстрее приведёт к результату? Часто после 2 часов промптинга ты уже достаточно разобрался в проблеме, чтобы быстро дописать решение вручную.",
+    "explanationEn": "This is the sunk cost fallacy. The 2 hours are already spent — you can't get them back. The question is: which path NOW leads to results faster? Often after 2 hours of prompting, you've learned enough about the problem to quickly write the solution manually.",
+    "source": "Soft Skills Guide: Time Management",
+    "sourceUrl": "/guide/time-management"
+  },
+  {
+    "id": "tm_q13",
+    "dimension": "time_management",
+    "text": "Ньюпорт утверждает, что наш мозг способен на глубокую работу максимум...",
+    "textEn": "Newport claims our brain is capable of deep work for a maximum of...",
+    "options": [
+      { "key": "a", "text": "1-2 часа в день (для новичков), до 4 часов (для тренированных)", "textEn": "1-2 hours per day (beginners), up to 4 hours (trained)" },
+      { "key": "b", "text": "8 часов в день — обычный рабочий день", "textEn": "8 hours per day — a normal workday" },
+      { "key": "c", "text": "30 минут без перерыва, потом нужен отдых", "textEn": "30 minutes without a break, then rest is needed" },
+      { "key": "d", "text": "Без ограничений — зависит от мотивации", "textEn": "No limit — depends on motivation" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Ньюпорт, основываясь на исследованиях Андерса Эрикссона, утверждает: новички способны на 1 час Deep Work в день, а тренированные эксперты — максимум 4 часа. Остальное время — неизбежно Shallow Work. Практический вывод: защищай свои 3-4 часа Deep Work, а не гонись за 8 часами «продуктивности».",
+    "explanationEn": "Newport, based on Anders Ericsson's research, claims beginners can manage 1 hour of Deep Work per day, while trained experts max out at 4 hours. The rest is inevitably Shallow Work. Practical takeaway: protect your 3-4 hours of Deep Work instead of chasing 8 hours of 'productivity.'",
+    "source": "Cal Newport — Deep Work",
+    "sourceUrl": "https://www.calnewport.com/books/deep-work/"
+  },
+  {
+    "id": "tm_q14",
+    "dimension": "time_management",
+    "text": "Как применить принцип Парето к code review AI-генерированного кода?",
+    "textEn": "How to apply the Pareto Principle to reviewing AI-generated code?",
+    "options": [
+      { "key": "a", "text": "Ревьюить только 20% кода — остальное AI наверняка написал правильно", "textEn": "Review only 20% of code — AI probably wrote the rest correctly" },
+      { "key": "b", "text": "Фокусировать 80% ревью-усилий на 20% критических мест: бизнес-логика, безопасность, edge cases", "textEn": "Focus 80% of review effort on the 20% of critical areas: business logic, security, edge cases" },
+      { "key": "c", "text": "Всё ревьюить одинаково тщательно — Парето здесь не применим", "textEn": "Review everything equally thoroughly — Pareto doesn't apply here" },
+      { "key": "d", "text": "Пропустить ревью — AI пишет код лучше людей", "textEn": "Skip review — AI writes code better than humans" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Парето в code review: не все части кода одинаково рискованны. 80% багов обычно в 20% кода: сложная бизнес-логика, обработка ошибок, граничные случаи, секьюрити. Сфокусируй основные усилия на этих критических 20%, а бойлерплейт и стандартные паттерны проверяй быстрее.",
+    "explanationEn": "Pareto in code review: not all code parts are equally risky. 80% of bugs are usually in 20% of code: complex business logic, error handling, edge cases, security. Focus main effort on that critical 20%, and check boilerplate and standard patterns more quickly.",
+    "source": "Soft Skills Guide: Time Management",
+    "sourceUrl": "/guide/time-management"
+  },
+  {
+    "id": "tm_q15",
+    "dimension": "time_management",
+    "text": "Какое сочетание техник даёт максимальную эффективность для разработчика, работающего с AI?",
+    "textEn": "Which combination of techniques gives maximum effectiveness for a developer working with AI?",
+    "options": [
+      { "key": "a", "text": "Deep Work для архитектуры и сложной логики + AI-промптинг для рутинного кода + timeboxing для экспериментов с AI", "textEn": "Deep Work for architecture and complex logic + AI prompting for routine code + timeboxing for AI experiments" },
+      { "key": "b", "text": "Использовать AI для всего и освободить время для Shallow Work", "textEn": "Use AI for everything and free up time for Shallow Work" },
+      { "key": "c", "text": "Работать только в Deep Work режиме 8 часов, без AI", "textEn": "Work only in Deep Work mode for 8 hours, without AI" },
+      { "key": "d", "text": "Делегировать всю работу AI и фокусироваться на менеджменте", "textEn": "Delegate all work to AI and focus on management" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Оптимальный микс: Deep Work для задач, требующих глубокого понимания (архитектура, алгоритмы, дебаг сложных проблем). AI — для рутины и бойлерплейта (тесты, CRUD, документация). Timeboxing (15-30 мин) для AI-экспериментов — чтобы не попасть в ловушку Паркинсона. Это объединяет все принципы: Парето, Deep Work и закон Паркинсона.",
+    "explanationEn": "Optimal mix: Deep Work for tasks requiring deep understanding (architecture, algorithms, debugging complex issues). AI for routine and boilerplate (tests, CRUD, documentation). Timeboxing (15-30 min) for AI experiments to avoid Parkinson's trap. This combines all principles: Pareto, Deep Work, and Parkinson's Law.",
+    "source": "Soft Skills Guide: Time Management",
+    "sourceUrl": "/guide/time-management"
+  }
+]

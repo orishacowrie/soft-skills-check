@@ -1,0 +1,1281 @@
+[
+  {
+    "id": "ct_q01",
+    "dimension": "critical_thinking",
+    "text": "Согласно таксономии Блума, какой когнитивный уровень требует НАИБОЛЕЕ сложного мышления?",
+    "textEn": "According to Bloom's Taxonomy, which cognitive level requires the MOST complex thinking?",
+    "options": [
+      { "key": "a", "text": "Применение (Apply)", "textEn": "Apply" },
+      { "key": "b", "text": "Анализ (Analyze)", "textEn": "Analyze" },
+      { "key": "c", "text": "Создание (Create)", "textEn": "Create" },
+      { "key": "d", "text": "Оценка (Evaluate)", "textEn": "Evaluate" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "В пересмотренной таксономии Блума (2001) уровень «Создание» (Create) стоит на вершине пирамиды. Порядок снизу вверх: Запоминание → Понимание → Применение → Анализ → Оценка → Создание. Создание требует синтеза знаний для производства чего-то нового — это самый сложный когнитивный процесс.",
+    "explanationEn": "In the revised Bloom's Taxonomy (2001), 'Create' sits at the top of the pyramid. The order from bottom to top is: Remember → Understand → Apply → Analyze → Evaluate → Create. Creating requires synthesizing knowledge to produce something new — the most complex cognitive process.",
+    "source": "Bloom's Revised Taxonomy (Anderson & Krathwohl, 2001)",
+    "sourceUrl": "https://www.celt.iastate.edu/instructional-strategies/effective-teaching-practices/revised-blooms-taxonomy/"
+  },
+  {
+    "id": "ct_q02",
+    "dimension": "critical_thinking",
+    "text": "Эффект Даннинга-Крюгера предполагает, что люди с низкой компетенцией в какой-то области обычно...",
+    "textEn": "The Dunning-Kruger effect suggests that people with low competence in an area typically...",
+    "options": [
+      { "key": "a", "text": "Недооценивают свои способности и боятся пробовать новое", "textEn": "Underestimate their abilities and are afraid to try new things" },
+      { "key": "b", "text": "Переоценивают свои способности и не замечают своих ошибок", "textEn": "Overestimate their abilities and fail to recognize their mistakes" },
+      { "key": "c", "text": "Адекватно оценивают себя, но не могут это объяснить", "textEn": "Accurately assess themselves but can't explain it" },
+      { "key": "d", "text": "Осознают свою некомпетентность и активно ищут обратную связь", "textEn": "Recognize their incompetence and actively seek feedback" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Даннинг и Крюгер (1999) показали, что люди с низкой компетенцией склонны переоценивать свои навыки — у них недостаточно знаний, чтобы понять, чего именно они не знают. Это особенно актуально при работе с AI: можно думать, что ты отлично пишешь промпты, хотя на самом деле получаешь посредственные результаты.",
+    "explanationEn": "Dunning and Kruger (1999) showed that low-competence individuals tend to overestimate their skills — they lack the knowledge to recognize what they don't know. This is especially relevant when working with AI: you might think you write great prompts while actually getting mediocre results.",
+    "source": "Dunning-Kruger Effect (Kruger & Dunning, 1999)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect"
+  },
+  {
+    "id": "ct_q03",
+    "dimension": "critical_thinking",
+    "text": "Какой метод Сократа лежит в основе критического мышления?",
+    "textEn": "What is the Socratic method that underlies critical thinking?",
+    "options": [
+      { "key": "a", "text": "Запоминание и точное воспроизведение фактов", "textEn": "Memorizing and accurately reproducing facts" },
+      { "key": "b", "text": "Последовательное задавание вопросов для выявления предположений и противоречий", "textEn": "Systematically asking questions to uncover assumptions and contradictions" },
+      { "key": "c", "text": "Доверие экспертному мнению без проверки", "textEn": "Trusting expert opinion without verification" },
+      { "key": "d", "text": "Интуитивное принятие решений на основе опыта", "textEn": "Intuitive decision-making based on experience" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Сократовский метод — это форма диалога, основанная на последовательных вопросах. Цель — вскрыть скрытые предположения, обнаружить противоречия и прийти к более глубокому пониманию. Когда ты работаешь с AI, полезно применять этот же подход: «Почему ты предложил именно это?», «Какие альтернативы ты рассматривал?», «Что может пойти не так?»",
+    "explanationEn": "The Socratic method is a form of dialogue based on sequential questioning. The goal is to uncover hidden assumptions, find contradictions, and reach deeper understanding. When working with AI, the same approach is useful: 'Why did you suggest this?', 'What alternatives did you consider?', 'What could go wrong?'",
+    "source": "Socratic Method",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Socratic_method"
+  },
+  {
+    "id": "ct_q04",
+    "dimension": "critical_thinking",
+    "text": "Какой самый надёжный способ проверить AI-сгенерированное решение на коде?",
+    "textEn": "What is the most reliable way to verify an AI-generated code solution?",
+    "options": [
+      { "key": "a", "text": "Попросить AI объяснить, что делает код", "textEn": "Ask AI to explain what the code does" },
+      { "key": "b", "text": "Прочитать код и мысленно прогнать сценарии", "textEn": "Read the code and mentally trace scenarios" },
+      { "key": "c", "text": "Запустить тесты и проверить на реальных данных", "textEn": "Run tests and verify with real data" },
+      { "key": "d", "text": "Проверить, что код компилируется без ошибок", "textEn": "Check that the code compiles without errors" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Запуск тестов — самый надёжный способ, потому что он проверяет фактическое поведение, а не намерения. AI может уверенно объяснить неправильный код (вариант A), ты можешь пропустить баг при чтении (B), а компиляция не гарантирует корректную логику (D). Тесты ловят реальные ошибки, включая edge-кейсы.",
+    "explanationEn": "Running tests is the most reliable method because it verifies actual behavior, not intentions. AI can confidently explain incorrect code (option A), you might miss bugs while reading (B), and compilation doesn't guarantee correct logic (D). Tests catch real errors, including edge cases.",
+    "source": "Soft Skills Guide: Критическое мышление в эпоху AI",
+    "sourceUrl": "/guide/critical-thinking"
+  },
+  {
+    "id": "ct_q05",
+    "dimension": "critical_thinking",
+    "text": "Когда AI генерирует код с использованием метода библиотеки, что нужно проверить В ПЕРВУЮ ОЧЕРЕДЬ?",
+    "textEn": "When AI generates code using a library method, what should you verify FIRST?",
+    "options": [
+      { "key": "a", "text": "Что код следует лучшим практикам стиля", "textEn": "That the code follows style best practices" },
+      { "key": "b", "text": "Что этот метод реально существует в нужной версии библиотеки", "textEn": "That this method actually exists in the required library version" },
+      { "key": "c", "text": "Что производительность достаточно высокая", "textEn": "That performance is good enough" },
+      { "key": "d", "text": "Что переменные названы понятно", "textEn": "That variables are named clearly" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "AI-модели часто «галлюцинируют» несуществующие методы, параметры или даже целые библиотеки. Это одна из самых распространённых ошибок AI-генерации кода. Прежде чем проверять стиль, производительность или нейминг, убедись, что метод вообще существует и имеет ту сигнатуру, которую AI использовал.",
+    "explanationEn": "AI models frequently 'hallucinate' non-existent methods, parameters, or even entire libraries. This is one of the most common AI code generation errors. Before checking style, performance, or naming, make sure the method actually exists and has the signature the AI used.",
+    "source": "Soft Skills Guide: Критическое мышление в эпоху AI",
+    "sourceUrl": "/guide/critical-thinking"
+  },
+  {
+    "id": "ct_q06",
+    "dimension": "critical_thinking",
+    "text": "В таксономии Блума, на каком уровне находится задача «объясни, почему этот код не обрабатывает null-значения»?",
+    "textEn": "In Bloom's Taxonomy, at what level is the task 'explain why this code doesn't handle null values'?",
+    "options": [
+      { "key": "a", "text": "Запоминание (Remember)", "textEn": "Remember" },
+      { "key": "b", "text": "Понимание (Understand)", "textEn": "Understand" },
+      { "key": "c", "text": "Анализ (Analyze)", "textEn": "Analyze" },
+      { "key": "d", "text": "Создание (Create)", "textEn": "Create" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Задача «объяснить, почему» требует разбора структуры кода, выявления пропущенных проверок и понимания причинно-следственных связей — это уровень Анализа. Запоминание — это «назови метод обработки null». Понимание — «перескажи, что делает этот код». Создание — «напиши обработку null с нуля».",
+    "explanationEn": "The task 'explain why' requires breaking down code structure, identifying missing checks, and understanding cause-and-effect — that's the Analyze level. Remember would be 'name the null handling method'. Understand would be 'summarize what this code does'. Create would be 'write null handling from scratch'.",
+    "source": "Bloom's Revised Taxonomy (Anderson & Krathwohl, 2001)",
+    "sourceUrl": "https://www.celt.iastate.edu/instructional-strategies/effective-teaching-practices/revised-blooms-taxonomy/"
+  },
+  {
+    "id": "ct_q07",
+    "dimension": "critical_thinking",
+    "text": "Что такое «confirmation bias» (предвзятость подтверждения) и как она проявляется при работе с AI?",
+    "textEn": "What is 'confirmation bias' and how does it manifest when working with AI?",
+    "options": [
+      { "key": "a", "text": "Ты доверяешь AI больше, если он использует сложные термины", "textEn": "You trust AI more when it uses complex terminology" },
+      { "key": "b", "text": "Ты замечаешь только те ответы AI, которые подтверждают твою изначальную гипотезу", "textEn": "You only notice AI answers that confirm your initial hypothesis" },
+      { "key": "c", "text": "Ты всегда запрашиваешь повторную генерацию, пока не получишь нужный ответ", "textEn": "You always regenerate until you get the answer you want" },
+      { "key": "d", "text": "Ты отвергаешь все AI-предложения, потому что не доверяешь технологиям", "textEn": "You reject all AI suggestions because you don't trust technology" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Confirmation bias — это склонность искать, интерпретировать и запоминать информацию так, чтобы она подтверждала уже имеющиеся убеждения. При работе с AI это особенно опасно: ты задаёшь промпт с определённым ожиданием и бессознательно игнорируешь признаки того, что ответ неверный, если он совпадает с тем, что ты хотел услышать.",
+    "explanationEn": "Confirmation bias is the tendency to search for, interpret, and remember information in ways that confirm existing beliefs. When working with AI, this is especially dangerous: you prompt with an expectation and unconsciously ignore signs that the answer is wrong if it matches what you wanted to hear.",
+    "source": "Cognitive Biases in Critical Thinking",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Confirmation_bias"
+  },
+  {
+    "id": "ct_q08",
+    "dimension": "critical_thinking",
+    "text": "AI-модель уверенно утверждает, что в JavaScript `typeof null` возвращает `\"null\"`. Какое утверждение верно?",
+    "textEn": "An AI model confidently states that in JavaScript `typeof null` returns `\"null\"`. Which statement is correct?",
+    "options": [
+      { "key": "a", "text": "AI прав — typeof null возвращает \"null\"", "textEn": "AI is correct — typeof null returns \"null\"" },
+      { "key": "b", "text": "AI неправ — typeof null возвращает \"object\" (это известный баг JS)", "textEn": "AI is wrong — typeof null returns \"object\" (a known JS bug)" },
+      { "key": "c", "text": "AI неправ — typeof null возвращает \"undefined\"", "textEn": "AI is wrong — typeof null returns \"undefined\"" },
+      { "key": "d", "text": "Результат зависит от версии Node.js", "textEn": "The result depends on the Node.js version" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Это классический пример AI-галлюцинации на тему, которая «звучит логично». В JavaScript typeof null возвращает \"object\" — это исторический баг, оставшийся с первых дней языка (1995). AI-модели часто ошибаются на таких нюансах, потому что «логичный» ответ (\"null\") отличается от реального.",
+    "explanationEn": "This is a classic example of AI hallucination on a topic that 'sounds logical'. In JavaScript, typeof null returns \"object\" — a historical bug from the language's early days (1995). AI models often get these nuances wrong because the 'logical' answer (\"null\") differs from reality.",
+    "source": "Soft Skills Guide: Критическое мышление в эпоху AI",
+    "sourceUrl": "/guide/critical-thinking"
+  },
+  {
+    "id": "ct_q09",
+    "dimension": "critical_thinking",
+    "text": "Какой из этих подходов к проверке информации наиболее соответствует принципам критического мышления?",
+    "textEn": "Which of these approaches to verifying information best aligns with critical thinking principles?",
+    "options": [
+      { "key": "a", "text": "Проверить одним поисковым запросом в Google", "textEn": "Check with a single Google search" },
+      { "key": "b", "text": "Спросить того же AI ещё раз — если ответ совпадёт, значит верный", "textEn": "Ask the same AI again — if the answer matches, it's correct" },
+      { "key": "c", "text": "Перекрёстная проверка: сверить с официальной документацией и независимым источником", "textEn": "Cross-verification: check against official documentation and an independent source" },
+      { "key": "d", "text": "Если три коллеги согласны — значит, информация верна", "textEn": "If three colleagues agree — the information must be correct" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Перекрёстная проверка (triangulation) — золотой стандарт критического мышления. Повторный вопрос тому же AI (B) бесполезен — модель может стабильно повторять одну и ту же ошибку. Один источник в Google (A) может быть устаревшим. Согласие коллег (D) — это argumentum ad populum. Только независимые авторитетные источники дают надёжную проверку.",
+    "explanationEn": "Cross-verification (triangulation) is the gold standard of critical thinking. Asking the same AI again (B) is useless — the model can consistently repeat the same error. A single Google result (A) may be outdated. Colleague agreement (D) is argumentum ad populum. Only independent authoritative sources provide reliable verification.",
+    "source": "Socratic Method / Critical Thinking Frameworks",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Triangulation_(social_science)"
+  },
+  {
+    "id": "ct_q10",
+    "dimension": "critical_thinking",
+    "text": "Что означает «эффект автоматизации» (automation bias) при работе с AI-инструментами?",
+    "textEn": "What does 'automation bias' mean when working with AI tools?",
+    "options": [
+      { "key": "a", "text": "Тенденция полностью автоматизировать свою работу с помощью AI", "textEn": "The tendency to fully automate your work using AI" },
+      { "key": "b", "text": "Страх, что AI заберёт твою работу", "textEn": "Fear that AI will take your job" },
+      { "key": "c", "text": "Склонность чрезмерно доверять автоматизированным системам и игнорировать противоречащую информацию", "textEn": "The tendency to over-rely on automated systems and ignore contradicting information" },
+      { "key": "d", "text": "Привычка автоматически нажимать «Accept» на все предложения AI", "textEn": "The habit of automatically clicking 'Accept' on all AI suggestions" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Automation bias — это хорошо изученный когнитивный феномен: люди склонны доверять рекомендациям автоматизированных систем даже когда есть явные признаки ошибки. В контексте AI это проявляется, когда ты принимаешь AI-ответ «потому что AI сказал», не включая собственное критическое мышление.",
+    "explanationEn": "Automation bias is a well-studied cognitive phenomenon: people tend to trust recommendations from automated systems even when there are clear signs of error. In the AI context, this manifests when you accept an AI answer 'because AI said so' without engaging your own critical thinking.",
+    "source": "Automation Bias Research",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Automation_bias"
+  },
+  {
+    "id": "ct_q11",
+    "dimension": "critical_thinking",
+    "text": "AI предлагает использовать регулярное выражение для парсинга HTML. Почему критически мыслящий разработчик должен усомниться?",
+    "textEn": "AI suggests using a regular expression to parse HTML. Why should a critically-thinking developer be skeptical?",
+    "options": [
+      { "key": "a", "text": "Регулярные выражения слишком медленные для HTML", "textEn": "Regular expressions are too slow for HTML" },
+      { "key": "b", "text": "HTML — это не регулярный язык, и regex не может корректно обработать все случаи вложенности", "textEn": "HTML is not a regular language, and regex cannot correctly handle all nesting cases" },
+      { "key": "c", "text": "Регулярные выражения работают только с ASCII-текстом", "textEn": "Regular expressions only work with ASCII text" },
+      { "key": "d", "text": "Браузеры не поддерживают regex", "textEn": "Browsers don't support regex" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "HTML — это контекстно-свободный язык с произвольной вложенностью тегов. Регулярные выражения (конечные автоматы) принципиально не могут обрабатывать произвольную глубину вложенности. Это классический пример, когда AI предлагает «работающее» решение, которое ломается на edge-кейсах. Правильный подход — использовать DOM-парсер.",
+    "explanationEn": "HTML is a context-free language with arbitrary tag nesting. Regular expressions (finite automata) fundamentally cannot handle arbitrary nesting depth. This is a classic example where AI suggests a 'working' solution that breaks on edge cases. The correct approach is to use a DOM parser.",
+    "source": "Soft Skills Guide: Критическое мышление в эпоху AI",
+    "sourceUrl": "/guide/critical-thinking"
+  },
+  {
+    "id": "ct_q12",
+    "dimension": "critical_thinking",
+    "text": "По Блуму, какой глагол относится к уровню «Оценка» (Evaluate)?",
+    "textEn": "According to Bloom's, which verb belongs to the 'Evaluate' level?",
+    "options": [
+      { "key": "a", "text": "Перечислить (List)", "textEn": "List" },
+      { "key": "b", "text": "Применить (Apply)", "textEn": "Apply" },
+      { "key": "c", "text": "Обосновать (Justify)", "textEn": "Justify" },
+      { "key": "d", "text": "Описать (Describe)", "textEn": "Describe" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "«Обосновать» (Justify) — типичный глагол уровня Evaluate: ты выносишь суждение на основе критериев и аргументируешь его. «Перечислить» — Remember, «Описать» — Understand, «Применить» — Apply. Когда ты обосновываешь, почему выбрал одно AI-решение, а не другое, ты работаешь на уровне оценки.",
+    "explanationEn": "'Justify' is a typical Evaluate-level verb: you make a judgment based on criteria and argue for it. 'List' is Remember, 'Describe' is Understand, 'Apply' is Apply. When you justify why you chose one AI solution over another, you're working at the Evaluate level.",
+    "source": "Bloom's Revised Taxonomy (Anderson & Krathwohl, 2001)",
+    "sourceUrl": "https://www.celt.iastate.edu/instructional-strategies/effective-teaching-practices/revised-blooms-taxonomy/"
+  },
+  {
+    "id": "ct_q13",
+    "dimension": "critical_thinking",
+    "text": "AI сгенерировал функцию, которая работает на всех тестовых данных. Какой вопрос критически мыслящий разработчик задаст СЛЕДУЮЩИМ?",
+    "textEn": "AI generated a function that passes all test data. What question should a critically-thinking developer ask NEXT?",
+    "options": [
+      { "key": "a", "text": "Какие edge-кейсы тесты НЕ покрывают?", "textEn": "What edge cases do the tests NOT cover?" },
+      { "key": "b", "text": "Можно ли сделать код красивее?", "textEn": "Can the code be made prettier?" },
+      { "key": "c", "text": "Насколько быстро выполняется функция?", "textEn": "How fast does the function execute?" },
+      { "key": "d", "text": "Использует ли AI самую свежую версию языка?", "textEn": "Does AI use the latest language version?" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Прохождение тестов не означает отсутствие багов — оно означает, что код работает на проверенных сценариях. Критический следующий шаг — подумать о том, чего НЕТ в тестах: null-значения, пустые массивы, Unicode, конкурентный доступ, огромные входные данные. AI часто генерирует «happy path» решения.",
+    "explanationEn": "Passing tests doesn't mean no bugs — it means the code works on tested scenarios. The critical next step is thinking about what's NOT in the tests: null values, empty arrays, Unicode, concurrent access, huge inputs. AI often generates 'happy path' solutions.",
+    "source": "Soft Skills Guide: Критическое мышление в эпоху AI",
+    "sourceUrl": "/guide/critical-thinking"
+  },
+  {
+    "id": "ct_q14",
+    "dimension": "critical_thinking",
+    "text": "Принцип фальсификации Карла Поппера гласит, что научная гипотеза должна быть...",
+    "textEn": "Karl Popper's falsification principle states that a scientific hypothesis must be...",
+    "options": [
+      { "key": "a", "text": "Подтверждена большинством экспертов", "textEn": "Confirmed by a majority of experts" },
+      { "key": "b", "text": "Опровергаема — должен существовать способ доказать, что она неверна", "textEn": "Falsifiable — there must be a way to prove it wrong" },
+      { "key": "c", "text": "Основана на интуиции и практическом опыте", "textEn": "Based on intuition and practical experience" },
+      { "key": "d", "text": "Сформулирована максимально абстрактно", "textEn": "Formulated as abstractly as possible" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "По Попперу, научная гипотеза должна быть принципиально опровергаемой (фальсифицируемой). Если утверждение нельзя опровергнуть никаким экспериментом — это не научная гипотеза. Применительно к AI: когда ты оцениваешь AI-ответ, подумай — «как бы я мог проверить, что это НЕПРАВДА?» Это мощный инструмент критического мышления.",
+    "explanationEn": "According to Popper, a scientific hypothesis must be principally falsifiable. If a statement cannot be disproven by any experiment, it's not a scientific hypothesis. Applied to AI: when evaluating an AI answer, think — 'how could I verify this is FALSE?' This is a powerful critical thinking tool.",
+    "source": "Karl Popper's Falsification Principle",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Falsifiability"
+  },
+  {
+    "id": "ct_q15",
+    "dimension": "critical_thinking",
+    "text": "Ты получил от AI два разных ответа на один и тот же вопрос в двух разных чатах. Какой вывод наиболее правильный?",
+    "textEn": "You received two different answers from AI to the same question in two different chats. What is the most correct conclusion?",
+    "options": [
+      { "key": "a", "text": "Более длинный ответ вероятнее правильный — AI потратил больше усилий", "textEn": "The longer answer is more likely correct — AI spent more effort" },
+      { "key": "b", "text": "Первый ответ вероятнее правильный — AI ещё не запутался в контексте", "textEn": "The first answer is more likely correct — AI hasn't gotten confused by context yet" },
+      { "key": "c", "text": "Это нормально — LLM генерирует вероятностные ответы, и оба могут быть неверными", "textEn": "This is normal — LLMs generate probabilistic answers, and both could be wrong" },
+      { "key": "d", "text": "Это баг в AI — правильный ответ должен быть всегда один", "textEn": "This is an AI bug — the correct answer should always be the same" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "LLM (Large Language Models) — это вероятностные модели с параметром temperature. Разные ответы на один вопрос — это не баг, а фундаментальное свойство. Длина ответа и порядок не гарантируют качество. Правильный подход — проверять оба ответа независимо, а не выбирать «лучший» по косвенным признакам.",
+    "explanationEn": "LLMs are probabilistic models with a temperature parameter. Different answers to the same question isn't a bug — it's a fundamental property. Answer length and order don't guarantee quality. The right approach is to verify both answers independently, not pick the 'better' one based on indirect signs.",
+    "source": "Soft Skills Guide: Критическое мышление в эпоху AI",
+    "sourceUrl": "/guide/critical-thinking"
+  },
+
+  {
+    "id": "cm_q01",
+    "dimension": "communication",
+    "text": "Согласно Принципу Пирамиды Минто, как правильно структурировать сообщение?",
+    "textEn": "According to the Minto Pyramid Principle, how should you structure a message?",
+    "options": [
+      { "key": "a", "text": "Начать с предыстории и контекста, закончить выводом", "textEn": "Start with background and context, end with the conclusion" },
+      { "key": "b", "text": "Начать с вывода (главной мысли), потом привести аргументы", "textEn": "Start with the conclusion (main point), then provide supporting arguments" },
+      { "key": "c", "text": "Перечислить все факты хронологически", "textEn": "List all facts chronologically" },
+      { "key": "d", "text": "Начать с вопроса, чтобы вовлечь читателя", "textEn": "Start with a question to engage the reader" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Принцип Пирамиды Барбары Минто гласит: начинай с главного вывода, потом поддержи его аргументами. Это «перевёрнутая пирамида» — сначала самое важное. Это работает и для Slack-сообщений, и для промптов: если ты начинаешь промпт с «мне нужен X», AI сразу понимает контекст, а детали уточняют задачу.",
+    "explanationEn": "Barbara Minto's Pyramid Principle says: start with the main conclusion, then support it with arguments. This 'inverted pyramid' puts the most important thing first. This works for Slack messages and prompts alike: if you start a prompt with 'I need X', AI immediately understands the context, and details refine the task.",
+    "source": "The Pyramid Principle (Barbara Minto)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Minto_Pyramid_Principle"
+  },
+  {
+    "id": "cm_q02",
+    "dimension": "communication",
+    "text": "Что означает аббревиатура STAR в контексте коммуникации?",
+    "textEn": "What does the STAR acronym stand for in the context of communication?",
+    "options": [
+      { "key": "a", "text": "Strategy, Timeline, Action, Review", "textEn": "Strategy, Timeline, Action, Review" },
+      { "key": "b", "text": "Situation, Task, Action, Result", "textEn": "Situation, Task, Action, Result" },
+      { "key": "c", "text": "Scope, Target, Approach, Resources", "textEn": "Scope, Target, Approach, Resources" },
+      { "key": "d", "text": "Summary, Thesis, Argument, Resolution", "textEn": "Summary, Thesis, Argument, Resolution" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "STAR — это фреймворк для структурированного рассказа о своём опыте: Situation (ситуация) → Task (задача) → Action (что сделал) → Result (результат). Его используют на собеседованиях и в ретроспективах. Этот же подход отлично работает для промптов: «Ситуация: у нас React-приложение. Задача: добавить авторизацию. Ограничения: ...»",
+    "explanationEn": "STAR is a framework for structured storytelling about your experience: Situation → Task → Action → Result. It's used in interviews and retrospectives. The same approach works great for prompts: 'Situation: we have a React app. Task: add authentication. Constraints: ...'",
+    "source": "STAR Method",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Situation,_task,_action,_result"
+  },
+  {
+    "id": "cm_q03",
+    "dimension": "communication",
+    "text": "Какой из четырёх компонентов Ненасильственного Общения (NVC) Маршалла Розенберга идёт ПЕРВЫМ?",
+    "textEn": "Which of the four components of Marshall Rosenberg's Nonviolent Communication (NVC) comes FIRST?",
+    "options": [
+      { "key": "a", "text": "Чувства (Feelings)", "textEn": "Feelings" },
+      { "key": "b", "text": "Наблюдения (Observations)", "textEn": "Observations" },
+      { "key": "c", "text": "Потребности (Needs)", "textEn": "Needs" },
+      { "key": "d", "text": "Просьбы (Requests)", "textEn": "Requests" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Четыре компонента NVC в порядке: Наблюдения → Чувства → Потребности → Просьбы. Сначала ты описываешь факт без оценки («Я заметил, что деплой упал 3 раза за неделю»), потом свои чувства («я беспокоюсь»), потом потребность («мне важна стабильность»), потом просьбу («давай добавим тесты»).",
+    "explanationEn": "The four NVC components in order: Observations → Feelings → Needs → Requests. First you describe a fact without judgment ('I noticed the deploy failed 3 times this week'), then your feelings ('I'm concerned'), then a need ('stability matters to me'), then a request ('let's add tests').",
+    "source": "Nonviolent Communication (Marshall Rosenberg)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Nonviolent_Communication"
+  },
+  {
+    "id": "cm_q04",
+    "dimension": "communication",
+    "text": "Что такое «активное слушание» в контексте профессиональной коммуникации?",
+    "textEn": "What is 'active listening' in the context of professional communication?",
+    "options": [
+      { "key": "a", "text": "Слушать, одновременно формулируя свой ответ", "textEn": "Listening while formulating your response" },
+      { "key": "b", "text": "Записывать всё, что говорит собеседник, дословно", "textEn": "Writing down everything the speaker says verbatim" },
+      { "key": "c", "text": "Полное внимание к собеседнику с перефразированием и уточняющими вопросами", "textEn": "Full attention to the speaker with paraphrasing and clarifying questions" },
+      { "key": "d", "text": "Кивать и говорить «угу» через равные промежутки", "textEn": "Nodding and saying 'uh-huh' at regular intervals" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Активное слушание — это техника, включающая полное внимание, перефразирование (»Если я правильно понял, ты имеешь в виду...»), задавание уточняющих вопросов и отражение чувств собеседника. Это не пассивное «слушаю, пока жду свою очередь говорить» и не механическая запись.",
+    "explanationEn": "Active listening is a technique involving full attention, paraphrasing ('If I understand correctly, you mean...'), asking clarifying questions, and reflecting the speaker's feelings. It's not passive 'listening while waiting for my turn to speak' or mechanical note-taking.",
+    "source": "Active Listening (Carl Rogers)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Active_listening"
+  },
+  {
+    "id": "cm_q05",
+    "dimension": "communication",
+    "text": "Когда промпт выдаёт не тот результат, какой первый шаг наиболее эффективен?",
+    "textEn": "When a prompt produces the wrong result, which first step is most effective?",
+    "options": [
+      { "key": "a", "text": "Полностью переписать промпт другими словами", "textEn": "Completely rewrite the prompt using different words" },
+      { "key": "b", "text": "Нажать «Regenerate» несколько раз", "textEn": "Click 'Regenerate' several times" },
+      { "key": "c", "text": "Добавить ограничения и контекст к существующему промпту", "textEn": "Add constraints and context to the existing prompt" },
+      { "key": "d", "text": "Переключиться на другую AI-модель", "textEn": "Switch to a different AI model" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Самый эффективный первый шаг — добавить контекст и ограничения: «Используй TypeScript, не jQuery», «Ответ должен быть не длиннее 5 строк», «Целевая аудитория — junior-разработчики». Случайное перефразирование (A) и регенерация (B) — это стрельба вслепую. Смена модели (D) — крайняя мера, когда ты уже понял, что проблема в возможностях модели.",
+    "explanationEn": "The most effective first step is adding context and constraints: 'Use TypeScript, not jQuery', 'Answer should be no longer than 5 lines', 'Target audience is junior developers'. Random rephrasing (A) and regeneration (B) are shooting blind. Switching models (D) is a last resort when you've identified the issue is the model's capabilities.",
+    "source": "Soft Skills Guide: Промпт-инжиниринг",
+    "sourceUrl": "/guide/communication"
+  },
+  {
+    "id": "cm_q06",
+    "dimension": "communication",
+    "text": "Какой подход к написанию промптов для AI даёт наиболее предсказуемые результаты?",
+    "textEn": "Which approach to writing AI prompts gives the most predictable results?",
+    "options": [
+      { "key": "a", "text": "Максимально короткий промпт — меньше слов, меньше путаницы", "textEn": "The shortest possible prompt — fewer words, less confusion" },
+      { "key": "b", "text": "Длинный промпт со всей возможной информацией", "textEn": "A long prompt with all possible information" },
+      { "key": "c", "text": "Структурированный промпт: роль + контекст + задача + формат + ограничения", "textEn": "A structured prompt: role + context + task + format + constraints" },
+      { "key": "d", "text": "Вежливый промпт с «пожалуйста» и «спасибо»", "textEn": "A polite prompt with 'please' and 'thank you'" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Структурированный промпт с чёткими компонентами — самый надёжный подход. Роль задаёт экспертизу («Ты — senior React-разработчик»), контекст описывает ситуацию, задача — что нужно сделать, формат — как должен выглядеть ответ, ограничения — чего избегать. Короткий промпт (A) часто слишком абстрактен, а длинный без структуры (B) запутывает модель.",
+    "explanationEn": "A structured prompt with clear components is the most reliable approach. Role sets expertise ('You are a senior React developer'), context describes the situation, task states what needs to be done, format specifies how the answer should look, constraints say what to avoid. Short prompts (A) are often too abstract, and long unstructured ones (B) confuse the model.",
+    "source": "Soft Skills Guide: Промпт-инжиниринг",
+    "sourceUrl": "/guide/communication"
+  },
+  {
+    "id": "cm_q07",
+    "dimension": "communication",
+    "text": "Какой из принципов Принципа Пирамиды Минто помогает группировать аргументы?",
+    "textEn": "Which principle from the Minto Pyramid helps group arguments?",
+    "options": [
+      { "key": "a", "text": "MECE — Mutually Exclusive, Collectively Exhaustive", "textEn": "MECE — Mutually Exclusive, Collectively Exhaustive" },
+      { "key": "b", "text": "KISS — Keep It Simple, Stupid", "textEn": "KISS — Keep It Simple, Stupid" },
+      { "key": "c", "text": "DRY — Don't Repeat Yourself", "textEn": "DRY — Don't Repeat Yourself" },
+      { "key": "d", "text": "YAGNI — You Aren't Gonna Need It", "textEn": "YAGNI — You Aren't Gonna Need It" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "MECE (произносится «ми-си») — ключевой принцип Пирамиды Минто для группировки аргументов. Mutually Exclusive означает, что категории не пересекаются; Collectively Exhaustive — что вместе они покрывают всё. Это помогает структурировать мысли так, чтобы ничего не упустить и не повторяться. KISS, DRY и YAGNI — принципы из программирования.",
+    "explanationEn": "MECE (pronounced 'me-see') is the key Minto Pyramid principle for grouping arguments. Mutually Exclusive means categories don't overlap; Collectively Exhaustive means together they cover everything. This structures thoughts so nothing is missed or repeated. KISS, DRY, and YAGNI are programming principles.",
+    "source": "The Pyramid Principle (Barbara Minto)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/MECE_principle"
+  },
+  {
+    "id": "cm_q08",
+    "dimension": "communication",
+    "text": "В контексте промпт-инжиниринга, что такое «few-shot prompting»?",
+    "textEn": "In the context of prompt engineering, what is 'few-shot prompting'?",
+    "options": [
+      { "key": "a", "text": "Отправка нескольких коротких промптов подряд", "textEn": "Sending several short prompts in a row" },
+      { "key": "b", "text": "Включение 2-3 примеров желаемого ввода/вывода в промпт", "textEn": "Including 2-3 examples of desired input/output in the prompt" },
+      { "key": "c", "text": "Использование минимального количества слов в промпте", "textEn": "Using a minimal number of words in the prompt" },
+      { "key": "d", "text": "Быстрая генерация нескольких вариантов ответа", "textEn": "Quickly generating several answer variants" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Few-shot prompting — это техника, при которой ты включаешь в промпт несколько примеров (shots) ожидаемого ввода и вывода. Например: «Вход: 'привет' → Вывод: 'hello'. Вход: 'кошка' → Вывод: 'cat'. Вход: 'дом' → Вывод: ?». Модель учится на примерах и применяет паттерн. Это один из самых мощных приёмов промпт-инжиниринга.",
+    "explanationEn": "Few-shot prompting is a technique where you include several examples (shots) of expected input and output in the prompt. For example: 'Input: hello → Output: привет. Input: cat → Output: кошка. Input: house → Output: ?'. The model learns from examples and applies the pattern. This is one of the most powerful prompt engineering techniques.",
+    "source": "Soft Skills Guide: Промпт-инжиниринг",
+    "sourceUrl": "/guide/communication"
+  },
+  {
+    "id": "cm_q09",
+    "dimension": "communication",
+    "text": "На ретроспективе ты хочешь сказать: «Из-за плохого планирования мы провалили спринт». Как переформулировать это по принципам NVC?",
+    "textEn": "At a retrospective you want to say: 'Due to bad planning we failed the sprint'. How should you rephrase this using NVC principles?",
+    "options": [
+      { "key": "a", "text": "«Планирование было ужасным, нам нужен новый подход»", "textEn": "'Planning was terrible, we need a new approach'" },
+      { "key": "b", "text": "«Я заметил, что 4 из 6 задач не были завершены в срок. Меня это беспокоит, потому что для меня важна предсказуемость. Предлагаю обсудить, как улучшить оценку задач»", "textEn": "'I noticed 4 of 6 tasks weren't completed on time. This concerns me because predictability matters to me. I suggest we discuss how to improve task estimation'" },
+      { "key": "c", "text": "«Ну, в целом всё нормально, просто немного не успели»", "textEn": "'Well, overall it was fine, we just slightly missed the deadline'" },
+      { "key": "d", "text": "«Кто-то из команды плохо планировал и подвёл всех»", "textEn": "'Someone on the team planned poorly and let everyone down'" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Вариант B следует структуре NVC: Наблюдение (факт без оценки: 4 из 6 задач не завершены) → Чувство (беспокоюсь) → Потребность (предсказуемость) → Просьба (обсудить улучшения). Вариант A — оценочное суждение, C — избегание проблемы, D — обвинение конкретного человека.",
+    "explanationEn": "Option B follows the NVC structure: Observation (fact without judgment: 4 of 6 tasks not completed) → Feeling (concerned) → Need (predictability) → Request (discuss improvements). Option A is a judgment, C avoids the problem, D blames a specific person.",
+    "source": "Nonviolent Communication (Marshall Rosenberg)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Nonviolent_Communication"
+  },
+  {
+    "id": "cm_q10",
+    "dimension": "communication",
+    "text": "Какой тип промпта лучше всего подходит для задачи «проверь мой код на баги»?",
+    "textEn": "What type of prompt works best for the task 'check my code for bugs'?",
+    "options": [
+      { "key": "a", "text": "«Проверь этот код» — без дополнительного контекста", "textEn": "'Check this code' — without additional context" },
+      { "key": "b", "text": "«Ты — senior code reviewer. Проверь этот TypeScript-код на: 1) баги в логике, 2) проблемы с типами, 3) edge-кейсы. Покажи каждую проблему с номером строки и предложи исправление»", "textEn": "'You are a senior code reviewer. Check this TypeScript code for: 1) logic bugs, 2) type issues, 3) edge cases. Show each problem with line number and suggest a fix'" },
+      { "key": "c", "text": "«Пожалуйста, будь очень внимательным и тщательным при проверке этого кода»", "textEn": "'Please be very careful and thorough when checking this code'" },
+      { "key": "d", "text": "«Найди все баги в этом коде, это очень важно для нашего проекта»", "textEn": "'Find all bugs in this code, it's very important for our project'" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Промпт B структурирован по принципу: роль (senior code reviewer) + контекст (TypeScript) + конкретные аспекты проверки (логика, типы, edge-кейсы) + формат вывода (номер строки + исправление). Это даёт AI чёткую рамку для работы. «Проверь код» (A) слишком размыто, вежливость (C) не заменяет структуру, важность (D) не влияет на качество ответа.",
+    "explanationEn": "Prompt B is structured with: role (senior code reviewer) + context (TypeScript) + specific review aspects (logic, types, edge cases) + output format (line number + fix). This gives AI a clear framework. 'Check this code' (A) is too vague, politeness (C) doesn't replace structure, urgency (D) doesn't improve answer quality.",
+    "source": "Soft Skills Guide: Промпт-инжиниринг",
+    "sourceUrl": "/guide/communication"
+  },
+  {
+    "id": "cm_q11",
+    "dimension": "communication",
+    "text": "Метод STAR чаще всего используется в каком контексте?",
+    "textEn": "The STAR method is most commonly used in what context?",
+    "options": [
+      { "key": "a", "text": "Планирование спринтов в Agile", "textEn": "Sprint planning in Agile" },
+      { "key": "b", "text": "Поведенческие интервью (behavioral interviews) и ретроспективы", "textEn": "Behavioral interviews and retrospectives" },
+      { "key": "c", "text": "Написание технической документации", "textEn": "Writing technical documentation" },
+      { "key": "d", "text": "Оценка производительности кода", "textEn": "Evaluating code performance" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "STAR — основной фреймворк для поведенческих интервью, где тебя просят рассказать о конкретном опыте. Вместо абстрактного «я хороший командный игрок» ты говоришь: «Ситуация: дедлайн горел. Задача: нужно было перераспределить работу. Я сделал: организовал встречу и приоритизировал задачи. Результат: мы успели на день раньше».",
+    "explanationEn": "STAR is the primary framework for behavioral interviews where you're asked to share specific experience. Instead of abstract 'I'm a good team player', you say: 'Situation: deadline was burning. Task: needed to redistribute work. Action: organized a meeting and prioritized tasks. Result: we finished a day early'.",
+    "source": "STAR Method",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Situation,_task,_action,_result"
+  },
+  {
+    "id": "cm_q12",
+    "dimension": "communication",
+    "text": "Что такое «chain-of-thought prompting» и зачем он нужен?",
+    "textEn": "What is 'chain-of-thought prompting' and why is it useful?",
+    "options": [
+      { "key": "a", "text": "Отправка промптов цепочкой, где каждый следующий зависит от предыдущего", "textEn": "Sending prompts in a chain where each depends on the previous one" },
+      { "key": "b", "text": "Просьба к AI «думать вслух», показывая промежуточные шаги рассуждений", "textEn": "Asking AI to 'think out loud', showing intermediate reasoning steps" },
+      { "key": "c", "text": "Создание длинной цепочки вопросов для проверки AI", "textEn": "Creating a long chain of questions to test AI" },
+      { "key": "d", "text": "Автоматическое связывание нескольких AI-моделей", "textEn": "Automatically chaining multiple AI models together" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Chain-of-thought (CoT) prompting — это техника, при которой ты просишь AI показать пошаговое рассуждение перед финальным ответом. Например: «Подумай пошагово» или «Объясни свои рассуждения». Исследования Google (2022) показали, что CoT значительно улучшает качество ответов на сложных задачах, потому что модель «не прыгает к выводу».",
+    "explanationEn": "Chain-of-thought (CoT) prompting asks AI to show step-by-step reasoning before the final answer. For example: 'Think step by step' or 'Explain your reasoning'. Google research (2022) showed CoT significantly improves answer quality on complex tasks because the model 'doesn't jump to conclusions'.",
+    "source": "Soft Skills Guide: Промпт-инжиниринг",
+    "sourceUrl": "/guide/communication"
+  },
+  {
+    "id": "cm_q13",
+    "dimension": "communication",
+    "text": "Какой принцип активного слушания НАИБОЛЕЕ применим при работе в асинхронной команде (чаты, тикеты)?",
+    "textEn": "Which active listening principle is MOST applicable in asynchronous teams (chats, tickets)?",
+    "options": [
+      { "key": "a", "text": "Поддержание зрительного контакта", "textEn": "Maintaining eye contact" },
+      { "key": "b", "text": "Перефразирование — подтверждение, что ты правильно понял задачу", "textEn": "Paraphrasing — confirming you understood the task correctly" },
+      { "key": "c", "text": "Кивание головой в знак согласия", "textEn": "Nodding in agreement" },
+      { "key": "d", "text": "Отражение эмоций собеседника", "textEn": "Reflecting the speaker's emotions" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "В асинхронной коммуникации (Slack, Jira, email) ты не видишь собеседника, поэтому физические сигналы (A, C) невозможны, а эмоции (D) часто теряются в тексте. Перефразирование — самый мощный инструмент: «Если я правильно понял, ты хочешь, чтобы API возвращал пагинацию, а не все записи сразу?» Это предотвращает 80% недоразумений.",
+    "explanationEn": "In asynchronous communication (Slack, Jira, email) you can't see the other person, so physical signals (A, C) are impossible, and emotions (D) are often lost in text. Paraphrasing is the most powerful tool: 'If I understand correctly, you want the API to return pagination, not all records at once?' This prevents 80% of misunderstandings.",
+    "source": "Active Listening (Carl Rogers)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Active_listening"
+  },
+  {
+    "id": "cm_q14",
+    "dimension": "communication",
+    "text": "Ты пишешь сообщение тимлиду с просьбой о помощи. Какой вариант лучше всего структурирован?",
+    "textEn": "You're writing a message to your tech lead asking for help. Which version is best structured?",
+    "options": [
+      { "key": "a", "text": "«Привет, ничего не работает, можешь глянуть?»", "textEn": "'Hey, nothing works, can you take a look?'" },
+      { "key": "b", "text": "«Привет! У меня ошибка CORS при запросе к /api/users. Я попробовал: 1) добавить Access-Control-Allow-Origin, 2) проверить прокси. Не помогло. Можешь посмотреть конфиг nginx? Вот лог ошибки: [лог]»", "textEn": "'Hi! I'm getting a CORS error on /api/users. I tried: 1) adding Access-Control-Allow-Origin, 2) checking proxy. Didn't help. Can you look at the nginx config? Here's the error log: [log]'" },
+      { "key": "c", "text": "«Привет, у меня вопрос, когда будет время — напиши»", "textEn": "'Hey, I have a question, write me when you have time'" },
+      { "key": "d", "text": "«Можешь срочно посмотреть баг? Заказчик ждёт!!!!»", "textEn": "'Can you urgently look at a bug? Client is waiting!!!!'" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Вариант B идеально структурирован: конкретная проблема (CORS на /api/users) + что уже попробовал (два подхода) + конкретная просьба (посмотреть nginx) + контекст (лог ошибки). Это экономит время обоих: тимлид сразу видит суть и может помочь без 10 уточняющих вопросов. Вариант A слишком абстрактен, C не содержит сути, D давит срочностью без контекста.",
+    "explanationEn": "Option B is perfectly structured: specific problem (CORS on /api/users) + what you've tried (two approaches) + specific request (check nginx) + context (error log). This saves both people's time: the lead immediately sees the issue and can help without 10 clarifying questions. A is too abstract, C has no substance, D pressures with urgency without context.",
+    "source": "The Pyramid Principle (Barbara Minto)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Minto_Pyramid_Principle"
+  },
+  {
+    "id": "cm_q15",
+    "dimension": "communication",
+    "text": "Какой из этих промптов использует технику «negative prompting» (указание, чего НЕ делать)?",
+    "textEn": "Which of these prompts uses the 'negative prompting' technique (specifying what NOT to do)?",
+    "options": [
+      { "key": "a", "text": "«Напиши функцию сортировки на Python»", "textEn": "'Write a sorting function in Python'" },
+      { "key": "b", "text": "«Напиши функцию сортировки на Python. Не используй встроенный sorted(). Не пиши комментарии. Верни только код»", "textEn": "'Write a sorting function in Python. Don't use built-in sorted(). Don't write comments. Return only code'" },
+      { "key": "c", "text": "«Ты — Python-эксперт. Помоги с сортировкой»", "textEn": "'You are a Python expert. Help with sorting'" },
+      { "key": "d", "text": "«Сортировка массива, пожалуйста, самый лучший вариант»", "textEn": "'Sort an array, please, the best option'" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Negative prompting — это явное указание того, чего AI НЕ должен делать. В варианте B три негативных ограничения: не использовать sorted(), не писать комментарии, вернуть только код. Это сужает пространство ответов и повышает вероятность получить именно то, что нужно. Особенно полезно, когда AI по умолчанию делает что-то ненужное (например, добавляет объяснения к коду).",
+    "explanationEn": "Negative prompting explicitly states what the AI should NOT do. Option B has three negative constraints: don't use sorted(), don't write comments, return only code. This narrows the answer space and increases the chance of getting exactly what you need. Especially useful when AI defaults to something unwanted (e.g., adding explanations to code).",
+    "source": "Soft Skills Guide: Промпт-инжиниринг",
+    "sourceUrl": "/guide/communication"
+  },
+
+  {
+    "id": "ad_q01",
+    "dimension": "adaptability",
+    "text": "Согласно Кэрол Двек, «мышление роста» (growth mindset) означает веру в то, что...",
+    "textEn": "According to Carol Dweck, a 'growth mindset' means believing that...",
+    "options": [
+      { "key": "a", "text": "Талант и интеллект определяются генетикой и не меняются", "textEn": "Talent and intelligence are determined by genetics and don't change" },
+      { "key": "b", "text": "Способности можно развить через усилия, практику и обучение", "textEn": "Abilities can be developed through effort, practice, and learning" },
+      { "key": "c", "text": "Рост возможен только до определённого возраста", "textEn": "Growth is only possible up to a certain age" },
+      { "key": "d", "text": "Успех зависит исключительно от мотивации", "textEn": "Success depends exclusively on motivation" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Кэрол Двек в исследованиях (2006) показала, что люди с growth mindset верят: способности развиваются через усилия и обучение. Люди с fixed mindset верят, что талант врождённый. Growth mindset не означает «усилия — это всё» (D), а означает, что усилия + правильные стратегии + обратная связь = развитие. Особенно актуально при освоении AI-инструментов: ошибки — это часть обучения, а не доказательство некомпетентности.",
+    "explanationEn": "Carol Dweck's research (2006) showed that people with a growth mindset believe abilities are developed through effort and learning. People with a fixed mindset believe talent is innate. Growth mindset doesn't mean 'effort is everything' (D) — it means effort + right strategies + feedback = development. Especially relevant when learning AI tools: mistakes are part of learning, not proof of incompetence.",
+    "source": "Mindset: The New Psychology of Success (Carol Dweck, 2006)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mindset#Fixed_and_growth_mindset"
+  },
+  {
+    "id": "ad_q02",
+    "dimension": "adaptability",
+    "text": "В модели ADKAR управления изменениями, что идёт ПОСЛЕ осознания (Awareness)?",
+    "textEn": "In the ADKAR change management model, what comes AFTER Awareness?",
+    "options": [
+      { "key": "a", "text": "Knowledge (Знания)", "textEn": "Knowledge" },
+      { "key": "b", "text": "Desire (Желание)", "textEn": "Desire" },
+      { "key": "c", "text": "Ability (Способность)", "textEn": "Ability" },
+      { "key": "d", "text": "Reinforcement (Закрепление)", "textEn": "Reinforcement" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "ADKAR — модель Prosci для управления изменениями на уровне индивида. Порядок: Awareness (осознание необходимости) → Desire (желание участвовать) → Knowledge (знание, как меняться) → Ability (способность применять) → Reinforcement (закрепление). Ключевой инсайт: мало знать, что AI полезен (Awareness) — нужно ещё и ХОТЕТЬ его использовать (Desire).",
+    "explanationEn": "ADKAR is Prosci's model for managing individual-level change. The order: Awareness (knowing change is needed) → Desire (wanting to participate) → Knowledge (knowing how to change) → Ability (ability to apply) → Reinforcement (sustaining the change). Key insight: knowing AI is useful (Awareness) isn't enough — you also need to WANT to use it (Desire).",
+    "source": "ADKAR Model (Prosci)",
+    "sourceUrl": "https://www.prosci.com/methodology/adkar"
+  },
+  {
+    "id": "ad_q03",
+    "dimension": "adaptability",
+    "text": "Кривая изменений Кюблер-Росс описывает эмоциональные стадии при столкновении с переменами. Какая стадия идёт ПЕРВОЙ?",
+    "textEn": "The Kübler-Ross Change Curve describes emotional stages when facing change. Which stage comes FIRST?",
+    "options": [
+      { "key": "a", "text": "Гнев (Anger)", "textEn": "Anger" },
+      { "key": "b", "text": "Торг (Bargaining)", "textEn": "Bargaining" },
+      { "key": "c", "text": "Шок/Отрицание (Shock/Denial)", "textEn": "Shock/Denial" },
+      { "key": "d", "text": "Принятие (Acceptance)", "textEn": "Acceptance" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Модель Кюблер-Росс: Шок/Отрицание → Гнев → Торг → Депрессия → Принятие. Первая реакция на большие изменения — шок и отрицание: «Нет, это не про меня», «AI не может заменить нормального разработчика». Понимание этих стадий помогает не застрять в отрицании, а быстрее двигаться к принятию и адаптации.",
+    "explanationEn": "The Kübler-Ross model: Shock/Denial → Anger → Bargaining → Depression → Acceptance. The first reaction to major changes is shock and denial: 'No, this isn't about me', 'AI can't replace a real developer'. Understanding these stages helps you avoid getting stuck in denial and move faster toward acceptance and adaptation.",
+    "source": "Kübler-Ross Change Curve",
+    "sourceUrl": "https://en.wikipedia.org/wiki/K%C3%BCbler-Ross_model"
+  },
+  {
+    "id": "ad_q04",
+    "dimension": "adaptability",
+    "text": "Какая стратегия адаптации к новому AI-инструменту наиболее эффективна?",
+    "textEn": "What is the most effective strategy for adapting to a new AI tool?",
+    "options": [
+      { "key": "a", "text": "Полностью перейти на новый инструмент и отказаться от старого", "textEn": "Fully switch to the new tool and abandon the old one" },
+      { "key": "b", "text": "Подождать, пока инструмент станет стабильным и все перейдут", "textEn": "Wait until the tool becomes stable and everyone switches" },
+      { "key": "c", "text": "Попробовать на небольшом некритичном проекте, оценить, постепенно расширять", "textEn": "Try on a small non-critical project, evaluate, gradually expand" },
+      { "key": "d", "text": "Прочитать все руководства и туториалы, прежде чем начать использовать", "textEn": "Read all guides and tutorials before starting to use it" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Инкрементальная адаптация — самый безопасный и эффективный подход. Полная миграция (A) рискованна: если инструмент не подходит, ты потеряешь продуктивность. Ожидание (B) — это fixed mindset. Чтение без практики (D) — теория без опыта. Лучший подход: возьми реальную, но некритичную задачу, попробуй на ней новый инструмент, оцени результаты, и расширяй использование на основе опыта.",
+    "explanationEn": "Incremental adaptation is the safest and most effective approach. Full migration (A) is risky: if the tool doesn't fit, you'll lose productivity. Waiting (B) is a fixed mindset. Reading without practice (D) is theory without experience. Best approach: take a real but non-critical task, try the new tool on it, evaluate results, and expand usage based on experience.",
+    "source": "Soft Skills Guide: Стратегии адаптации к AI-инструментам",
+    "sourceUrl": "/guide/adaptability"
+  },
+  {
+    "id": "ad_q05",
+    "dimension": "adaptability",
+    "text": "Согласно Двек, как человек с «мышлением роста» реагирует на неудачу?",
+    "textEn": "According to Dweck, how does a person with a 'growth mindset' react to failure?",
+    "options": [
+      { "key": "a", "text": "Воспринимает как подтверждение своей некомпетентности", "textEn": "Sees it as confirmation of their incompetence" },
+      { "key": "b", "text": "Игнорирует неудачу и идёт дальше", "textEn": "Ignores the failure and moves on" },
+      { "key": "c", "text": "Воспринимает как возможность для обучения и корректирует подход", "textEn": "Sees it as a learning opportunity and adjusts their approach" },
+      { "key": "d", "text": "Обвиняет внешние обстоятельства", "textEn": "Blames external circumstances" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Growth mindset трактует неудачу как информацию: «Что я могу узнать из этого?», «Как мне изменить подход?». Fixed mindset (A) говорит: «Я не создан для этого». Игнорирование (B) и обвинение (D) — защитные механизмы, которые не ведут к росту. Когда AI-инструмент не работает как ожидал — это шанс разобраться почему и научиться новому.",
+    "explanationEn": "Growth mindset treats failure as information: 'What can I learn from this?', 'How should I change my approach?'. Fixed mindset (A) says 'I'm not made for this'. Ignoring (B) and blaming (D) are defense mechanisms that don't lead to growth. When an AI tool doesn't work as expected — it's a chance to understand why and learn something new.",
+    "source": "Mindset: The New Psychology of Success (Carol Dweck, 2006)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mindset#Fixed_and_growth_mindset"
+  },
+  {
+    "id": "ad_q06",
+    "dimension": "adaptability",
+    "text": "В модели ADKAR, почему этап «Reinforcement» (закрепление) так важен?",
+    "textEn": "In the ADKAR model, why is the 'Reinforcement' stage so important?",
+    "options": [
+      { "key": "a", "text": "Без закрепления люди возвращаются к старым привычкам", "textEn": "Without reinforcement, people revert to old habits" },
+      { "key": "b", "text": "Это единственный этап, который требует участия руководства", "textEn": "It's the only stage that requires management involvement" },
+      { "key": "c", "text": "На этом этапе происходит основное обучение", "textEn": "This is where the main learning happens" },
+      { "key": "d", "text": "Без него невозможно начать изменения", "textEn": "Without it, changes can't begin" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Reinforcement — последний этап ADKAR, и его часто пропускают. Без целенаправленного закрепления люди скатываются к старым привычкам. Знакомо? Ты попробовал AI-инструмент, было круто, но через неделю вернулся к ручному кодированию, потому что «так привычнее». Закрепление включает: празднование успехов, метрики, поддержку, устранение барьеров.",
+    "explanationEn": "Reinforcement is ADKAR's last stage, and it's often skipped. Without deliberate reinforcement, people slide back to old habits. Sound familiar? You tried an AI tool, it was great, but a week later you returned to manual coding because 'it's more comfortable'. Reinforcement includes: celebrating wins, metrics, support, removing barriers.",
+    "source": "ADKAR Model (Prosci)",
+    "sourceUrl": "https://www.prosci.com/methodology/adkar"
+  },
+  {
+    "id": "ad_q07",
+    "dimension": "adaptability",
+    "text": "Какой подход описывает «T-shaped specialist» (Т-образный специалист)?",
+    "textEn": "What approach describes a 'T-shaped specialist'?",
+    "options": [
+      { "key": "a", "text": "Глубокая экспертиза в одной узкой области, без знаний в смежных", "textEn": "Deep expertise in one narrow area, no knowledge in adjacent ones" },
+      { "key": "b", "text": "Поверхностные знания во многих областях, без глубокой экспертизы", "textEn": "Shallow knowledge in many areas, no deep expertise" },
+      { "key": "c", "text": "Глубокая экспертиза в одной области + широкие знания в смежных", "textEn": "Deep expertise in one area + broad knowledge in adjacent ones" },
+      { "key": "d", "text": "Равномерно глубокие знания в 2-3 областях", "textEn": "Equally deep knowledge in 2-3 areas" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "T-shaped специалист имеет глубокие знания в одной области (вертикальная палочка T) и широкие, но менее глубокие знания в смежных областях (горизонтальная палочка). В эпоху AI это особенно ценно: AI может помочь с задачами из смежных областей, но тебе нужна базовая грамотность, чтобы оценить качество его помощи.",
+    "explanationEn": "A T-shaped specialist has deep knowledge in one area (the vertical bar of T) and broad but shallower knowledge in adjacent areas (the horizontal bar). In the AI era, this is especially valuable: AI can help with tasks from adjacent areas, but you need baseline literacy to evaluate the quality of its help.",
+    "source": "T-shaped Skills Concept",
+    "sourceUrl": "https://en.wikipedia.org/wiki/T-shaped_skills"
+  },
+  {
+    "id": "ad_q08",
+    "dimension": "adaptability",
+    "text": "На кривой Кюблер-Росс, стадия «торга» при адаптации к AI может выглядеть как...",
+    "textEn": "On the Kübler-Ross curve, the 'bargaining' stage when adapting to AI might look like...",
+    "options": [
+      { "key": "a", "text": "«AI — это хайп, через год про него забудут»", "textEn": "'AI is hype, everyone will forget about it in a year'" },
+      { "key": "b", "text": "«Ладно, я буду использовать AI для простых задач, но серьёзный код буду писать сам»", "textEn": "'Fine, I'll use AI for simple tasks, but I'll write serious code myself'" },
+      { "key": "c", "text": "«AI отбирает у нас работу, это несправедливо!»", "textEn": "'AI is taking our jobs, this is unfair!'" },
+      { "key": "d", "text": "«Окей, нужно научиться работать с AI максимально эффективно»", "textEn": "'OK, I need to learn to work with AI as effectively as possible'" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Торг — это попытка найти компромисс: «Я приму часть изменений, но не все». «AI для простых задач, серьёзный код сам» — классический торг. Вариант A — отрицание, C — гнев, D — принятие. Торг — нормальная стадия, но важно двигаться дальше и открываться более глубокому использованию AI.",
+    "explanationEn": "Bargaining is an attempt to find a compromise: 'I'll accept some changes, but not all.' 'AI for simple tasks, serious code by myself' is classic bargaining. Option A is denial, C is anger, D is acceptance. Bargaining is a normal stage, but it's important to move forward and open up to deeper AI usage.",
+    "source": "Kübler-Ross Change Curve",
+    "sourceUrl": "https://en.wikipedia.org/wiki/K%C3%BCbler-Ross_model"
+  },
+  {
+    "id": "ad_q09",
+    "dimension": "adaptability",
+    "text": "Какой из этих сигналов указывает на «fixed mindset» при работе с AI?",
+    "textEn": "Which of these signals indicates a 'fixed mindset' when working with AI?",
+    "options": [
+      { "key": "a", "text": "«Этот инструмент интересный, но пока не идеален — буду следить за обновлениями»", "textEn": "'This tool is interesting but not perfect yet — I'll follow updates'" },
+      { "key": "b", "text": "«Я попробовал один раз, не получилось — значит, этот инструмент не для меня»", "textEn": "'I tried once, it didn't work — so this tool isn't for me'" },
+      { "key": "c", "text": "«Промпт не сработал, попробую по-другому»", "textEn": "'The prompt didn't work, I'll try differently'" },
+      { "key": "d", "text": "«Мне нужно глубже разобраться, чтобы использовать это эффективно»", "textEn": "'I need to dig deeper to use this effectively'" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "«Попробовал один раз, не получилось — не моё» — классический fixed mindset. Человек интерпретирует первую неудачу как доказательство своей (или инструмента) негодности, а не как нормальную часть процесса обучения. Growth mindset (варианты A, C, D) предполагает итерации и готовность к тому, что первая попытка может не удаться.",
+    "explanationEn": "'Tried once, didn't work — not for me' is classic fixed mindset. The person interprets the first failure as proof of their (or the tool's) inadequacy, not as a normal part of the learning process. Growth mindset (options A, C, D) involves iterations and readiness for the first attempt to not succeed.",
+    "source": "Mindset: The New Psychology of Success (Carol Dweck, 2006)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mindset#Fixed_and_growth_mindset"
+  },
+  {
+    "id": "ad_q10",
+    "dimension": "adaptability",
+    "text": "Что такое «learning agility» (обучаемость) и почему она критична в эпоху AI?",
+    "textEn": "What is 'learning agility' and why is it critical in the AI era?",
+    "options": [
+      { "key": "a", "text": "Способность быстро запоминать большие объёмы информации", "textEn": "The ability to quickly memorize large volumes of information" },
+      { "key": "b", "text": "Скорость прохождения онлайн-курсов", "textEn": "Speed of completing online courses" },
+      { "key": "c", "text": "Способность быстро учиться на опыте и применять знания в новых ситуациях", "textEn": "The ability to quickly learn from experience and apply knowledge in new situations" },
+      { "key": "d", "text": "Умение находить ответы в Google за минимальное время", "textEn": "The ability to find answers on Google in minimum time" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Learning agility — это не скорость запоминания, а способность извлекать уроки из опыта и переносить их в новый контекст. В эпоху AI инструменты меняются каждые месяцы: вчера был ChatGPT, сегодня Claude, завтра что-то новое. Важно не знание конкретного инструмента, а способность быстро осваивать новые, перенося паттерны из прошлого опыта.",
+    "explanationEn": "Learning agility isn't about memorization speed — it's the ability to extract lessons from experience and transfer them to new contexts. In the AI era, tools change every few months: yesterday ChatGPT, today Claude, tomorrow something new. What matters isn't knowledge of a specific tool, but the ability to quickly master new ones by transferring patterns from past experience.",
+    "source": "Learning Agility (Korn Ferry)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Learning_agility"
+  },
+  {
+    "id": "ad_q11",
+    "dimension": "adaptability",
+    "text": "Какой совет Двек даёт для развития growth mindset?",
+    "textEn": "What advice does Dweck give for developing a growth mindset?",
+    "options": [
+      { "key": "a", "text": "Избегать сложных задач, чтобы не демотивировать себя", "textEn": "Avoid difficult tasks to not demotivate yourself" },
+      { "key": "b", "text": "Хвалить себя за талант и природные способности", "textEn": "Praise yourself for talent and natural abilities" },
+      { "key": "c", "text": "Заменить «я не могу это сделать» на «я пока не могу это сделать»", "textEn": "Replace 'I can't do this' with 'I can't do this YET'" },
+      { "key": "d", "text": "Сравнивать свой прогресс с успехами других", "textEn": "Compare your progress with others' achievements" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Слово «пока» (yet) — ключевой инструмент Двек. «Я не умею работать с AI-агентами» → «Я ПОКА не умею работать с AI-агентами». Это маленькое слово меняет фрейм: вместо фиксированного ограничения появляется временное состояние, которое можно изменить. Двек также советует хвалить усилия и стратегии, а не талант (B).",
+    "explanationEn": "The word 'yet' is Dweck's key tool. 'I can't work with AI agents' → 'I can't work with AI agents YET.' This small word changes the frame: instead of a fixed limitation, there's a temporary state that can be changed. Dweck also advises praising effort and strategies, not talent (B).",
+    "source": "Mindset: The New Psychology of Success (Carol Dweck, 2006)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mindset#Fixed_and_growth_mindset"
+  },
+  {
+    "id": "ad_q12",
+    "dimension": "adaptability",
+    "text": "Команда внедряет новый AI-инструмент для код-ревью. По модели ADKAR, какой шаг чаще всего пропускают?",
+    "textEn": "A team is adopting a new AI code review tool. According to ADKAR, which step is most commonly skipped?",
+    "options": [
+      { "key": "a", "text": "Awareness — объяснить, зачем нужен новый инструмент", "textEn": "Awareness — explaining why the new tool is needed" },
+      { "key": "b", "text": "Knowledge — обучить, как пользоваться инструментом", "textEn": "Knowledge — training how to use the tool" },
+      { "key": "c", "text": "Desire — убедить людей, что они ХОТЯТ использовать этот инструмент", "textEn": "Desire — convincing people they WANT to use this tool" },
+      { "key": "d", "text": "Ability — дать время на практику и освоение", "textEn": "Ability — giving time for practice and mastery" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Desire — самый часто пропускаемый этап. Менеджеры обычно объясняют «зачем» (Awareness) и проводят обучение (Knowledge), но забывают про мотивацию: «А что в этом для МЕНЯ?». Без Desire люди формально используют инструмент, но при первой сложности возвращаются к старому подходу. Нужно показать личную выгоду: экономию времени, меньше рутины, лучшее качество.",
+    "explanationEn": "Desire is the most commonly skipped step. Managers usually explain 'why' (Awareness) and provide training (Knowledge), but forget about motivation: 'What's in it for ME?' Without Desire, people formally use the tool but revert to the old approach at the first difficulty. You need to show personal benefit: time savings, less routine, better quality.",
+    "source": "ADKAR Model (Prosci)",
+    "sourceUrl": "https://www.prosci.com/methodology/adkar"
+  },
+  {
+    "id": "ad_q13",
+    "dimension": "adaptability",
+    "text": "Какой тип реакции на новый AI-инструмент показывает высокую адаптивность?",
+    "textEn": "Which reaction to a new AI tool demonstrates high adaptability?",
+    "options": [
+      { "key": "a", "text": "«Круто! Сейчас перепишу весь проект с помощью этого инструмента!»", "textEn": "'Cool! I'll rewrite the entire project using this tool right now!'" },
+      { "key": "b", "text": "«Интересно. Попробую на тестовой задаче, оценю, где он сильнее и слабее моего текущего стека, и решу, стоит ли внедрять»", "textEn": "'Interesting. I'll try it on a test task, evaluate where it's stronger and weaker than my current stack, and decide if it's worth adopting'" },
+      { "key": "c", "text": "«Подожду полгода — пусть другие протестируют»", "textEn": "'I'll wait six months — let others test it'" },
+      { "key": "d", "text": "«Мне и так хорошо, зачем менять что-то работающее?»", "textEn": "'I'm fine as is, why change something that works?'" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Высокая адаптивность — это не импульсивность (A) и не консерватизм (C, D). Это осмысленное, быстрое тестирование: попробовать на ограниченной задаче, оценить плюсы и минусы, принять решение на основе данных. Такой подход сочетает открытость к новому с профессиональной осторожностью.",
+    "explanationEn": "High adaptability isn't impulsiveness (A) or conservatism (C, D). It's thoughtful, quick testing: try on a limited task, evaluate pros and cons, make a data-driven decision. This approach combines openness to new things with professional caution.",
+    "source": "Soft Skills Guide: Стратегии адаптации к AI-инструментам",
+    "sourceUrl": "/guide/adaptability"
+  },
+  {
+    "id": "ad_q14",
+    "dimension": "adaptability",
+    "text": "Что такое «зона ближайшего развития» (Zone of Proximal Development) Выготского?",
+    "textEn": "What is Vygotsky's 'Zone of Proximal Development' (ZPD)?",
+    "options": [
+      { "key": "a", "text": "Область задач, которые человек может решить только с помощью более опытного наставника", "textEn": "The range of tasks a person can solve only with help from a more experienced mentor" },
+      { "key": "b", "text": "Зона комфорта, в которой нужно оставаться для продуктивности", "textEn": "The comfort zone where you should stay for productivity" },
+      { "key": "c", "text": "Минимальное время, необходимое для освоения нового навыка", "textEn": "The minimum time needed to learn a new skill" },
+      { "key": "d", "text": "Максимальная нагрузка, которую можно выдержать без стресса", "textEn": "The maximum workload you can handle without stress" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "ZPD — область между тем, что человек может делать сам, и тем, что не может вообще. В этой зоне находятся задачи, которые решаемы с помощью наставника или инструмента. AI как раз может служить таким «наставником»: помогать решать задачи на грани твоих текущих возможностей, постепенно расширяя зону самостоятельности.",
+    "explanationEn": "ZPD is the area between what a person can do independently and what they can't do at all. In this zone are tasks solvable with a mentor's or tool's help. AI can serve as such a 'mentor': helping solve tasks at the edge of your current abilities, gradually expanding your zone of independence.",
+    "source": "Vygotsky's Zone of Proximal Development",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Zone_of_proximal_development"
+  },
+  {
+    "id": "ad_q15",
+    "dimension": "adaptability",
+    "text": "Ты используешь AI-инструмент уже 3 месяца, но чувствуешь, что результаты вышли на плато. Какое действие наиболее эффективно для дальнейшего роста?",
+    "textEn": "You've been using an AI tool for 3 months but feel results have plateaued. What's the most effective action for further growth?",
+    "options": [
+      { "key": "a", "text": "Переключиться на другой AI-инструмент", "textEn": "Switch to a different AI tool" },
+      { "key": "b", "text": "Продолжать использовать как обычно — плато пройдёт само", "textEn": "Keep using it as usual — the plateau will pass on its own" },
+      { "key": "c", "text": "Целенаправленно изучить продвинутые техники и попробовать задачи нового типа", "textEn": "Deliberately study advanced techniques and try new types of tasks" },
+      { "key": "d", "text": "Вернуться к ручному подходу — значит, инструмент не подходит", "textEn": "Go back to the manual approach — the tool clearly doesn't fit" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Плато — нормальная часть кривой обучения. Концепция «deliberate practice» (целенаправленная практика) Андерса Эрикссона говорит: для преодоления плато нужно целенаправленно выходить за пределы текущих навыков. Изучи system prompts, chain-of-thought, мультимодальные промпты, API-интеграции — то, что ты ещё не пробовал. Простая смена инструмента (A) не решит проблему навыков.",
+    "explanationEn": "Plateaus are a normal part of the learning curve. Anders Ericsson's 'deliberate practice' concept says: to break through a plateau, deliberately push beyond current skills. Study system prompts, chain-of-thought, multimodal prompts, API integrations — things you haven't tried yet. Simply switching tools (A) won't solve a skills problem.",
+    "source": "Soft Skills Guide: Стратегии адаптации к AI-инструментам",
+    "sourceUrl": "/guide/adaptability"
+  },
+
+  {
+    "id": "so_q01",
+    "dimension": "self_organization",
+    "text": "В матрице Эйзенхауэра, задачи которые ВАЖНЫЕ, но НЕ срочные, следует...",
+    "textEn": "In the Eisenhower Matrix, tasks that are IMPORTANT but NOT urgent should be...",
+    "options": [
+      { "key": "a", "text": "Сделать немедленно", "textEn": "Done immediately" },
+      { "key": "b", "text": "Запланировать на конкретное время", "textEn": "Scheduled for a specific time" },
+      { "key": "c", "text": "Делегировать кому-то", "textEn": "Delegated to someone" },
+      { "key": "d", "text": "Удалить из списка", "textEn": "Eliminated from the list" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Матрица Эйзенхауэра делит задачи на 4 квадранта: Важные + Срочные → делай сейчас. Важные + Несрочные → планируй. Неважные + Срочные → делегируй. Неважные + Несрочные → удаляй. Квадрант 2 (важное, но несрочное) — ключевой для развития: обучение, рефакторинг, автоматизация. Если не планировать, они никогда не будут сделаны.",
+    "explanationEn": "The Eisenhower Matrix divides tasks into 4 quadrants: Important + Urgent → do now. Important + Not Urgent → schedule. Not Important + Urgent → delegate. Not Important + Not Urgent → eliminate. Quadrant 2 (important but not urgent) is key for growth: learning, refactoring, automation. If you don't schedule them, they'll never get done.",
+    "source": "Eisenhower Matrix",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Time_management#The_Eisenhower_Method"
+  },
+  {
+    "id": "so_q02",
+    "dimension": "self_organization",
+    "text": "Согласно методу GTD (Getting Things Done) Дэвида Аллена, первый шаг при обработке входящей задачи — это...",
+    "textEn": "According to David Allen's GTD (Getting Things Done) method, the first step when processing an inbox item is...",
+    "options": [
+      { "key": "a", "text": "Оценить приоритет по матрице Эйзенхауэра", "textEn": "Evaluate priority using the Eisenhower Matrix" },
+      { "key": "b", "text": "Определить, требует ли задача действия (actionable или нет)", "textEn": "Determine if the item requires action (actionable or not)" },
+      { "key": "c", "text": "Записать задачу в календарь", "textEn": "Write the task in the calendar" },
+      { "key": "d", "text": "Оценить, сколько времени задача займёт", "textEn": "Estimate how long the task will take" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "В GTD первый вопрос при обработке инбокса: «Это требует действия?» (Is it actionable?). Если нет — удали, сохрани как справку, или отложи в «когда-нибудь/может быть». Если да — определи следующее конкретное действие. Если действие займёт меньше 2 минут — сделай сразу. Это ключевой фильтр, который предотвращает перегрузку списка задач.",
+    "explanationEn": "In GTD, the first question when processing inbox items is: 'Is it actionable?' If no — trash it, file as reference, or put in 'someday/maybe'. If yes — determine the next concrete action. If the action takes less than 2 minutes — do it now. This key filter prevents task list overload.",
+    "source": "Getting Things Done (David Allen, 2001)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Getting_Things_Done"
+  },
+  {
+    "id": "so_q03",
+    "dimension": "self_organization",
+    "text": "В методе Pomodoro, стандартный рабочий интервал составляет...",
+    "textEn": "In the Pomodoro Technique, the standard work interval is...",
+    "options": [
+      { "key": "a", "text": "15 минут работы, 3 минуты перерыв", "textEn": "15 minutes work, 3 minutes break" },
+      { "key": "b", "text": "25 минут работы, 5 минут перерыв", "textEn": "25 minutes work, 5 minutes break" },
+      { "key": "c", "text": "45 минут работы, 15 минут перерыв", "textEn": "45 minutes work, 15 minutes break" },
+      { "key": "d", "text": "60 минут работы, 10 минут перерыв", "textEn": "60 minutes work, 10 minutes break" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Техника Помодоро Франческо Чирилло предполагает 25-минутные интервалы сфокусированной работы (один «помидор»), после которых следует 5-минутный перерыв. После 4 помодоров — длинный перерыв 15-30 минут. 25 минут — достаточно короткий интервал, чтобы не выгорать, но достаточно длинный для глубокой концентрации.",
+    "explanationEn": "Francesco Cirillo's Pomodoro Technique uses 25-minute focused work intervals (one 'pomodoro'), followed by a 5-minute break. After 4 pomodoros — a longer 15-30 minute break. 25 minutes is short enough to avoid burnout but long enough for deep focus.",
+    "source": "Pomodoro Technique (Francesco Cirillo)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Pomodoro_Technique"
+  },
+  {
+    "id": "so_q04",
+    "dimension": "self_organization",
+    "text": "Согласно книге «Atomic Habits» Джеймса Клира, самый эффективный способ закрепить новую привычку — это...",
+    "textEn": "According to James Clear's 'Atomic Habits', the most effective way to build a new habit is...",
+    "options": [
+      { "key": "a", "text": "Поставить амбициозную цель и работать над ней каждый день", "textEn": "Set an ambitious goal and work on it every day" },
+      { "key": "b", "text": "Привязать новую привычку к существующей (habit stacking)", "textEn": "Attach the new habit to an existing one (habit stacking)" },
+      { "key": "c", "text": "Использовать силу воли и самодисциплину", "textEn": "Use willpower and self-discipline" },
+      { "key": "d", "text": "Начать с 21 дня подряд без перерывов", "textEn": "Start with 21 consecutive days without breaks" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Habit stacking — одна из ключевых стратегий Клира: «После [существующая привычка] я буду [новая привычка]». Например: «После утреннего кофе я 10 минут изучаю новый AI-инструмент». Это работает, потому что существующая привычка служит триггером. Сила воли (C) исчерпаема, амбициозные цели (A) часто ведут к выгоранию, а «21 день» (D) — миф.",
+    "explanationEn": "Habit stacking is one of Clear's key strategies: 'After [existing habit] I will [new habit]'. For example: 'After my morning coffee I'll spend 10 minutes learning a new AI tool'. This works because the existing habit serves as a trigger. Willpower (C) is depletable, ambitious goals (A) often lead to burnout, and '21 days' (D) is a myth.",
+    "source": "Atomic Habits (James Clear, 2018)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Atomic_Habits"
+  },
+  {
+    "id": "so_q05",
+    "dimension": "self_organization",
+    "text": "В GTD, если обработанная задача занимает менее 2 минут, что нужно делать?",
+    "textEn": "In GTD, if a processed task takes less than 2 minutes, what should you do?",
+    "options": [
+      { "key": "a", "text": "Добавить её в список задач и запланировать", "textEn": "Add it to the task list and schedule it" },
+      { "key": "b", "text": "Делегировать её", "textEn": "Delegate it" },
+      { "key": "c", "text": "Сделать её прямо сейчас", "textEn": "Do it right now" },
+      { "key": "d", "text": "Отложить в папку «когда-нибудь»", "textEn": "Put it in the 'someday' folder" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "«Правило двух минут» — один из самых практичных принципов GTD. Если задача занимает меньше 2 минут — делай сразу. Время на запись, планирование и запоминание этой задачи превысит время на выполнение. Ответить на короткое сообщение, переименовать файл, добавить TODO в код — всё это «двухминутные» задачи.",
+    "explanationEn": "The 'two-minute rule' is one of GTD's most practical principles. If a task takes less than 2 minutes — do it now. The time to record, plan, and remember the task exceeds the time to just do it. Reply to a quick message, rename a file, add a TODO in code — all 'two-minute' tasks.",
+    "source": "Getting Things Done (David Allen, 2001)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Getting_Things_Done"
+  },
+  {
+    "id": "so_q06",
+    "dimension": "self_organization",
+    "text": "Какой из четырёх «законов поведения» из Atomic Habits отвечает за то, чтобы привычка была ПРИВЛЕКАТЕЛЬНОЙ?",
+    "textEn": "Which of the four 'Laws of Behavior' from Atomic Habits makes a habit ATTRACTIVE?",
+    "options": [
+      { "key": "a", "text": "1-й закон: Сделай это очевидным (Cue)", "textEn": "1st Law: Make it obvious (Cue)" },
+      { "key": "b", "text": "2-й закон: Сделай это привлекательным (Craving)", "textEn": "2nd Law: Make it attractive (Craving)" },
+      { "key": "c", "text": "3-й закон: Сделай это простым (Response)", "textEn": "3rd Law: Make it easy (Response)" },
+      { "key": "d", "text": "4-й закон: Сделай это удовлетворяющим (Reward)", "textEn": "4th Law: Make it satisfying (Reward)" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Четыре закона Клира следуют «петле привычки»: Cue (сигнал) → Craving (желание) → Response (действие) → Reward (награда). 2-й закон — «Сделай это привлекательным» — работает с желанием. Например: хочешь, чтобы код-ревью стал привычкой? Связь его с чем-то приятным: «После ревью я делаю себе кофе» (bundling temptation).",
+    "explanationEn": "Clear's four laws follow the 'habit loop': Cue → Craving → Response → Reward. The 2nd law — 'Make it attractive' — works with craving. For example: want code review to become a habit? Link it with something pleasant: 'After review I make coffee' (temptation bundling).",
+    "source": "Atomic Habits (James Clear, 2018)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Atomic_Habits"
+  },
+  {
+    "id": "so_q07",
+    "dimension": "self_organization",
+    "text": "В матрице Эйзенхауэра, задачи которые СРОЧНЫЕ, но НЕ важные, следует...",
+    "textEn": "In the Eisenhower Matrix, tasks that are URGENT but NOT important should be...",
+    "options": [
+      { "key": "a", "text": "Делать немедленно самому", "textEn": "Done immediately by yourself" },
+      { "key": "b", "text": "Запланировать на потом", "textEn": "Scheduled for later" },
+      { "key": "c", "text": "Делегировать", "textEn": "Delegated" },
+      { "key": "d", "text": "Отменить или удалить", "textEn": "Cancelled or eliminated" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Срочные, но неважные задачи (квадрант 3) — ловушка продуктивности. Они создают иллюзию занятости: «Мне нужно ответить на этот email СЕЙЧАС!» Но если задача не важна для твоих целей — делегируй её. В контексте AI: если тебя просят сделать рутинную задачу срочно, но она не критична — возможно, это задача для AI-автоматизации.",
+    "explanationEn": "Urgent but unimportant tasks (quadrant 3) are a productivity trap. They create an illusion of busyness: 'I need to reply to this email NOW!' But if the task isn't important to your goals — delegate it. In the AI context: if you're asked to do a routine task urgently but it's not critical — perhaps it's a task for AI automation.",
+    "source": "Eisenhower Matrix",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Time_management#The_Eisenhower_Method"
+  },
+  {
+    "id": "so_q08",
+    "dimension": "self_organization",
+    "text": "В GTD, «еженедельный обзор» (Weekly Review) нужен для...",
+    "textEn": "In GTD, the 'Weekly Review' is needed to...",
+    "options": [
+      { "key": "a", "text": "Отчёта перед руководителем о проделанной работе", "textEn": "Reporting to your manager about completed work" },
+      { "key": "b", "text": "Обновления всех списков, очистки инбокса и обзора проектов для поддержания системы в актуальном состоянии", "textEn": "Updating all lists, clearing inbox, and reviewing projects to keep the system current" },
+      { "key": "c", "text": "Планирования задач на следующую неделю в календаре", "textEn": "Planning next week's tasks in the calendar" },
+      { "key": "d", "text": "Оценки своей продуктивности за прошедшую неделю", "textEn": "Evaluating your productivity for the past week" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Weekly Review — критически важный ритуал GTD, который поддерживает систему «живой». Ты просматриваешь все проекты, обновляешь списки следующих действий, очищаешь инбокс и убеждаешься, что ничего не выпало из внимания. Без еженедельного обзора система GTD постепенно деградирует, и ты перестаёшь ей доверять.",
+    "explanationEn": "The Weekly Review is GTD's critically important ritual that keeps the system 'alive'. You review all projects, update next-action lists, clear your inbox, and make sure nothing has fallen through the cracks. Without the weekly review, the GTD system gradually degrades and you stop trusting it.",
+    "source": "Getting Things Done (David Allen, 2001)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Getting_Things_Done"
+  },
+  {
+    "id": "so_q09",
+    "dimension": "self_organization",
+    "text": "Что такое «закон Паркинсона» и как он влияет на самоорганизацию?",
+    "textEn": "What is 'Parkinson's Law' and how does it affect self-organization?",
+    "options": [
+      { "key": "a", "text": "Работа занимает всё отведённое для неё время", "textEn": "Work expands to fill the time available for it" },
+      { "key": "b", "text": "20% усилий дают 80% результата", "textEn": "20% of effort gives 80% of results" },
+      { "key": "c", "text": "Чем больше задач, тем продуктивнее человек", "textEn": "The more tasks, the more productive a person is" },
+      { "key": "d", "text": "Любая задача занимает минимум в два раза дольше, чем ожидалось", "textEn": "Any task takes at least twice as long as expected" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Закон Паркинсона: «Работа расширяется, заполняя всё время, отведённое для её выполнения». Если ты дал себе неделю на задачу, которую можно сделать за день — ты будешь делать её неделю. Практический вывод: ставь себе сжатые, но реалистичные дедлайны. С AI это особенно актуально — легко бесконечно «улучшать» промпты вместо того, чтобы зафиксировать результат.",
+    "explanationEn": "Parkinson's Law: 'Work expands to fill the time available for its completion.' If you give yourself a week for a task that could be done in a day, you'll take the full week. Practical takeaway: set tight but realistic deadlines. With AI this is especially relevant — it's easy to endlessly 'improve' prompts instead of locking in the result.",
+    "source": "Parkinson's Law",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Parkinson%27s_law"
+  },
+  {
+    "id": "so_q10",
+    "dimension": "self_organization",
+    "text": "Согласно Atomic Habits, почему «системы» важнее «целей»?",
+    "textEn": "According to Atomic Habits, why are 'systems' more important than 'goals'?",
+    "options": [
+      { "key": "a", "text": "Цели демотивируют, а системы мотивируют", "textEn": "Goals demotivate, systems motivate" },
+      { "key": "b", "text": "У победителей и проигравших одни и те же цели — разница в системах", "textEn": "Winners and losers have the same goals — the difference is in systems" },
+      { "key": "c", "text": "Системы проще, чем цели", "textEn": "Systems are simpler than goals" },
+      { "key": "d", "text": "Цели невозможно измерить, а системы можно", "textEn": "Goals can't be measured, systems can" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Клир говорит: каждый олимпийский спринтер хочет золотую медаль — у них одинаковые цели. Разница в системах: ежедневных привычках, тренировочных процессах, восстановлении. Применительно к разработке: «Хочу стать лучшим разработчиком» — это цель. «Каждое утро 30 минут изучаю новый паттерн и применяю в рабочем проекте» — это система.",
+    "explanationEn": "Clear says: every Olympic sprinter wants a gold medal — they have the same goals. The difference is in systems: daily habits, training processes, recovery. Applied to development: 'I want to become a better developer' is a goal. 'Every morning I spend 30 minutes learning a new pattern and apply it in a work project' is a system.",
+    "source": "Atomic Habits (James Clear, 2018)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Atomic_Habits"
+  },
+  {
+    "id": "so_q11",
+    "dimension": "self_organization",
+    "text": "Техника «timeboxing» (временные рамки) предполагает...",
+    "textEn": "The 'timeboxing' technique involves...",
+    "options": [
+      { "key": "a", "text": "Работать, пока задача не будет завершена, без ограничений по времени", "textEn": "Working until the task is done, with no time limits" },
+      { "key": "b", "text": "Выделить фиксированный блок времени на задачу и остановиться по истечении, даже если не закончил", "textEn": "Allocating a fixed time block for a task and stopping when it expires, even if not finished" },
+      { "key": "c", "text": "Разбить день на блоки по типу задачи (утро — код, вечер — ревью)", "textEn": "Dividing the day into blocks by task type (morning — code, evening — review)" },
+      { "key": "d", "text": "Отслеживать время на каждую задачу для отчётности", "textEn": "Tracking time on each task for reporting" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Timeboxing — это выделение фиксированного количества времени на задачу. Если время закончилось — останавливаешься и оцениваешь: продолжать? менять подход? делегировать? Это особенно полезно при работе с AI: «Я трачу 30 минут на промптинг этой задачи. Если за 30 минут не получу приемлемый результат — пишу код руками».",
+    "explanationEn": "Timeboxing allocates a fixed amount of time to a task. When time's up, you stop and evaluate: continue? change approach? delegate? This is especially useful with AI: 'I'll spend 30 minutes prompting this task. If I don't get an acceptable result in 30 minutes, I'll write the code by hand.'",
+    "source": "Timeboxing Technique",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Timeboxing"
+  },
+  {
+    "id": "so_q12",
+    "dimension": "self_organization",
+    "text": "В GTD, что такое «контекст» (@context) и зачем он нужен?",
+    "textEn": "In GTD, what is a 'context' (@context) and what is it for?",
+    "options": [
+      { "key": "a", "text": "Приоритет задачи (высокий, средний, низкий)", "textEn": "Task priority (high, medium, low)" },
+      { "key": "b", "text": "Место, инструмент или условие, необходимое для выполнения задачи", "textEn": "The place, tool, or condition needed to complete the task" },
+      { "key": "c", "text": "Описание проекта, к которому относится задача", "textEn": "Description of the project the task belongs to" },
+      { "key": "d", "text": "Дедлайн задачи", "textEn": "The task's deadline" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Контексты в GTD — это фильтры по условиям выполнения: @компьютер, @телефон, @офис, @дом, @дорога. Идея в том, что ты не просматриваешь весь список задач, а фильтруешь по текущему контексту: «Я за компьютером — что из моего списка @компьютер я могу сделать?» Это снижает когнитивную нагрузку при выборе следующего действия.",
+    "explanationEn": "GTD contexts are filters by execution conditions: @computer, @phone, @office, @home, @commute. The idea is you don't scan the entire task list, but filter by current context: 'I'm at my computer — what from my @computer list can I do?' This reduces cognitive load when choosing the next action.",
+    "source": "Getting Things Done (David Allen, 2001)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Getting_Things_Done"
+  },
+  {
+    "id": "so_q13",
+    "dimension": "self_organization",
+    "text": "Что такое «правило 80/20» (принцип Парето) в контексте самоорганизации?",
+    "textEn": "What is the '80/20 rule' (Pareto Principle) in the context of self-organization?",
+    "options": [
+      { "key": "a", "text": "80% задач нужно делать утром, 20% — вечером", "textEn": "80% of tasks should be done in the morning, 20% in the evening" },
+      { "key": "b", "text": "80% результата приходит от 20% усилий", "textEn": "80% of results come from 20% of efforts" },
+      { "key": "c", "text": "80% времени нужно работать, 20% — отдыхать", "textEn": "80% of time should be work, 20% rest" },
+      { "key": "d", "text": "80% проектов завершаются успешно, 20% — нет", "textEn": "80% of projects succeed, 20% don't" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Принцип Парето: примерно 80% результатов приходят от 20% усилий (и наоборот — 80% усилий дают лишь 20% результата). Практический вывод: определи те 20% задач, которые дают максимальный эффект, и сфокусируйся на них. Например: 20% твоих промптов могут покрывать 80% рабочих задач — найди и отточи их.",
+    "explanationEn": "The Pareto Principle: roughly 80% of results come from 20% of efforts (and conversely — 80% of efforts produce only 20% of results). Practical takeaway: identify the 20% of tasks that produce maximum impact and focus on them. For example: 20% of your prompts might cover 80% of work tasks — find and refine them.",
+    "source": "Pareto Principle",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Pareto_principle"
+  },
+  {
+    "id": "so_q14",
+    "dimension": "self_organization",
+    "text": "Согласно Atomic Habits, правило «1% improvement» означает...",
+    "textEn": "According to Atomic Habits, the '1% improvement' rule means...",
+    "options": [
+      { "key": "a", "text": "Нужно улучшать ровно 1% кодовой базы каждый день", "textEn": "You need to improve exactly 1% of the codebase every day" },
+      { "key": "b", "text": "Маленькие ежедневные улучшения накапливаются и дают огромный результат за год", "textEn": "Small daily improvements compound and produce huge results over a year" },
+      { "key": "c", "text": "Достаточно быть на 1% лучше конкурентов", "textEn": "It's enough to be 1% better than competitors" },
+      { "key": "d", "text": "1% ошибок допустим в любом проекте", "textEn": "1% errors are acceptable in any project" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Клир считает: если ты становишься на 1% лучше каждый день, за год ты станешь в 37 раз лучше (1.01^365 = 37.78). И наоборот: если на 1% хуже — останешься лишь на 3% от начального уровня (0.99^365 = 0.03). Это принцип компаундинга (сложного процента) применительно к привычкам. Маленькие действия, повторяемые систематически, создают трансформацию.",
+    "explanationEn": "Clear argues: if you get 1% better each day, after a year you'll be 37 times better (1.01^365 = 37.78). Conversely: if 1% worse, you'll be at just 3% of your starting level (0.99^365 = 0.03). This is the compounding principle applied to habits. Small actions, repeated systematically, create transformation.",
+    "source": "Atomic Habits (James Clear, 2018)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Atomic_Habits"
+  },
+  {
+    "id": "so_q15",
+    "dimension": "self_organization",
+    "text": "Какая проблема возникает при работе с AI без плана, согласно принципам самоорганизации?",
+    "textEn": "What problem arises when working with AI without a plan, according to self-organization principles?",
+    "options": [
+      { "key": "a", "text": "AI выдаёт менее качественные ответы без плана", "textEn": "AI gives lower quality answers without a plan" },
+      { "key": "b", "text": "Ты тратишь время на бесконечные итерации и scope creep, потому что «AI легко может добавить ещё»", "textEn": "You spend time on endless iterations and scope creep because 'AI can easily add more'" },
+      { "key": "c", "text": "AI не работает без структурированного ввода", "textEn": "AI doesn't work without structured input" },
+      { "key": "d", "text": "Без плана AI часто зависает и перестаёт отвечать", "textEn": "Without a plan, AI often freezes and stops responding" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Когда AI делает добавление фич «бесплатным» (по ощущению), люди легко скатываются в scope creep: «А давай ещё добавим тёмную тему! И анимации! И мобильную версию!» Без заранее определённого плана и критериев «готовности» можно бесконечно генерировать код, не двигаясь к результату. Принципы GTD и timeboxing помогают это контролировать.",
+    "explanationEn": "When AI makes adding features feel 'free', people easily slide into scope creep: 'Let's also add dark mode! And animations! And mobile version!' Without a predefined plan and 'done' criteria, you can endlessly generate code without reaching a result. GTD and timeboxing principles help control this.",
+    "source": "Self-Organization Principles",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Scope_creep"
+  },
+
+  {
+    "id": "pt_q01",
+    "dimension": "product_thinking",
+    "text": "Согласно теории Jobs-to-be-Done (Клейтон Кристенсен), клиенты «нанимают» продукты, чтобы...",
+    "textEn": "According to Jobs-to-be-Done theory (Clayton Christensen), customers 'hire' products to...",
+    "options": [
+      { "key": "a", "text": "Получить максимальное количество функций за минимальную цену", "textEn": "Get the maximum features for the minimum price" },
+      { "key": "b", "text": "Выполнить конкретную задачу или добиться прогресса в своей жизни", "textEn": "Accomplish a specific job or make progress in their life" },
+      { "key": "c", "text": "Следовать рекомендациям друзей и знакомых", "textEn": "Follow recommendations from friends and acquaintances" },
+      { "key": "d", "text": "Продемонстрировать свой статус окружающим", "textEn": "Demonstrate their status to others" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "JTBD — фреймворк Кристенсена, где продукт — это «наёмный работник» для выполнения конкретной задачи пользователя. Классический пример: люди «нанимают» милкшейк не потому что хотят молочный коктейль, а потому что им нужно чем-то заняться во время скучной утренней поездки на работу. Понимание «работы» позволяет создавать продукты, которые реально нужны.",
+    "explanationEn": "JTBD is Christensen's framework where a product is a 'hired worker' for a specific user job. Classic example: people 'hire' a milkshake not because they want a milkshake, but because they need something to do during a boring morning commute. Understanding the 'job' lets you build products people actually need.",
+    "source": "Jobs-to-be-Done (Clayton Christensen)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Jobs_to_be_done"
+  },
+  {
+    "id": "pt_q02",
+    "dimension": "product_thinking",
+    "text": "Какой первый этап процесса Design Thinking (IDEO)?",
+    "textEn": "What is the first stage of the Design Thinking process (IDEO)?",
+    "options": [
+      { "key": "a", "text": "Генерация идей (Ideate)", "textEn": "Ideate" },
+      { "key": "b", "text": "Прототипирование (Prototype)", "textEn": "Prototype" },
+      { "key": "c", "text": "Эмпатия (Empathize)", "textEn": "Empathize" },
+      { "key": "d", "text": "Определение проблемы (Define)", "textEn": "Define" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Пять этапов Design Thinking: Empathize → Define → Ideate → Prototype → Test. Эмпатия стоит первой, потому что прежде чем решать проблему, нужно глубоко понять пользователя: его контекст, боли, мотивацию. Без эмпатии ты решаешь не ту проблему. В AI-эпоху это особенно важно: AI может быстро создать что угодно, но сначала нужно понять, ЧТО создавать.",
+    "explanationEn": "Five Design Thinking stages: Empathize → Define → Ideate → Prototype → Test. Empathy comes first because before solving a problem, you need to deeply understand the user: their context, pain points, motivation. Without empathy, you're solving the wrong problem. In the AI era, this is especially important: AI can quickly build anything, but first you need to understand WHAT to build.",
+    "source": "Design Thinking (IDEO / d.school)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Design_thinking"
+  },
+  {
+    "id": "pt_q03",
+    "dimension": "product_thinking",
+    "text": "Согласно Lean Startup (Эрик Рис), MVP (Minimum Viable Product) должен...",
+    "textEn": "According to Lean Startup (Eric Ries), an MVP (Minimum Viable Product) should...",
+    "options": [
+      { "key": "a", "text": "Содержать все запланированные функции, но в упрощённом виде", "textEn": "Contain all planned features but in simplified form" },
+      { "key": "b", "text": "Быть полностью отполированным продуктом, но с ограниченной аудиторией", "textEn": "Be a fully polished product but with a limited audience" },
+      { "key": "c", "text": "Тестировать самое рискованное предположение с минимальными усилиями", "textEn": "Test the riskiest assumption with minimum effort" },
+      { "key": "d", "text": "Быть бесплатным для привлечения первых пользователей", "textEn": "Be free to attract first users" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "MVP по Рису — это не «плохая версия финального продукта», а инструмент проверки гипотез. Его единственная задача — протестировать самое рискованное предположение (например: «Люди готовы платить за X»). MVP может быть лендингом, видео, или даже ручным процессом — главное, чтобы он дал ответ на ключевой вопрос с минимальными затратами.",
+    "explanationEn": "An MVP per Ries isn't a 'bad version of the final product' — it's a hypothesis testing tool. Its only job is to test the riskiest assumption (e.g., 'People will pay for X'). An MVP can be a landing page, a video, or even a manual process — the key is it answers the critical question with minimal investment.",
+    "source": "The Lean Startup (Eric Ries, 2011)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Lean_startup"
+  },
+  {
+    "id": "pt_q04",
+    "dimension": "product_thinking",
+    "text": "В модели Кано, «must-be» (обязательные) характеристики продукта — это...",
+    "textEn": "In the Kano Model, 'must-be' (basic) product attributes are...",
+    "options": [
+      { "key": "a", "text": "Функции, которые вызывают восторг, но без них продукт тоже работает", "textEn": "Features that delight but the product works without them" },
+      { "key": "b", "text": "Базовые ожидания — их отсутствие вызывает сильное недовольство, но наличие не радует", "textEn": "Basic expectations — their absence causes strong dissatisfaction, but their presence doesn't excite" },
+      { "key": "c", "text": "Функции, за которые пользователи готовы доплатить", "textEn": "Features users are willing to pay extra for" },
+      { "key": "d", "text": "Функции, которые пользователи ещё не осознают, что им нужны", "textEn": "Features users don't yet realize they need" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Must-be (обязательные) — это базовые ожидания. Например: приложение не должно терять данные, сайт должен загружаться, логин должен работать. Когда они есть — пользователь не радуется (это «само собой»). Когда их нет — сильное негодование. «Восторг» — это delighters (D), а «готовы доплатить» — ближе к performance attributes.",
+    "explanationEn": "Must-be (basic) attributes are baseline expectations. For example: the app shouldn't lose data, the site should load, login should work. When present — users don't celebrate (it's 'expected'). When absent — strong dissatisfaction. 'Delight' describes delighters (D), and 'willing to pay extra' is closer to performance attributes.",
+    "source": "Kano Model",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Kano_model"
+  },
+  {
+    "id": "pt_q05",
+    "dimension": "product_thinking",
+    "text": "В цикле Build-Measure-Learn (Lean Startup), с чего нужно начинать планирование?",
+    "textEn": "In the Build-Measure-Learn cycle (Lean Startup), where should you start planning?",
+    "options": [
+      { "key": "a", "text": "С Build — начни строить, а потом разберёмся", "textEn": "With Build — start building, we'll figure it out later" },
+      { "key": "b", "text": "С Measure — определи метрики успеха", "textEn": "With Measure — define success metrics" },
+      { "key": "c", "text": "С Learn — определи, что ты хочешь УЗНАТЬ, и от этого постройся назад", "textEn": "With Learn — determine what you want to LEARN, then work backwards" },
+      { "key": "d", "text": "Порядок не важен — это цикл", "textEn": "Order doesn't matter — it's a cycle" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Хотя цикл выполняется как Build → Measure → Learn, планировать нужно в обратном порядке: сначала определи, что ты хочешь узнать (Learn), потом — как это измерить (Measure), потом — что минимально построить для получения данных (Build). Если начинать с Build, легко построить красивое, но бесполезное.",
+    "explanationEn": "While the cycle executes as Build → Measure → Learn, planning should go in reverse: first determine what you want to learn (Learn), then how to measure it (Measure), then what to minimally build to get data (Build). Starting with Build makes it easy to create something beautiful but useless.",
+    "source": "The Lean Startup (Eric Ries, 2011)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Lean_startup"
+  },
+  {
+    "id": "pt_q06",
+    "dimension": "product_thinking",
+    "text": "В Design Thinking, этап «Define» (определение проблемы) нужен для...",
+    "textEn": "In Design Thinking, the 'Define' stage is for...",
+    "options": [
+      { "key": "a", "text": "Создания технического задания с подробными спецификациями", "textEn": "Creating a detailed technical specification" },
+      { "key": "b", "text": "Формулировки чёткой проблемы (problem statement) на основе инсайтов из этапа Empathize", "textEn": "Formulating a clear problem statement based on insights from the Empathize stage" },
+      { "key": "c", "text": "Выбора технологического стека для реализации", "textEn": "Choosing the technology stack for implementation" },
+      { "key": "d", "text": "Оценки бюджета и сроков проекта", "textEn": "Estimating project budget and timelines" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "На этапе Define ты синтезируешь инсайты из Empathize в чёткую формулировку проблемы (Point of View или How Might We). Например: «Как мы можем помочь junior-разработчикам быстро проверять качество AI-сгенерированного кода, не зная все нюансы?» Хорошая формулировка проблемы — это половина решения.",
+    "explanationEn": "At the Define stage, you synthesize Empathize insights into a clear problem statement (Point of View or How Might We). For example: 'How might we help junior developers quickly verify AI-generated code quality without knowing all the nuances?' A good problem statement is half the solution.",
+    "source": "Design Thinking (IDEO / d.school)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Design_thinking"
+  },
+  {
+    "id": "pt_q07",
+    "dimension": "product_thinking",
+    "text": "Что такое «delighter» (восхищающая функция) в модели Кано?",
+    "textEn": "What is a 'delighter' (excitement feature) in the Kano Model?",
+    "options": [
+      { "key": "a", "text": "Функция, без которой продукт не работает", "textEn": "A feature without which the product doesn't work" },
+      { "key": "b", "text": "Функция, улучшение которой линейно повышает удовлетворённость", "textEn": "A feature whose improvement linearly increases satisfaction" },
+      { "key": "c", "text": "Неожиданная функция, которая вызывает восторг, но пользователь не ожидал и не просил её", "textEn": "An unexpected feature that causes delight, which the user didn't expect or ask for" },
+      { "key": "d", "text": "Функция, которая нравится только части пользователей", "textEn": "A feature that only some users like" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Delighters — это неожиданные приятные сюрпризы. Пользователь не знал, что ему это нужно, но когда он это видит — восторг. Пример: автодополнение, которое предугадывает, что ты хочешь написать. Если delighter отсутствует — пользователь не расстроен (он и не ожидал). Важно: со временем delighters становятся must-be (к ним привыкают).",
+    "explanationEn": "Delighters are unexpected pleasant surprises. The user didn't know they needed it, but when they see it — delight. Example: autocomplete that predicts what you want to type. If a delighter is absent — users aren't upset (they didn't expect it). Important: over time, delighters become must-be features (people get used to them).",
+    "source": "Kano Model",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Kano_model"
+  },
+  {
+    "id": "pt_q08",
+    "dimension": "product_thinking",
+    "text": "Согласно JTBD, какой вопрос наиболее полезен при проектировании продукта?",
+    "textEn": "According to JTBD, which question is most useful when designing a product?",
+    "options": [
+      { "key": "a", "text": "«Какие функции хотят наши пользователи?»", "textEn": "'What features do our users want?'" },
+      { "key": "b", "text": "«Что делают наши конкуренты?»", "textEn": "'What are our competitors doing?'" },
+      { "key": "c", "text": "«Какую задачу пользователь пытается решить, и что мешает ему это сделать?»", "textEn": "'What job is the user trying to get done, and what's preventing them?'" },
+      { "key": "d", "text": "«Сколько пользователи готовы заплатить?»", "textEn": "'How much are users willing to pay?'" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "JTBD фокусируется не на функциях (A), не на конкурентах (B), не на цене (D), а на задаче пользователя и барьерах. Классический пример Кристенсена: клиенты не хотят дрель с 12 функциями — они хотят дырку в стене. Понимание «работы» позволяет найти решения, о которых пользователи даже не думали.",
+    "explanationEn": "JTBD focuses not on features (A), not on competitors (B), not on price (D), but on the user's job and barriers. Christensen's classic example: customers don't want a drill with 12 features — they want a hole in the wall. Understanding the 'job' lets you find solutions users haven't even thought of.",
+    "source": "Jobs-to-be-Done (Clayton Christensen)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Jobs_to_be_done"
+  },
+  {
+    "id": "pt_q09",
+    "dimension": "product_thinking",
+    "text": "В Lean Startup, что такое «pivot» (пивот)?",
+    "textEn": "In Lean Startup, what is a 'pivot'?",
+    "options": [
+      { "key": "a", "text": "Полный отказ от продукта и начало нового проекта", "textEn": "Complete abandonment of the product and starting a new project" },
+      { "key": "b", "text": "Структурированная корректировка стратегии на основе данных, с сохранением полученных знаний", "textEn": "A structured strategy correction based on data, while preserving learned insights" },
+      { "key": "c", "text": "Добавление новых функций для увеличения привлекательности", "textEn": "Adding new features to increase attractiveness" },
+      { "key": "d", "text": "Смена целевой аудитории без изменения продукта", "textEn": "Changing the target audience without changing the product" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Пивот — это не «всё бросить» (A) и не «добавить фич» (C). Это осознанное изменение одного элемента стратегии на основе данных: можно сменить целевую аудиторию, ценностное предложение, канал, модель монетизации, технологию. Ключевое: ты сохраняешь накопленные знания и строишь на их основе, а не начинаешь с нуля.",
+    "explanationEn": "A pivot isn't 'abandon everything' (A) or 'add features' (C). It's a deliberate change to one strategic element based on data: you might change target audience, value proposition, channel, monetization model, or technology. The key: you preserve accumulated knowledge and build on it, rather than starting from zero.",
+    "source": "The Lean Startup (Eric Ries, 2011)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Lean_startup#Pivot"
+  },
+  {
+    "id": "pt_q10",
+    "dimension": "product_thinking",
+    "text": "В эпоху AI, какое продуктовое решение наиболее стратегически верное?",
+    "textEn": "In the AI era, which product decision is most strategically sound?",
+    "options": [
+      { "key": "a", "text": "Добавить AI во все функции продукта — это модный тренд", "textEn": "Add AI to all product features — it's a trendy thing" },
+      { "key": "b", "text": "Определить, какие задачи пользователя AI решает лучше человека, и сфокусироваться на них", "textEn": "Identify which user jobs AI solves better than humans and focus on those" },
+      { "key": "c", "text": "Полностью заменить пользовательский интерфейс на AI-чат", "textEn": "Completely replace the user interface with an AI chat" },
+      { "key": "d", "text": "Подождать, пока AI-технологии стабилизируются", "textEn": "Wait until AI technologies stabilize" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Продуктовое мышление в AI-эпоху — это не «добавить AI везде» и не «заменить всё на AI». Это JTBD-подход: определить, какие конкретные задачи пользователя AI решает эффективнее (быстрее, точнее, дешевле), и интегрировать AI именно там. AI — инструмент для решения задач, а не самоцель.",
+    "explanationEn": "Product thinking in the AI era isn't 'add AI everywhere' or 'replace everything with AI'. It's the JTBD approach: identify which specific user jobs AI solves more effectively (faster, more accurately, cheaper), and integrate AI precisely there. AI is a tool for solving jobs, not an end in itself.",
+    "source": "Soft Skills Guide: Продуктовые решения в эпоху AI",
+    "sourceUrl": "/guide/product-thinking"
+  },
+  {
+    "id": "pt_q11",
+    "dimension": "product_thinking",
+    "text": "В Design Thinking, зачем нужен этап «Prototype» (прототипирование)?",
+    "textEn": "In Design Thinking, why is the 'Prototype' stage needed?",
+    "options": [
+      { "key": "a", "text": "Чтобы создать финальную версию продукта", "textEn": "To create the final version of the product" },
+      { "key": "b", "text": "Чтобы быстро и дёшево визуализировать идею и получить обратную связь ДО дорогой разработки", "textEn": "To quickly and cheaply visualize the idea and get feedback BEFORE expensive development" },
+      { "key": "c", "text": "Чтобы показать инвесторам прогресс", "textEn": "To show investors the progress" },
+      { "key": "d", "text": "Чтобы протестировать производительность системы", "textEn": "To test system performance" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Прототип в Design Thinking — это не MVP и не бета-версия. Это быстрый, часто «грязный» макет для проверки идеи: бумажный прототип, кликабельный макет в Figma, Wizard-of-Oz. Цель — получить обратную связь от пользователей ДО того, как ты потратишь недели на разработку. В AI-эпоху прототипирование стало дешевле: AI может сгенерировать работающий прототип за часы.",
+    "explanationEn": "A Design Thinking prototype isn't an MVP or beta version. It's a quick, often 'dirty' mockup for idea validation: paper prototype, clickable Figma mockup, Wizard-of-Oz. The goal is to get user feedback BEFORE spending weeks on development. In the AI era, prototyping is cheaper: AI can generate a working prototype in hours.",
+    "source": "Design Thinking (IDEO / d.school)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Design_thinking"
+  },
+  {
+    "id": "pt_q12",
+    "dimension": "product_thinking",
+    "text": "Что такое «validated learning» (подтверждённое обучение) в Lean Startup?",
+    "textEn": "What is 'validated learning' in Lean Startup?",
+    "options": [
+      { "key": "a", "text": "Прохождение сертификационного курса по продуктовому менеджменту", "textEn": "Completing a certified product management course" },
+      { "key": "b", "text": "Изучение конкурентов через их публичные отчёты", "textEn": "Studying competitors through their public reports" },
+      { "key": "c", "text": "Получение подтверждённых данных о поведении пользователей через эксперименты", "textEn": "Obtaining verified data about user behavior through experiments" },
+      { "key": "d", "text": "Опрос фокус-группы о том, понравился ли им продукт", "textEn": "Surveying a focus group about whether they liked the product" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Validated learning — ключевая метрика прогресса в Lean Startup. Это не мнения (D) и не чужие данные (B), а подтверждённые эксперименты: A/B тесты, конверсии, реальное поведение пользователей. Вместо «мы думаем, что пользователям нужен X» — «мы проверили: 30% пользователей используют X ежедневно». Данные побеждают мнения.",
+    "explanationEn": "Validated learning is the key progress metric in Lean Startup. It's not opinions (D) or others' data (B), but confirmed experiments: A/B tests, conversions, actual user behavior. Instead of 'we think users need X' — 'we verified: 30% of users use X daily'. Data beats opinions.",
+    "source": "The Lean Startup (Eric Ries, 2011)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Lean_startup"
+  },
+  {
+    "id": "pt_q13",
+    "dimension": "product_thinking",
+    "text": "Какая ошибка продуктового мышления наиболее распространена у «вайб-кодеров»?",
+    "textEn": "What product thinking mistake is most common among 'vibe coders'?",
+    "options": [
+      { "key": "a", "text": "Слишком много времени на исследование пользователей", "textEn": "Too much time on user research" },
+      { "key": "b", "text": "Генерация фич и кода без понимания, какую проблему это решает для пользователя", "textEn": "Generating features and code without understanding what problem it solves for the user" },
+      { "key": "c", "text": "Чрезмерная осторожность и страх запускать продукт", "textEn": "Excessive caution and fear of launching" },
+      { "key": "d", "text": "Слишком детальное планирование архитектуры", "textEn": "Too detailed architecture planning" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Когда AI делает генерацию кода «бесплатной», легко попасть в ловушку: «Сделаю ещё фичу, ещё одну, ещё...» — не задумываясь, нужны ли они пользователю. Это anti-pattern продуктового мышления. JTBD и Lean Startup учат: сначала определи проблему, потом проверь гипотезу, и только потом строй. AI ускоряет Build, но не заменяет Learn.",
+    "explanationEn": "When AI makes code generation 'free', it's easy to fall into the trap: 'I'll add another feature, and another...' without considering if users need them. This is a product thinking anti-pattern. JTBD and Lean Startup teach: first identify the problem, then test the hypothesis, and only then build. AI accelerates Build but doesn't replace Learn.",
+    "source": "Soft Skills Guide: Продуктовые решения в эпоху AI",
+    "sourceUrl": "/guide/product-thinking"
+  },
+  {
+    "id": "pt_q14",
+    "dimension": "product_thinking",
+    "text": "В модели Кано, что происходит с «delighter» функциями со временем?",
+    "textEn": "In the Kano Model, what happens to 'delighter' features over time?",
+    "options": [
+      { "key": "a", "text": "Они становятся ещё более привлекательными", "textEn": "They become even more attractive" },
+      { "key": "b", "text": "Они постепенно становятся «must-be» — пользователи привыкают и начинают их ожидать", "textEn": "They gradually become 'must-be' — users get used to them and start expecting them" },
+      { "key": "c", "text": "Они исчезают, потому что пользователи теряют интерес", "textEn": "They disappear because users lose interest" },
+      { "key": "d", "text": "Они остаются на том же уровне привлекательности", "textEn": "They remain at the same attractiveness level" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Это ключевой инсайт Кано: delighters мигрируют в must-be. Автокоррекция на смартфоне когда-то восхищала — сейчас это базовое ожидание. AI-подсказки в IDE были delighter в 2021 — в 2026 это must-be. Это значит, что продуктам нужно постоянно искать новые delighters, пока старые становятся базовыми ожиданиями.",
+    "explanationEn": "This is Kano's key insight: delighters migrate to must-be. Autocorrect on smartphones once amazed people — now it's a basic expectation. AI suggestions in IDEs were a delighter in 2021 — in 2026 it's must-be. This means products must constantly find new delighters as old ones become baseline expectations.",
+    "source": "Kano Model",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Kano_model"
+  },
+  {
+    "id": "pt_q15",
+    "dimension": "product_thinking",
+    "text": "Какой подход к AI-фичам продукта соответствует принципу «Start with the user, end with the technology»?",
+    "textEn": "Which approach to AI product features follows the principle 'Start with the user, end with the technology'?",
+    "options": [
+      { "key": "a", "text": "«GPT-4o вышел — давайте добавим поддержку голоса в наш продукт»", "textEn": "'GPT-4o launched — let's add voice support to our product'" },
+      { "key": "b", "text": "«Наши пользователи тратят 40 минут на составление отчётов — можем ли мы автоматизировать это с помощью AI?»", "textEn": "'Our users spend 40 minutes on reports — can we automate this with AI?'" },
+      { "key": "c", "text": "«Конкуренты добавили AI-чат — нам тоже нужен»", "textEn": "'Competitors added an AI chat — we need one too'" },
+      { "key": "d", "text": "«AI — это будущее, нужно встроить его во все экраны»", "textEn": "'AI is the future, we need to embed it in all screens'" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Вариант B начинает с проблемы пользователя (40 минут на отчёты) и только потом рассматривает AI как возможное решение. Остальные варианты начинают с технологии (A — новая модель, C — конкуренты, D — тренд) и ищут, куда её приткнуть. Это классическая ошибка — technology push вместо market pull. Хороший продуктовый менеджер всегда начинает с пользователя.",
+    "explanationEn": "Option B starts with the user's problem (40 minutes on reports) and only then considers AI as a possible solution. Other options start with technology (A — new model, C — competitors, D — trend) and look for where to apply it. This is the classic mistake — technology push instead of market pull. A good product manager always starts with the user.",
+    "source": "Soft Skills Guide: Продуктовые решения в эпоху AI",
+    "sourceUrl": "/guide/product-thinking"
+  }
+]

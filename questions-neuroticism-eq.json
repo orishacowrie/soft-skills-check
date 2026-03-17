@@ -1,0 +1,147 @@
+{
+  "selfAssessment": [
+    {
+      "id": "ei_n01",
+      "dimension": "emotional_intelligence",
+      "text": "Если я допустил ошибку на проде или в важном проекте, я прокручиваю это в голове часами — даже когда уже всё исправлено.",
+      "textEn": "If I make a mistake in production or an important project, I replay it in my head for hours — even after it's already fixed.",
+      "reverse": true,
+      "tags": ["general", "neuroticism"]
+    },
+    {
+      "id": "ei_n02",
+      "dimension": "emotional_intelligence",
+      "text": "Один негативный комментарий на ревью может испортить мне настроение на весь день, даже если остальные 10 комментариев были позитивными.",
+      "textEn": "One negative comment in code review can ruin my mood for the whole day, even if the other 10 comments were positive.",
+      "reverse": true,
+      "tags": ["general", "neuroticism"]
+    },
+    {
+      "id": "ei_n03",
+      "dimension": "emotional_intelligence",
+      "text": "Перед важным дедлайном я чувствую тревогу, которая мешает мне сосредоточиться — начинаю перепроверять уже готовое вместо того, чтобы двигаться дальше.",
+      "textEn": "Before an important deadline I feel anxiety that stops me from focusing — I start rechecking finished work instead of moving forward.",
+      "reverse": true,
+      "tags": ["general", "neuroticism"]
+    },
+    {
+      "id": "ei_n04",
+      "dimension": "emotional_intelligence",
+      "text": "Когда что-то идёт не так, я быстро восстанавливаюсь — расстраиваюсь, но через 15-30 минут уже думаю о решении, а не о проблеме.",
+      "textEn": "When things go wrong, I recover quickly — I get upset, but within 15-30 minutes I'm already thinking about the solution, not the problem.",
+      "reverse": false,
+      "tags": ["general", "neuroticism"]
+    },
+    {
+      "id": "ei_n05",
+      "dimension": "emotional_intelligence",
+      "text": "Когда AI раз за разом выдаёт ерунду, я начинаю злиться не только на AI, но и на себя — 'я даже промпт нормально написать не могу'.",
+      "textEn": "When AI repeatedly gives nonsense, I start getting angry not just at AI but at myself — 'I can't even write a proper prompt'.",
+      "reverse": true,
+      "tags": ["ai_context", "neuroticism"]
+    },
+    {
+      "id": "ei_n06",
+      "dimension": "emotional_intelligence",
+      "text": "Неопределённость в задаче (нет чёткого ТЗ, непонятно что делать) вызывает у меня сильный дискомфорт — мне нужна ясность, чтобы начать.",
+      "textEn": "Uncertainty in a task (no clear spec, unclear what to do) causes me strong discomfort — I need clarity before I can start.",
+      "reverse": true,
+      "tags": ["general", "neuroticism"]
+    },
+    {
+      "id": "ei_n07",
+      "dimension": "emotional_intelligence",
+      "text": "Я умею отделять рабочие неудачи от своей самооценки — провал проекта не значит, что я плохой специалист.",
+      "textEn": "I can separate work failures from my self-worth — a project failing doesn't mean I'm a bad professional.",
+      "reverse": false,
+      "tags": ["general", "neuroticism"]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "ei_nq01",
+      "dimension": "emotional_intelligence",
+      "text": "Согласно модели Big Five (OCEAN), нейротизм — это:",
+      "textEn": "According to the Big Five (OCEAN) model, neuroticism is:",
+      "options": [
+        { "key": "a", "text": "Слабость характера и неспособность справляться с жизнью", "textEn": "A character weakness and inability to cope with life" },
+        { "key": "b", "text": "Склонность к более интенсивным негативным эмоциям — тревоге, грусти, раздражительности", "textEn": "A tendency to experience negative emotions more intensely — anxiety, sadness, irritability" },
+        { "key": "c", "text": "Психическое расстройство, требующее лечения", "textEn": "A mental disorder that requires treatment" },
+        { "key": "d", "text": "Недостаток эмоционального интеллекта", "textEn": "A lack of emotional intelligence" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Нейротизм — это не диагноз и не слабость, а одна из пяти базовых черт личности. Высокий нейротизм означает более сильную реакцию на стресс и негатив. Это можно осознавать и компенсировать.",
+      "explanationEn": "Neuroticism isn't a diagnosis or weakness — it's one of five basic personality traits. High neuroticism means stronger reactions to stress and negativity. It can be recognized and managed.",
+      "source": "Big Five personality model (Costa & McCrae)",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Big_Five_personality_traits"
+    },
+    {
+      "id": "ei_nq02",
+      "dimension": "emotional_intelligence",
+      "text": "Руминация (навязчивое прокручивание мыслей о прошлых ошибках) наиболее эффективно прерывается через:",
+      "textEn": "Rumination (obsessive replaying of past mistakes) is most effectively interrupted by:",
+      "options": [
+        { "key": "a", "text": "Попытку не думать об этом и отвлечься", "textEn": "Trying not to think about it and distracting yourself" },
+        { "key": "b", "text": "Подробный разбор ошибки с коллегами", "textEn": "Detailed analysis of the mistake with colleagues" },
+        { "key": "c", "text": "Переключение на активное действие — физическое или ментальное (прогулка, другая задача)", "textEn": "Switching to active engagement — physical or mental (a walk, a different task)" },
+        { "key": "d", "text": "Запись всех тревожных мыслей в дневник до полного исчерпания", "textEn": "Writing all anxious thoughts in a journal until they're exhausted" }
+      ],
+      "correctAnswer": "c",
+      "explanation": "Исследования показывают, что подавление мыслей ('не думай об этом') усиливает руминацию. Самый эффективный способ — переключение на absorbing activity: прогулка, разговор на другую тему, задача, требующая концентрации.",
+      "explanationEn": "Research shows that thought suppression ('don't think about it') actually increases rumination. The most effective approach is switching to an absorbing activity: a walk, a conversation on a different topic, a task requiring concentration.",
+      "source": "Soft Skills Guide: Emotional Intelligence",
+      "sourceUrl": "/guide/emotional-intelligence"
+    },
+    {
+      "id": "ei_nq03",
+      "dimension": "emotional_intelligence",
+      "text": "Катастрофизация ('всё пропало!') — это когнитивное искажение, при котором человек:",
+      "textEn": "Catastrophizing ('it's all over!') is a cognitive distortion where a person:",
+      "options": [
+        { "key": "a", "text": "Адекватно оценивает серьёзность ситуации", "textEn": "Adequately assesses the severity of a situation" },
+        { "key": "b", "text": "Преувеличивает негативные последствия и недооценивает свою способность справиться", "textEn": "Exaggerates negative consequences and underestimates their ability to cope" },
+        { "key": "c", "text": "Игнорирует проблему надеясь что она исчезнет", "textEn": "Ignores the problem hoping it will go away" },
+        { "key": "d", "text": "Обвиняет других в своих неудачах", "textEn": "Blames others for their failures" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Катастрофизация — одно из самых распространённых когнитивных искажений. Противоядие: задать себе вопрос 'Какой реально худший исход? А какой наиболее вероятный?' — обычно реальность намного мягче.",
+      "explanationEn": "Catastrophizing is one of the most common cognitive distortions. The antidote: ask yourself 'What's the realistic worst case? And what's most likely?' — usually reality is much milder.",
+      "source": "Cognitive Behavioral Therapy (Aaron Beck)",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cognitive_distortion"
+    },
+    {
+      "id": "ei_nq04",
+      "dimension": "emotional_intelligence",
+      "text": "Что из этого является признаком здоровой эмоциональной регуляции, а не подавления эмоций?",
+      "textEn": "Which of these is a sign of healthy emotional regulation, NOT emotion suppression?",
+      "options": [
+        { "key": "a", "text": "Никогда не показывать раздражение на работе", "textEn": "Never showing irritation at work" },
+        { "key": "b", "text": "Заметить что злишься, сделать паузу и выбрать как отреагировать", "textEn": "Notice you're angry, pause, and choose how to respond" },
+        { "key": "c", "text": "Всегда оставаться позитивным несмотря ни на что", "textEn": "Always staying positive no matter what" },
+        { "key": "d", "text": "Переключаться на работу чтобы не чувствовать неприятные эмоции", "textEn": "Switching to work to avoid feeling unpleasant emotions" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Подавление ('я не злюсь') и токсичная позитивность ('всё отлично!') — не регуляция, а избегание. Здоровая регуляция — заметить эмоцию, принять её и осознанно выбрать реакцию. Это модель 'Emotional Agility' Susan David.",
+      "explanationEn": "Suppression ('I'm not angry') and toxic positivity ('everything's great!') are avoidance, not regulation. Healthy regulation means noticing the emotion, accepting it, and consciously choosing your response. This is Susan David's 'Emotional Agility' model.",
+      "source": "Emotional Agility (Susan David)",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Emotional_agility"
+    },
+    {
+      "id": "ei_nq05",
+      "dimension": "emotional_intelligence",
+      "text": "Когда вы чувствуете нарастающее раздражение во время длинной отладки AI-сгенерированного кода, наиболее эффективная стратегия:",
+      "textEn": "When you feel growing frustration during a long debugging session with AI-generated code, the most effective strategy is:",
+      "options": [
+        { "key": "a", "text": "Продолжать пока не решишь — иначе потеряешь контекст", "textEn": "Keep going until you solve it — otherwise you'll lose context" },
+        { "key": "b", "text": "Переключиться на другой AI-инструмент, может он справится лучше", "textEn": "Switch to a different AI tool, maybe it'll do better" },
+        { "key": "c", "text": "Сделать физическую паузу (5-10 мин), потом вернуться с свежим взглядом", "textEn": "Take a physical break (5-10 min), then return with fresh eyes" },
+        { "key": "d", "text": "Написать коллеге и пожаловаться — это снимет стресс", "textEn": "Message a colleague and vent — that'll relieve the stress" }
+      ],
+      "correctAnswer": "c",
+      "explanation": "При нарастающем раздражении когнитивная функция снижается — ты буквально хуже думаешь. Физическая пауза (встать, пройтись) перезагружает prefrontal cortex и часто приводит к решению 'на свежую голову'. Вентиляция (жалобы) по исследованиям чаще усиливает негативные эмоции, чем снимает их.",
+      "explanationEn": "As frustration builds, cognitive function decreases — you literally think worse. A physical break (standing up, walking) resets the prefrontal cortex and often leads to a 'fresh eyes' solution. Venting (complaining) according to research more often amplifies negative emotions than relieves them.",
+      "source": "Soft Skills Guide: Emotional Intelligence",
+      "sourceUrl": "/guide/emotional-intelligence"
+    }
+  ]
+}
