@@ -165,8 +165,8 @@ export const questions: Question[] = [
   {
     id: "cm_4",
     dimension: "communication",
-    text: 'Я веду заметки или сохраняю удачные промпты и подходы, которые хорошо сработали — чтобы переиспользовать их в похожих задачах.',
-    textEn: "I keep notes or save prompts and approaches that worked well \u2014 to reuse them for similar tasks.",
+    text: "Я собираю рабочие правила и выводы: какие промпты работают, какие подходы дают результат — и переиспользую их в похожих задачах.",
+    textEn: "I collect working rules and learnings: which prompts work, which approaches deliver results \u2014 and reuse them in similar tasks.",
     reverse: false,
   },
   {
