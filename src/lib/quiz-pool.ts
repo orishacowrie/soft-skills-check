@@ -1,6 +1,6 @@
 import { QuizQuestion } from "./quiz-questions";
 
-// Auto-generated quiz pool — curated + creativity questions
+// Acronyms expanded: full name first, abbreviation in brackets
 
 export const quizPool: QuizQuestion[] = 
 [
@@ -1393,8 +1393,8 @@ export const quizPool: QuizQuestion[] =
   {
     "id": "cm_q03",
     "dimension": "communication",
-    "text": "Какой из четырёх компонентов Ненасильственного Общения (NVC) Маршалла Розенберга идёт ПЕРВЫМ?",
-    "textEn": "Which of the four components of Marshall Rosenberg's Nonviolent Communication (NVC) comes FIRST?",
+    "text": "Какой из четырёх компонентов ненасильственного общения (NVC) Маршалла Розенберга идёт ПЕРВЫМ?",
+    "textEn": "Which of the four components of Marshall Rosenberg's Nonviolent Communication (Nonviolent Communication (NVC) (Nonviolent Communication)) comes FIRST?",
     "options": [
       {
         "key": "a",
@@ -1459,8 +1459,8 @@ export const quizPool: QuizQuestion[] =
   {
     "id": "cm_q16",
     "dimension": "communication",
-    "text": "В пирамиде Минто, группировка аргументов по логике MECE означает...",
-    "textEn": "In the Minto Pyramid, grouping arguments using MECE logic means...",
+    "text": "В пирамиде Минто, группировка аргументов по логике взаимоисключающие и совместно исчерпывающие (MECE) означает...",
+    "textEn": "In the Minto Pyramid, grouping arguments using Mutually Exclusive, Collectively Exhaustive (MECE) (Mutually Exclusive, Collectively Exhaustive) logic means...",
     "options": [
       {
         "key": "a",
@@ -1492,8 +1492,8 @@ export const quizPool: QuizQuestion[] =
   {
     "id": "cm_q17",
     "dimension": "communication",
-    "text": "При формулировке просьбы в NVC, какой вариант наиболее правильный?",
-    "textEn": "When formulating a request in NVC, which option is most correct?",
+    "text": "При формулировке просьбы в ненасильственное общение (NVC), какой вариант наиболее правильный?",
+    "textEn": "When formulating a request in Nonviolent Communication (NVC) (Nonviolent Communication), which option is most correct?",
     "options": [
       {
         "key": "a",
@@ -1558,8 +1558,8 @@ export const quizPool: QuizQuestion[] =
   {
     "id": "cm_q19",
     "dimension": "communication",
-    "text": "Какая ошибка в обратной связи по модели SBI наиболее распространена?",
-    "textEn": "What is the most common mistake when giving feedback using the SBI model?",
+    "text": "Какая ошибка в обратной связи по модели Ситуация-Поведение-Влияние (SBI) наиболее распространена?",
+    "textEn": "What is the most common mistake when giving feedback using the Situation-Behavior-Impact (SBI) (Situation-Behavior-Impact) model?",
     "options": [
       {
         "key": "a",
@@ -1690,8 +1690,8 @@ export const quizPool: QuizQuestion[] =
   {
     "id": "cm_q23",
     "dimension": "communication",
-    "text": "Какой из четырёх компонентов NVC наиболее сложен для освоения на практике?",
-    "textEn": "Which of the four NVC components is most difficult to master in practice?",
+    "text": "Какой из четырёх компонентов ненасильственное общение (NVC) наиболее сложен для освоения на практике?",
+    "textEn": "Which of the four Nonviolent Communication (NVC) (Nonviolent Communication) components is most difficult to master in practice?",
     "options": [
       {
         "key": "a",
@@ -1855,8 +1855,8 @@ export const quizPool: QuizQuestion[] =
   {
     "id": "cm_q29",
     "dimension": "communication",
-    "text": "Какой формат обратной связи предпочтительнее — «бутерброд» или SBI?",
-    "textEn": "Which feedback format is preferable — the 'sandwich' or SBI?",
+    "text": "Какой формат обратной связи предпочтительнее — «бутерброд» или Ситуация-Поведение-Влияние (SBI)?",
+    "textEn": "Which feedback format is preferable — the 'sandwich' or Situation-Behavior-Impact (SBI) (Situation-Behavior-Impact)?",
     "options": [
       {
         "key": "a",
@@ -1987,8 +1987,8 @@ export const quizPool: QuizQuestion[] =
   {
     "id": "cr_q01",
     "dimension": "conflict_resolution",
-    "text": "В модели Томаса-Килманна (TKI) выделяется 5 стилей поведения в конфликте. Какой стиль сочетает высокую ассертивность И высокую кооперативность?",
-    "textEn": "The Thomas-Kilmann Conflict Mode Instrument (TKI) identifies 5 conflict styles. Which style combines high assertiveness AND high cooperativeness?",
+    "text": "В модели Томаса-Килманна (модель Томаса-Килманна (TKI)) выделяется 5 стилей поведения в конфликте. Какой стиль сочетает высокую ассертивность И высокую кооперативность?",
+    "textEn": "The Thomas-Kilmann Conflict Mode Instrument (Thomas-Kilmann Instrument (TKI) (Thomas-Kilmann)) identifies 5 conflict styles. Which style combines high assertiveness AND high cooperativeness?",
     "options": [
       {
         "key": "a",
@@ -2021,7 +2021,7 @@ export const quizPool: QuizQuestion[] =
     "id": "cr_q02",
     "dimension": "conflict_resolution",
     "text": "Четыре шага ненасильственного общения (NVC) по Маршаллу Розенбергу — это...",
-    "textEn": "The four steps of Nonviolent Communication (NVC) by Marshall Rosenberg are...",
+    "textEn": "The four steps of Nonviolent Communication (Nonviolent Communication (NVC) (Nonviolent Communication)) by Marshall Rosenberg are...",
     "options": [
       {
         "key": "a",
@@ -2086,8 +2086,8 @@ export const quizPool: QuizQuestion[] =
   {
     "id": "cr_b01",
     "dimension": "conflict_resolution",
-    "text": "В модели Thomas-Kilmann (TKI), стиль «Компромисс» характеризуется...",
-    "textEn": "In the Thomas-Kilmann (TKI) model, the 'Compromising' style is characterized by...",
+    "text": "В модели Thomas-Kilmann (модель Томаса-Килманна (TKI)), стиль «Компромисс» характеризуется...",
+    "textEn": "In the Thomas-Kilmann (Thomas-Kilmann Instrument (TKI) (Thomas-Kilmann)) model, the 'Compromising' style is characterized by...",
     "options": [
       {
         "key": "a",
@@ -2284,8 +2284,8 @@ export const quizPool: QuizQuestion[] =
   {
     "id": "cr_q05",
     "dimension": "conflict_resolution",
-    "text": "В TKI, стиль Avoiding (избегание) характеризуется...",
-    "textEn": "In TKI, the Avoiding style is characterized by...",
+    "text": "В модель Томаса-Килманна (TKI), стиль Avoiding (избегание) характеризуется...",
+    "textEn": "In Thomas-Kilmann Instrument (TKI) (Thomas-Kilmann), the Avoiding style is characterized by...",
     "options": [
       {
         "key": "a",
@@ -2317,8 +2317,8 @@ export const quizPool: QuizQuestion[] =
   {
     "id": "cr_q06",
     "dimension": "conflict_resolution",
-    "text": "В NVC, наблюдение отличается от оценки тем, что...",
-    "textEn": "In NVC, an observation differs from an evaluation in that...",
+    "text": "В ненасильственном общении (NVC), наблюдение отличается от оценки тем, что...",
+    "textEn": "In Nonviolent Communication (NVC) (Nonviolent Communication), an observation differs from an evaluation in that...",
     "options": [
       {
         "key": "a",
@@ -2350,8 +2350,8 @@ export const quizPool: QuizQuestion[] =
   {
     "id": "cr_q08",
     "dimension": "conflict_resolution",
-    "text": "В TKI, стиль Accommodating (приспособление) уместен, когда...",
-    "textEn": "In TKI, the Accommodating style is appropriate when...",
+    "text": "В модель Томаса-Килманна (TKI), стиль Accommodating (приспособление) уместен, когда...",
+    "textEn": "In Thomas-Kilmann Instrument (TKI) (Thomas-Kilmann), the Accommodating style is appropriate when...",
     "options": [
       {
         "key": "a",
@@ -2383,8 +2383,8 @@ export const quizPool: QuizQuestion[] =
   {
     "id": "cr_q13",
     "dimension": "conflict_resolution",
-    "text": "В NVC, в чём разница между просьбой и требованием?",
-    "textEn": "In NVC, what's the difference between a request and a demand?",
+    "text": "В ненасильственном общении (NVC), в чём разница между просьбой и требованием?",
+    "textEn": "In Nonviolent Communication (NVC) (Nonviolent Communication), what's the difference between a request and a demand?",
     "options": [
       {
         "key": "a",
@@ -2417,7 +2417,7 @@ export const quizPool: QuizQuestion[] =
     "id": "cr_b02",
     "dimension": "conflict_resolution",
     "text": "Первый шаг ненасильственного общения (NVC) по Розенбергу — это...",
-    "textEn": "The first step of Nonviolent Communication (NVC) according to Rosenberg is...",
+    "textEn": "The first step of Nonviolent Communication (Nonviolent Communication (NVC) (Nonviolent Communication)) according to Rosenberg is...",
     "options": [
       {
         "key": "a",
@@ -2449,8 +2449,8 @@ export const quizPool: QuizQuestion[] =
   {
     "id": "cr_b05",
     "dimension": "conflict_resolution",
-    "text": "В TKI, стиль «Collaboration» (Сотрудничество) требует...",
-    "textEn": "In TKI, the 'Collaboration' style requires...",
+    "text": "В модель Томаса-Килманна (TKI), стиль «Collaboration» (Сотрудничество) требует...",
+    "textEn": "In Thomas-Kilmann Instrument (TKI) (Thomas-Kilmann), the 'Collaboration' style requires...",
     "options": [
       {
         "key": "a",
@@ -2482,8 +2482,8 @@ export const quizPool: QuizQuestion[] =
   {
     "id": "cr_b06",
     "dimension": "conflict_resolution",
-    "text": "В NVC Розенберга, чем «чувство» отличается от «оценки, замаскированной под чувство»?",
-    "textEn": "In Rosenberg's NVC, how does a 'feeling' differ from 'an evaluation disguised as a feeling'?",
+    "text": "В ненасильственном общении (NVC) Розенберга, чем «чувство» отличается от «оценки, замаскированной под чувство»?",
+    "textEn": "In Rosenberg's Nonviolent Communication (NVC) (Nonviolent Communication), how does a 'feeling' differ from 'an evaluation disguised as a feeling'?",
     "options": [
       {
         "key": "a",
@@ -2548,8 +2548,8 @@ export const quizPool: QuizQuestion[] =
   {
     "id": "cr_b09",
     "dimension": "conflict_resolution",
-    "text": "В TKI, стиль «Avoiding» (Уклонение) уместен, когда...",
-    "textEn": "In TKI, the 'Avoiding' style is appropriate when...",
+    "text": "В модель Томаса-Килманна (TKI), стиль «Avoiding» (Уклонение) уместен, когда...",
+    "textEn": "In Thomas-Kilmann Instrument (TKI) (Thomas-Kilmann), the 'Avoiding' style is appropriate when...",
     "options": [
       {
         "key": "a",
@@ -4891,8 +4891,8 @@ export const quizPool: QuizQuestion[] =
   {
     "id": "pt_q21",
     "dimension": "product_thinking",
-    "text": "Какой «job» (задачу) по JTBD решает молочный коктейль по примеру Кристенсена?",
-    "textEn": "What 'job' does a milkshake solve in Christensen's famous JTBD example?",
+    "text": "Какой «job» (задачу) по Jobs To Be Done (JTBD) решает молочный коктейль по примеру Кристенсена?",
+    "textEn": "What 'job' does a milkshake solve in Christensen's famous Jobs To Be Done (JTBD) (Jobs To Be Done) example?",
     "options": [
       {
         "key": "a",
@@ -4990,8 +4990,8 @@ export const quizPool: QuizQuestion[] =
   {
     "id": "pt_q26",
     "dimension": "product_thinking",
-    "text": "В JTBD, что такое «hiring criteria» (критерии найма) продукта?",
-    "textEn": "In JTBD, what are the 'hiring criteria' for a product?",
+    "text": "В Jobs To Be Done (JTBD), что такое «hiring criteria» (критерии найма) продукта?",
+    "textEn": "In Jobs To Be Done (JTBD) (Jobs To Be Done), what are the 'hiring criteria' for a product?",
     "options": [
       {
         "key": "a",
@@ -5155,8 +5155,8 @@ export const quizPool: QuizQuestion[] =
   {
     "id": "pt_q33",
     "dimension": "product_thinking",
-    "text": "В JTBD, «switching costs» (издержки переключения) — это...",
-    "textEn": "In JTBD, 'switching costs' refer to...",
+    "text": "В Jobs To Be Done (JTBD), «switching costs» (издержки переключения) — это...",
+    "textEn": "In Jobs To Be Done (JTBD) (Jobs To Be Done), 'switching costs' refer to...",
     "options": [
       {
         "key": "a",
@@ -5254,8 +5254,8 @@ export const quizPool: QuizQuestion[] =
   {
     "id": "pt_q38",
     "dimension": "product_thinking",
-    "text": "Что общего между JTBD и Design Thinking на стадии исследования?",
-    "textEn": "What do JTBD and Design Thinking have in common at the research stage?",
+    "text": "Что общего между Jobs To Be Done (JTBD) и Design Thinking на стадии исследования?",
+    "textEn": "What do Jobs To Be Done (JTBD) (Jobs To Be Done) and Design Thinking have in common at the research stage?",
     "options": [
       {
         "key": "a",
@@ -5353,8 +5353,8 @@ export const quizPool: QuizQuestion[] =
   {
     "id": "so_q05",
     "dimension": "self_organization",
-    "text": "В GTD, если обработанная задача занимает менее 2 минут, что нужно делать?",
-    "textEn": "In GTD, if a processed task takes less than 2 minutes, what should you do?",
+    "text": "В Getting Things Done (GTD), если обработанная задача занимает менее 2 минут, что нужно делать?",
+    "textEn": "In Getting Things Done (GTD) (Getting Things Done), if a processed task takes less than 2 minutes, what should you do?",
     "options": [
       {
         "key": "a",
@@ -5518,8 +5518,8 @@ export const quizPool: QuizQuestion[] =
   {
     "id": "so_q17",
     "dimension": "self_organization",
-    "text": "Какую проблему решает еженедельный обзор (Weekly Review) в GTD?",
-    "textEn": "What problem does the Weekly Review solve in GTD?",
+    "text": "Какую проблему решает еженедельный обзор (Weekly Review) в Getting Things Done (GTD)?",
+    "textEn": "What problem does the Weekly Review solve in Getting Things Done (GTD) (Getting Things Done)?",
     "options": [
       {
         "key": "a",
@@ -5617,8 +5617,8 @@ export const quizPool: QuizQuestion[] =
   {
     "id": "so_q20",
     "dimension": "self_organization",
-    "text": "Что объединяет GTD, Kanban и Помодоро как системы самоорганизации?",
-    "textEn": "What do GTD, Kanban, and Pomodoro have in common as self-organization systems?",
+    "text": "Что объединяет Getting Things Done (GTD), Kanban и Помодоро как системы самоорганизации?",
+    "textEn": "What do Getting Things Done (GTD) (Getting Things Done), Kanban, and Pomodoro have in common as self-organization systems?",
     "options": [
       {
         "key": "a",
@@ -6772,8 +6772,8 @@ export const quizPool: QuizQuestion[] =
   {
     "id": "cr_unite_01",
     "dimension": "conflict_resolution",
-    "text": "Что объединяет NVC (ненасильственное общение), Я-высказывание и метод «Getting to Yes»?",
-    "textEn": "What do NVC, I-statements, and the 'Getting to Yes' method share?",
+    "text": "Что объединяет ненасильственное общение (NVC), Я-высказывание и метод «Getting to Yes»?",
+    "textEn": "What do Nonviolent Communication (NVC) (Nonviolent Communication), I-statements, and the 'Getting to Yes' method share?",
     "options": [
       {
         "key": "a",
