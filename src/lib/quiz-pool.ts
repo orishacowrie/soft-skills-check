@@ -7032,6 +7032,347 @@ export const quizPool: QuizQuestion[] =
     "explanationEn": "Covey: seek wins for both sides. Fisher: focus on interests, not positions. Grant: givers win. Different authors, different decades, same conclusion: strategic cooperation beats competition over the long run.",
     "source": "Cross-framework analysis",
     "sourceUrl": "/guide/collaboration"
+  },
+  // Management Skills (ms) — 20 questions
+  {
+    "id": "ms_q01",
+    "dimension": "management_skills",
+    "text": "Что такое SMART-критерии при постановке задачи?",
+    "textEn": "What are SMART criteria when setting a task?",
+    "options": [
+      { "key": "a", "text": "Простые, измеримые, достижимые, реалистичные, временные", "textEn": "Simple, Measurable, Achievable, Realistic, Timely" },
+      { "key": "b", "text": "Конкретные, измеримые, достижимые, релевантные, ограниченные по времени", "textEn": "Specific, Measurable, Achievable, Relevant, Time-bound" },
+      { "key": "c", "text": "Стратегические, мотивирующие, гибкие, разумные, отслеживаемые", "textEn": "Strategic, Motivating, Agile, Reasonable, Trackable" },
+      { "key": "d", "text": "Стандартные, управляемые, автоматизированные, регулярные, тактические", "textEn": "Standard, Manageable, Automated, Regular, Tactical" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "SMART — классический фреймворк постановки целей Питера Друкера: Specific (конкретная), Measurable (измеримая), Achievable (достижимая), Relevant (релевантная), Time-bound (ограниченная по времени). Работает одинаково для задач людям и AI-агентам: без конкретики и критериев приёмки исполнитель не знает, когда задача завершена.",
+    "explanationEn": "SMART is Peter Drucker's classic goal-setting framework: Specific, Measurable, Achievable, Relevant, Time-bound. It works equally for tasks assigned to humans and AI agents: without specificity and acceptance criteria, the executor doesn't know when the task is done.",
+    "source": "Peter Drucker — The Practice of Management (1954)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/SMART_criteria"
+  },
+  {
+    "id": "ms_q02",
+    "dimension": "management_skills",
+    "text": "В матрице Эйзенхауэра задачи делятся на 4 квадранта. Какой квадрант следует делегировать или автоматизировать в первую очередь?",
+    "textEn": "In the Eisenhower Matrix, tasks are divided into 4 quadrants. Which quadrant should be delegated or automated first?",
+    "options": [
+      { "key": "a", "text": "Срочные и важные", "textEn": "Urgent and important" },
+      { "key": "b", "text": "Несрочные и важные", "textEn": "Not urgent and important" },
+      { "key": "c", "text": "Срочные и неважные", "textEn": "Urgent and not important" },
+      { "key": "d", "text": "Несрочные и неважные", "textEn": "Not urgent and not important" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Матрица Эйзенхауэра: Q1 (срочно+важно) — делай сам сейчас; Q2 (несрочно+важно) — планируй; Q3 (срочно+неважно) — делегируй или автоматизируй; Q4 (несрочно+неважно) — откажись. Q3 идеально подходит для AI-агентов: задача срочная, но не требует вашего личного участия.",
+    "explanationEn": "Eisenhower Matrix: Q1 (urgent+important) — do it yourself now; Q2 (not urgent+important) — schedule it; Q3 (urgent+not important) — delegate or automate; Q4 (not urgent+not important) — eliminate. Q3 is ideal for AI agents: the task is urgent but doesn't require your personal involvement.",
+    "source": "Eisenhower Matrix (popularized by Stephen Covey)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Time_management#The_Eisenhower_Method"
+  },
+  {
+    "id": "ms_q03",
+    "dimension": "management_skills",
+    "text": "Что означает принцип «управление по целям» (Management by Objectives, MBO)?",
+    "textEn": "What does Management by Objectives (MBO) mean?",
+    "options": [
+      { "key": "a", "text": "Менеджер контролирует каждый шаг исполнителя", "textEn": "The manager controls every step the executor takes" },
+      { "key": "b", "text": "Цели согласуются совместно, исполнитель получает автономию в выборе пути", "textEn": "Goals are agreed jointly; the executor gets autonomy in choosing the path" },
+      { "key": "c", "text": "Менеджер ставит цели без участия команды", "textEn": "The manager sets goals without team input" },
+      { "key": "d", "text": "Оценка ведётся только по финансовым показателям", "textEn": "Evaluation is based only on financial metrics" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "MBO (Питер Друкер, 1954): менеджер и сотрудник совместно формулируют цели, сотрудник сам выбирает методы достижения. Это повышает мотивацию и ответственность. Аналог в AI-эпоху: задавай цель и критерии агенту, но не диктуй каждый шаг — AI лучше справляется, когда ему дают пространство для манёвра.",
+    "explanationEn": "MBO (Peter Drucker, 1954): manager and employee jointly define goals; the employee chooses their own methods. This increases motivation and ownership. The AI-era analogue: set the goal and criteria for an agent but don't dictate every step — AI performs better when given room to maneuver.",
+    "source": "Peter Drucker — The Practice of Management (1954)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Management_by_objectives"
+  },
+  {
+    "id": "ms_q04",
+    "dimension": "management_skills",
+    "text": "Что такое «делегирование» в классическом менеджменте?",
+    "textEn": "What is 'delegation' in classical management?",
+    "options": [
+      { "key": "a", "text": "Передача задачи с полной потерей контроля над результатом", "textEn": "Transferring a task with complete loss of control over the result" },
+      { "key": "b", "text": "Передача полномочий и ответственности за выполнение при сохранении подотчётности", "textEn": "Transferring authority and responsibility for execution while retaining accountability" },
+      { "key": "c", "text": "Разбивка задачи на части между несколькими людьми без назначения ответственного", "textEn": "Splitting a task among several people without assigning accountability" },
+      { "key": "d", "text": "Автоматизация рутинных операций с помощью скриптов", "textEn": "Automating routine operations with scripts" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Делегирование — передача полномочий на выполнение задачи при сохранении итоговой подотчётности у делегирующего. Ключевое: вы передаёте ответственность за процесс, но не за результат — он всё равно на вас. Это актуально и при работе с AI-агентами: вы отвечаете за то, что агент сделал от вашего имени.",
+    "explanationEn": "Delegation transfers authority to complete a task while the delegator retains final accountability. Key point: you hand over process ownership but not result ownership — that stays with you. This applies to AI agents too: you are responsible for what an agent does on your behalf.",
+    "source": "Henri Fayol — General and Industrial Management (1916)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Delegation"
+  },
+  {
+    "id": "ms_q05",
+    "dimension": "management_skills",
+    "text": "Модель ситуационного лидерства Херси-Бланшара предполагает, что стиль управления должен меняться в зависимости от...",
+    "textEn": "The Hersey-Blanchard Situational Leadership model says the management style should change depending on...",
+    "options": [
+      { "key": "a", "text": "Личных предпочтений руководителя", "textEn": "The manager's personal preferences" },
+      { "key": "b", "text": "Уровня готовности (компетентности и мотивации) исполнителя к задаче", "textEn": "The executor's readiness level (competence and motivation) for the task" },
+      { "key": "c", "text": "Размера команды и бюджета проекта", "textEn": "The team size and project budget" },
+      { "key": "d", "text": "Срочности задачи", "textEn": "The urgency of the task" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Ситуационное лидерство (Херси и Бланшар, 1969): не существует одного правильного стиля управления — он должен подстраиваться под уровень готовности исполнителя (D1-D4: от новичка до эксперта). Для AI-агентов это тоже верно: простую модель можно контролировать мало, но новый сложный агент требует больше микроменеджмента.",
+    "explanationEn": "Situational Leadership (Hersey & Blanchard, 1969): there is no single correct management style — it must adapt to the executor's readiness level (D1–D4: from novice to expert). This applies to AI agents too: a well-proven model needs little oversight, but a new complex agent requires more hands-on management.",
+    "source": "Hersey & Blanchard — Management of Organizational Behavior (1969)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Situational_leadership_theory"
+  },
+  {
+    "id": "ms_q06",
+    "dimension": "management_skills",
+    "text": "Что такое OKR (Objectives and Key Results)?",
+    "textEn": "What is OKR (Objectives and Key Results)?",
+    "options": [
+      { "key": "a", "text": "Метод ежедневных отчётов о выполненных задачах", "textEn": "A method of daily reports on completed tasks" },
+      { "key": "b", "text": "Фреймворк постановки амбициозных целей с измеримыми результатами, связывающий индивидуальные и командные цели", "textEn": "A framework for setting ambitious goals with measurable results, linking individual and team objectives" },
+      { "key": "c", "text": "Система штрафов за невыполнение KPI", "textEn": "A penalty system for missing KPIs" },
+      { "key": "d", "text": "Инструмент для оценки производительности раз в год", "textEn": "A tool for annual performance evaluation" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "OKR (Энди Гроув, Intel; popularized by Google): Objective — вдохновляющая цель («что хотим достичь»), Key Results — 2-5 измеримых результатов («как поймём, что достигли»). Квартальные циклы, прозрачность, растяжимые цели (moon shots). Google использует OKR с 1999 года. Применим для команд, AI-агентов и личного планирования.",
+    "explanationEn": "OKR (Andy Grove, Intel; popularized by Google): Objective — an inspiring goal ('what we want to achieve'), Key Results — 2–5 measurable outcomes ('how we'll know we got there'). Quarterly cycles, transparency, stretch goals (moon shots). Google has used OKRs since 1999. Applicable to teams, AI agents, and personal planning.",
+    "source": "John Doerr — Measure What Matters (2018)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Objectives_and_key_results"
+  },
+  {
+    "id": "ms_q07",
+    "dimension": "management_skills",
+    "text": "Что описывает «закон Паркинсона» применительно к управлению задачами?",
+    "textEn": "What does 'Parkinson's Law' describe in the context of task management?",
+    "options": [
+      { "key": "a", "text": "Команды растут, даже если объём работы не увеличивается", "textEn": "Teams grow even when the volume of work doesn't increase" },
+      { "key": "b", "text": "Работа расширяется, чтобы заполнить всё отведённое для неё время", "textEn": "Work expands to fill the time allotted for it" },
+      { "key": "c", "text": "Сложность задач растёт пропорционально размеру команды", "textEn": "Task complexity grows proportionally to team size" },
+      { "key": "d", "text": "Производительность падает по мере роста организации", "textEn": "Productivity decreases as the organization grows" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Закон Паркинсона (Сирил Паркинсон, 1955): «Work expands so as to fill the time available for its completion». Практический вывод: устанавливай жёсткие дедлайны, а не мягкие. Это работает и для AI-агентов: без ограничений они продолжают генерировать, рефайнить и добавлять — давай явные ограничения по объёму и времени.",
+    "explanationEn": "Parkinson's Law (Cyril Parkinson, 1955): 'Work expands so as to fill the time available for its completion.' Practical takeaway: set hard deadlines, not soft ones. This applies to AI agents too: without constraints they keep generating, refining, and adding — give explicit scope and time limits.",
+    "source": "Cyril Northcote Parkinson — The Economist (1955)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Parkinson%27s_law"
+  },
+  {
+    "id": "ms_q08",
+    "dimension": "management_skills",
+    "text": "Что такое «микроменеджмент» и почему он считается неэффективным?",
+    "textEn": "What is 'micromanagement' and why is it considered ineffective?",
+    "options": [
+      { "key": "a", "text": "Детальное планирование задач; неэффективно из-за затрат времени на планирование", "textEn": "Detailed task planning; ineffective because planning takes too long" },
+      { "key": "b", "text": "Избыточный контроль над каждым шагом исполнителя; снижает автономию, мотивацию и скорость", "textEn": "Excessive control over every step the executor takes; reduces autonomy, motivation, and speed" },
+      { "key": "c", "text": "Управление небольшими командами; неэффективно при масштабировании", "textEn": "Managing small teams; ineffective at scale" },
+      { "key": "d", "text": "Дробление задач на подзадачи; замедляет процесс", "textEn": "Breaking tasks into subtasks; slows down the process" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Микроменеджмент — контроль каждого шага вместо контроля результата. Снижает мотивацию, замедляет работу, не развивает самостоятельность. Исследования Gallup показывают: сотрудники с высокой автономией на 43% реже меняют работу. Для AI-агентов: избыточный контроль каждого шага агента лишает смысла делегирование — доверяй процессу, контролируй результат.",
+    "explanationEn": "Micromanagement is controlling every step instead of the outcome. It reduces motivation, slows work, and prevents independence from developing. Gallup research shows employees with high autonomy are 43% less likely to change jobs. For AI agents: excessive step-by-step control defeats the purpose of delegation — trust the process, control the result.",
+    "source": "Gallup — State of the American Manager (2015)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Micromanagement"
+  },
+  {
+    "id": "ms_q09",
+    "dimension": "management_skills",
+    "text": "Что означает «span of control» (норма управляемости) в теории организаций?",
+    "textEn": "What does 'span of control' mean in organizational theory?",
+    "options": [
+      { "key": "a", "text": "Диапазон полномочий менеджера по найму и увольнению", "textEn": "The range of a manager's authority to hire and fire" },
+      { "key": "b", "text": "Количество подчинённых, которыми менеджер может эффективно управлять напрямую", "textEn": "The number of subordinates a manager can effectively manage directly" },
+      { "key": "c", "text": "Максимальный бюджет, которым распоряжается менеджер", "textEn": "The maximum budget a manager controls" },
+      { "key": "d", "text": "Число уровней иерархии в организации", "textEn": "The number of hierarchical levels in an organization" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Норма управляемости — количество прямых подчинённых, при которых руководитель остаётся эффективным. Классически: 5-7 человек (Лютер Гьюлик). Джефф Безос использовал «правило двух пицц»: команда не должна быть больше той, которую можно накормить двумя пиццами. С AI-агентами норма растёт: один менеджер может контролировать десятки параллельных агентов через правильно выстроенные чекпоинты.",
+    "explanationEn": "Span of control is the number of direct reports a manager can effectively oversee. Classically: 5–7 people (Luther Gulick). Jeff Bezos used the 'two-pizza rule': a team shouldn't be larger than what two pizzas can feed. With AI agents, the span increases: one manager can oversee dozens of parallel agents through well-designed checkpoints.",
+    "source": "Luther Gulick — Papers on the Science of Administration (1937)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Span_of_control"
+  },
+  {
+    "id": "ms_q10",
+    "dimension": "management_skills",
+    "text": "Что такое «метод критического пути» (Critical Path Method, CPM) в управлении проектами?",
+    "textEn": "What is the Critical Path Method (CPM) in project management?",
+    "options": [
+      { "key": "a", "text": "Метод оценки рисков по степени критичности для бизнеса", "textEn": "A method for assessing risks by their criticality to the business" },
+      { "key": "b", "text": "Техника выявления самой длинной последовательности зависимых задач, определяющей минимальное время проекта", "textEn": "A technique for identifying the longest sequence of dependent tasks that determines the project's minimum duration" },
+      { "key": "c", "text": "Расстановка приоритетов по важности задач для клиента", "textEn": "Prioritizing tasks by importance to the client" },
+      { "key": "d", "text": "Оценка загруженности команды по каждой задаче", "textEn": "Estimating team workload for each task" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "CPM (разработан DuPont и Remington Rand в 1950-х): определяет критический путь — цепочку задач, задержка любой из которых задерживает весь проект. Задачи вне критического пути имеют «float» — запас времени. Практическое применение: сосредоточь ресурсы и контроль на критическом пути, остальное можно делегировать с меньшим надзором.",
+    "explanationEn": "CPM (developed by DuPont and Remington Rand in the 1950s): identifies the critical path — the chain of tasks where any delay delays the entire project. Tasks off the critical path have 'float' (scheduling buffer). Practical application: focus resources and oversight on the critical path; the rest can be delegated with less supervision.",
+    "source": "Critical Path Method — Project Management Institute",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Critical_path_method"
+  },
+  {
+    "id": "ms_q11",
+    "dimension": "management_skills",
+    "text": "Что означает аббревиатура RACI в управлении задачами?",
+    "textEn": "What does the RACI acronym mean in task management?",
+    "options": [
+      { "key": "a", "text": "Results, Actions, Costs, Indicators", "textEn": "Results, Actions, Costs, Indicators" },
+      { "key": "b", "text": "Responsible, Accountable, Consulted, Informed", "textEn": "Responsible, Accountable, Consulted, Informed" },
+      { "key": "c", "text": "Review, Approve, Control, Implement", "textEn": "Review, Approve, Control, Implement" },
+      { "key": "d", "text": "Report, Assign, Communicate, Inspect", "textEn": "Report, Assign, Communicate, Inspect" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "RACI-матрица распределяет роли по задачам: Responsible (исполнитель), Accountable (владелец, несёт итоговую ответственность), Consulted (эксперт, с которым консультируются), Informed (тот, кого информируют о результате). Ключевое: у каждой задачи должен быть ровно один Accountable — иначе «все ответственны» = никто не ответственен. Применимо и при управлении AI-агентами.",
+    "explanationEn": "The RACI matrix assigns roles to tasks: Responsible (executor), Accountable (owner with final accountability), Consulted (subject-matter expert), Informed (stakeholder kept in the loop). Key rule: each task must have exactly one Accountable — otherwise 'everyone is responsible' means nobody is. Applicable to AI-agent orchestration too.",
+    "source": "Project Management Body of Knowledge (PMBOK)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Responsibility_assignment_matrix"
+  },
+  {
+    "id": "ms_q12",
+    "dimension": "management_skills",
+    "text": "Что такое «принцип единственного ответственного» (Single Point of Accountability) и зачем он нужен?",
+    "textEn": "What is the 'Single Point of Accountability' principle and why is it important?",
+    "options": [
+      { "key": "a", "text": "Один человек должен выполнять всю работу, чтобы избежать разногласий", "textEn": "One person should do all the work to avoid disagreements" },
+      { "key": "b", "text": "За каждый результат должен отвечать ровно один человек — это устраняет размытие ответственности", "textEn": "Exactly one person must own each outcome — this eliminates accountability diffusion" },
+      { "key": "c", "text": "Менеджер несёт ответственность за все решения команды", "textEn": "The manager is responsible for all team decisions" },
+      { "key": "d", "text": "Отчётность ведётся только перед одним стейкхолдером", "textEn": "Reporting is done to only one stakeholder" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Когда за результат отвечают несколько людей, возникает «эффект зрителя» (Латане и Дарли): каждый думает, что другой возьмёт на себя ответственность, и в итоге не берёт никто. Один владелец результата устраняет эту проблему. При управлении AI-агентами: чётко определяй, кто из людей проверяет и принимает каждый выход агента.",
+    "explanationEn": "When multiple people share responsibility for an outcome, the 'bystander effect' (Latané & Darley) kicks in: everyone assumes someone else will take ownership, so nobody does. A single result owner eliminates this. When managing AI agents: clearly define which human reviews and accepts each agent output.",
+    "source": "Bystander Effect — Latané & Darley (1968)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Bystander_effect"
+  },
+  {
+    "id": "ms_q13",
+    "dimension": "management_skills",
+    "text": "Что такое «обратная связь по модели SBI» (Situation — Behavior — Impact)?",
+    "textEn": "What is the SBI (Situation — Behavior — Impact) feedback model?",
+    "options": [
+      { "key": "a", "text": "Метод оценки по трём показателям: скорость, результат, инициатива", "textEn": "An evaluation method based on three metrics: speed, result, initiative" },
+      { "key": "b", "text": "Структура обратной связи: описываешь ситуацию, конкретное поведение и его влияние — без оценок личности", "textEn": "A feedback structure: describe the situation, specific behavior, and its impact — without judging the person" },
+      { "key": "c", "text": "Система бонусов, привязанная к ключевым показателям", "textEn": "A bonus system tied to key performance indicators" },
+      { "key": "d", "text": "Трёхэтапная модель онбординга новых сотрудников", "textEn": "A three-stage onboarding model for new employees" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "SBI (Center for Creative Leadership): Situation (когда именно, в какой ситуации), Behavior (что конкретно было сделано — без интерпретаций), Impact (какой эффект это произвело). Пример: «На вчерашнем стендапе (S) ты перебил коллегу три раза (B) — это снизило его уверенность высказываться (I)». Так же работает при ревью AI-агентов: описывай конкретный вывод, а не «агент плохо работает».",
+    "explanationEn": "SBI (Center for Creative Leadership): Situation (when and where), Behavior (what specifically happened — no interpretation), Impact (the effect it had). Example: 'In yesterday's standup (S) you interrupted your colleague three times (B) — it reduced their confidence in speaking up (I).' Works the same when reviewing AI agents: describe the specific output, not 'the agent performed badly.'",
+    "source": "Center for Creative Leadership — SBI Feedback Model",
+    "sourceUrl": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-vs-impact-sbii/"
+  },
+  {
+    "id": "ms_q14",
+    "dimension": "management_skills",
+    "text": "Что такое «управление по отклонениям» (Management by Exception)?",
+    "textEn": "What is 'Management by Exception'?",
+    "options": [
+      { "key": "a", "text": "Менеджер вмешивается только тогда, когда показатели выходят за допустимые границы", "textEn": "The manager intervenes only when metrics fall outside acceptable boundaries" },
+      { "key": "b", "text": "Управление командами в нестандартных кризисных ситуациях", "textEn": "Managing teams in non-standard crisis situations" },
+      { "key": "c", "text": "Особый режим управления для исключительных сотрудников", "textEn": "A special management mode for exceptional employees" },
+      { "key": "d", "text": "Метод принятия решений только в исключительных случаях", "textEn": "A decision-making method used only in exceptional cases" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Management by Exception (MBE): менеджер не контролирует всё подряд, а задаёт пороговые значения. Если показатели в норме — исполнитель работает самостоятельно. Если выходят за границы — эскалация. Идеально для управления AI-агентами: настраивай автоматические алерты при отклонении от ожидаемого поведения вместо ручного мониторинга каждого вывода.",
+    "explanationEn": "Management by Exception (MBE): the manager doesn't monitor everything but sets threshold values. If metrics are within range, the executor works autonomously; if they exceed the bounds, escalation occurs. Ideal for AI-agent management: configure automatic alerts on deviations from expected behavior instead of manually reviewing every output.",
+    "source": "Frederick Winslow Taylor — Scientific Management (1911)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Management_by_exception"
+  },
+  {
+    "id": "ms_q15",
+    "dimension": "management_skills",
+    "text": "Что такое «петля обратной связи» (feedback loop) в управлении командами и процессами?",
+    "textEn": "What is a 'feedback loop' in team and process management?",
+    "options": [
+      { "key": "a", "text": "Регулярные встречи для обсуждения прошлых ошибок", "textEn": "Regular meetings to discuss past mistakes" },
+      { "key": "b", "text": "Механизм, при котором результат действия влияет на следующее действие, позволяя системе самокорректироваться", "textEn": "A mechanism where the result of an action influences the next action, allowing the system to self-correct" },
+      { "key": "c", "text": "Процесс сбора отзывов клиентов о продукте", "textEn": "The process of collecting customer feedback about a product" },
+      { "key": "d", "text": "Цикл найма и увольнения сотрудников", "textEn": "The cycle of hiring and firing employees" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Feedback loop (кибернетика, Норберт Винер): выход системы подаётся обратно на вход, чтобы скорректировать следующий шаг. Короткие петли = быстрое обучение. Пример: daily standup — короткая петля для команды; ретроспектива — длинная. Для AI-агентов: чем короче петля проверки вывода, тем быстрее вы обнаруживаете отклонение и корректируете промпт или инструкцию.",
+    "explanationEn": "Feedback loop (cybernetics, Norbert Wiener): system output is fed back as input to correct the next step. Shorter loops = faster learning. Examples: a daily standup is a short loop for a team; a retrospective is a longer loop. For AI agents: the shorter the output-review loop, the faster you detect deviation and correct the prompt or instruction.",
+    "source": "Norbert Wiener — Cybernetics (1948)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Feedback"
+  },
+  {
+    "id": "ms_q16",
+    "dimension": "management_skills",
+    "text": "Что описывает «принцип Питера» (Peter Principle)?",
+    "textEn": "What does the 'Peter Principle' describe?",
+    "options": [
+      { "key": "a", "text": "Лучшие специалисты уходят к конкурентам", "textEn": "The best specialists leave for competitors" },
+      { "key": "b", "text": "Сотрудников повышают до уровня их некомпетентности", "textEn": "Employees are promoted to their level of incompetence" },
+      { "key": "c", "text": "Производительность падает при превышении оптимального размера команды", "textEn": "Productivity drops when team size exceeds the optimum" },
+      { "key": "d", "text": "Работа занимает столько времени, сколько ей отведено", "textEn": "Work takes as long as the time allocated for it" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Принцип Питера (Лоренс Питер, 1969): в иерархии каждый сотрудник в конечном итоге повышается до позиции, где он некомпетентен — и там и остаётся. Причина: критерии повышения (хорошая работа на текущей позиции) не гарантируют успех на следующей. Вывод для менеджера: перед повышением оценивай компетентность в новой роли, а не только результаты в текущей.",
+    "explanationEn": "The Peter Principle (Laurence Peter, 1969): in a hierarchy, every employee eventually rises to their level of incompetence — and stays there. Reason: promotion criteria (doing well in the current role) don't guarantee success in the next. Takeaway for managers: before promoting, assess competence in the new role, not just results in the current one.",
+    "source": "Laurence J. Peter — The Peter Principle (1969)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Peter_principle"
+  },
+  {
+    "id": "ms_q17",
+    "dimension": "management_skills",
+    "text": "Какой из подходов к приоритизации задач использует формулу «Ценность / Усилие»?",
+    "textEn": "Which task prioritization approach uses the 'Value / Effort' formula?",
+    "options": [
+      { "key": "a", "text": "SMART", "textEn": "SMART" },
+      { "key": "b", "text": "MoSCoW", "textEn": "MoSCoW" },
+      { "key": "c", "text": "ICE Score (Impact, Confidence, Ease)", "textEn": "ICE Score (Impact, Confidence, Ease)" },
+      { "key": "d", "text": "RICE Score (Reach, Impact, Confidence, Effort)", "textEn": "RICE Score (Reach, Impact, Confidence, Effort)" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "RICE Score (Intercom): Reach × Impact × Confidence ÷ Effort. Чем выше RICE — тем приоритетнее задача. ICE (c) схоже, но без Reach. MoSCoW (b) — Must/Should/Could/Won't — не использует формулу. SMART (a) — о качестве постановки цели, не о приоритизации. RICE позволяет сравнивать задачи количественно и убирает субъективность из обсуждений.",
+    "explanationEn": "RICE Score (Intercom): Reach × Impact × Confidence ÷ Effort. Higher RICE = higher priority. ICE (c) is similar but without Reach. MoSCoW (b) — Must/Should/Could/Won't — doesn't use a formula. SMART (a) is about goal quality, not prioritization. RICE enables quantitative comparison of tasks and removes subjectivity from discussions.",
+    "source": "Intercom — RICE Scoring Model",
+    "sourceUrl": "https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/"
+  },
+  {
+    "id": "ms_q18",
+    "dimension": "management_skills",
+    "text": "Что такое «эффект кобры» в управлении метриками?",
+    "textEn": "What is the 'cobra effect' in metrics management?",
+    "options": [
+      { "key": "a", "text": "Команда резко ускоряется перед дедлайном", "textEn": "The team speeds up sharply before a deadline" },
+      { "key": "b", "text": "Стимул, введённый для решения проблемы, ухудшает её из-за изменения поведения исполнителей", "textEn": "An incentive introduced to solve a problem makes it worse because executors change their behavior" },
+      { "key": "c", "text": "Агрессивная конкуренция внутри команды за KPI", "textEn": "Aggressive competition within a team over KPIs" },
+      { "key": "d", "text": "Накопление технического долга при давлении сроков", "textEn": "Accumulation of technical debt under deadline pressure" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "«Эффект кобры»: в колониальной Индии британцы платили за каждую мёртвую кобру — индийцы начали разводить кобр. Метрика стала целью, а не индикатором. Современный аналог (закон Гудхарта): «Когда мера становится целью, она перестаёт быть хорошей мерой». Пример: KPI по числу строк кода → раздутый код. При управлении AI-агентами: следи, чтобы агент оптимизировал настоящую цель, а не прокси-метрику.",
+    "explanationEn": "'Cobra effect': in colonial India, the British paid for dead cobras — locals started breeding cobras. The metric became the goal, not an indicator. Modern equivalent (Goodhart's Law): 'When a measure becomes a target, it ceases to be a good measure.' Example: KPI on lines of code → bloated code. When managing AI agents: ensure the agent optimizes the real goal, not a proxy metric.",
+    "source": "Goodhart's Law / Cobra Effect",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Goodhart%27s_law"
+  },
+  {
+    "id": "ms_q19",
+    "dimension": "management_skills",
+    "text": "Что означает понятие «психологическая безопасность» в контексте команды (по Эми Эдмондсон)?",
+    "textEn": "What does 'psychological safety' mean in a team context (per Amy Edmondson)?",
+    "options": [
+      { "key": "a", "text": "Отсутствие стрессовых ситуаций и конфликтов в команде", "textEn": "Absence of stressful situations and conflicts in the team" },
+      { "key": "b", "text": "Уверенность, что можно говорить, задавать вопросы и признавать ошибки без страха наказания", "textEn": "Confidence that one can speak up, ask questions, and admit mistakes without fear of punishment" },
+      { "key": "c", "text": "Физическая безопасность рабочего места", "textEn": "Physical safety of the workplace" },
+      { "key": "d", "text": "Гарантия занятости и стабильного дохода", "textEn": "Job security and stable income" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Эми Эдмондсон (Harvard Business School, 1999) показала, что психологическая безопасность — главный предиктор эффективности команды. Google Project Aristotle (2016) подтвердил: она важнее состава команды и компетентности. В командах с высокой психологической безопасностью больше инноваций, быстрее обнаруживаются ошибки. Для менеджера: реакция на ошибки подчинённых формирует культуру.",
+    "explanationEn": "Amy Edmondson (Harvard Business School, 1999) showed that psychological safety is the strongest predictor of team effectiveness. Google's Project Aristotle (2016) confirmed: it matters more than team composition or competence. Teams with high psychological safety innovate more and surface errors faster. For managers: how you react to subordinates' mistakes shapes the culture.",
+    "source": "Amy Edmondson — Psychological Safety and Learning Behavior in Work Teams (1999)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Psychological_safety"
+  },
+  {
+    "id": "ms_q20",
+    "dimension": "management_skills",
+    "text": "Что такое «управление заинтересованными сторонами» (stakeholder management) и почему оно критично?",
+    "textEn": "What is 'stakeholder management' and why is it critical?",
+    "options": [
+      { "key": "a", "text": "Управление акционерами публичной компании", "textEn": "Managing shareholders of a public company" },
+      { "key": "b", "text": "Выявление людей и групп, на которых влияет проект, и управление их ожиданиями и вовлечённостью", "textEn": "Identifying people and groups affected by a project, and managing their expectations and engagement" },
+      { "key": "c", "text": "Управление клиентской базой и продажами", "textEn": "Managing the customer base and sales" },
+      { "key": "d", "text": "Распределение задач между участниками проекта", "textEn": "Distributing tasks among project participants" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Stakeholder management (PMBOK): стейкхолдер — любой, кто влияет на проект или находится под его влиянием. Ключевые шаги: 1) выявить всех стейкхолдеров; 2) понять их интересы и уровень влияния; 3) выбрать стратегию коммуникации для каждого. Проекты проваливаются не из-за технических ошибок, а из-за неучтённых стейкхолдеров. В AI-эпоху стейкхолдеры включают регуляторов, пользователей данных и этические комитеты.",
+    "explanationEn": "Stakeholder management (PMBOK): a stakeholder is anyone who influences or is influenced by the project. Key steps: 1) identify all stakeholders; 2) understand their interests and influence level; 3) choose a communication strategy for each. Projects fail not because of technical errors but because of unaccounted stakeholders. In the AI era, stakeholders include regulators, data subjects, and ethics boards.",
+    "source": "Project Management Body of Knowledge (PMBOK) — Stakeholder Management",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Stakeholder_management"
   }
 ]
 ;
